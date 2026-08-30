@@ -1,5 +1,5 @@
 {
-  "name": "ed4-steps2foundry",
+  "name": "ed4e-steps2foundry",
   "title": "Steps2Foundry - An Earthdawn character importer",
   "description": "A module to import characters created with SecondStep (secondstep.dk) into the Earthdawn game system.",
   "version": "#{VERSION}#",
@@ -8,17 +8,17 @@
   "authors": [
     {
       "name": "qrizzl",
-      "url": "https://github.com/ChristopherSD",
-      "discord": "Doc_D [he/they]#1791"
+      "url": "https://github.com/qrizzl",
+      "discord": "qrizzl"
     }
   ],
   "relationships": {
     "systems": [
       {
-        "id": "earthdawn4e",
+        "id": "ed4e",
         "compatibility": {
-          "minimum": "0.8",
-          "verified": "0.8"
+          "minimum": "1.0",
+          "verified": "1.0"
         }
       }
     ],
@@ -32,17 +32,12 @@
           "verified": "1.4.0",
           "maximum": "2.0.0"
         }
-      },
-      {
-        "id": "earthdawn-pg-compendium",
-        "type": "module",
-        "manifest": ""
       }
     ]
   },
   "compatibility": {
-    "minimum": 11,
-    "verified": 11.315
+    "minimum": 14,
+    "verified": 14.366
   },
   "esmodules": [
     "/scripts/main.js"
