@@ -212,10 +212,10 @@ export default defineConfig( [ {
   }
 },
 
-  {
-    files: [ "**/*.quench.mjs" ],
+{
+  files: [ "**/*.quench.mjs" ],
 
-    rules: {
-      "max-nested-callbacks": [ "warn", 5 ], "no-unused-expressions": "off"
-    }
-  } ] );
+  rules: {
+    "max-nested-callbacks": [ "warn", 5 ], "no-unused-expressions": "off"
+  }
+} ] );
