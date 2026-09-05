@@ -1,0 +1,17 @@
+{
+  "name": "ed4e-steps2foundry",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.10.0",
+    "eslint-plugin-jsdoc": "^63.3.3",
+    "eslint-plugin-typedoc": "^2.0.3",
+    "globals": "^17.12.0"
+  }
+}
