@@ -1,15 +1,3 @@
 {
-  "CONTEXT.ImportFromSecStep": "Import from 2ndStep",
-  "CONTEXT.ImportSecStep": "Import 2ndStep",
-
-  "JOURNAL.ImportLogEntryName": "Step2ED - Import Log for {name}",
-  "JOURNAL.NamesJournal": "{name}'s Journal",
-  "JOURNAL.MissingCompItem": "Could not retrieve item \"{itemName}\" from compendium \"{compendiumName}\"",
-
-  "ERROR.InvalidSecStepFile": "The uploaded file is not a valid Second Step JSON File.",
-  "ERROR.UnableToImport": "Sorry, something went wrong. Have a look at the console (F12) or write a bug report.",
-
-  "WARNING.NoFirstDiscipline": "The uploaded file does not contain a first discipline.",
-
-  "INFO.SuccessfullImport": "Successfully imported character {name}. Nice!"
+  "Steps2Foundry": {}
 }
