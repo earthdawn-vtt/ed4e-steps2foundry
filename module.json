@@ -1,10 +1,8 @@
 {
-  "name": "ed4e-steps2foundry",
+  "id": "ed4e-steps2foundry",
   "title": "Steps2Foundry - An Earthdawn character importer",
   "description": "Import characters exported from SecondStep (secondstep.dk) into the Earthdawn game system.",
   "version": "#{VERSION}#",
-  "library": "false",
-  "manifestPlusVersion": "1.0.0",
   "authors": [
     {
       "name": "qrizzl",
@@ -130,14 +128,9 @@
     "verified": 14.366
   },
   "esmodules": [
-    "/module/*.mjs"
+    "steps2foundry.mjs"
   ],
-  "scripts": [
-    "/module/main.js"
-  ],
-  "styles": [
-    "styles/steps2foundry.css"
-  ],
+  "styles": [],
   "languages": [
     {
       "lang": "en",
