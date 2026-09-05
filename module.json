@@ -1,7 +1,7 @@
 {
   "name": "ed4e-steps2foundry",
   "title": "Steps2Foundry - An Earthdawn character importer",
-  "description": "A module to import characters created with SecondStep (secondstep.dk) into the Earthdawn game system.",
+  "description": "Import characters exported from SecondStep (secondstep.dk) into the Earthdawn game system.",
   "version": "#{VERSION}#",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
@@ -18,33 +18,125 @@
       {
         "id": "ed4e",
         "compatibility": {
-          "minimum": "1.0",
-          "verified": "1.0"
+          "minimum": "1.0.1",
+          "verified": "1.0.1"
         }
       }
     ],
-    "requires": [
+    "recommends": [
       {
-        "id": "lib-wrapper",
-        "type": "",
-        "manifest": "",
+        "id": "earthdawn-pg-compendium",
+        "type": "module",
         "compatibility": {
-          "minimum": "1.2.0",
-          "verified": "1.4.0",
-          "maximum": "2.0.0"
-        }
+          "minimum": "14.1.0",
+          "verified": "14.1.0"
+        },
+        "reason": "Provides standard items (like talents, skills, namegivers, disciplines, and more) for the best import results in English."
+      },
+      {
+        "id": "earthdawnspielerhandbuch",
+        "type": "module",
+        "compatibility": {
+          "minimum": "14.1.0",
+          "verified": "14.1.0"
+        },
+        "reason": "Provides standard items (like talents, skills, namegivers, disciplines, and more) for the best import results in German."
+      },
+      {
+        "id": "earthdawn-gm-compendium",
+        "type": "module",
+        "compatibility": {
+          "minimum": "14.1.0",
+          "verified": "14.1.0"
+        },
+        "reason": "Provides standard items (like thread items) for the best import results in English."
+      },
+      {
+        "id": "earthdawnspielleiterhandbuch",
+        "type": "module",
+        "compatibility": {
+          "minimum": "14.1.0",
+          "verified": "14.1.0"
+        },
+        "reason": "Provides standard items (like thread items) for the best import results in German."
+      },
+      {
+        "id": "earthdawn-companion",
+        "type": "module",
+        "compatibility": {
+          "minimum": "14.1.0",
+          "verified": "14.1.0"
+        },
+        "reason": "Provides standard items (like knacks, equipment, and more) for the best import results in English."
+      },
+      {
+        "id": "earthdawnkompendium",
+        "type": "module",
+        "compatibility": {
+          "minimum": "14.1.0",
+          "verified": "14.1.0"
+        },
+        "reason": "Provides standard items (like knacks, equipment, and more) for the best import results in German."
+      },
+      {
+        "id": "earthdawn-mystic-paths",
+        "type": "module",
+        "compatibility": {
+          "minimum": "14.1.0",
+          "verified": "14.1.0"
+        },
+        "reason": "Provides standard items (like disciplines, spells, and more) for the best import results in English."
+      },
+      {
+        "id": "earthdawnmystischepfade",
+        "type": "module",
+        "compatibility": {
+          "minimum": "14.1.0",
+          "verified": "14.1.0"
+        },
+        "reason": "Provides standard items (like disciplines, spells, and more) for the best import results in German."
+      },
+      {
+        "id": "earthdawn-questors",
+        "type": "module",
+        "compatibility": {
+          "minimum": "14.1.0",
+          "verified": "14.1.0"
+        },
+        "reason": "Provides standard items (like questors and devotions) for the best import results in English."
+      },
+      {
+        "id": "earthdawnquestoren",
+        "type": "module",
+        "compatibility": {
+          "minimum": "14.1.0",
+          "verified": "14.1.0"
+        },
+        "reason": "Provides standard items (like questors and devotions) for the best import results in German."
+      },
+      {
+        "id": "ed-deeper-secrets",
+        "type": "module",
+        "compatibility": {
+          "minimum": "14.1.0",
+          "verified": "14.1.0"
+        },
+        "reason": "Provides standard items (like spells, spell knacks, binding secrets, and more) for the best import results in English. There is currently no support for German."
       }
     ]
   },
   "compatibility": {
-    "minimum": 14,
+    "minimum": 14.366,
     "verified": 14.366
   },
   "esmodules": [
-    "/scripts/main.js"
+    "/module/*.mjs"
   ],
   "scripts": [
-    "/scripts/main.js"
+    "/module/main.js"
+  ],
+  "styles": [
+    "styles/steps2foundry.css"
   ],
   "languages": [
     {
