@@ -18,7 +18,7 @@
 
 /**
  * A field value that represents a boolean value.
- * @typedef {"Yes"|"No"|"true"|"false"|true|false} BooleanValue
+ * @typedef {"YES"|"NO"|"Yes"|"No"|"yes"|"no"|"TRUE"|"FALSE"|"True"|"False"|"true"|"false"|true|false} BooleanValue
  */
 
 /**
@@ -168,7 +168,7 @@
  * @property {NumberValue} Freerank - The number of ranks that were assigned for free at character creation.
  * @property {SecondStepExportSkillCategory} Category - The category of the skill.
  * @property {UUID} UID - The unique ID of this skill.
- * @property {SecondStepExportAttributeName} Attribute - The attribute the knack is based on, if any.
+ * @property {SecondStepExportAttributeName} Attribute - The attribute the skill is based on, if any.
  * @property {string} Name - The name of the skill. Used for Knowledge and Artisan Skills, which need further definition.
  */
 
@@ -385,7 +385,7 @@
 /**
  * @typedef SecondStepExport
  * @property {SecondStepExportBasics} Basic - Basic information about the character.
- * @property {string} Race - Namegiver of the character.
+ * @property {string} Race - Id of the namegiver of the character.
  * @property {number} attributePoints - Number of attribute points to spend on character creation.
  * @property {SecondStepExportAttributes} Attributes - Attribute data.
  * @property {number|null} LegendPoints - Amount of total Legend Points this character has.
@@ -426,6 +426,14 @@
  */
 
 /**
+ * A normalized value for a {@link SecondStepExportBasics} string property, stripped of sentinels.
+ * @typedef ParsedIdSource
+ * @property {string} id - The canonical ID of the entity.
+ * @property {SecondStepExportSourceTag} source - The source tag of the entity.
+ * @property {string} secondStepId - The original ID of the entity, as exported from the Second Step app.
+ */
+
+/**
  * @typedef ParsedBasics
  * @property {NormalizedStringValue} name - Name of the character.
  * @property {NormalizedStringValue} player - Player of the character.
@@ -443,12 +451,146 @@
  */
 
 /**
- * @typedef ParsedNamegiverData
- * @property {string} id - ID of the namegiver.
+ * @typedef ParsedNamegiver
+ * @property {ParsedIdSource} id - ID of the namegiver.
+ */
+
+/**
+ * @typedef ParsedAttributes
+ * @property {number} buildPoints - Number of attribute points spend on this attribute during character creation.
+ * @property {number} increases - Number of additional increases for this attribute.
+ */
+
+/**
+ * @typedef ParsedOptionalTalent
+ * @property {ParsedIdSource} id - ID of the talent.
+ * @property {number} circle - The circle of the corresponding discipline at which this talent was learned.
+ */
+
+/**
+ * @typedef ParsedDiscipline
+ * @property {ParsedIdSource} id - ID of the discipline.
+ * @property {number} circle - The current circle of the discipline.
+ * @property {number} order - The place in the order in which multiple disciplines were learned.
+ * @property {number} startedAt - The circle of the primary discipline (#Order = 1) this discipline was learned at.
+ * @property {ParsedOptionalTalent[]} optionalTalentsChosen - Optional talents that were learned in this discipline.
+ */
+
+/**
+ * @typedef ParsedTalentRank
+ * @property {number} rank - The rank level this is about.
+ * @property {number} lpCost - The number of legend points it cost to raise the talent to the given `rank`.
+ */
+
+/**
+ * @typedef ParsedTalent
+ * @property {ParsedIdSource} id - ID of the talent.
+ * @property {number} order - The order in which the talent was learned.
+ * @property {number} rank - The rank of the talent.
+ * @property {number} freeRanks - The number of ranks that were assigned for free at character creation.
+ * @property {ParsedIdSource} source - The ID of the entity that provides the talent, e.g. disciplines, namegiver, item, or effect.
+ * @property {SecondStepExportTalentType} type - The type of the talent.
+ * @property {NumberValue} lpCostTier - The tier on which the legend point cost for raising this talent is based on.
+ * Mapping Novice, Journeyman, Warden, Master to 0 through 3. Free talents are mapped to -1.
+ * @property {ParsedIdSource|null} assignedDiscipline - The ID of the source this talent is assigned to, e.g. "ED4Windling", or "ED4Wizard".
+ * @property {ParsedTalentRank[]} ranks - The ranks of this talent.
+ * @property {UUID|null} uid - The unique ID of this talent.
+ * @property {number} lpCost - The total legend point cost for the talent on its current rank.
+ * @property {ParsedIdSource} [spell] - The ID of the spell that is attuned to this talent if it is a matrix.
+ * @property {ParsedIdSource} [path] - The ID of the path this talent belongs to.
+ * @property {number} [pathRank] - The rank of the path at which this talent was learned.
+ * @property {number} [bonusRank] - How many ranks this talent gets as a bonus on its rank.
+ */
+
+/**
+ * @typedef ParsedKnack
+ * @property {ParsedIdSource} id - ID of the knack.
+ * @property {AttributeAbbreviation} attribute - The attribute the knack is based on.
+ */
+
+/**
+ * @typedef ParsedSkill
+ * @property {ParsedIdSource} id - ID of the skill.
+ * @property {number} rank - The rank of the skill.
+ * @property {number} freeRanks - The number of ranks that were assigned for free at character creation.
+ * @property {SecondStepExportSkillCategory} category - The category of the skill.
+ * @property {UUID} uid - The unique ID of this skill.
+ * @property {string|null} attribute - The attribute the skill is based on, if any. As the 3-letter lowercase abbreviation.
+ * @property {string|null} name - The name of the skill. Used for Knowledge and Artisan Skills, which need further definition.
+ */
+
+/**
+ * @typedef ParsedSpell
+ * @property {ParsedIdSource} id - ID of the spell.
+ * @property {number} index - Sort index in order of when the spell was selected/learned.
+ */
+
+/**
+ * @typedef ParsedEquipment
+ * @property {ParsedIdSource} id - ID of the equipment.
+ * @property {number} amount - How much or many of this the character has.
+ * @property {boolean} inUse - Whether this equipment is currently in use.
+ * @property {SecondStepExportEquipmentType} type - The type of the equipment.
+ * @property {number} [damageStep] - The damage step for weapons, if applicable.
+ * @property {number} [timesForgedPhysical] - The number of times this shield or armor was forged for its physical value, if applicable.
+ * @property {number} [timesForgedMystical] - The number of times this shield or armor was forged for its mystical value, if applicable.
+ * @property {number} [timesForged] - The number of times this weapon was forged, if applicable.
+ * @property {number} [rank] - The rank of the equipment, if applicable. For example, the rank of the thread to a thread item.
+ * @property {number} [lpCost] - The number of legend points spent on this equipment, if applicable.
+ */
+
+/**
+ * @typedef ParsedPath
+ * @property {ParsedIdSource} id - ID of the path.
+ * @property {number} rank - The rank of the path.
+ * @property {ParsedIdSource} linked - The ID of the discipline this path is linked to.
+ * @property {ParsedIdSource[]} grantedTalents - The IDs of the talents that are granted by this path.
+ */
+
+/**
+ * @typedef ParsedDevotion
+ * @property {ParsedIdSource} id - The ID of the devotion.
+ * @property {number} rank - The rank of the devotion.
+ * @property {QuestorDevotionTier} tier - The tier of the devotion.
+ */
+
+/**
+ * @typedef ParsedQuestor
+ * @property {ParsedIdSource} id - ID of the questor.@property {string} Doctrine - The ID of the passion of this questor.
+ * @property {ParsedDevotion[]} devotions - The devotions for each rank.
+ * @property {number} rank - The level of the questor.
+ * @property {number} devotionPoints - The number of current devotion points.
+ * @property {number} questorDevotionStep - The step of the "Questor" devotion.
+ */
+
+/**
+ * @typedef ParsedMetaData
+ * @property {number} stepsVersion - The version of the Second Step app.
+ * @property {string} edition - The edition used for the Step/Dice table.
+ * @property {LanguageCode} language - The language used in the app.
+ * @property {number} attributePoints - The number of attribute points available to spend on character creation.
+ * @property {SecondStepExportOptions} options - The Second Step Settings for this character.
  */
 
 /**
  * @typedef ParsedExportData
+ * @property {ParsedMetaData} meta - Metadata about the character and the Second Step app.
+ * @property {ParsedBasics} basics - Basic information about the character.
+ * @property {string|null} portraitUrl - URL to the selected portrait image.
+ * @property {ParsedNamegiver} namegiver - The namegiver of the character.
+ * @property {ParsedAttributes} attributes - Attribute data.
+ * @property {ParsedDiscipline[]} disciplines - Discipline data.
+ * @property {ParsedPath[]} paths - Path data.
+ * @property {ParsedQuestor} questor - Questor data.
+ * @property {ParsedTalent[]} talents - Talent data.
+ * @property {ParsedKnack[]} knacks - Knack data.
+ * @property {ParsedSkill[]} skills - Skill data.
+ * @property {ParsedSpell[]} spells - Spell data.
+ * @property {ParsedEquipment[]} equipment - Equipment data.
+ * @property {number} damage - How much damage this character currently has.
+ * @property {number} wounds - How many wounds this character currently has.
+ * @property {number} legendPoints - Amount of total Legend Points this character has.
+ * @property {object} raw - Raw data to temporarily pass until parsing is implemented.
  */
 
 // endregion
