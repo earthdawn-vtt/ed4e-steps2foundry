@@ -1,0 +1,375 @@
+/**
+ * @import * from "../_types.mjs";
+ */
+
+import { lowerCaseFirstLetter } from "../utils/string.mjs";
+import { normalizeSentinel } from "./normalizers.mjs";
+import { SecondStepFormatError } from "./errors.mjs";
+import { SECOND_STEP_EXPORT_SOURCE_TAG } from "../constants/constants.mjs";
+
+
+// region Helper Functions
+
+/**
+ * Converts the given value to a number. If the conversion fails or the value is null,
+ * it returns the provided fallback value.
+ *
+ * @param {any} value - The value to be converted to a number.
+ * @param {number} [fallback=-1] - The fallback value to return if conversion is not possible.
+ * @returns {number} The converted number or the fallback value.
+ */
+function toNumber( value, fallback = -1 ) {
+  if ( value === null ) return fallback;
+  const parsedNumber = Number( value );
+  return Number.isNaN( parsedNumber ) ? fallback : parsedNumber;
+}
+
+/**
+ * Tries to parse the given value according to the allowed options in {@link BooleanValue}. If the parsing fails,
+ * an error is thrown.
+ * @param {any} value
+ * @returns {boolean} The parsed boolean value.
+ * @throws {Error} If the value is not a valid boolean string.
+ */
+function parseBoolean( value ) {
+  if ( typeof value === "boolean" ) return value;
+
+  if ( typeof value === "string" ) {
+    switch ( value.trim().toLowerCase() ) {
+      case "true":
+      case "yes":
+        return true;
+      case "false":
+      case "no":
+        return false;
+    }
+  }
+
+  throw new Error( "Invalid boolean value" );
+}
+
+/**
+ * Splits a comma-separated string into an array of trimmed values, with an optional mapping function applied to each value.
+ *
+ * @param {string} theString - The input string containing comma-separated values.
+ * @param {Function} [mapFunction] - An optional function to transform each trimmed value in the resulting array.
+ * @return {Array} An array of trimmed and optionally transformed values from the input string.
+ */
+function splitCommaList( theString, mapFunction = undefined ) {
+  if ( !theString ) return [];
+  return theString.split(
+    ','
+  ).map(
+    value => mapFunction ? mapFunction( value.trim() ) : value.trim()
+  );
+}
+
+/**
+ * Maps a given attribute name to its corresponding abbreviation.
+ *
+ * @param {string} attribute - The attribute name to map. Must be a non-empty string.
+ * @returns {string|undefined} The abbreviation of the attribute if it exists, or undefined if no mapping is found.
+ * @throws {Error} If the input is not a non-empty string.
+ */
+function mapAttributeToAbbreviation( attribute ) {
+  if ( (typeof attribute) !== "string" || !attribute.length )
+    throw new Error( "attribute must be a non-empty string" );
+
+  return {
+    "dexterity": "dex",
+    "strength": "str",
+    "toughness": "tou",
+    "perception": "per",
+    "willpower": "wil",
+    "charisma": "cha",
+  }[ attribute.toLowerCase() ];
+}
+
+/**
+ * Split a SecondStep ID into its source tag and the remaining canonical key.
+ * Every ID is prefixed with whichever book/source cataloged it, either the official content with "ED4E" or
+ * a community source from `Options.Books`, e.g. "Panda" or "Manu".
+ * @param {string} id The SecondStep ID to split.
+ * @param {SecondStepExportSourceTag[]} [sourceTokens] Candidate prefixes. Defaults to all available.
+ * @returns {ParsedIdSource}
+ */
+export function splitSourceId( id, sourceTokens ) {
+  if ( !sourceTokens )
+    sourceTokens = [ ...SECOND_STEP_EXPORT_SOURCE_TAG ];
+  // sort by token lengths so a token that happens to be a prefix on another doesn't win by accident
+  const sortedSourceTokens = sourceTokens.toSorted(
+    ( a, b ) => b.length - a.length
+  );
+  const match = sortedSourceTokens.find(
+    token => id.startsWith( token )
+  );
+
+  return match
+    ? { id: id.slice( match.length ), source: match, secondStepId: id, }
+    : { id, source: null, secondStepId: id, };
+}
+
+// endregion
+
+// region Parsing Data
+
+/**
+ * Camel-case every field in the `Basic` data of a SecondStep export and make sure "empty-ish" fields are `null`.
+ * @param {SecondStepExportBasics} basic The `Basic` data of the SecondStep export.
+ * @returns {ParsedBasics} The normalized basic data.
+ */
+function parseBasic( basic ) {
+  const parsedBasic = {};
+  for ( const [ key, value ] of Object.entries( basic ) ) {
+    parsedBasic[ lowerCaseFirstLetter( key ) ] = normalizeSentinel( value );
+  }
+  return parsedBasic;
+}
+
+/**
+ * Accepts only valid HTTP and HTTPS URLs.
+ * @param {string} url The URL to normalize.
+ * @returns {string|null} The normalized URL, or `null` if the URL is invalid.
+ */
+function parsePortraitUrl( url ) {
+  try {
+    const parsed = new URL( url );
+    if ( parsed.protocol === "http:" || parsed.protocol === "https:" ) {
+      return url;
+    }
+    return null;
+  } catch ( e ) {
+    return null;
+  }
+}
+
+/**
+ * Camel-case every field in the `Attributes` data of a SecondStep export and convert the `Buildpoints` and `Increases` values to numbers.
+ * @param {SecondStepExportAttributes} attributes The `Attributes` data of the SecondStep export.
+ * @returns {ParsedAttributes} The normalized attributes data.
+ */
+function parseAttributes( attributes ) {
+  const parsedAttributes = {};
+  for ( const [ key, value ] of Object.entries( attributes ) ) {
+    parsedAttributes[ lowerCaseFirstLetter( key ) ] = {
+      buildPoints: toNumber( value.Buildpoints ),
+      increases: toNumber( value.Increases ),
+    };
+  }
+  return parsedAttributes;
+}
+
+/**
+ * Parse a single discipline from a SecondStep export.
+ * @param {SecondStepExportDiscipline} discipline
+ * @returns {ParsedDiscipline}
+ */
+function parseDiscipline( discipline ) {
+  return {
+    id: splitSourceId( discipline.ID ),
+    circle: toNumber( discipline.Circle ),
+    order: toNumber( discipline.Order ),
+    startedAt: toNumber( discipline.StartedAt ),
+    optionalTalentsChosen: discipline.OptionalTalentsChosen.map( talent => parseOptionalTalent( talent ) ),
+  };
+}
+
+/**
+ * Parse an optional talent from the discipline data.
+ * @param {SecondStepExportDisciplineOptionalTalentData} talent One of the `OptionalTalentsChosen` of the SecondStep export.
+ * @returns {ParsedOptionalTalent}
+ */
+function parseOptionalTalent( talent ) {
+  return {
+    id: splitSourceId( talent.ID ),
+    circle: toNumber( talent.Circle ),
+  };
+}
+
+/**
+ * Parses provided talent rank data.
+ * @param {SecondStepExportTalentRank} rank
+ * @returns {ParsedTalentRank} The parsed talent rank data.
+ */
+function parseTalentRank( rank ) {
+  return {
+    rank: toNumber( rank.Rank ),
+    lpCost: toNumber( rank.Cost ),
+  };
+}
+
+/**
+ * Parses provided talent data.
+ * @param {SecondStepExportTalent} talent One of the `Talent` data of the SecondStep export.
+ * @returns {ParsedTalent} The parsed talent data.
+ */
+function parseTalent( talent ) {
+  return {
+    id: splitSourceId( talent.ID ),
+    order: toNumber( talent.Order ),
+    rank: toNumber( talent.Rank ),
+    freeRanks: toNumber( talent.Freerank ),
+    source: splitSourceId( talent.CurrentSource, ),
+    type: talent.Type,
+    lpCostTier: toNumber( talent.CurrentCost ),
+    assignedDiscipline: talent.CurrentSource ? splitSourceId( talent.CurrentSource ) : null,
+    ranks: talent.Ranks.map( rank => parseTalentRank( rank ) ),
+    uid: talent.UID ?? null,
+    lpCost: toNumber( talent.Cost ),
+    spell: talent.Spell ? splitSourceId( talent.Spell ) : undefined,
+    path: talent.PathID ? splitSourceId( talent.PathID ) : undefined,
+    pathRank: talent.PathRank ? toNumber( talent.PathRank ) : undefined,
+    bonusRank: talent.BonusRank ? toNumber( talent.BonusRank ) : undefined,
+  };
+}
+
+/**
+ * Parses provided knack data.
+ * @param {SecondStepExportKnack} knack
+ * @returns {ParsedKnack}
+ */
+function parseKnack( knack ) {
+  return {
+    id: splitSourceId( knack.ID ),
+    attribute: knack.Attribute.toLowerCase().slice( 0, 3 ),
+  };
+}
+
+/**
+ * Parses provided skill data.
+ * @param {SecondStepExportSkill} skill The skill data to be parsed.
+ * @returns {ParsedSkill} The parsed skill data.
+ */
+function parseSkill( skill ) {
+  return {
+    id: splitSourceId( skill.ID ),
+    rank: toNumber( skill.Rank ),
+    freeRanks: toNumber( skill.Freerank ),
+    category: skill.Category,
+    uid: skill.UID,
+    attribute: mapAttributeToAbbreviation( skill.Attribute ) ?? null,
+    name: skill.Name ?? null,
+  };
+}
+
+/**
+ * Parses provided devotion data.
+ * @param {SecondStepExportDevotion} devotion
+ * @returns {ParsedDevotion}
+ */
+function parseDevotion( devotion ) {
+  return {
+    id: splitSourceId( devotion.devotionID ),
+    rank: devotion.devotionRank,
+    tier: devotion.Cost.toLowerCase(),
+  };
+}
+
+/**
+ * Parses provided questor data.
+ * @param {SecondStepExportQuestor} questor
+ * @returns {ParsedQuestor}
+ */
+function parseQuestor( questor ) {
+  return {
+    id: splitSourceId( questor.Doctrine ),
+    devotions: questor.Ranks.map( devotion => parseDevotion( devotion ) ),
+    rank: toNumber( questor.Rank ),
+    devotionPoints: toNumber( questor.devotionPoints ),
+    questorDevotionStep: toNumber( questor.questorDevotionStep ),
+  };
+}
+
+/**
+ * Parses provided spell data.
+ * @param {SecondStepExportSpell} spell The spell data to be parsed.
+ * @returns {ParsedSpell} The parsed spell data.
+ */
+function parseSpell( spell ) {
+  return {
+    id: splitSourceId( spell.ID ),
+    index: toNumber( spell.Index ),
+  };
+}
+
+/**
+ * Parses provided equipment data.
+ * @param {SecondStepExportEquipment} equipment The equipment data to be parsed.
+ * @returns {ParsedEquipment} The parsed equipment data.
+ */
+function parseEquipment( equipment ) {
+  return {
+    id: splitSourceId( equipment.ID ),
+    amount: toNumber( equipment.Count ),
+    inUse: parseBoolean( equipment.InUse ),
+    type: equipment.Type,
+    damageStep: equipment.DamageStep ? toNumber( equipment.DamageStep ) : undefined,
+    timesForgedPhysical: equipment.PhForge ? toNumber( equipment.PhForge ) : undefined,
+    timesForgedMystical: equipment.MyForge ? toNumber( equipment.MyForge ) : undefined,
+    timesForged: equipment.Forged ? toNumber( equipment.Forged ) : undefined,
+    rank: equipment.Rank ? toNumber( equipment.Rank ) : undefined,
+    lpCost: equipment.Cost ? toNumber( equipment.Cost ) : undefined,
+  }
+}
+
+/**
+ * Parse provided path data.
+ * @param {SecondStepExportPath} path The path data to be parsed.
+ * @returns {ParsedPath} The parsed path data.
+ */
+function parsePath( path ) {
+  return {
+    id: splitSourceId( path.ID ),
+    rank: toNumber( path.Rank ),
+    linked: splitSourceId( path.Linked ),
+    grantedTalents: path.GrantedTalents.map( talentId => splitSourceId( talentId ) ),
+  };
+}
+
+// endregion
+
+// region Secon Step Parser
+
+/**
+ *
+ * @param {SecondStepExport} raw
+ * @returns {ParsedExportData}
+ */
+export function parseSecondStepExport( raw ) {
+  if ( !Object.hasOwn( raw, 'StepsVersion' ) )
+    throw new SecondStepFormatError( 'Invalid SecondStep export' );
+
+  const edition = raw.Options?.Edition ?? "";
+
+  return {
+    meta: {
+      stepsVersion: raw.StepsVersion,
+      edition,
+      language: raw.Language,
+      attributePoints: toNumber( raw.attributePoints ),
+      options: raw.Options,
+    },
+    basics: parseBasic( raw.Basic ),
+    portraitUrl: parsePortraitUrl( raw.PortraitURL ),
+    namegiver: splitSourceId( raw.Race ),
+    attributes: parseAttributes( raw.Attributes ),
+    disciplines: raw.Disciplines.map( discipline => parseDiscipline( discipline ) ),
+    paths: raw.Paths.map( path => parsePath( path ) ),
+    questor: parseQuestor( raw.Questor ),
+    talents: raw.Talents.map( talent => parseTalent( talent ) ),
+    knacks: raw.Knacks.map( knack => parseKnack( knack ) ),
+    skills: raw.Skills.map( skill => parseSkill( skill ) ),
+    spells: raw.Spells.map( spell => parseSpell( spell ) ),
+    equipment: raw.Equipment.map( equipment => parseEquipment( equipment ) ),
+    damage: toNumber( raw.Damage ),
+    wounds: toNumber( raw.Wounds ),
+    legendPoints: toNumber( raw.LegendPoints ),
+    raw: {
+      magic: raw.Magic,
+      effects: raw.Effects,
+      homebrew: raw.Homebrew,
+    },
+  }
+}
+
+// endregion
