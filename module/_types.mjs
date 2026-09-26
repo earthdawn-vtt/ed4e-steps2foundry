@@ -346,7 +346,11 @@
  */
 
 /**
- * @typedef {"Combat"|"Text"|"XTalent"|"Talent"|"Health"} SecondStepExportEffectModifierCategory
+ * @typedef {"AStep"|"Combat"|"Health"|"LP"|"Talent"|"Text"|"XTalent"} SecondStepExportEffectModifierCategory
+ */
+
+/**
+ * @typedef {"Empty"|"DexStep"|"StrStep"|"TouStep"|"PerStep"|"WilStep"|"ChaStep"} SecondStepExportAttributeStepEffectTarget
  */
 
 /**
@@ -360,7 +364,7 @@
 /**
  * @typedef SecondStepExportEffectModifier
  * @property {SecondStepExportEffectModifierCategory} Category - The category of the modifier.
- * @property {SecondStepExportEffectModifierCategory|SecondStepExportHealthEffectTarget|string} - The target of the
+ * @property {SecondStepExportCombatEffectTarget|SecondStepExportHealthEffectTarget|SecondStepExportAttributeStepEffectTarget|string} ID - The target of the
  * modifier depending on the category. Can be an ability ID.
  * @property {NumberValue|string} Modifier - The modifier value.
  * @property {BooleanValue} [IsMultipliable] - Whether the modifier can be multiplied.
@@ -374,7 +378,7 @@
  * @property {string} Description - The custom description of the effect.
  * @property {SecondStepExportEffectDuration} Duration - The duration of the effect.
  * @property {SecondStepExportEffectCategory} Category - The category of the effect.
- *
+ * @property {SecondStepExportEffectModifier[]} Modifiers - The modifiers of the effect.
  */
 
 /**
@@ -408,7 +412,7 @@
  * @property {SecondStepExportEffectUIData[]} Effects - All effects that are currently active, as shown in the UI.
  * @property {LanguageCode} Language - The language of the character.
  * @property {NumberValue} Theme - The theme of the Second Step UI.
- *
+ * @property {SecondStepExportHomebrew} Homebrew - The homebrew data for this character.
  */
 
 // endregion
@@ -448,11 +452,6 @@
  * @property {NormalizedStringValue} traits - Traits of the character.
  * @property {NormalizedHtmlContent} description - Description of the character as HTML text.
  * @property {NormalizedHtmlContent} logText - Player's log as HTML text.
- */
-
-/**
- * @typedef ParsedNamegiver
- * @property {ParsedIdSource} id - ID of the namegiver.
  */
 
 /**
@@ -577,7 +576,7 @@
  * @property {ParsedMetaData} meta - Metadata about the character and the Second Step app.
  * @property {ParsedBasics} basics - Basic information about the character.
  * @property {string|null} portraitUrl - URL to the selected portrait image.
- * @property {ParsedNamegiver} namegiver - The namegiver of the character.
+ * @property {ParsedIdSource} namegiver - The namegiver of the character.
  * @property {ParsedAttributes} attributes - Attribute data.
  * @property {ParsedDiscipline[]} disciplines - Discipline data.
  * @property {ParsedPath[]} paths - Path data.
