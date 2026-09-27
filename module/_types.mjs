@@ -491,7 +491,6 @@
  * @property {SecondStepExportTalentType} type - The type of the talent.
  * @property {NumberValue} lpCostTier - The tier on which the legend point cost for raising this talent is based on.
  * Mapping Novice, Journeyman, Warden, Master to 0 through 3. Free talents are mapped to -1.
- * @property {ParsedIdSource|null} assignedDiscipline - The ID of the source this talent is assigned to, e.g. "ED4Windling", or "ED4Wizard".
  * @property {ParsedTalentRank[]} ranks - The ranks of this talent.
  * @property {UUID|null} uid - The unique ID of this talent.
  * @property {number} lpCost - The total legend point cost for the talent on its current rank.
