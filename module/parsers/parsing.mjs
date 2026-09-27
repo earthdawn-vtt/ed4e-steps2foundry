@@ -58,7 +58,7 @@ function parseBoolean( value ) {
 function splitCommaList( theString, mapFunction = undefined ) {
   if ( !theString ) return [];
   return theString.split(
-    ','
+    ","
   ).map(
     value => mapFunction ? mapFunction( value.trim() ) : value.trim()
   );
@@ -76,12 +76,12 @@ function mapAttributeToAbbreviation( attribute ) {
     throw new Error( "attribute must be a non-empty string" );
 
   return {
-    "dexterity": "dex",
-    "strength": "str",
-    "toughness": "tou",
+    "dexterity":  "dex",
+    "strength":   "str",
+    "toughness":  "tou",
     "perception": "per",
-    "willpower": "wil",
-    "charisma": "cha",
+    "willpower":  "wil",
+    "charisma":   "cha",
   }[ attribute.toLowerCase() ];
 }
 
@@ -153,7 +153,7 @@ function parseAttributes( attributes ) {
   for ( const [ key, value ] of Object.entries( attributes ) ) {
     parsedAttributes[ lowerCaseFirstLetter( key ) ] = {
       buildPoints: toNumber( value.Buildpoints ),
-      increases: toNumber( value.Increases ),
+      increases:   toNumber( value.Increases ),
     };
   }
   return parsedAttributes;
@@ -166,10 +166,10 @@ function parseAttributes( attributes ) {
  */
 function parseDiscipline( discipline ) {
   return {
-    id: splitSourceId( discipline.ID ),
-    circle: toNumber( discipline.Circle ),
-    order: toNumber( discipline.Order ),
-    startedAt: toNumber( discipline.StartedAt ),
+    id:                    splitSourceId( discipline.ID ),
+    circle:                toNumber( discipline.Circle ),
+    order:                 toNumber( discipline.Order ),
+    startedAt:             toNumber( discipline.StartedAt ),
     optionalTalentsChosen: discipline.OptionalTalentsChosen.map( talent => parseOptionalTalent( talent ) ),
   };
 }
@@ -181,7 +181,7 @@ function parseDiscipline( discipline ) {
  */
 function parseOptionalTalent( talent ) {
   return {
-    id: splitSourceId( talent.ID ),
+    id:     splitSourceId( talent.ID ),
     circle: toNumber( talent.Circle ),
   };
 }
@@ -193,7 +193,7 @@ function parseOptionalTalent( talent ) {
  */
 function parseTalentRank( rank ) {
   return {
-    rank: toNumber( rank.Rank ),
+    rank:   toNumber( rank.Rank ),
     lpCost: toNumber( rank.Cost ),
   };
 }
@@ -205,20 +205,20 @@ function parseTalentRank( rank ) {
  */
 function parseTalent( talent ) {
   return {
-    id: splitSourceId( talent.ID ),
-    order: toNumber( talent.Order ),
-    rank: toNumber( talent.Rank ),
-    freeRanks: toNumber( talent.Freerank ),
-    source: talent.CurrentSource ? splitSourceId( talent.CurrentSource ) : null,
-    type: talent.Type,
+    id:         splitSourceId( talent.ID ),
+    order:      toNumber( talent.Order ),
+    rank:       toNumber( talent.Rank ),
+    freeRanks:  toNumber( talent.Freerank ),
+    source:     talent.CurrentSource ? splitSourceId( talent.CurrentSource ) : null,
+    type:       talent.Type,
     lpCostTier: toNumber( talent.CurrentCost ),
-    ranks: talent.Ranks.map( rank => parseTalentRank( rank ) ),
-    uid: talent.UID ?? null,
-    lpCost: toNumber( talent.Cost ),
-    spell: talent.Spell ? splitSourceId( talent.Spell ) : undefined,
-    path: talent.PathID ? splitSourceId( talent.PathID ) : undefined,
-    pathRank: talent.PathRank ? toNumber( talent.PathRank ) : undefined,
-    bonusRank: talent.BonusRank ? toNumber( talent.BonusRank ) : undefined,
+    ranks:      talent.Ranks.map( rank => parseTalentRank( rank ) ),
+    uid:        talent.UID ?? null,
+    lpCost:     toNumber( talent.Cost ),
+    spell:      talent.Spell ? splitSourceId( talent.Spell ) : undefined,
+    path:       talent.PathID ? splitSourceId( talent.PathID ) : undefined,
+    pathRank:   talent.PathRank ? toNumber( talent.PathRank ) : undefined,
+    bonusRank:  talent.BonusRank ? toNumber( talent.BonusRank ) : undefined,
   };
 }
 
@@ -229,7 +229,7 @@ function parseTalent( talent ) {
  */
 function parseKnack( knack ) {
   return {
-    id: splitSourceId( knack.ID ),
+    id:        splitSourceId( knack.ID ),
     attribute: knack.Attribute.toLowerCase().slice( 0, 3 ),
   };
 }
@@ -241,13 +241,13 @@ function parseKnack( knack ) {
  */
 function parseSkill( skill ) {
   return {
-    id: splitSourceId( skill.ID ),
-    rank: toNumber( skill.Rank ),
+    id:        splitSourceId( skill.ID ),
+    rank:      toNumber( skill.Rank ),
     freeRanks: toNumber( skill.Freerank ),
-    category: skill.Category,
-    uid: skill.UID,
+    category:  skill.Category,
+    uid:       skill.UID,
     attribute: mapAttributeToAbbreviation( skill.Attribute ) ?? null,
-    name: skill.Name ?? null,
+    name:      skill.Name ?? null,
   };
 }
 
@@ -258,7 +258,7 @@ function parseSkill( skill ) {
  */
 function parseDevotion( devotion ) {
   return {
-    id: splitSourceId( devotion.devotionID ),
+    id:   splitSourceId( devotion.devotionID ),
     rank: devotion.devotionRank,
     tier: devotion.Cost.toLowerCase(),
   };
@@ -271,10 +271,10 @@ function parseDevotion( devotion ) {
  */
 function parseQuestor( questor ) {
   return {
-    id: splitSourceId( questor.Doctrine ),
-    devotions: questor.Ranks.map( devotion => parseDevotion( devotion ) ),
-    rank: toNumber( questor.Rank ),
-    devotionPoints: toNumber( questor.devotionPoints ),
+    id:                  splitSourceId( questor.Doctrine ),
+    devotions:           questor.Ranks.map( devotion => parseDevotion( devotion ) ),
+    rank:                toNumber( questor.Rank ),
+    devotionPoints:      toNumber( questor.devotionPoints ),
     questorDevotionStep: toNumber( questor.questorDevotionStep ),
   };
 }
@@ -286,7 +286,7 @@ function parseQuestor( questor ) {
  */
 function parseSpell( spell ) {
   return {
-    id: splitSourceId( spell.ID ),
+    id:    splitSourceId( spell.ID ),
     index: toNumber( spell.Index ),
   };
 }
@@ -298,17 +298,17 @@ function parseSpell( spell ) {
  */
 function parseEquipment( equipment ) {
   return {
-    id: splitSourceId( equipment.ID ),
-    amount: toNumber( equipment.Count ),
-    inUse: parseBoolean( equipment.InUse ),
-    type: equipment.Type,
-    damageStep: equipment.DamageStep ? toNumber( equipment.DamageStep ) : undefined,
+    id:                  splitSourceId( equipment.ID ),
+    amount:              toNumber( equipment.Count ),
+    inUse:               parseBoolean( equipment.InUse ),
+    type:                equipment.Type,
+    damageStep:          equipment.DamageStep ? toNumber( equipment.DamageStep ) : undefined,
     timesForgedPhysical: equipment.PhForge ? toNumber( equipment.PhForge ) : undefined,
     timesForgedMystical: equipment.MyForge ? toNumber( equipment.MyForge ) : undefined,
-    timesForged: equipment.Forged ? toNumber( equipment.Forged ) : undefined,
-    rank: equipment.Rank ? toNumber( equipment.Rank ) : undefined,
-    lpCost: equipment.Cost ? toNumber( equipment.Cost ) : undefined,
-  }
+    timesForged:         equipment.Forged ? toNumber( equipment.Forged ) : undefined,
+    rank:                equipment.Rank ? toNumber( equipment.Rank ) : undefined,
+    lpCost:              equipment.Cost ? toNumber( equipment.Cost ) : undefined,
+  };
 }
 
 /**
@@ -318,9 +318,9 @@ function parseEquipment( equipment ) {
  */
 function parsePath( path ) {
   return {
-    id: splitSourceId( path.ID ),
-    rank: toNumber( path.Rank ),
-    linked: splitSourceId( path.Linked ),
+    id:             splitSourceId( path.ID ),
+    rank:           toNumber( path.Rank ),
+    linked:         splitSourceId( path.Linked ),
     grantedTalents: path.GrantedTalents.map( talentId => splitSourceId( talentId ) ),
   };
 }
@@ -337,7 +337,7 @@ function parseThreadTarget( target ) {
   }
   return Object.hasOwn( SECOND_STEP_THREAD_TO_EAE_TARGET, target )
     ? SECOND_STEP_THREAD_TO_EAE_TARGET[ target ]
-    : splitSourceId( target )
+    : splitSourceId( target );
 }
 
 /**
@@ -347,7 +347,7 @@ function parseThreadTarget( target ) {
  */
 function parseThread( thread ) {
   return {
-    rank: toNumber( thread.Rank ),
+    rank:   toNumber( thread.Rank ),
     target: parseThreadTarget( thread.Target ),
   };
 }
@@ -359,10 +359,10 @@ function parseThread( thread ) {
  */
 function parseMagic( magic ) {
   return {
-    id: splitSourceId( magic.ID ),
+    id:      splitSourceId( magic.ID ),
     threads: magic.Threads?.map( thread => parseThread( thread ) ) ?? [],
-    target: parseThreadTarget( magic.Target ),
-    active: parseBoolean( magic.Applicable ),
+    target:  parseThreadTarget( magic.Target ),
+    active:  parseBoolean( magic.Applicable ),
   };
 }
 
@@ -376,40 +376,40 @@ function parseMagic( magic ) {
  * @returns {ParsedExportData}
  */
 export function parseSecondStepExport( raw ) {
-  if ( !Object.hasOwn( raw, 'StepsVersion' ) )
-    throw new SecondStepFormatError( 'Invalid SecondStep export' );
+  if ( !Object.hasOwn( raw, "StepsVersion" ) )
+    throw new SecondStepFormatError( "Invalid SecondStep export" );
 
   const edition = raw.Options?.Edition ?? "";
 
   return {
     meta: {
-      stepsVersion: raw.StepsVersion,
+      stepsVersion:    raw.StepsVersion,
       edition,
-      language: raw.Language,
+      language:        raw.Language,
       attributePoints: toNumber( raw.attributePoints ),
-      options: raw.Options,
+      options:         raw.Options,
     },
-    basics: parseBasic( raw.Basic ),
-    portraitUrl: parsePortraitUrl( raw.PortraitURL ),
-    namegiver: splitSourceId( raw.Race ),
-    attributes: parseAttributes( raw.Attributes ),
-    disciplines: raw.Disciplines.map( discipline => parseDiscipline( discipline ) ),
-    paths: raw.Paths.map( path => parsePath( path ) ),
-    questor: parseQuestor( raw.Questor ),
-    talents: raw.Talents.map( talent => parseTalent( talent ) ),
-    knacks: raw.Knacks.map( knack => parseKnack( knack ) ),
-    skills: raw.Skills.map( skill => parseSkill( skill ) ),
-    spells: raw.Spells.map( spell => parseSpell( spell ) ),
-    equipment: raw.Equipment.map( equipment => parseEquipment( equipment ) ),
-    magic: raw.Magic.map( magic => parseMagic( magic ) ),
-    damage: toNumber( raw.Damage ),
-    wounds: toNumber( raw.Wounds ),
+    basics:       parseBasic( raw.Basic ),
+    portraitUrl:  parsePortraitUrl( raw.PortraitURL ),
+    namegiver:    splitSourceId( raw.Race ),
+    attributes:   parseAttributes( raw.Attributes ),
+    disciplines:  raw.Disciplines.map( discipline => parseDiscipline( discipline ) ),
+    paths:        raw.Paths.map( path => parsePath( path ) ),
+    questor:      parseQuestor( raw.Questor ),
+    talents:      raw.Talents.map( talent => parseTalent( talent ) ),
+    knacks:       raw.Knacks.map( knack => parseKnack( knack ) ),
+    skills:       raw.Skills.map( skill => parseSkill( skill ) ),
+    spells:       raw.Spells.map( spell => parseSpell( spell ) ),
+    equipment:    raw.Equipment.map( equipment => parseEquipment( equipment ) ),
+    magic:        raw.Magic.map( magic => parseMagic( magic ) ),
+    damage:       toNumber( raw.Damage ),
+    wounds:       toNumber( raw.Wounds ),
     legendPoints: toNumber( raw.LegendPoints ),
-    raw: {
-      effects: raw.Effects,
+    raw:          {
+      effects:  raw.Effects,
       homebrew: raw.Homebrew,
     },
-  }
+  };
 }
 
 // endregion

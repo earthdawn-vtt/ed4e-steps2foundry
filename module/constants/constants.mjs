@@ -89,7 +89,7 @@ export const SECOND_STEP_EXPORT_SOURCES = Object.freeze( {
     ...SECOND_STEP_EXPORT_SOURCES_OFFICIAL,
     ...SECOND_STEP_EXPORT_SOURCES_UNOFFICIAL,
   ],
-  official: SECOND_STEP_EXPORT_SOURCES_OFFICIAL,
+  official:   SECOND_STEP_EXPORT_SOURCES_OFFICIAL,
   unofficial: SECOND_STEP_EXPORT_SOURCES_UNOFFICIAL,
 } );
 
@@ -129,10 +129,12 @@ export const SECOND_STEP_THREAD_TO_EAE_TARGET = Object.freeze( {
   "sodef": "system.characteristics.defenses.social.value",
   "wndth": "system.characteristics.health.woundThreshold",
   "myarm": "system.characteristics.armor.mystical.value",
-  "dur": "system.durabilityBonus",
+  "dur":   "system.durabilityBonus",
 } );
 
 /**
  * All values in {@link SECOND_STEP_THREAD_TO_EAE_TARGET}.
  * @typedef { typeof SECOND_STEP_THREAD_TO_EAE_TARGET[keyof typeof SECOND_STEP_THREAD_TO_EAE_TARGET] } MappedSecondStepThreadTarget
  */
+
+// endregion

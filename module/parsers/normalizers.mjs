@@ -12,7 +12,7 @@ import { PLACEHOLDER_SENTINELS } from "../constants/constants.mjs";
 export function normalizeSentinel( value ) {
   const strippedValue = value?.replaceAll?.( /\s/g, "" );
   if ( PLACEHOLDER_SENTINELS.has( strippedValue ) ) {
-        return null;
-    }
-    return value;
+    return null;
+  }
+  return value;
 }
