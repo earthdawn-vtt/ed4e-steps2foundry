@@ -16,7 +16,6 @@ export const PLACEHOLDER_SENTINELS = new Set( [
  * @type {string[]}
  */
 const SECOND_STEP_EXPORT_SOURCES_OFFICIAL = [
-  "ED4",
   "ElvenNations",
   "Travar",
   "Questors",
@@ -78,6 +77,16 @@ export const SECOND_STEP_EXPORT_SOURCE_TAG = new Set( [
   "Unofficial",
   "Official",
   ...SECOND_STEP_EXPORT_SOURCES.all,
+] );
+
+/**
+ * @typedef { string } SecondStepIdPrefix
+ * A prefix for Second Step entity IDs. All official content IDs start with eiter "ED4" or have no suffix, since
+ * they are considered 'core'.
+ */
+export const SECOND_STEP_ID_PREFIX = new Set( [
+  "ED4",
+  ...SECOND_STEP_EXPORT_SOURCES_UNOFFICIAL,
 ] );
 
 /**

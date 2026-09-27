@@ -5,7 +5,7 @@
 import { lowerCaseFirstLetter } from "../utils/string.mjs";
 import { normalizeSentinel } from "./normalizers.mjs";
 import { SecondStepFormatError } from "./errors.mjs";
-import { SECOND_STEP_EXPORT_SOURCE_TAG } from "../constants/constants.mjs";
+import { SECOND_STEP_ID_PREFIX } from "../constants/constants.mjs";
 
 
 // region Helper Functions
@@ -90,12 +90,12 @@ function mapAttributeToAbbreviation( attribute ) {
  * Every ID is prefixed with whichever book/source cataloged it, either the official content with "ED4E" or
  * a community source from `Options.Books`, e.g. "Panda" or "Manu".
  * @param {string} id The SecondStep ID to split.
- * @param {SecondStepExportSourceTag[]} [sourceTokens] Candidate prefixes. Defaults to all available.
+ * @param {SecondStepIdPrefix[]} [sourceTokens] Candidate prefixes. Defaults to all available.
  * @returns {ParsedIdSource}
  */
 export function splitSourceId( id, sourceTokens ) {
   if ( !sourceTokens )
-    sourceTokens = [ ...SECOND_STEP_EXPORT_SOURCE_TAG ];
+    sourceTokens = [ ...SECOND_STEP_ID_PREFIX ];
   // sort by token lengths so a token that happens to be a prefix on another doesn't win by accident
   const sortedSourceTokens = sourceTokens.toSorted(
     ( a, b ) => b.length - a.length
@@ -209,10 +209,9 @@ function parseTalent( talent ) {
     order: toNumber( talent.Order ),
     rank: toNumber( talent.Rank ),
     freeRanks: toNumber( talent.Freerank ),
-    source: splitSourceId( talent.CurrentSource, ),
+    source: talent.CurrentSource ? splitSourceId( talent.CurrentSource ) : null,
     type: talent.Type,
     lpCostTier: toNumber( talent.CurrentCost ),
-    assignedDiscipline: talent.CurrentSource ? splitSourceId( talent.CurrentSource ) : null,
     ranks: talent.Ranks.map( rank => parseTalentRank( rank ) ),
     uid: talent.UID ?? null,
     lpCost: toNumber( talent.Cost ),
