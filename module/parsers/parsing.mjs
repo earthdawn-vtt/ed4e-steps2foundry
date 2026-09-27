@@ -5,7 +5,7 @@
 import { lowerCaseFirstLetter } from "../utils/string.mjs";
 import { normalizeSentinel } from "./normalizers.mjs";
 import { SecondStepFormatError } from "./errors.mjs";
-import { SECOND_STEP_ID_PREFIX } from "../constants/constants.mjs";
+import { SECOND_STEP_ID_PREFIX, SECOND_STEP_THREAD_TO_EAE_TARGET } from "../constants/constants.mjs";
 
 
 // region Helper Functions
@@ -72,7 +72,7 @@ function splitCommaList( theString, mapFunction = undefined ) {
  * @throws {Error} If the input is not a non-empty string.
  */
 function mapAttributeToAbbreviation( attribute ) {
-  if ( (typeof attribute) !== "string" || !attribute.length )
+  if ( ( typeof attribute ) !== "string" || !attribute.length )
     throw new Error( "attribute must be a non-empty string" );
 
   return {
@@ -325,6 +325,47 @@ function parsePath( path ) {
   };
 }
 
+/**
+ * Parse provided thread target data.
+ * @param {string} target
+ * @returns {MappedSecondStepThreadTarget}
+ */
+function parseThreadTarget( target ) {
+  if ( !target ) {
+    console.debug( "Empty target: ", target );
+    return undefined;
+  }
+  return Object.hasOwn( SECOND_STEP_THREAD_TO_EAE_TARGET, target )
+    ? SECOND_STEP_THREAD_TO_EAE_TARGET[ target ]
+    : splitSourceId( target )
+}
+
+/**
+ * Parse provided thread data.
+ * @param {SecondStepExportThread} thread
+ * @returns {ParsedThread}
+ */
+function parseThread( thread ) {
+  return {
+    rank: toNumber( thread.Rank ),
+    target: parseThreadTarget( thread.Target ),
+  };
+}
+
+/**
+ * Parse provided magic data.
+ * @param {SecondStepExportMagic} magic The magic data to be parsed.
+ * @returns {ParsedMagic} The parsed magic data.
+ */
+function parseMagic( magic ) {
+  return {
+    id: splitSourceId( magic.ID ),
+    threads: magic.Threads?.map( thread => parseThread( thread ) ) ?? [],
+    target: parseThreadTarget( magic.Target ),
+    active: parseBoolean( magic.Applicable ),
+  };
+}
+
 // endregion
 
 // region Secon Step Parser
@@ -360,11 +401,11 @@ export function parseSecondStepExport( raw ) {
     skills: raw.Skills.map( skill => parseSkill( skill ) ),
     spells: raw.Spells.map( spell => parseSpell( spell ) ),
     equipment: raw.Equipment.map( equipment => parseEquipment( equipment ) ),
+    magic: raw.Magic.map( magic => parseMagic( magic ) ),
     damage: toNumber( raw.Damage ),
     wounds: toNumber( raw.Wounds ),
     legendPoints: toNumber( raw.LegendPoints ),
     raw: {
-      magic: raw.Magic,
       effects: raw.Effects,
       homebrew: raw.Homebrew,
     },

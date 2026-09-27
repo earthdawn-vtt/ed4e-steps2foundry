@@ -12,6 +12,31 @@ export const PLACEHOLDER_SENTINELS = new Set( [
 ] );
 
 /**
+ * @typedef { string } AttributeAbbreviation
+ * An abbreviation for an attribute.
+ */
+export const ATTRIBUTE_ABBREVIATION = new Set( [
+  "dex",
+  "str",
+  "tou",
+  "per",
+  "wil",
+  "cha",
+] );
+
+/**
+ * @typedef { string } QuestorDevotionTier
+ * A tier of a questor devotion.
+ */
+export const QUESTOR_DEVOTION_TIER = new Set( [
+  "follower",
+  "adherent",
+  "exemplar",
+] );
+
+// region Second Step Sources
+
+/**
  * The official sources of the Second Step character sheets.
  * @type {string[]}
  */
@@ -89,25 +114,25 @@ export const SECOND_STEP_ID_PREFIX = new Set( [
   ...SECOND_STEP_EXPORT_SOURCES_UNOFFICIAL,
 ] );
 
-/**
- * @typedef { string } AttributeAbbreviation
- * An abbreviation for an attribute.
- */
-export const ATTRIBUTE_ABBREVIATION = new Set( [
-  "dex",
-  "str",
-  "tou",
-  "per",
-  "wil",
-  "cha",
-] );
+// endregion
+
+// region Mappings
 
 /**
- * @typedef { string } QuestorDevotionTier
- * A tier of a questor devotion.
+ * Mapping of Second Step thread targets to EAE actor change keys.
+ * @satisfies {Readonly<Record<string, string | null>>}
  */
-export const QUESTOR_DEVOTION_TIER = new Set( [
-  "follower",
-  "adherent",
-  "exemplar",
-] );
+export const SECOND_STEP_THREAD_TO_EAE_TARGET = Object.freeze( {
+  "empty": null,
+  "phdef": "system.characteristics.defenses.physical.value",
+  "mydef": "system.characteristics.defenses.mystical.value",
+  "sodef": "system.characteristics.defenses.social.value",
+  "wndth": "system.characteristics.health.woundThreshold",
+  "myarm": "system.characteristics.armor.mystical.value",
+  "dur": "system.durabilityBonus",
+} );
+
+/**
+ * All values in {@link SECOND_STEP_THREAD_TO_EAE_TARGET}.
+ * @typedef { typeof SECOND_STEP_THREAD_TO_EAE_TARGET[keyof typeof SECOND_STEP_THREAD_TO_EAE_TARGET] } MappedSecondStepThreadTarget
+ */

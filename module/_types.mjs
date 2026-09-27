@@ -1,3 +1,7 @@
+/**
+ * @import * from "./constants/constants.mjs"
+ */
+
 // region General Types
 
 /**
@@ -562,6 +566,21 @@
  */
 
 /**
+ * @typedef ParsedThread
+ * @property {number} rank - The rank of the thread.
+ * @property {MappedSecondStepThreadTarget} target - What the thread targets.
+ */
+
+/**
+ * All kinds of things with magical effects, like threads to patterns, blood promises, and so on.
+ * @typedef ParsedMagic
+ * @property {ParsedIdSource} id - The ID of the magic.
+ * @property {ParsedThread[]} [threads] - The active threads that are attached to this magic.
+ * @property {MappedSecondStepThreadTarget|ParsedIdSource|null}  [target] - What the magic targets.
+ * @property {boolean} active - Whether this magic is currently active and its effects applied.
+ */
+
+/**
  * @typedef ParsedMetaData
  * @property {number} stepsVersion - The version of the Second Step app.
  * @property {string} edition - The edition used for the Step/Dice table.
@@ -585,6 +604,7 @@
  * @property {ParsedSkill[]} skills - Skill data.
  * @property {ParsedSpell[]} spells - Spell data.
  * @property {ParsedEquipment[]} equipment - Equipment data.
+ * @property {ParsedMagic[]} magic - All magic effects currently active.
  * @property {number} damage - How much damage this character currently has.
  * @property {number} wounds - How many wounds this character currently has.
  * @property {number} legendPoints - Amount of total Legend Points this character has.
