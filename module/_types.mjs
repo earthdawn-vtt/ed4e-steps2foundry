@@ -581,6 +581,36 @@
  */
 
 /**
+ * @typedef ParsedEffect
+ * @property {ParsedIdSource} id - The ID or UUID of the entity that causes the effect.
+ * @property {boolean} active - Whether the effect is currently active.
+ * @property {number} [lp] - How much LP this effect costs or gives.
+ * @property {number} extra - The numeric modifier of this effect, like the number to add to the rank of a talent.
+ * @property {SecondStepExportEffectSource} source - Whether this effect comes from the character itself or from an external source.
+ * @property {SecondStepExportEffectCategory} category - The category of the effect.
+ */
+
+/**
+ * @typedef ParsedEffectModifier
+ * @property {SecondStepExportEffectModifierCategory} category - The category of the modifier.
+ * @property {SecondStepExportCombatEffectTarget|SecondStepExportHealthEffectTarget|SecondStepExportAttributeStepEffectTarget|string} id - The target of the
+ * modifier depending on the category. Can be an ability ID.
+ * @property {number|string} modifier - The modifier value.
+ * @property {boolean} [multipliable] - Whether the modifier can be multiplied.
+ * @property {boolean} [raisable] - Whether the extra talent's rank can be raised with LP.'
+ */
+
+/**
+ * @typedef ParsedHomebrewEffect
+ * @property {ParsedIdSource} id - The ID of the effect.
+ * @property {NormalizedStringValue} name - The generic name of the effect.
+ * @property {NormalizedStringValue} description - The custom description of the effect.
+ * @property {SecondStepExportEffectDuration} duration - The duration of the effect.
+ * @property {SecondStepExportEffectCategory} category - The category of the effect.
+ * @property {SecondStepExportEffectModifier[]} modifiers - The modifiers of the effect.
+ */
+
+/**
  * @typedef ParsedMetaData
  * @property {number} stepsVersion - The version of the Second Step app.
  * @property {string} edition - The edition used for the Step/Dice table.
@@ -605,10 +635,11 @@
  * @property {ParsedSpell[]} spells - Spell data.
  * @property {ParsedEquipment[]} equipment - Equipment data.
  * @property {ParsedMagic[]} magic - All magic effects currently active.
+ * @property {ParsedEffect[]} effects - All effects that are currently active, as shown in the UI.
+ * @property {ParsedHomebrewEffect[]} homebrewEffects - The homebrew data for this character.
  * @property {number} damage - How much damage this character currently has.
  * @property {number} wounds - How many wounds this character currently has.
  * @property {number} legendPoints - Amount of total Legend Points this character has.
- * @property {object} raw - Raw data to temporarily pass until parsing is implemented.
  */
 
 // endregion

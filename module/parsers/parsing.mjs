@@ -366,6 +366,53 @@ function parseMagic( magic ) {
   };
 }
 
+/**
+ * Parse provided effect data.
+ * @param {SecondStepExportEffectUIData} effect
+ * @returns {ParsedEffect}
+ */
+function parseEffect( effect ) {
+  return {
+    id:       splitSourceId( effect.ID ),
+    active:   parseBoolean( effect.Active ),
+    lp:       effect.LP ? toNumber( effect.LP ) : undefined,
+    extra:    toNumber( effect.Extra ),
+    source:   effect.Source,
+    category: effect.Category,
+  };
+}
+
+/**
+ * Parse provided effect modifier data.
+ * @param {SecondStepExportEffectModifier} modifier
+ * @returns {ParsedEffectModifier}
+ */
+function parseEffectModifier( modifier ) {
+  return {
+    category:     modifier.Category,
+    id:           modifier.ID,
+    modifier:     toNumber( modifier.Modifier, undefined ) ?? modifier.Modifier,
+    multipliable: parseBoolean( modifier.IsMultipliable ),
+    raisable:     parseBoolean( modifier.IsRaisable ),
+  };
+}
+
+/**
+ * Parse provided homebrew effect data.
+ * @param {SecondStepExportEffect} effect
+ * @return {ParsedHomebrewEffect}
+ */
+function parseHomebrewEffect( effect ) {
+  return {
+    id:          splitSourceId( effect.ID ),
+    name:        normalizeSentinel( effect.Name ),
+    description: normalizeSentinel( effect.Description ),
+    duration:    effect.Duration,
+    category:    effect.Category,
+
+  };
+}
+
 // endregion
 
 // region Secon Step Parser
@@ -389,26 +436,24 @@ export function parseSecondStepExport( raw ) {
       attributePoints: toNumber( raw.attributePoints ),
       options:         raw.Options,
     },
-    basics:       parseBasic( raw.Basic ),
-    portraitUrl:  parsePortraitUrl( raw.PortraitURL ),
-    namegiver:    splitSourceId( raw.Race ),
-    attributes:   parseAttributes( raw.Attributes ),
-    disciplines:  raw.Disciplines.map( discipline => parseDiscipline( discipline ) ),
-    paths:        raw.Paths.map( path => parsePath( path ) ),
-    questor:      parseQuestor( raw.Questor ),
-    talents:      raw.Talents.map( talent => parseTalent( talent ) ),
-    knacks:       raw.Knacks.map( knack => parseKnack( knack ) ),
-    skills:       raw.Skills.map( skill => parseSkill( skill ) ),
-    spells:       raw.Spells.map( spell => parseSpell( spell ) ),
-    equipment:    raw.Equipment.map( equipment => parseEquipment( equipment ) ),
-    magic:        raw.Magic.map( magic => parseMagic( magic ) ),
-    damage:       toNumber( raw.Damage ),
-    wounds:       toNumber( raw.Wounds ),
-    legendPoints: toNumber( raw.LegendPoints ),
-    raw:          {
-      effects:  raw.Effects,
-      homebrew: raw.Homebrew,
-    },
+    basics:          parseBasic( raw.Basic ),
+    portraitUrl:     parsePortraitUrl( raw.PortraitURL ),
+    namegiver:       splitSourceId( raw.Race ),
+    attributes:      parseAttributes( raw.Attributes ),
+    disciplines:     raw.Disciplines.map( discipline => parseDiscipline( discipline ) ),
+    paths:           raw.Paths.map( path => parsePath( path ) ),
+    questor:         parseQuestor( raw.Questor ),
+    talents:         raw.Talents.map( talent => parseTalent( talent ) ),
+    knacks:          raw.Knacks.map( knack => parseKnack( knack ) ),
+    skills:          raw.Skills.map( skill => parseSkill( skill ) ),
+    spells:          raw.Spells.map( spell => parseSpell( spell ) ),
+    equipment:       raw.Equipment.map( equipment => parseEquipment( equipment ) ),
+    magic:           raw.Magic.map( magic => parseMagic( magic ) ),
+    effects:         raw.Effects.map( effect => parseEffect( effect ) ),
+    homebrewEffects: raw.Homebrew.Effects.map( effect => parseHomebrewEffect( effect ) ),
+    damage:          toNumber( raw.Damage ),
+    wounds:          toNumber( raw.Wounds ),
+    legendPoints:    toNumber( raw.LegendPoints ),
   };
 }
 
