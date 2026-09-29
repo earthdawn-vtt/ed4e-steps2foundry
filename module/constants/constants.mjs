@@ -4,35 +4,35 @@ export const MODULE_ID = "ed4e-steps2foundry";
  * @typedef { string } PlaceholderSentinel
  * A sentinel value representing a non-existent property value.
  */
-export const PLACEHOLDER_SENTINELS = [
+export const PLACEHOLDER_SENTINELS = Object.freeze( [
   "",
   "-",
   "&nbsp;",
   "Empty",
-];
+] );
 
 /**
  * @typedef { string } AttributeAbbreviation
  * An abbreviation for an attribute.
  */
-export const ATTRIBUTE_ABBREVIATION = [
+export const ATTRIBUTE_ABBREVIATION = Object.freeze( [
   "dex",
   "str",
   "tou",
   "per",
   "wil",
   "cha",
-];
+] );
 
 /**
  * @typedef { string } QuestorDevotionTier
  * A tier of a questor devotion.
  */
-export const QUESTOR_DEVOTION_TIER = [
+export const QUESTOR_DEVOTION_TIER = Object.freeze( [
   "follower",
   "adherent",
   "exemplar",
-];
+] );
 
 // region Second Step Sources
 
@@ -40,7 +40,7 @@ export const QUESTOR_DEVOTION_TIER = [
  * The official sources of the Second Step character sheets.
  * @type {string[]}
  */
-const SECOND_STEP_EXPORT_SOURCES_OFFICIAL = [
+const SECOND_STEP_EXPORT_SOURCES_OFFICIAL = Object.freeze( [
   "ElvenNations",
   "Travar",
   "Questors",
@@ -50,13 +50,13 @@ const SECOND_STEP_EXPORT_SOURCES_OFFICIAL = [
   "Vasgothia",
   "GrandBazaar",
   "MagicDeeperSecrets",
-];
+] );
 
 /**
  * The unofficial sources of the Second Step character sheets.
  * @type {string[]}
  */
-const SECOND_STEP_EXPORT_SOURCES_UNOFFICIAL = [
+const SECOND_STEP_EXPORT_SOURCES_UNOFFICIAL = Object.freeze( [
   "DaughteroftheForest",
   "Infected",
   "MistsofBetrayal",
@@ -78,7 +78,7 @@ const SECOND_STEP_EXPORT_SOURCES_UNOFFICIAL = [
   "dariko74",
   "Zirnike",
   "Fable",
-];
+] );
 
 /**
  * The available sources of the Second Step character sheets.
@@ -97,22 +97,22 @@ export const SECOND_STEP_EXPORT_SOURCES = Object.freeze( {
  * @typedef { string } SecondStepExportSourceTag
  * An option tag describing the available sources for entities in the character sheet.
  */
-export const SECOND_STEP_EXPORT_SOURCE_TAG = [
+export const SECOND_STEP_EXPORT_SOURCE_TAG = Object.freeze( [
   "All",
   "Unofficial",
   "Official",
   ...SECOND_STEP_EXPORT_SOURCES.all,
-];
+] );
 
 /**
  * @typedef { string } SecondStepIdPrefix
  * A prefix for Second Step entity IDs. All official content IDs start with eiter "ED4" or have no suffix, since
  * they are considered 'core'.
  */
-export const SECOND_STEP_ID_PREFIX = [
+export const SECOND_STEP_ID_PREFIX = Object.freeze( [
   "ED4",
   ...SECOND_STEP_EXPORT_SOURCES_UNOFFICIAL,
-];
+] );
 
 // endregion
 
