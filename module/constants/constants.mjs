@@ -4,35 +4,35 @@ export const MODULE_ID = "ed4e-steps2foundry";
  * @typedef { string } PlaceholderSentinel
  * A sentinel value representing a non-existent property value.
  */
-export const PLACEHOLDER_SENTINELS = new Set( [
+export const PLACEHOLDER_SENTINELS = [
   "",
   "-",
   "&nbsp;",
   "Empty",
-] );
+];
 
 /**
  * @typedef { string } AttributeAbbreviation
  * An abbreviation for an attribute.
  */
-export const ATTRIBUTE_ABBREVIATION = new Set( [
+export const ATTRIBUTE_ABBREVIATION = [
   "dex",
   "str",
   "tou",
   "per",
   "wil",
   "cha",
-] );
+];
 
 /**
  * @typedef { string } QuestorDevotionTier
  * A tier of a questor devotion.
  */
-export const QUESTOR_DEVOTION_TIER = new Set( [
+export const QUESTOR_DEVOTION_TIER = [
   "follower",
   "adherent",
   "exemplar",
-] );
+];
 
 // region Second Step Sources
 
@@ -97,22 +97,22 @@ export const SECOND_STEP_EXPORT_SOURCES = Object.freeze( {
  * @typedef { string } SecondStepExportSourceTag
  * An option tag describing the available sources for entities in the character sheet.
  */
-export const SECOND_STEP_EXPORT_SOURCE_TAG = new Set( [
+export const SECOND_STEP_EXPORT_SOURCE_TAG = [
   "All",
   "Unofficial",
   "Official",
   ...SECOND_STEP_EXPORT_SOURCES.all,
-] );
+];
 
 /**
  * @typedef { string } SecondStepIdPrefix
  * A prefix for Second Step entity IDs. All official content IDs start with eiter "ED4" or have no suffix, since
  * they are considered 'core'.
  */
-export const SECOND_STEP_ID_PREFIX = new Set( [
+export const SECOND_STEP_ID_PREFIX = [
   "ED4",
   ...SECOND_STEP_EXPORT_SOURCES_UNOFFICIAL,
-] );
+];
 
 // endregion
 

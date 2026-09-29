@@ -11,7 +11,7 @@ import { PLACEHOLDER_SENTINELS } from "../constants/constants.mjs";
  */
 export function normalizeSentinel( value ) {
   const strippedValue = value?.replaceAll?.( /\s/g, "" );
-  if ( PLACEHOLDER_SENTINELS.has( strippedValue ) ) {
+  if ( PLACEHOLDER_SENTINELS.includes( strippedValue ) ) {
     return null;
   }
   return value;
