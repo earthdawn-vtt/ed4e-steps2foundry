@@ -409,7 +409,7 @@ function parseHomebrewEffect( effect ) {
     description: normalizeSentinel( effect.Description ),
     duration:    effect.Duration,
     category:    effect.Category,
-
+    modifiers:   effect.Modifiers.map( modifier => parseEffectModifier( modifier ) ),
   };
 }
 

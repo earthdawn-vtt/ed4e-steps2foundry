@@ -607,7 +607,7 @@
  * @property {NormalizedStringValue} description - The custom description of the effect.
  * @property {SecondStepExportEffectDuration} duration - The duration of the effect.
  * @property {SecondStepExportEffectCategory} category - The category of the effect.
- * @property {SecondStepExportEffectModifier[]} modifiers - The modifiers of the effect.
+ * @property {ParsedEffectModifier[]} modifiers - The modifiers of the effect.
  */
 
 /**
