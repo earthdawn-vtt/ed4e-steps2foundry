@@ -434,6 +434,72 @@
  */
 
 /**
+ * A SecondStep enum-like token (e.g. `"General"`, `"Thread Item"`) after being run through `normalizeEnumToken`,
+ * i.e., reshaped into a lower-camelCase token. This is a purely syntactic transform; it carries no ed4e-specific
+ * meaning by itself.
+ * @typedef {string} NormalizedEnumToken
+ */
+
+/**
+ * The normalized form of {@link SecondStepExportSkillCategory}.
+ * @typedef {"general"|"knowledge"|"artisan"} NormalizedSkillCategory
+ */
+
+/**
+ * The normalized form of {@link SecondStepExportEquipmentType}.
+ * @typedef {
+ * "accomodation"
+ * |"adventuring"
+ * |"armor"
+ * |"bloodCharm"
+ * |"bloodInk"
+ * |"clothing"
+ * |"healingAidPotion"
+ * |"healingAid"
+ * |"magic"
+ * |"meleeWeapon"
+ * |"missileWeapon"
+ * |"missile"
+ * |"mount"
+ * |"provender"
+ * |"runeTattoo"
+ * |"shield"
+ * |"threadItem"
+ * |"thrown"
+ * |"tradeServices"
+ * |"transport"
+ * |"valuable"
+ * } NormalizedEquipmentType
+ */
+
+/**
+ * The normalized form of {@link SecondStepExportEffectSource}.
+ * @typedef {"self"|"external"} NormalizedEffectSource
+ */
+
+/**
+ * The normalized form of {@link SecondStepExportEffectCategory}.
+ * @typedef {"talent"|"legendPointsAward"|"spell"|"custom"} NormalizedEffectCategory
+ */
+
+/**
+ * The normalized form of {@link SecondStepExportEffectModifierCategory}. Note that single-word all-caps source
+ * tokens (`"AStep"`, `"XTalent"`, `"LP"`) collapse to fully lowercase rather than internal camelCase, since
+ * `normalizeEnumToken` only inserts word boundaries at lowercase-to-uppercase transitions.
+ * @typedef {"astep"|"combat"|"health"|"lp"|"talent"|"text"|"xtalent"} NormalizedEffectModifierCategory
+ */
+
+/**
+ * The normalized form of {@link SecondStepExportEffectDuration}.
+ * @typedef {"short"|"long"} NormalizedEffectDuration
+ */
+
+/**
+ * The normalized form of {@link SecondStepExportTalentType}.
+ * @typedef {"discipline"|"free"|"optional"|"pathTalent"|"pathGrantedTalent"|"item"|"effectRaisable"} NormalizedTalentType
+ */
+
+/**
  * A normalized value for a {@link SecondStepExportBasics} string property, stripped of sentinels.
  * @typedef ParsedIdSource
  * @property {string} id - The canonical ID of the entity.
@@ -492,7 +558,7 @@
  * @property {number} rank - The rank of the talent.
  * @property {number} freeRanks - The number of ranks that were assigned for free at character creation.
  * @property {ParsedIdSource} source - The ID of the entity that provides the talent, e.g. disciplines, namegiver, item, or effect.
- * @property {SecondStepExportTalentType} type - The type of the talent.
+ * @property {NormalizedTalentType} type - The type of the talent.
  * @property {NumberValue} lpCostTier - The tier on which the legend point cost for raising this talent is based on.
  * Mapping Novice, Journeyman, Warden, Master to 0 through 3. Free talents are mapped to -1.
  * @property {ParsedTalentRank[]} ranks - The ranks of this talent.
@@ -515,7 +581,7 @@
  * @property {ParsedIdSource} id - ID of the skill.
  * @property {number} rank - The rank of the skill.
  * @property {number} freeRanks - The number of ranks that were assigned for free at character creation.
- * @property {SecondStepExportSkillCategory} category - The category of the skill.
+ * @property {NormalizedSkillCategory} category - The category of the skill.
  * @property {UUID} uid - The unique ID of this skill.
  * @property {string|null} attribute - The attribute the skill is based on, if any. As the 3-letter lowercase abbreviation.
  * @property {string|null} name - The name of the skill. Used for Knowledge and Artisan Skills, which need further definition.
@@ -532,7 +598,7 @@
  * @property {ParsedIdSource} id - ID of the equipment.
  * @property {number} amount - How much or many of this the character has.
  * @property {boolean} inUse - Whether this equipment is currently in use.
- * @property {SecondStepExportEquipmentType} type - The type of the equipment.
+ * @property {NormalizedEquipmentType} type - The type of the equipment.
  * @property {number} [damageStep] - The damage step for weapons, if applicable.
  * @property {number} [timesForgedPhysical] - The number of times this shield or armor was forged for its physical value, if applicable.
  * @property {number} [timesForgedMystical] - The number of times this shield or armor was forged for its mystical value, if applicable.
@@ -558,7 +624,7 @@
 
 /**
  * @typedef ParsedQuestor
- * @property {ParsedIdSource} id - ID of the questor.@property {string} Doctrine - The ID of the passion of this questor.
+ * @property {ParsedIdSource} passionId - ID of the questor.@property {string} Doctrine - The ID of the passion of this questor.
  * @property {ParsedDevotion[]} devotions - The devotions for each rank.
  * @property {number} rank - The level of the questor.
  * @property {number} devotionPoints - The number of current devotion points.
@@ -586,13 +652,13 @@
  * @property {boolean} active - Whether the effect is currently active.
  * @property {number} [lp] - How much LP this effect costs or gives.
  * @property {number} extra - The numeric modifier of this effect, like the number to add to the rank of a talent.
- * @property {SecondStepExportEffectSource} source - Whether this effect comes from the character itself or from an external source.
- * @property {SecondStepExportEffectCategory} category - The category of the effect.
+ * @property {NormalizedEffectSource} source - Whether this effect comes from the character itself or from an external source.
+ * @property {NormalizedEffectCategory} category - The category of the effect.
  */
 
 /**
  * @typedef ParsedEffectModifier
- * @property {SecondStepExportEffectModifierCategory} category - The category of the modifier.
+ * @property {NormalizedEffectModifierCategory} category - The category of the modifier.
  * @property {SecondStepExportCombatEffectTarget|SecondStepExportHealthEffectTarget|SecondStepExportAttributeStepEffectTarget|string} id - The target of the
  * modifier depending on the category. Can be an ability ID.
  * @property {number|string} modifier - The modifier value.
@@ -605,8 +671,8 @@
  * @property {ParsedIdSource} id - The ID of the effect.
  * @property {NormalizedStringValue} name - The generic name of the effect.
  * @property {NormalizedStringValue} description - The custom description of the effect.
- * @property {SecondStepExportEffectDuration} duration - The duration of the effect.
- * @property {SecondStepExportEffectCategory} category - The category of the effect.
+ * @property {NormalizedEffectDuration} duration - The duration of the effect.
+ * @property {NormalizedEffectCategory} category - The category of the effect.
  * @property {ParsedEffectModifier[]} modifiers - The modifiers of the effect.
  */
 
@@ -628,7 +694,7 @@
  * @property {ParsedAttributes} attributes - Attribute data.
  * @property {ParsedDiscipline[]} disciplines - Discipline data.
  * @property {ParsedPath[]} paths - Path data.
- * @property {ParsedQuestor} questor - Questor data.
+ * @property {ParsedQuestor|null} questor - Questor data, or `null` if this character is not a questor.
  * @property {ParsedTalent[]} talents - Talent data.
  * @property {ParsedKnack[]} knacks - Knack data.
  * @property {ParsedSkill[]} skills - Skill data.

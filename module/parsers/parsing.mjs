@@ -204,7 +204,7 @@ function parseTalent( talent ) {
     rank:       toNumber( talent.Rank ),
     freeRanks:  toNumber( talent.Freerank ),
     source:     talent.CurrentSource ? splitSourceId( talent.CurrentSource ) : null,
-    type:       talent.Type,
+    type:       normalizeEnumToken( talent.Type ),
     lpCostTier: toNumber( talent.CurrentCost ),
     ranks:      talent.Ranks.map( rank => parseTalentRank( rank ) ),
     uid:        talent.UID ?? null,
