@@ -217,8 +217,8 @@ function parseTalent( talent ) {
     lpCost:     toNumber( talent.Cost ),
     spell:      talent.Spell ? splitSourceId( talent.Spell ) : undefined,
     path:       talent.PathID ? splitSourceId( talent.PathID ) : undefined,
-    pathRank:   talent.PathRank ? toNumber( talent.PathRank ) : undefined,
-    bonusRank:  talent.BonusRank ? toNumber( talent.BonusRank ) : undefined,
+    pathRank:   talent.PathRank !== null ? toNumber( talent.PathRank ) : undefined,
+    bonusRank:  talent.BonusRank !== null ? toNumber( talent.BonusRank ) : undefined,
   };
 }
 
@@ -302,12 +302,12 @@ function parseEquipment( equipment ) {
     amount:              toNumber( equipment.Count ),
     inUse:               parseBoolean( equipment.InUse ),
     type:                equipment.Type,
-    damageStep:          equipment.DamageStep ? toNumber( equipment.DamageStep ) : undefined,
-    timesForgedPhysical: equipment.PhForge ? toNumber( equipment.PhForge ) : undefined,
-    timesForgedMystical: equipment.MyForge ? toNumber( equipment.MyForge ) : undefined,
-    timesForged:         equipment.Forged ? toNumber( equipment.Forged ) : undefined,
-    rank:                equipment.Rank ? toNumber( equipment.Rank ) : undefined,
-    lpCost:              equipment.Cost ? toNumber( equipment.Cost ) : undefined,
+    damageStep:          equipment.DamageStep !== null ? toNumber( equipment.DamageStep ) : undefined,
+    timesForgedPhysical: equipment.PhForge !== null ? toNumber( equipment.PhForge ) : undefined,
+    timesForgedMystical: equipment.MyForge !== null? toNumber( equipment.MyForge ) : undefined,
+    timesForged:         equipment.Forged !== null ? toNumber( equipment.Forged ) : undefined,
+    rank:                equipment.Rank !== null ? toNumber( equipment.Rank ) : undefined,
+    lpCost:              equipment.Cost !== null ? toNumber( equipment.Cost ) : undefined,
   };
 }
 
@@ -375,7 +375,7 @@ function parseEffect( effect ) {
   return {
     id:       splitSourceId( effect.ID ),
     active:   parseBoolean( effect.Active ),
-    lp:       effect.LP ? toNumber( effect.LP ) : undefined,
+    lp:       effect.LP !== null ? toNumber( effect.LP ) : undefined,
     extra:    toNumber( effect.Extra ),
     source:   effect.Source,
     category: effect.Category,
