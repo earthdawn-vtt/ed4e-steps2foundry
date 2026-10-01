@@ -259,7 +259,7 @@ function parseSkill( skill ) {
 function parseDevotion( devotion ) {
   return {
     id:   splitSourceId( devotion.devotionID ),
-    rank: devotion.devotionRank,
+    rank: toNumber( devotion.devotionRank ),
     tier: devotion.Cost.toLowerCase(),
   };
 }
