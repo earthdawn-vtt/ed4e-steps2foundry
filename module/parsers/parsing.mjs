@@ -3,7 +3,7 @@
  */
 
 import { lowerCaseFirstLetter } from "../utils/string.mjs";
-import { normalizeSentinel } from "./normalizers.mjs";
+import { normalizeEnumToken, normalizeSentinel } from "./normalizers.mjs";
 import { SecondStepFormatError } from "./errors.mjs";
 import { SECOND_STEP_ID_PREFIX, SECOND_STEP_THREAD_TO_EAE_TARGET } from "../constants/constants.mjs";
 
@@ -22,6 +22,16 @@ function toNumber( value, fallback = -1 ) {
   if ( value === null ) return fallback;
   const parsedNumber = Number( value );
   return Number.isNaN( parsedNumber ) ? fallback : parsedNumber;
+}
+
+/**
+ * Converts the given value to a number unless it is `null` or `undefined`, in which case `undefined` is returned.
+ * Unlike a plain truthiness check, this correctly preserves a legitimate `0` value.
+ * @param {any} value - The value to be converted to a number.
+ * @returns {number|undefined} The converted number, or `undefined` if the value is absent.
+ */
+function optionalNumber( value ) {
+  return value == null ? undefined : toNumber( value );
 }
 
 /**
@@ -244,7 +254,7 @@ function parseSkill( skill ) {
     id:        splitSourceId( skill.ID ),
     rank:      toNumber( skill.Rank ),
     freeRanks: toNumber( skill.Freerank ),
-    category:  skill.Category,
+    category:  normalizeEnumToken( skill.Category ),
     uid:       skill.UID,
     attribute: mapAttributeToAbbreviation( skill.Attribute ) ?? null,
     name:      skill.Name ?? null,
@@ -260,7 +270,7 @@ function parseDevotion( devotion ) {
   return {
     id:   splitSourceId( devotion.devotionID ),
     rank: toNumber( devotion.devotionRank ),
-    tier: devotion.Cost.toLowerCase(),
+    tier: normalizeEnumToken( devotion.Cost ),
   };
 }
 
@@ -272,7 +282,7 @@ function parseDevotion( devotion ) {
 function parseQuestor( questor ) {
   return {
     id:                  splitSourceId( questor.Doctrine ),
-    devotions:           questor.Ranks.map( devotion => parseDevotion( devotion ) ),
+    devotions:           ( questor.Ranks ?? [] ).map( devotion => parseDevotion( devotion ) ),
     rank:                toNumber( questor.Rank ),
     devotionPoints:      toNumber( questor.devotionPoints ),
     questorDevotionStep: toNumber( questor.questorDevotionStep ),
@@ -301,13 +311,13 @@ function parseEquipment( equipment ) {
     id:                  splitSourceId( equipment.ID ),
     amount:              toNumber( equipment.Count ),
     inUse:               parseBoolean( equipment.InUse ),
-    type:                equipment.Type,
-    damageStep:          equipment.DamageStep !== null ? toNumber( equipment.DamageStep ) : undefined,
-    timesForgedPhysical: equipment.PhForge !== null ? toNumber( equipment.PhForge ) : undefined,
-    timesForgedMystical: equipment.MyForge !== null? toNumber( equipment.MyForge ) : undefined,
-    timesForged:         equipment.Forged !== null ? toNumber( equipment.Forged ) : undefined,
-    rank:                equipment.Rank !== null ? toNumber( equipment.Rank ) : undefined,
-    lpCost:              equipment.Cost !== null ? toNumber( equipment.Cost ) : undefined,
+    type:                normalizeEnumToken( equipment.Type ),
+    damageStep:          optionalNumber( equipment.DamageStep ),
+    timesForgedPhysical: optionalNumber( equipment.PhForge ),
+    timesForgedMystical: optionalNumber( equipment.MyForge ),
+    timesForged:         optionalNumber( equipment.Forged ),
+    rank:                optionalNumber( equipment.Rank ),
+    lpCost:              optionalNumber( equipment.Cost ),
   };
 }
 
@@ -321,7 +331,7 @@ function parsePath( path ) {
     id:             splitSourceId( path.ID ),
     rank:           toNumber( path.Rank ),
     linked:         splitSourceId( path.Linked ),
-    grantedTalents: path.GrantedTalents.map( talentId => splitSourceId( talentId ) ),
+    grantedTalents: ( path.GrantedTalents ?? [] ).map( talentId => splitSourceId( talentId ) ),
   };
 }
 
@@ -375,10 +385,10 @@ function parseEffect( effect ) {
   return {
     id:       splitSourceId( effect.ID ),
     active:   parseBoolean( effect.Active ),
-    lp:       effect.LP !== null ? toNumber( effect.LP ) : undefined,
+    lp:       optionalNumber( effect.LP ),
     extra:    toNumber( effect.Extra ),
-    source:   effect.Source,
-    category: effect.Category,
+    source:   normalizeEnumToken( effect.Source ),
+    category: normalizeEnumToken( effect.Category ),
   };
 }
 
@@ -389,7 +399,7 @@ function parseEffect( effect ) {
  */
 function parseEffectModifier( modifier ) {
   return {
-    category:     modifier.Category,
+    category:     normalizeEnumToken( modifier.Category ),
     id:           modifier.ID,
     modifier:     toNumber( modifier.Modifier, undefined ) ?? modifier.Modifier,
     multipliable: parseBoolean( modifier.IsMultipliable ),
@@ -407,9 +417,9 @@ function parseHomebrewEffect( effect ) {
     id:          splitSourceId( effect.ID ),
     name:        normalizeSentinel( effect.Name ),
     description: normalizeSentinel( effect.Description ),
-    duration:    effect.Duration,
-    category:    effect.Category,
-    modifiers:   effect.Modifiers.map( modifier => parseEffectModifier( modifier ) ),
+    duration:    normalizeEnumToken( effect.Duration ),
+    category:    normalizeEnumToken( effect.Category ),
+    modifiers:   ( effect.Modifiers ?? [] ).map( modifier => parseEffectModifier( modifier ) ),
   };
 }
 
@@ -440,17 +450,17 @@ export function parseSecondStepExport( raw ) {
     portraitUrl:     parsePortraitUrl( raw.PortraitURL ),
     namegiver:       splitSourceId( raw.Race ),
     attributes:      parseAttributes( raw.Attributes ),
-    disciplines:     raw.Disciplines.map( discipline => parseDiscipline( discipline ) ),
-    paths:           raw.Paths.map( path => parsePath( path ) ),
-    questor:         parseQuestor( raw.Questor ),
+    disciplines:     ( raw.Disciplines ?? [] ).map( discipline => parseDiscipline( discipline ) ),
+    paths:           ( raw.Paths ?? [] ).map( path => parsePath( path ) ),
+    questor:         raw.Questor ? parseQuestor( raw.Questor ) : null,
     talents:         raw.Talents.map( talent => parseTalent( talent ) ),
     knacks:          raw.Knacks.map( knack => parseKnack( knack ) ),
     skills:          raw.Skills.map( skill => parseSkill( skill ) ),
     spells:          raw.Spells.map( spell => parseSpell( spell ) ),
     equipment:       raw.Equipment.map( equipment => parseEquipment( equipment ) ),
-    magic:           raw.Magic.map( magic => parseMagic( magic ) ),
-    effects:         raw.Effects.map( effect => parseEffect( effect ) ),
-    homebrewEffects: raw.Homebrew.Effects.map( effect => parseHomebrewEffect( effect ) ),
+    magic:           ( raw.Magic ?? [] ).map( magic => parseMagic( magic ) ),
+    effects:         ( raw.Effects ?? [] ).map( effect => parseEffect( effect ) ),
+    homebrewEffects: ( raw.Homebrew?.Effects ?? [] ).map( effect => parseHomebrewEffect( effect ) ),
     damage:          toNumber( raw.Damage ),
     wounds:          toNumber( raw.Wounds ),
     legendPoints:    toNumber( raw.LegendPoints ),
