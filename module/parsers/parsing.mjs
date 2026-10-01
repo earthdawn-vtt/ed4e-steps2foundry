@@ -59,22 +59,6 @@ function parseBoolean( value ) {
 }
 
 /**
- * Splits a comma-separated string into an array of trimmed values, with an optional mapping function applied to each value.
- *
- * @param {string} theString - The input string containing comma-separated values.
- * @param {Function} [mapFunction] - An optional function to transform each trimmed value in the resulting array.
- * @return {Array} An array of trimmed and optionally transformed values from the input string.
- */
-function splitCommaList( theString, mapFunction = undefined ) {
-  if ( !theString ) return [];
-  return theString.split(
-    ","
-  ).map(
-    value => mapFunction ? mapFunction( value.trim() ) : value.trim()
-  );
-}
-
-/**
  * Maps a given attribute name to its corresponding abbreviation.
  *
  * @param {string} attribute - The attribute name to map. Must be a non-empty string.
@@ -281,7 +265,7 @@ function parseDevotion( devotion ) {
  */
 function parseQuestor( questor ) {
   return {
-    id:                  splitSourceId( questor.Doctrine ),
+    passionId:           splitSourceId( questor.Doctrine ),
     devotions:           ( questor.Ranks ?? [] ).map( devotion => parseDevotion( devotion ) ),
     rank:                toNumber( questor.Rank ),
     devotionPoints:      toNumber( questor.devotionPoints ),
