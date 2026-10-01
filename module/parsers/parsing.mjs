@@ -230,7 +230,7 @@ function parseTalent( talent ) {
 function parseKnack( knack ) {
   return {
     id:        splitSourceId( knack.ID ),
-    attribute: knack.Attribute.toLowerCase().slice( 0, 3 ),
+    attribute: mapAttributeToAbbreviation( knack.Attribute ),
   };
 }
 
