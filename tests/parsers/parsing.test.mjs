@@ -264,7 +264,6 @@ describe( "parseSecondStepExport", () => {
       const { homebrewEffects } = parseSecondStepExport( rawExport );
       const customEffect = homebrewEffects.find( e => e.id.secondStepId === "1495f853-87d4-42b5-a0de-932d20f2472a" );
       const textModifier = customEffect.modifiers.find( m => m.category === "text" );
-      console.log( customEffect, textModifier );
       expect( textModifier.modifier ).toBe( "text effect value 2200" );
     } );
 
