@@ -36,9 +36,10 @@ function optionalNumber( value ) {
 
 /**
  * Tries to parse the given value according to the allowed options in {@link BooleanValue}. If the parsing fails,
- * `undefined` is returned.
+ * an error is thrown.
  * @param {any} value
- * @returns {boolean|undefined} The parsed boolean value, or `undefined` if it could not be parsed.
+ * @returns {boolean} The parsed boolean value.
+ * @throws {Error} If the value is not a valid boolean string.
  */
 function parseBoolean( value ) {
   if ( typeof value === "boolean" ) return value;
@@ -54,7 +55,17 @@ function parseBoolean( value ) {
     }
   }
 
-  return undefined;
+  throw new Error( "Invalid boolean value" );
+}
+
+/**
+ * Parses the given value as a boolean unless it is `null` or `undefined`, in which case `undefined` is returned.
+ * Unlike calling `parseBoolean` directly, this does not throw when an optional boolean-like field is absent.
+ * @param {any} value - The value to be parsed as a boolean.
+ * @returns {boolean|undefined} The parsed boolean, or `undefined` if the value is absent.
+ */
+function optionalBoolean( value ) {
+  return value == null ? undefined : parseBoolean( value );
 }
 
 /**
@@ -387,8 +398,8 @@ function parseEffectModifier( modifier ) {
     category:     normalizeEnumToken( modifier.Category ),
     id:           modifier.ID,
     modifier:     toNumber( modifier.Modifier, null ) ?? modifier.Modifier,
-    multipliable: parseBoolean( modifier.IsMultipliable ),
-    raisable:     parseBoolean( modifier.IsRaisable ),
+    multipliable: optionalBoolean( modifier.IsMultipliable ),
+    raisable:     optionalBoolean( modifier.IsRaisable ),
   };
 }
 
