@@ -55,7 +55,7 @@ function parseBoolean( value ) {
     }
   }
 
-  throw new Error( "Invalid boolean value" );
+  return undefined;
 }
 
 /**
@@ -211,8 +211,8 @@ function parseTalent( talent ) {
     lpCost:     toNumber( talent.Cost ),
     spell:      talent.Spell ? splitSourceId( talent.Spell ) : undefined,
     path:       talent.PathID ? splitSourceId( talent.PathID ) : undefined,
-    pathRank:   talent.PathRank !== null ? toNumber( talent.PathRank ) : undefined,
-    bonusRank:  talent.BonusRank !== null ? toNumber( talent.BonusRank ) : undefined,
+    pathRank:   optionalNumber( talent.PathRank ),
+    bonusRank:  optionalNumber( talent.BonusRank ),
   };
 }
 
@@ -224,7 +224,7 @@ function parseTalent( talent ) {
 function parseKnack( knack ) {
   return {
     id:        splitSourceId( knack.ID ),
-    attribute: mapAttributeToAbbreviation( knack.Attribute ),
+    attribute: mapAttributeToAbbreviation( knack.Attribute ) ?? null,
   };
 }
 
@@ -329,8 +329,10 @@ function parseThreadTarget( target ) {
     console.debug( "Empty target: ", target );
     return undefined;
   }
-  return Object.hasOwn( SECOND_STEP_THREAD_TO_EAE_TARGET, target )
-    ? SECOND_STEP_THREAD_TO_EAE_TARGET[ target ]
+
+  const normalizedTarget = target.trim().toLowerCase();
+  return Object.hasOwn( SECOND_STEP_THREAD_TO_EAE_TARGET, normalizedTarget )
+    ? SECOND_STEP_THREAD_TO_EAE_TARGET[ normalizedTarget ]
     : splitSourceId( target );
 }
 
@@ -356,7 +358,7 @@ function parseMagic( magic ) {
     id:      splitSourceId( magic.ID ),
     threads: magic.Threads?.map( thread => parseThread( thread ) ) ?? [],
     target:  parseThreadTarget( magic.Target ),
-    active:  parseBoolean( magic.Applicable ),
+    active:  parseBoolean( magic.Applicable ?? false ),
   };
 }
 

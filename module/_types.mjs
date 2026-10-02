@@ -573,7 +573,8 @@
 /**
  * @typedef ParsedKnack
  * @property {ParsedIdSource} id - ID of the knack.
- * @property {AttributeAbbreviation} attribute - The attribute the knack is based on.
+ * @property {AttributeAbbreviation|null} attribute - The attribute the knack is based on, or `null` if the
+ * SecondStep export used a sentinel (e.g. `"&nbsp;"`) that does not map to a known attribute.
  */
 
 /**
