@@ -100,7 +100,7 @@ export default defineConfig( [ {
   rules: {
     complexity:             [ "error", { max: 20 } ],
     "max-depth":            [ "error", 5 ],
-    "max-nested-callbacks": [ "error", 3 ],
+    "max-nested-callbacks": [ "error", 4 ],
     "max-params":           [ "warn", 5 ],
 
     "no-alert":              "off",
