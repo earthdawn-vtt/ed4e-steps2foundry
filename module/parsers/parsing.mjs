@@ -15,7 +15,7 @@ import { SECOND_STEP_ID_PREFIX, SECOND_STEP_THREAD_TO_EAE_TARGET } from "../cons
  * it returns the provided fallback value.
  *
  * @param {any} value - The value to be converted to a number.
- * @param {number} [fallback=-1] - The fallback value to return if conversion is not possible.
+ * @param {any} [fallback=-1] - The fallback value to return if conversion is not possible.
  * @returns {number} The converted number or the fallback value.
  */
 function toNumber( value, fallback = -1 ) {
@@ -387,7 +387,7 @@ function parseEffectModifier( modifier ) {
   return {
     category:     normalizeEnumToken( modifier.Category ),
     id:           modifier.ID,
-    modifier:     toNumber( modifier.Modifier, undefined ) ?? modifier.Modifier,
+    modifier:     toNumber( modifier.Modifier, null ) ?? modifier.Modifier,
     multipliable: parseBoolean( modifier.IsMultipliable ),
     raisable:     parseBoolean( modifier.IsRaisable ),
   };
