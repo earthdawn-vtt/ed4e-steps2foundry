@@ -63,12 +63,12 @@ describe( "parseSecondStepExport", () => {
       const { disciplines } = parseSecondStepExport( rawExport );
       expect( disciplines ).toHaveLength( rawExport.Disciplines.length );
 
-      const wizard = disciplines.find( d => d.id.secondStepId === "ED4Wizard" );
+      const wizard = disciplines.find( discipline => discipline.id.secondStepId === "ED4Wizard" );
       expect( wizard.circle ).toBe( 12 );
       expect( wizard.startedAt ).toBe( 15 ); // raw value is a number
       expect( wizard.optionalTalentsChosen ).toHaveLength( 12 );
 
-      const elementalist = disciplines.find( d => d.id.secondStepId === "ED4Elementalist" );
+      const elementalist = disciplines.find( discipline => discipline.id.secondStepId === "ED4Elementalist" );
       expect( elementalist.startedAt ).toBe( 2 ); // raw value is a string
     } );
 
@@ -135,10 +135,10 @@ describe( "parseSecondStepExport", () => {
   describe( "knacks", () => {
     it( "falls back to null for an unmappable attribute sentinel", () => {
       const { knacks } = parseSecondStepExport( rawExport );
-      const unmapped = knacks.find( k => k.id.secondStepId === "ED4ArcaneMutteringsArcaneCurses" );
+      const unmapped = knacks.find( knack => knack.id.secondStepId === "ED4ArcaneMutteringsArcaneCurses" );
       expect( unmapped.attribute ).toBeNull();
 
-      const mapped = knacks.find( k => k.id.secondStepId === "ED4ArcaneMutteringsJinx" );
+      const mapped = knacks.find( knack => knack.id.secondStepId === "ED4ArcaneMutteringsJinx" );
       expect( mapped.attribute ).toBe( "cha" );
     } );
   } );
@@ -150,14 +150,14 @@ describe( "parseSecondStepExport", () => {
       for ( const skill of skills ) {
         expect( skill.category ).toMatch( TOKEN_REGEX );
       }
-      expect( skills.find( s => s.name === "Accounting" ).category ).toBe( "knowledge" );
-      expect( skills.find( s => s.name === "Embroidery" ).category ).toBe( "artisan" );
+      expect( skills.find( skill => skill.name === "Accounting" ).category ).toBe( "knowledge" );
+      expect( skills.find( skill => skill.name === "Embroidery" ).category ).toBe( "artisan" );
     } );
   } );
 
   describe( "equipment", () => {
     let equipment;
-    const byId = id => equipment.find( e => e.id.secondStepId === id );
+    const byId = id => equipment.find( equipment => equipment.id.secondStepId === id );
 
     it( "normalizes equipment types, including multi-word and slash-separated tokens", () => {
       equipment = parseSecondStepExport( rawExport ).equipment;
@@ -212,30 +212,30 @@ describe( "parseSecondStepExport", () => {
   describe( "magic", () => {
     it( "does not throw on magic entries lacking an Applicable field, defaulting them to inactive", () => {
       const { magic } = parseSecondStepExport( rawExport );
-      const bloodPromise = magic.find( m => m.id.secondStepId === "ED4BloodPromise" );
+      const bloodPromise = magic.find( magicThing => magicThing.id.secondStepId === "ED4BloodPromise" );
       expect( bloodPromise.active ).toBe( false );
     } );
 
     it( "resolves known thread targets to their EAE characteristic path, case-insensitively", () => {
       const { magic } = parseSecondStepExport( rawExport );
-      const corePattern = magic.find( m => m.id.secondStepId === "ED4CorePatternItem" );
+      const corePattern = magic.find( magicThing => magicThing.id.secondStepId === "ED4CorePatternItem" );
       expect( corePattern.threads[ 0 ].target ).toBe( "system.characteristics.defenses.mystical.value" );
 
-      const groupPattern = magic.find( m => m.id.secondStepId === "ED4GroupTruePattern" );
+      const groupPattern = magic.find( magicThing => magicThing.id.secondStepId === "ED4GroupTruePattern" );
       const durThread = groupPattern.threads.find( t => t.rank === 1 );
       expect( durThread.target ).toBe( "system.durabilityBonus" );
     } );
 
     it( "splits an unrecognized (e.g. UUID) thread target as an ID instead", () => {
       const { magic } = parseSecondStepExport( rawExport );
-      const groupPattern = magic.find( m => m.id.secondStepId === "ED4GroupTruePattern" );
-      const abilityThread = groupPattern.threads.find( t => t.rank === 5 && typeof t.target === "object" );
+      const groupPattern = magic.find( magicThing => magicThing.id.secondStepId === "ED4GroupTruePattern" );
+      const abilityThread = groupPattern.threads.find( thread => thread.rank === 5 && typeof thread.target === "object" );
       expect( abilityThread.target.source ).toBeNull();
     } );
 
     it( "treats an empty top-level Target as undefined", () => {
       const { magic } = parseSecondStepExport( rawExport );
-      const corePattern = magic.find( m => m.id.secondStepId === "ED4CorePatternItem" );
+      const corePattern = magic.find( magicThing => magicThing.id.secondStepId === "ED4CorePatternItem" );
       expect( corePattern.target ).toBeUndefined();
     } );
   } );
@@ -247,29 +247,29 @@ describe( "parseSecondStepExport", () => {
         expect( effect.source ).toMatch( TOKEN_REGEX );
         expect( effect.category ).toMatch( TOKEN_REGEX );
       }
-      expect( effects.some( e => e.category === "legendPointsAward" ) ).toBe( true );
+      expect( effects.some( effect => effect.category === "legendPointsAward" ) ).toBe( true );
     } );
 
     it( "does not throw on effect modifiers lacking IsRaisable, leaving it undefined", () => {
       const { homebrewEffects } = parseSecondStepExport( rawExport );
-      const customEffect = homebrewEffects.find( e => e.id.secondStepId === "1495f853-87d4-42b5-a0de-932d20f2472a" );
-      const combatModifier = customEffect.modifiers.find( m => m.category === "combat" );
+      const customEffect = homebrewEffects.find( effect => effect.id.secondStepId === "1495f853-87d4-42b5-a0de-932d20f2472a" );
+      const combatModifier = customEffect.modifiers.find( modifier => modifier.category === "combat" );
       expect( combatModifier.raisable ).toBeUndefined();
 
-      const xTalentModifier = customEffect.modifiers.find( m => m.category === "xtalent" );
+      const xTalentModifier = customEffect.modifiers.find( modifier => modifier.category === "xtalent" );
       expect( xTalentModifier.raisable ).toBe( true );
     } );
 
     it( "falls back to the raw string for a non-numeric modifier value", () => {
       const { homebrewEffects } = parseSecondStepExport( rawExport );
-      const customEffect = homebrewEffects.find( e => e.id.secondStepId === "1495f853-87d4-42b5-a0de-932d20f2472a" );
-      const textModifier = customEffect.modifiers.find( m => m.category === "text" );
+      const customEffect = homebrewEffects.find( effect => effect.id.secondStepId === "1495f853-87d4-42b5-a0de-932d20f2472a" );
+      const textModifier = customEffect.modifiers.find( modifier => modifier.category === "text" );
       expect( textModifier.modifier ).toBe( "text effect value 2200" );
     } );
 
     it( "preserves a legitimate modifier value of 0 from an empty-string source", () => {
       const { homebrewEffects } = parseSecondStepExport( rawExport );
-      const lpAward = homebrewEffects.find( e => e.id.secondStepId === "f5f0aa9f-468d-4922-890b-9ad45b443711" );
+      const lpAward = homebrewEffects.find( effect => effect.id.secondStepId === "f5f0aa9f-468d-4922-890b-9ad45b443711" );
       expect( lpAward.modifiers[ 0 ].modifier ).toBe( 0 );
     } );
   } );
