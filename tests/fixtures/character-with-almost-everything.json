@@ -1,0 +1,6886 @@
+{
+  "Basic": {
+    "Name": "TestName_the-one-with-everything",
+    "Player": "TestPlayer",
+    "Gender": "testGEnder",
+    "Age": "testAge23",
+    "Height": "",
+    "Weight": "",
+    "Hair": "testHair",
+    "Skin": "testSkin",
+    "Eyes": "testEyes",
+    "Passion": "testPassion",
+    "Traits": "testTraits,andmore",
+    "Description": "<div>test description</div><div>with linebreaks</div><div><br></div><div>many symbols</div><div><br></div><div>emoji 😅😅😅😅😅</div>",
+    "LogText": "<div>testLogText</div><div> this is </div><div>some lorem</div><div>ipsum</div><div><br></div><div>log</div>"
+  },
+  "Race": "ED4Windling",
+  "attributePoints": 25,
+  "Attributes": {
+    "Dex": {
+      "Buildpoints": "3",
+      "Increases": 0
+    },
+    "Str": {
+      "Buildpoints": 0,
+      "Increases": 0
+    },
+    "Tou": {
+      "Buildpoints": "3",
+      "Increases": 0
+    },
+    "Per": {
+      "Buildpoints": "12",
+      "Increases": 0
+    },
+    "Wil": {
+      "Buildpoints": "5",
+      "Increases": 0
+    },
+    "Cha": {
+      "Buildpoints": "1",
+      "Increases": 0
+    }
+  },
+  "LegendPoints": 6969696,
+  "MiscSpent": [],
+  "Disciplines": [
+    {
+      "ID": "ED4Wizard",
+      "Circle": "12",
+      "Order": "0",
+      "StartedAt": 15,
+      "OptionalTalentsChosen": [
+        {
+          "Circle": "1",
+          "ID": "ED4StandardMatrix"
+        },
+        {
+          "Circle": "2",
+          "ID": "ED4ReadandWriteLanguage"
+        },
+        {
+          "Circle": "3",
+          "ID": "ED4BookMemory"
+        },
+        {
+          "Circle": "4",
+          "ID": "ED4CreatureAnalysis"
+        },
+        {
+          "Circle": "5",
+          "ID": "ED4EnhancedMatrix"
+        },
+        {
+          "Circle": "6",
+          "ID": "ED4Hypnotize"
+        },
+        {
+          "Circle": "7",
+          "ID": "ED4PowerMask"
+        },
+        {
+          "Circle": "8",
+          "ID": "ED4Lifesight"
+        },
+        {
+          "Circle": "9",
+          "ID": "ED4ArmoredMatrix"
+        },
+        {
+          "Circle": "10",
+          "ID": "ED4AstralPocket"
+        },
+        {
+          "Circle": "11",
+          "ID": "ED4PerfectFocus"
+        },
+        {
+          "Circle": "12",
+          "ID": "ED4RangePattern"
+        }
+      ]
+    },
+    {
+      "ID": "ED4Elementalist",
+      "Circle": "9",
+      "Order": "1",
+      "StartedAt": "2",
+      "OptionalTalentsChosen": [
+        {
+          "Circle": "1",
+          "ID": "ED4AvoidBlow"
+        },
+        {
+          "Circle": "2",
+          "ID": "ED4AirSpeaking"
+        },
+        {
+          "Circle": "3",
+          "ID": "ED4WindCatcher"
+        },
+        {
+          "Circle": "4",
+          "ID": "ED4WildernessSurvival"
+        },
+        {
+          "Circle": "5",
+          "ID": "ED4SafePath"
+        },
+        {
+          "Circle": "6",
+          "ID": "ED4ColdPurify"
+        },
+        {
+          "Circle": "7",
+          "ID": "ED4Fireblood"
+        },
+        {
+          "Circle": "8",
+          "ID": "ED4GlidingStride"
+        },
+        {
+          "Circle": "9",
+          "ID": "ED4ContestofWills"
+        }
+      ]
+    },
+    {
+      "ID": "ED4Troubadour",
+      "Circle": "6",
+      "Order": "2",
+      "StartedAt": "6",
+      "OptionalTalentsChosen": [
+        {
+          "Circle": "1",
+          "ID": "ED4Conversation"
+        },
+        {
+          "Circle": "2",
+          "ID": "ED4MeleeWeapons"
+        },
+        {
+          "Circle": "3",
+          "ID": "ED4Haggle"
+        },
+        {
+          "Circle": "4",
+          "ID": "ED4Taunt"
+        },
+        {
+          "Circle": "5",
+          "ID": "ED4DisguiseSelf"
+        },
+        {
+          "Circle": "6",
+          "ID": "ED4LionHeart"
+        }
+      ]
+    },
+    {
+      "ID": "ED4Nethermancer",
+      "Circle": "11",
+      "Order": "3",
+      "StartedAt": "10",
+      "OptionalTalentsChosen": [
+        {
+          "Circle": "1",
+          "ID": "ED4ArcaneMutterings"
+        },
+        {
+          "Circle": "2",
+          "ID": "ED4CommandNightflyer"
+        },
+        {
+          "Circle": "3",
+          "ID": "ED4SpeakLanguage"
+        },
+        {
+          "Circle": "4",
+          "ID": "ED4StealthyStride"
+        },
+        {
+          "Circle": "5",
+          "ID": "ED4SteelyStare"
+        },
+        {
+          "Circle": "6",
+          "ID": "ED4BloodShare"
+        },
+        {
+          "Circle": "7",
+          "ID": "ED4SpiritMount"
+        },
+        {
+          "Circle": "8",
+          "ID": "ED4Banish"
+        },
+        {
+          "Circle": "9",
+          "ID": "ED4SummoningCircle"
+        },
+        {
+          "Circle": "10",
+          "ID": "ED4SoulAegis"
+        },
+        {
+          "Circle": "11",
+          "ID": "ED4SafeThought"
+        }
+      ]
+    }
+  ],
+  "Paths": [
+    {
+      "ID": "ED4Windmaster",
+      "Rank": "10",
+      "Linked": "ED4Wizard",
+      "GrantedTalents": [
+        "ED4Distract",
+        "ED4Sprint",
+        "ED4TigerSpring",
+        "ED4DangerSense",
+        "ED4AirDance",
+        "ED4SpotArmorFlaw",
+        "ED4TemperFlesh",
+        "ED4WoundBalance",
+        "ED4UnflinchingFortitude",
+        "ED4WingBlitz"
+      ]
+    }
+  ],
+  "Talents": [
+    {
+      "Order": "0",
+      "ID": "ED4AstralSight",
+      "Rank": 13,
+      "Freerank": "0",
+      "Sources": [
+        {
+          "Type": "Race",
+          "ID": "ED4Windling"
+        }
+      ],
+      "Source": "Windling, Wizard 2, Nethermancer 1",
+      "DisciplineId": "ED4Wizard, ED4Nethermancer",
+      "Circle": "2, 1",
+      "Type": "Discipline",
+      "TalentPointsUseable": "True",
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Windling",
+      "FirstLearnt": 0,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Windling",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Windling",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Windling",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Windling",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Windling",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Windling",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Windling",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Windling",
+          "Cost": 14400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Windling",
+          "Cost": 23300
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Windling",
+          "Cost": 37700
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Windling",
+          "Cost": 61000
+        },
+        {
+          "Rank": 12,
+          "Source": "ED4Windling",
+          "Cost": 98700
+        },
+        {
+          "Rank": 13,
+          "Source": "ED4Windling",
+          "Cost": 159700
+        }
+      ],
+      "UID": "6b6561fd-3dbf-4121-8b0d-0ed46575185f",
+      "Step": 20,
+      "Cost": 98500
+    },
+    {
+      "Order": "1",
+      "ID": "ED4EnhancedMatrix",
+      "Rank": 12,
+      "Freerank": 0,
+      "Sources": [
+        {
+          "Type": "DisciplineFree",
+          "ID": "ED4Wizard"
+        }
+      ],
+      "Source": "Wizard 1, Elementalist 1, Nethermancer 1",
+      "DisciplineId": "ED4Wizard, ED4Elementalist, ED4Nethermancer",
+      "Circle": "1, 1, 1",
+      "Type": "Free",
+      "FreeTalent": "0",
+      "CurrentCost": "Free",
+      "CurrentSource": "ED4Nethermancer",
+      "debug": "Free Matrix, Swapped",
+      "Debug": "Merged Free Talent",
+      "Ranks": [],
+      "UID": "011eb8dd-757e-46df-98e5-2219563198a2",
+      "Step": "-",
+      "Cost": 0
+    },
+    {
+      "Order": "2",
+      "ID": "ED4StandardMatrix",
+      "Rank": 12,
+      "Freerank": 0,
+      "Sources": [
+        {
+          "Type": "DisciplineFree",
+          "ID": "ED4Wizard"
+        }
+      ],
+      "Source": "Wizard 1, Elementalist 1, Nethermancer 1",
+      "DisciplineId": "ED4Wizard, ED4Elementalist, ED4Nethermancer",
+      "Circle": "1, 1, 1",
+      "Type": "Free",
+      "FreeTalent": "1",
+      "CurrentCost": "Free",
+      "CurrentSource": "ED4Nethermancer",
+      "debug": "Free Matrix",
+      "Debug": "Merged Free Talent",
+      "Ranks": [],
+      "UID": "7914602a-8332-437d-872e-bb73fc201287",
+      "Spell": "ED4EShieldWillow",
+      "Step": "-",
+      "Cost": 0
+    },
+    {
+      "Order": "3",
+      "ID": "ED4DispelMagic",
+      "Rank": 9,
+      "Freerank": 2,
+      "Source": "Wizard 1",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "1",
+      "Type": "Discipline",
+      "FirstLearnt": 0,
+      "TalentPointsUseable": "True",
+      "CurrentCost": 0,
+      "CurrentSource": "ED4Wizard",
+      "HasBeenMerged": false,
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 100
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 200
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        }
+      ],
+      "UID": "9bc117b0-d070-4f03-a209-2d3e0ca5e5c6",
+      "Step": 20,
+      "Cost": 13900
+    },
+    {
+      "Order": "4",
+      "ID": "ED4Patterncraft",
+      "Rank": 11,
+      "Freerank": "0",
+      "Source": "Wizard 1, Elementalist 1, Nethermancer 1",
+      "DisciplineId": "ED4Wizard, ED4Elementalist, ED4Nethermancer",
+      "Circle": "1, 1, 1",
+      "Type": "Discipline",
+      "FirstLearnt": 0,
+      "TalentPointsUseable": "True",
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Wizard",
+      "HasBeenMerged": false,
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Wizard",
+          "Cost": 14400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Wizard",
+          "Cost": 23300
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Wizard",
+          "Cost": 37700
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Wizard",
+          "Cost": 61000
+        }
+      ],
+      "UID": "c36cecae-be0d-4cd4-b250-60b5451aa4e3",
+      "Step": 18,
+      "Cost": 37500
+    },
+    {
+      "Order": "5",
+      "ID": "ED4Research",
+      "Rank": 9,
+      "Freerank": 1,
+      "Source": "Wizard 1, Troubadour 4",
+      "DisciplineId": "ED4Wizard, ED4Troubadour",
+      "Circle": "1, 4",
+      "Type": "Discipline",
+      "FirstLearnt": 0,
+      "TalentPointsUseable": "True",
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Wizard",
+      "HasBeenMerged": false,
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Wizard",
+          "Cost": 8900
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Wizard",
+          "Cost": 14400
+        }
+      ],
+      "UID": "970f2402-809b-4716-9ae4-7964f6ba667d",
+      "Step": 16,
+      "Cost": 14100
+    },
+    {
+      "Order": "6",
+      "ID": "ED4Spellcasting",
+      "Rank": 9,
+      "Freerank": 3,
+      "Source": "Wizard 1, Elementalist 1, Nethermancer 1",
+      "DisciplineId": "ED4Wizard, ED4Elementalist, ED4Nethermancer",
+      "Circle": "1, 1, 1",
+      "Type": "Discipline",
+      "FirstLearnt": 0,
+      "TalentPointsUseable": "True",
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Wizard",
+      "HasBeenMerged": false,
+      "PayExtraForFirstRank": false,
+      "Debug": "undefined Thread Item Merge",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Wizard",
+          "Cost": 14400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Wizard",
+          "Cost": 23300
+        }
+      ],
+      "UID": "ab9fd1dc-e81e-4f92-849d-18872aa78d74",
+      "Step": 23,
+      "Cost": 13600
+    },
+    {
+      "Order": "7",
+      "ID": "ED4ThreadWeavingWizardry",
+      "Rank": 15,
+      "Freerank": 2,
+      "Source": "Wizard 1",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "1",
+      "Type": "Discipline",
+      "FirstLearnt": 0,
+      "TalentPointsUseable": "True",
+      "CurrentCost": 0,
+      "CurrentSource": "ED4Wizard",
+      "HasBeenMerged": false,
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 100
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 200
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Wizard",
+          "Cost": 8900
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Wizard",
+          "Cost": 14400
+        },
+        {
+          "Rank": 12,
+          "Source": "ED4Wizard",
+          "Cost": 23300
+        },
+        {
+          "Rank": 13,
+          "Source": "ED4Wizard",
+          "Cost": 37700
+        },
+        {
+          "Rank": 14,
+          "Source": "ED4Wizard",
+          "Cost": 61000
+        },
+        {
+          "Rank": 15,
+          "Source": "ED4Wizard",
+          "Cost": 98700
+        }
+      ],
+      "UID": "6e028886-ecb3-412d-8093-4afc8740b1a4",
+      "Step": 22,
+      "Cost": 257900
+    },
+    {
+      "Order": "8",
+      "ID": "ED4StandardMatrix",
+      "Rank": 12,
+      "Freerank": 0,
+      "Source": "Wizard 1",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "1",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 0,
+      "TalentPointsUseable": "True",
+      "CurrentCost": 0,
+      "CurrentSource": "ED4Wizard",
+      "Ranks": [],
+      "UID": "02d9bdfa-5afe-43fa-9896-36497eca0558",
+      "Spell": "ED4WCatchSpell",
+      "Step": "-",
+      "Cost": 60800
+    },
+    {
+      "Order": "9",
+      "ID": "ED4ReadandWriteLanguage",
+      "Rank": 11,
+      "Freerank": 0,
+      "Source": "Wizard 2",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "2",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 0,
+      "CurrentCost": 0,
+      "CurrentSource": "ED4Wizard",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 100
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 200
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Wizard",
+          "Cost": 8900
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Wizard",
+          "Cost": 14400
+        }
+      ],
+      "UID": "43484719-b107-484f-a08d-c2df1a23ec71",
+      "Step": 18,
+      "Cost": 37500
+    },
+    {
+      "Order": "10",
+      "ID": "ED4TenaciousWeave",
+      "Rank": 6,
+      "Freerank": 0,
+      "Source": "Wizard 3",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "3",
+      "Type": "Discipline",
+      "FirstLearnt": 0,
+      "CurrentCost": 0,
+      "CurrentSource": "ED4Wizard",
+      "HasBeenMerged": false,
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 100
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 200
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        }
+      ],
+      "UID": "674f1d17-c981-46d1-bd7e-a76434370617",
+      "Step": 12,
+      "Cost": 3200
+    },
+    {
+      "Order": "11",
+      "ID": "ED4BookMemory",
+      "Rank": 11,
+      "Freerank": 0,
+      "Source": "Wizard 3",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "3",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 0,
+      "CurrentCost": 0,
+      "CurrentSource": "ED4Wizard",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 100
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 200
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Wizard",
+          "Cost": 8900
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Wizard",
+          "Cost": 14400
+        }
+      ],
+      "UID": "d8e86439-ac49-49aa-b390-844d04f3f51c",
+      "Step": 17,
+      "Cost": 37500
+    },
+    {
+      "Order": "12",
+      "ID": "ED4SteelThought",
+      "Rank": 7,
+      "Freerank": 0,
+      "Source": "Wizard 4, Nethermancer 2",
+      "DisciplineId": "ED4Wizard, ED4Nethermancer",
+      "Circle": "4, 2",
+      "Type": "Discipline",
+      "FirstLearnt": 0,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Wizard",
+      "HasBeenMerged": false,
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 8900
+        }
+      ],
+      "UID": "192caf2c-54ae-405d-a895-225bae9080a2",
+      "Step": 13,
+      "Cost": 5300
+    },
+    {
+      "Order": "13",
+      "ID": "ED4CreatureAnalysis",
+      "Rank": 13,
+      "Freerank": 0,
+      "Source": "Wizard 4",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "4",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 0,
+      "CurrentCost": 0,
+      "CurrentSource": "ED4Wizard",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 100
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 200
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Wizard",
+          "Cost": 8900
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Wizard",
+          "Cost": 14400
+        },
+        {
+          "Rank": 12,
+          "Source": "ED4Wizard",
+          "Cost": 23300
+        },
+        {
+          "Rank": 13,
+          "Source": "ED4Wizard",
+          "Cost": 37700
+        }
+      ],
+      "UID": "e3585b6e-da64-4f5b-aace-a9adf1f46c9d",
+      "Step": 20,
+      "Cost": 98500
+    },
+    {
+      "Order": "14",
+      "ID": "ED4AstralInterference",
+      "Rank": 7,
+      "Freerank": 0,
+      "Source": "Wizard 5",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "5",
+      "Type": "Discipline",
+      "FirstLearnt": 0,
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Wizard",
+      "HasBeenMerged": false,
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        }
+      ],
+      "UID": "8ed05c2d-1dbb-4fc1-a967-60cd705a7391",
+      "Step": 13,
+      "Cost": 8600
+    },
+    {
+      "Order": "15",
+      "ID": "ED4EnhancedMatrix",
+      "Rank": 11,
+      "Freerank": 0,
+      "Source": "Wizard 5",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "5",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 0,
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Wizard",
+      "UID": "02d9bdfa-5afe-43fa-9896-36497eca0558",
+      "Ranks": [],
+      "Spell": "ED4WCatchSpell",
+      "Step": "-",
+      "Cost": 60700
+    },
+    {
+      "Order": "16",
+      "ID": "ED4Willforce",
+      "Rank": 11,
+      "Freerank": 0,
+      "Source": "Wizard 6, Elementalist 6, Nethermancer 6",
+      "DisciplineId": "ED4Wizard, ED4Elementalist, ED4Nethermancer",
+      "Circle": "6, 6, 6",
+      "Type": "Discipline",
+      "FirstLearnt": 0,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Wizard",
+      "HasBeenMerged": false,
+      "PayExtraForFirstRank": false,
+      "Debug": "undefined Thread Item Merge",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Wizard",
+          "Cost": 14400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Wizard",
+          "Cost": 23300
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Wizard",
+          "Cost": 37700
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Wizard",
+          "Cost": 61000
+        }
+      ],
+      "UID": "61d0a28b-3632-4479-8332-fbd3896c238d",
+      "Step": 19,
+      "Cost": 60700
+    },
+    {
+      "Order": "17",
+      "ID": "ED4Hypnotize",
+      "Rank": 12,
+      "Freerank": 0,
+      "Source": "Wizard 6",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "6",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 0,
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Wizard",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Wizard",
+          "Cost": 8900
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Wizard",
+          "Cost": 14400
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Wizard",
+          "Cost": 23300
+        },
+        {
+          "Rank": 12,
+          "Source": "ED4Wizard",
+          "Cost": 37700
+        }
+      ],
+      "UID": "ef7ef258-223b-4dd6-998b-94e2e455b37a",
+      "Step": 23,
+      "Cost": 98400
+    },
+    {
+      "Order": "18",
+      "ID": "ED4HoldThread",
+      "Rank": 12,
+      "Freerank": 0,
+      "Source": "Wizard 7, Elementalist 8, Nethermancer 8",
+      "DisciplineId": "ED4Wizard, ED4Elementalist, ED4Nethermancer",
+      "Circle": "7, 8, 8",
+      "Type": "Discipline",
+      "FirstLearnt": 0,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Wizard",
+      "HasBeenMerged": false,
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Wizard",
+          "Cost": 14400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Wizard",
+          "Cost": 23300
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Wizard",
+          "Cost": 37700
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Wizard",
+          "Cost": 61000
+        },
+        {
+          "Rank": 12,
+          "Source": "ED4Wizard",
+          "Cost": 98700
+        }
+      ],
+      "UID": "32e939c3-05fd-458b-af7d-61676e7fa0d5",
+      "Step": 18,
+      "Cost": 98400
+    },
+    {
+      "Order": "19",
+      "ID": "ED4PowerMask",
+      "Rank": 10,
+      "Freerank": 0,
+      "Source": "Wizard 7",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "7",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 0,
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Wizard",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Wizard",
+          "Cost": 8900
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Wizard",
+          "Cost": 14400
+        }
+      ],
+      "UID": "617be1e8-08b2-4fb4-8a1d-3c319797738c",
+      "Step": 16,
+      "Cost": 37400
+    },
+    {
+      "Order": "20",
+      "ID": "ED4SuppressCurse",
+      "Rank": 5,
+      "Freerank": 0,
+      "Source": "Wizard 8",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "8",
+      "Type": "Discipline",
+      "FirstLearnt": 0,
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Wizard",
+      "HasBeenMerged": false,
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        }
+      ],
+      "UID": "8debce07-5050-4b01-b792-d1e633bc3887",
+      "Step": 11,
+      "Cost": 3100
+    },
+    {
+      "Order": "21",
+      "ID": "ED4Lifesight",
+      "Rank": 12,
+      "Freerank": 0,
+      "Source": "Wizard 8",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "8",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 0,
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Wizard",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Wizard",
+          "Cost": 8900
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Wizard",
+          "Cost": 14400
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Wizard",
+          "Cost": 23300
+        },
+        {
+          "Rank": 12,
+          "Source": "ED4Wizard",
+          "Cost": 37700
+        }
+      ],
+      "UID": "9eaa4b30-cfb6-4920-8b22-f4d4b36ed77e",
+      "Step": 19,
+      "Cost": 98400
+    },
+    {
+      "Order": "22",
+      "ID": "ED4EideticMemory",
+      "Rank": 4,
+      "Freerank": 0,
+      "Source": "Wizard 9",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "9",
+      "Type": "Discipline",
+      "FirstLearnt": 0,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Wizard",
+      "HasBeenMerged": false,
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        }
+      ],
+      "UID": "be2482c3-cf79-4ef4-b78c-9672c44937c0",
+      "Step": 10,
+      "Cost": 2900
+    },
+    {
+      "Order": "23",
+      "ID": "ED4ArmoredMatrix",
+      "Rank": 11,
+      "Freerank": 0,
+      "Source": "Wizard 9",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "9",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 0,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Wizard",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Wizard",
+          "Cost": 8900
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Wizard",
+          "Cost": 14400
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Wizard",
+          "Cost": 23300
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Wizard",
+          "Cost": 37700
+        }
+      ],
+      "UID": "d9ffefb4-46df-47e8-9769-964775348439",
+      "Step": "-",
+      "Cost": 98200
+    },
+    {
+      "Order": "24",
+      "ID": "ED4GlyphofUnweaving",
+      "Rank": 4,
+      "Freerank": 0,
+      "Source": "Wizard 10",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "10",
+      "Type": "Discipline",
+      "FirstLearnt": 0,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Wizard",
+      "HasBeenMerged": false,
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        }
+      ],
+      "UID": "a95f3095-8e3e-4f62-b3dd-2691cff74e3f",
+      "Step": "-",
+      "Cost": 2900
+    },
+    {
+      "Order": "25",
+      "ID": "ED4AstralPocket",
+      "Rank": 7,
+      "Freerank": 0,
+      "Source": "Wizard 10",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "10",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 0,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Wizard",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        }
+      ],
+      "UID": "48fac6eb-41ee-45cb-a388-9f1f367a6aca",
+      "Step": 14,
+      "Cost": 13900
+    },
+    {
+      "Order": "26",
+      "ID": "ED4GlyphofShielding",
+      "Rank": 8,
+      "Freerank": 0,
+      "Source": "Wizard 11",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "11",
+      "Type": "Discipline",
+      "FirstLearnt": 0,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Wizard",
+      "HasBeenMerged": false,
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Wizard",
+          "Cost": 8900
+        }
+      ],
+      "UID": "9e542bf3-fc54-4847-abcc-9f00959fe5c5",
+      "Step": 15,
+      "Cost": 22800
+    },
+    {
+      "Order": "27",
+      "ID": "ED4PerfectFocus",
+      "Rank": 9,
+      "Freerank": 0,
+      "Source": "Wizard 11",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "11",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 0,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Wizard",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Wizard",
+          "Cost": 8900
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Wizard",
+          "Cost": 14400
+        }
+      ],
+      "UID": "ce6e58b8-1446-4759-9741-b0441b9efac6",
+      "Step": 15,
+      "Cost": 37200
+    },
+    {
+      "Order": "28",
+      "ID": "ED4ConciseCasting",
+      "Rank": 10,
+      "Freerank": 0,
+      "Source": "Wizard 12",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "12",
+      "Type": "Discipline",
+      "FirstLearnt": 0,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Wizard",
+      "HasBeenMerged": false,
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Wizard",
+          "Cost": 8900
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Wizard",
+          "Cost": 14400
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Wizard",
+          "Cost": 23300
+        }
+      ],
+      "UID": "eff48fec-6842-4f4e-a7f7-cc20ac08d6d7",
+      "Step": 17,
+      "Cost": 60500
+    },
+    {
+      "Order": "29",
+      "ID": "ED4RangePattern",
+      "Rank": 12,
+      "Freerank": 0,
+      "Source": "Wizard 12",
+      "DisciplineId": "ED4Wizard",
+      "Circle": "12",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 0,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Wizard",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Wizard",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Wizard",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Wizard",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Wizard",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Wizard",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Wizard",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Wizard",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Wizard",
+          "Cost": 8900
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Wizard",
+          "Cost": 14400
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Wizard",
+          "Cost": 23300
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Wizard",
+          "Cost": 37700
+        },
+        {
+          "Rank": 12,
+          "Source": "ED4Wizard",
+          "Cost": 61000
+        }
+      ],
+      "UID": "8b91a587-82a7-4128-bdda-f182b202cc83",
+      "Step": 19,
+      "Cost": 159200
+    },
+    {
+      "Order": "30",
+      "ID": "ED4Awareness",
+      "Rank": 11,
+      "Freerank": 0,
+      "Source": "Elementalist 1",
+      "DisciplineId": "ED4Elementalist",
+      "Circle": "1",
+      "Type": "Discipline",
+      "FirstLearnt": 1,
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Elementalist",
+      "PayExtraForFirstRank": true,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Elementalist",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Elementalist",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Elementalist",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Elementalist",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Elementalist",
+          "Cost": 1300
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Elementalist",
+          "Cost": 2100
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Elementalist",
+          "Cost": 3400
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Elementalist",
+          "Cost": 5500
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Elementalist",
+          "Cost": 8900
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Elementalist",
+          "Cost": 14400
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Elementalist",
+          "Cost": 23300
+        }
+      ],
+      "UID": "e5fb5125-245b-4109-afde-3447f5dd6b25",
+      "Step": 18,
+      "Cost": 61300
+    },
+    {
+      "Order": "31",
+      "ID": "ED4ThreadWeavingElementalism",
+      "Rank": 10,
+      "Freerank": 0,
+      "Source": "Elementalist 1",
+      "DisciplineId": "ED4Elementalist",
+      "Circle": "1",
+      "Type": "Discipline",
+      "FirstLearnt": 1,
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Elementalist",
+      "PayExtraForFirstRank": true,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Elementalist",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Elementalist",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Elementalist",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Elementalist",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Elementalist",
+          "Cost": 1300
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Elementalist",
+          "Cost": 2100
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Elementalist",
+          "Cost": 3400
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Elementalist",
+          "Cost": 5500
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Elementalist",
+          "Cost": 8900
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Elementalist",
+          "Cost": 14400
+        }
+      ],
+      "UID": "f07c977c-2465-4c78-b114-5a6b4378dcdd",
+      "Step": 17,
+      "Cost": 38000
+    },
+    {
+      "Order": "32",
+      "ID": "ED4WoodSkin",
+      "Rank": 8,
+      "Freerank": 0,
+      "Source": "Elementalist 1",
+      "DisciplineId": "ED4Elementalist",
+      "Circle": "1",
+      "Type": "Discipline",
+      "FirstLearnt": 1,
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Elementalist",
+      "PayExtraForFirstRank": true,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Elementalist",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Elementalist",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Elementalist",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Elementalist",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Elementalist",
+          "Cost": 1300
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Elementalist",
+          "Cost": 2100
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Elementalist",
+          "Cost": 3400
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Elementalist",
+          "Cost": 5500
+        }
+      ],
+      "UID": "69a414f5-fc33-4276-8b4f-a1e64be0bc80",
+      "Step": 13,
+      "Cost": 14700
+    },
+    {
+      "Order": "33",
+      "ID": "ED4AvoidBlow",
+      "Rank": 12,
+      "Freerank": 0,
+      "Source": "Elementalist 1",
+      "DisciplineId": "ED4Elementalist",
+      "Circle": "1",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 1,
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Elementalist",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Elementalist",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Elementalist",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Elementalist",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Elementalist",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Elementalist",
+          "Cost": 1300
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Elementalist",
+          "Cost": 2100
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Elementalist",
+          "Cost": 3400
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Elementalist",
+          "Cost": 5500
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Elementalist",
+          "Cost": 8900
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Elementalist",
+          "Cost": 14400
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Elementalist",
+          "Cost": 23300
+        },
+        {
+          "Rank": 12,
+          "Source": "ED4Elementalist",
+          "Cost": 37700
+        }
+      ],
+      "UID": "95346dc0-2fdd-4f81-b5c8-c18f90a43098",
+      "Step": 17,
+      "Cost": 98400
+    },
+    {
+      "Order": "34",
+      "ID": "ED4FireHeal",
+      "Rank": 13,
+      "Freerank": 0,
+      "Source": "Elementalist 2",
+      "DisciplineId": "ED4Elementalist",
+      "Circle": "2",
+      "Type": "Discipline",
+      "FirstLearnt": 1,
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Elementalist",
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Elementalist",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Elementalist",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Elementalist",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Elementalist",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Elementalist",
+          "Cost": 1300
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Elementalist",
+          "Cost": 2100
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Elementalist",
+          "Cost": 3400
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Elementalist",
+          "Cost": 5500
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Elementalist",
+          "Cost": 8900
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Elementalist",
+          "Cost": 14400
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Elementalist",
+          "Cost": 23300
+        },
+        {
+          "Rank": 12,
+          "Source": "ED4Elementalist",
+          "Cost": 37700
+        },
+        {
+          "Rank": 13,
+          "Source": "ED4Elementalist",
+          "Cost": 61000
+        }
+      ],
+      "UID": "2d4cf38d-14e0-477d-b90c-10f86a752073",
+      "Step": 19,
+      "Cost": 159400
+    },
+    {
+      "Order": "35",
+      "ID": "ED4AirSpeaking",
+      "Rank": 8,
+      "Freerank": 0,
+      "Source": "Elementalist 2",
+      "DisciplineId": "ED4Elementalist",
+      "Circle": "2",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 1,
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Elementalist",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Elementalist",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Elementalist",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Elementalist",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Elementalist",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Elementalist",
+          "Cost": 1300
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Elementalist",
+          "Cost": 2100
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Elementalist",
+          "Cost": 3400
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Elementalist",
+          "Cost": 5500
+        }
+      ],
+      "UID": "9dbc052e-775e-4db9-9eee-19ca83018b7e",
+      "Step": 15,
+      "Cost": 14100
+    },
+    {
+      "Order": "36",
+      "ID": "ED4ElementalTongues",
+      "Rank": 12,
+      "Freerank": 0,
+      "Source": "Elementalist 3",
+      "DisciplineId": "ED4Elementalist",
+      "Circle": "3",
+      "Type": "Discipline",
+      "FirstLearnt": 1,
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Elementalist",
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Elementalist",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Elementalist",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Elementalist",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Elementalist",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Elementalist",
+          "Cost": 1300
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Elementalist",
+          "Cost": 2100
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Elementalist",
+          "Cost": 3400
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Elementalist",
+          "Cost": 5500
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Elementalist",
+          "Cost": 8900
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Elementalist",
+          "Cost": 14400
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Elementalist",
+          "Cost": 23300
+        },
+        {
+          "Rank": 12,
+          "Source": "ED4Elementalist",
+          "Cost": 37700
+        }
+      ],
+      "UID": "a43ecf86-c0d2-453d-8c58-40da2c856ca7",
+      "Step": 19,
+      "Cost": 98400
+    },
+    {
+      "Order": "37",
+      "ID": "ED4WindCatcher",
+      "Rank": 11,
+      "Freerank": 0,
+      "Source": "Elementalist 3",
+      "DisciplineId": "ED4Elementalist",
+      "Circle": "3",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 1,
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Elementalist",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Elementalist",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Elementalist",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Elementalist",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Elementalist",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Elementalist",
+          "Cost": 1300
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Elementalist",
+          "Cost": 2100
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Elementalist",
+          "Cost": 3400
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Elementalist",
+          "Cost": 5500
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Elementalist",
+          "Cost": 8900
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Elementalist",
+          "Cost": 14400
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Elementalist",
+          "Cost": 23300
+        }
+      ],
+      "UID": "3b468fa9-0b90-4c13-8566-7bbdf64dea2b",
+      "Step": 17,
+      "Cost": 60700
+    },
+    {
+      "Order": "38",
+      "ID": "ED4ElementalHold",
+      "Rank": 8,
+      "Freerank": 0,
+      "Source": "Elementalist 4",
+      "DisciplineId": "ED4Elementalist",
+      "Circle": "4",
+      "Type": "Discipline",
+      "FirstLearnt": 1,
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Elementalist",
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Elementalist",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Elementalist",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Elementalist",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Elementalist",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Elementalist",
+          "Cost": 1300
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Elementalist",
+          "Cost": 2100
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Elementalist",
+          "Cost": 3400
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Elementalist",
+          "Cost": 5500
+        }
+      ],
+      "UID": "c2afc796-4da7-4145-b514-52c340cbefeb",
+      "Step": 14,
+      "Cost": 14100
+    },
+    {
+      "Order": "39",
+      "ID": "ED4WildernessSurvival",
+      "Rank": 7,
+      "Freerank": 0,
+      "Source": "Elementalist 4",
+      "DisciplineId": "ED4Elementalist",
+      "Circle": "4",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 1,
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Elementalist",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Elementalist",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Elementalist",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Elementalist",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Elementalist",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Elementalist",
+          "Cost": 1300
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Elementalist",
+          "Cost": 2100
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Elementalist",
+          "Cost": 3400
+        }
+      ],
+      "UID": "bf7a00f4-91ee-4690-8b8c-880e43196a5b",
+      "Step": 14,
+      "Cost": 8600
+    },
+    {
+      "Order": "40",
+      "ID": "ED4SummonElementalSpirits",
+      "Rank": 8,
+      "Freerank": 0,
+      "Source": "Elementalist 5",
+      "DisciplineId": "ED4Elementalist",
+      "Circle": "5",
+      "Type": "Discipline",
+      "FirstLearnt": 1,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Elementalist",
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Elementalist",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Elementalist",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Elementalist",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Elementalist",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Elementalist",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Elementalist",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Elementalist",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Elementalist",
+          "Cost": 8900
+        }
+      ],
+      "UID": "162b4cfe-4148-4ace-a5fd-71f2738c8265",
+      "Step": 15,
+      "Cost": 22700
+    },
+    {
+      "Order": "41",
+      "ID": "ED4SafePath",
+      "Rank": 13,
+      "Freerank": 0,
+      "Source": "Elementalist 5",
+      "DisciplineId": "ED4Elementalist",
+      "Circle": "5",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 1,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Elementalist",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Elementalist",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Elementalist",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Elementalist",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Elementalist",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Elementalist",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Elementalist",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Elementalist",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Elementalist",
+          "Cost": 8900
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Elementalist",
+          "Cost": 14400
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Elementalist",
+          "Cost": 23300
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Elementalist",
+          "Cost": 37700
+        },
+        {
+          "Rank": 12,
+          "Source": "ED4Elementalist",
+          "Cost": 61000
+        },
+        {
+          "Rank": 13,
+          "Source": "ED4Elementalist",
+          "Cost": 98700
+        }
+      ],
+      "UID": "915ffa08-6caa-4313-86f7-1a0e0ce9d229",
+      "Step": 20,
+      "Cost": 257800
+    },
+    {
+      "Order": "42",
+      "ID": "ED4ColdPurify",
+      "Rank": 9,
+      "Freerank": 0,
+      "Source": "Elementalist 6",
+      "DisciplineId": "ED4Elementalist",
+      "Circle": "6",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 1,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Elementalist",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Elementalist",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Elementalist",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Elementalist",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Elementalist",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Elementalist",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Elementalist",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Elementalist",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Elementalist",
+          "Cost": 8900
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Elementalist",
+          "Cost": 14400
+        }
+      ],
+      "UID": "7e69a44d-a1f7-421f-8958-92e6df0db47b",
+      "Step": 15,
+      "Cost": 37100
+    },
+    {
+      "Order": "43",
+      "ID": "ED4EarthSkin",
+      "Rank": 6,
+      "Freerank": 0,
+      "Source": "Elementalist 7",
+      "DisciplineId": "ED4Elementalist",
+      "Circle": "7",
+      "Type": "Discipline",
+      "FirstLearnt": 1,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Elementalist",
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Elementalist",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Elementalist",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Elementalist",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Elementalist",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Elementalist",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Elementalist",
+          "Cost": 3400
+        }
+      ],
+      "UID": "5c93a1b5-5207-4b8f-bedc-982243cc1a2e",
+      "Step": 11,
+      "Cost": 8300
+    },
+    {
+      "Order": "44",
+      "ID": "ED4Fireblood",
+      "Rank": 10,
+      "Freerank": 0,
+      "Source": "Elementalist 7",
+      "DisciplineId": "ED4Elementalist",
+      "Circle": "7",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 1,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Elementalist",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Elementalist",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Elementalist",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Elementalist",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Elementalist",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Elementalist",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Elementalist",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Elementalist",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Elementalist",
+          "Cost": 8900
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Elementalist",
+          "Cost": 14400
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Elementalist",
+          "Cost": 23300
+        }
+      ],
+      "UID": "5cca5b5b-c180-4530-bc82-bd5a07e9c74c",
+      "Step": 15,
+      "Cost": 60400
+    },
+    {
+      "Order": "45",
+      "ID": "ED4GlidingStride",
+      "Rank": 12,
+      "Freerank": 0,
+      "Source": "Elementalist 8",
+      "DisciplineId": "ED4Elementalist",
+      "Circle": "8",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 1,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Elementalist",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Elementalist",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Elementalist",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Elementalist",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Elementalist",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Elementalist",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Elementalist",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Elementalist",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Elementalist",
+          "Cost": 8900
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Elementalist",
+          "Cost": 14400
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Elementalist",
+          "Cost": 23300
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Elementalist",
+          "Cost": 37700
+        },
+        {
+          "Rank": 12,
+          "Source": "ED4Elementalist",
+          "Cost": 61000
+        }
+      ],
+      "UID": "91fbf4ec-830b-4e82-a71a-5df0fe4daeec",
+      "Step": 18,
+      "Cost": 159100
+    },
+    {
+      "Order": "46",
+      "ID": "ED4ThunderousResolve",
+      "Rank": "0",
+      "Freerank": "0",
+      "Source": "Elementalist 9",
+      "DisciplineId": "ED4Elementalist",
+      "Circle": "9",
+      "Type": "Discipline",
+      "FirstLearnt": 1,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Elementalist",
+      "PayExtraForFirstRank": false,
+      "Ranks": [],
+      "UID": "1f826ff3-d1e3-4ad2-8900-48dcddcd04d2",
+      "Step": 6,
+      "Cost": 0
+    },
+    {
+      "Order": "47",
+      "ID": "ED4ContestofWills",
+      "Rank": 10,
+      "Freerank": 0,
+      "Source": "Elementalist 9",
+      "DisciplineId": "ED4Elementalist",
+      "Circle": "9",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 1,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Elementalist",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Elementalist",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Elementalist",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Elementalist",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Elementalist",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Elementalist",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Elementalist",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Elementalist",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Elementalist",
+          "Cost": 14400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Elementalist",
+          "Cost": 23300
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Elementalist",
+          "Cost": 37700
+        }
+      ],
+      "UID": "c2e2e40a-3ed8-4200-be44-66f64a4aee10",
+      "Step": 16,
+      "Cost": 97600
+    },
+    {
+      "Order": "48",
+      "ID": "ED4Entertainer",
+      "Rank": 6,
+      "Freerank": "0",
+      "Source": "Troubadour 1",
+      "DisciplineId": "ED4Troubadour",
+      "Circle": "1",
+      "Type": "Free",
+      "FreeTalent": "0",
+      "CurrentCost": "Free",
+      "CurrentSource": "ED4Troubadour",
+      "debug": "New free talent",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Cost": 0,
+          "Source": "ED4Troubadour"
+        },
+        {
+          "Rank": 1,
+          "Source": "ED4Troubadour",
+          "Cost": 0
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Troubadour",
+          "Cost": 0
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Troubadour",
+          "Cost": 0
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Troubadour",
+          "Cost": 0
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Troubadour",
+          "Cost": 0
+        }
+      ],
+      "UID": "8e7c3c96-c873-4cad-87b1-c90032c85ae7",
+      "Step": 12,
+      "Cost": 0
+    },
+    {
+      "Order": "49",
+      "ID": "ED4EmotionSong",
+      "Rank": 10,
+      "Freerank": 0,
+      "Source": "Troubadour 1",
+      "DisciplineId": "ED4Troubadour",
+      "Circle": "1",
+      "Type": "Discipline",
+      "FirstLearnt": 2,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Troubadour",
+      "PayExtraForFirstRank": true,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Troubadour",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Troubadour",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Troubadour",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Troubadour",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Troubadour",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Troubadour",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Troubadour",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Troubadour",
+          "Cost": 8900
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Troubadour",
+          "Cost": 14400
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Troubadour",
+          "Cost": 23300
+        }
+      ],
+      "UID": "d3dda76d-2402-4059-a12c-8c15b8b8aca0",
+      "Step": 16,
+      "Cost": 60500
+    },
+    {
+      "Order": "50",
+      "ID": "ED4FirstImpression",
+      "Rank": 8,
+      "Freerank": 0,
+      "Source": "Troubadour 1",
+      "DisciplineId": "ED4Troubadour",
+      "Circle": "1",
+      "Type": "Discipline",
+      "FirstLearnt": 2,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Troubadour",
+      "PayExtraForFirstRank": true,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Troubadour",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Troubadour",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Troubadour",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Troubadour",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Troubadour",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Troubadour",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Troubadour",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Troubadour",
+          "Cost": 8900
+        }
+      ],
+      "UID": "0dec7956-4721-4824-b635-9d3f72753d6a",
+      "Step": 14,
+      "Cost": 22800
+    },
+    {
+      "Order": "51",
+      "ID": "ED4HearteningLaugh",
+      "Rank": 11,
+      "Freerank": 0,
+      "Source": "Troubadour 1",
+      "DisciplineId": "ED4Troubadour",
+      "Circle": "1",
+      "Type": "Discipline",
+      "FirstLearnt": 2,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Troubadour",
+      "PayExtraForFirstRank": true,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Troubadour",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Troubadour",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Troubadour",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Troubadour",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Troubadour",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Troubadour",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Troubadour",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Troubadour",
+          "Cost": 8900
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Troubadour",
+          "Cost": 14400
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Troubadour",
+          "Cost": 23300
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Troubadour",
+          "Cost": 37700
+        }
+      ],
+      "UID": "6f303faf-95da-44a8-b0ce-138c80f58ea8",
+      "Step": 17,
+      "Cost": 98200
+    },
+    {
+      "Order": "52",
+      "ID": "ED4ItemHistory",
+      "Rank": 9,
+      "Freerank": 0,
+      "Source": "Troubadour 1",
+      "DisciplineId": "ED4Troubadour",
+      "Circle": "1",
+      "Type": "Discipline",
+      "FirstLearnt": 2,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Troubadour",
+      "PayExtraForFirstRank": true,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Troubadour",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Troubadour",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Troubadour",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Troubadour",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Troubadour",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Troubadour",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Troubadour",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Troubadour",
+          "Cost": 8900
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Troubadour",
+          "Cost": 14400
+        }
+      ],
+      "UID": "e0e4426c-8126-4ec6-b05a-ac396c1bdf52",
+      "Step": 16,
+      "Cost": 37200
+    },
+    {
+      "Order": "53",
+      "ID": "ED4ThreadWeavingStoryWeaving",
+      "Rank": 10,
+      "Freerank": 0,
+      "Source": "Troubadour 1",
+      "DisciplineId": "ED4Troubadour",
+      "Circle": "1",
+      "Type": "Discipline",
+      "FirstLearnt": 2,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Troubadour",
+      "PayExtraForFirstRank": true,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Troubadour",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Troubadour",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Troubadour",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Troubadour",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Troubadour",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Troubadour",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Troubadour",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Troubadour",
+          "Cost": 8900
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Troubadour",
+          "Cost": 14400
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Troubadour",
+          "Cost": 23300
+        }
+      ],
+      "UID": "97e71617-3b8f-4ba6-89db-009da17ce465",
+      "Step": 17,
+      "Cost": 60500
+    },
+    {
+      "Order": "54",
+      "ID": "ED4Conversation",
+      "Rank": 14,
+      "Freerank": 0,
+      "Source": "Troubadour 1",
+      "DisciplineId": "ED4Troubadour",
+      "Circle": "1",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 2,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Troubadour",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Troubadour",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Troubadour",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Troubadour",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Troubadour",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Troubadour",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Troubadour",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Troubadour",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Troubadour",
+          "Cost": 8900
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Troubadour",
+          "Cost": 14400
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Troubadour",
+          "Cost": 23300
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Troubadour",
+          "Cost": 37700
+        },
+        {
+          "Rank": 12,
+          "Source": "ED4Troubadour",
+          "Cost": 61000
+        },
+        {
+          "Rank": 13,
+          "Source": "ED4Troubadour",
+          "Cost": 98700
+        },
+        {
+          "Rank": 14,
+          "Source": "ED4Troubadour",
+          "Cost": 159700
+        }
+      ],
+      "UID": "67b1ade8-ea81-43fa-8317-17da9aa48bf3",
+      "Step": 20,
+      "Cost": 417600
+    },
+    {
+      "Order": "55",
+      "ID": "ED4Etiquette",
+      "Rank": 7,
+      "Freerank": 0,
+      "Source": "Troubadour 2",
+      "DisciplineId": "ED4Troubadour",
+      "Circle": "2",
+      "Type": "Discipline",
+      "FirstLearnt": 2,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Troubadour",
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Troubadour",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Troubadour",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Troubadour",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Troubadour",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Troubadour",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Troubadour",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Troubadour",
+          "Cost": 5500
+        }
+      ],
+      "UID": "8b82e8cb-10f5-41e6-a071-a4b8fa619cff",
+      "Step": 13,
+      "Cost": 13900
+    },
+    {
+      "Order": "56",
+      "ID": "ED4MeleeWeapons",
+      "Rank": 10,
+      "Freerank": 0,
+      "Source": "Troubadour 2",
+      "DisciplineId": "ED4Troubadour",
+      "Circle": "2",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 2,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Troubadour",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Troubadour",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Troubadour",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Troubadour",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Troubadour",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Troubadour",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Troubadour",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Troubadour",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Troubadour",
+          "Cost": 8900
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Troubadour",
+          "Cost": 14400
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Troubadour",
+          "Cost": 23300
+        }
+      ],
+      "UID": "ea8bc885-6224-4a11-9ba2-9537bfafa2ef",
+      "Step": 21,
+      "Cost": 60500
+    },
+    {
+      "Order": "57",
+      "ID": "ED4EmpathicSense",
+      "Rank": 4,
+      "Freerank": 0,
+      "Source": "Troubadour 3",
+      "DisciplineId": "ED4Troubadour",
+      "Circle": "3",
+      "Type": "Discipline",
+      "FirstLearnt": 2,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Troubadour",
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Troubadour",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Troubadour",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Troubadour",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Troubadour",
+          "Cost": 1300
+        }
+      ],
+      "UID": "42961ecb-fbf3-4ce8-9e71-49a323651209",
+      "Step": 10,
+      "Cost": 2900
+    },
+    {
+      "Order": "58",
+      "ID": "ED4Haggle",
+      "Rank": 10,
+      "Freerank": 0,
+      "Source": "Troubadour 3",
+      "DisciplineId": "ED4Troubadour",
+      "Circle": "3",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 2,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Troubadour",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Troubadour",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Troubadour",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Troubadour",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Troubadour",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Troubadour",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Troubadour",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Troubadour",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Troubadour",
+          "Cost": 8900
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Troubadour",
+          "Cost": 14400
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Troubadour",
+          "Cost": 23300
+        }
+      ],
+      "UID": "540f8df2-3cb5-4d72-9cc0-1ebd68d1a525",
+      "Step": 16,
+      "Cost": 60500
+    },
+    {
+      "Order": "59",
+      "ID": "ED4Taunt",
+      "Rank": 11,
+      "Freerank": 0,
+      "Source": "Troubadour 4",
+      "DisciplineId": "ED4Troubadour",
+      "Circle": "4",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 2,
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Troubadour",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Troubadour",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Troubadour",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Troubadour",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Troubadour",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Troubadour",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Troubadour",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Troubadour",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Troubadour",
+          "Cost": 8900
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Troubadour",
+          "Cost": 14400
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Troubadour",
+          "Cost": 23300
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Troubadour",
+          "Cost": 37700
+        }
+      ],
+      "UID": "688f3226-742b-46f9-ae29-eddaac2c9738",
+      "Step": 17,
+      "Cost": 98200
+    },
+    {
+      "Order": "60",
+      "ID": "ED4InspireOthers",
+      "Rank": 5,
+      "Freerank": 0,
+      "Source": "Troubadour 5",
+      "DisciplineId": "ED4Troubadour",
+      "Circle": "5",
+      "Type": "Discipline",
+      "FirstLearnt": 2,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Troubadour",
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Troubadour",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Troubadour",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Troubadour",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Troubadour",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Troubadour",
+          "Cost": 3400
+        }
+      ],
+      "UID": "d1c42973-6503-4c81-9fc6-fb77bbcc81e0",
+      "Step": 11,
+      "Cost": 7900
+    },
+    {
+      "Order": "61",
+      "ID": "ED4DisguiseSelf",
+      "Rank": 9,
+      "Freerank": 0,
+      "Source": "Troubadour 5",
+      "DisciplineId": "ED4Troubadour",
+      "Circle": "5",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 2,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Troubadour",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Troubadour",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Troubadour",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Troubadour",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Troubadour",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Troubadour",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Troubadour",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Troubadour",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Troubadour",
+          "Cost": 14400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Troubadour",
+          "Cost": 23300
+        }
+      ],
+      "UID": "d6313038-51a7-4218-9d92-bccee22f1ce5",
+      "Step": 16,
+      "Cost": 60000
+    },
+    {
+      "Order": "62",
+      "ID": "ED4LastingImpression",
+      "Rank": 2,
+      "Freerank": 0,
+      "Source": "Troubadour 6",
+      "DisciplineId": "ED4Troubadour",
+      "Circle": "6",
+      "Type": "Discipline",
+      "FirstLearnt": 2,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Troubadour",
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Troubadour",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Troubadour",
+          "Cost": 800
+        }
+      ],
+      "UID": "67e14dcc-8b6a-4a34-99dc-18aac8de9b9c",
+      "Step": 8,
+      "Cost": 1100
+    },
+    {
+      "Order": "63",
+      "ID": "ED4LionHeart",
+      "Rank": 14,
+      "Freerank": 0,
+      "Source": "Troubadour 6",
+      "DisciplineId": "ED4Troubadour",
+      "Circle": "6",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 2,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Troubadour",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Troubadour",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Troubadour",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Troubadour",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Troubadour",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Troubadour",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Troubadour",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Troubadour",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Troubadour",
+          "Cost": 14400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Troubadour",
+          "Cost": 23300
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Troubadour",
+          "Cost": 37700
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Troubadour",
+          "Cost": 61000
+        },
+        {
+          "Rank": 12,
+          "Source": "ED4Troubadour",
+          "Cost": 98700
+        },
+        {
+          "Rank": 13,
+          "Source": "ED4Troubadour",
+          "Cost": 159700
+        },
+        {
+          "Rank": 14,
+          "Source": "ED4Troubadour",
+          "Cost": 258400
+        }
+      ],
+      "UID": "53e2c92f-6e5e-4b80-afe7-95a9868655c5",
+      "Step": 20,
+      "Cost": 675500
+    },
+    {
+      "Order": "64",
+      "ID": "ED4Frighten",
+      "Rank": 8,
+      "Freerank": 0,
+      "Source": "Nethermancer 1",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "1",
+      "Type": "Discipline",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "PayExtraForFirstRank": true,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Nethermancer",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Nethermancer",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Nethermancer",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Nethermancer",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Nethermancer",
+          "Cost": 14400
+        }
+      ],
+      "UID": "7a196df5-2fbb-414a-beab-e4757649e68a",
+      "Step": 14,
+      "Cost": 36900
+    },
+    {
+      "Order": "65",
+      "ID": "ED4ThreadWeavingNethermancy",
+      "Rank": 9,
+      "Freerank": 0,
+      "Source": "Nethermancer 1",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "1",
+      "Type": "Discipline",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "PayExtraForFirstRank": true,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Nethermancer",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Nethermancer",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Nethermancer",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Nethermancer",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Nethermancer",
+          "Cost": 14400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Nethermancer",
+          "Cost": 23300
+        }
+      ],
+      "UID": "2de3a9bc-c9aa-4882-9c91-bc7df3dd1db9",
+      "Step": 16,
+      "Cost": 60200
+    },
+    {
+      "Order": "66",
+      "ID": "ED4ArcaneMutterings",
+      "Rank": 7,
+      "Freerank": 0,
+      "Source": "Nethermancer 1",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "1",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Nethermancer",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Nethermancer",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Nethermancer",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Nethermancer",
+          "Cost": 8900
+        }
+      ],
+      "UID": "ac0abd57-c168-407c-981d-24dade664f57",
+      "Step": 13,
+      "Cost": 22500
+    },
+    {
+      "Order": "67",
+      "ID": "ED4CommandNightflyer",
+      "Rank": 10,
+      "Freerank": 0,
+      "Source": "Nethermancer 2",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "2",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Nethermancer",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Nethermancer",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Nethermancer",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Nethermancer",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Nethermancer",
+          "Cost": 14400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Nethermancer",
+          "Cost": 23300
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Nethermancer",
+          "Cost": 37700
+        }
+      ],
+      "UID": "dcab807b-5c26-4a7b-aa5a-f73d146de9bb",
+      "Step": 16,
+      "Cost": 97900
+    },
+    {
+      "Order": "68",
+      "ID": "ED4SpiritTalk",
+      "Rank": 6,
+      "Freerank": 0,
+      "Source": "Nethermancer 3",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "3",
+      "Type": "Discipline",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Nethermancer",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Nethermancer",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Nethermancer",
+          "Cost": 5500
+        }
+      ],
+      "UID": "29f437fe-2054-4706-baf1-7e55421b4a14",
+      "Step": 13,
+      "Cost": 13600
+    },
+    {
+      "Order": "69",
+      "ID": "ED4SpeakLanguage",
+      "Rank": 13,
+      "Freerank": 0,
+      "Source": "Nethermancer 3",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "3",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Nethermancer",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Nethermancer",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Nethermancer",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Nethermancer",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Nethermancer",
+          "Cost": 14400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Nethermancer",
+          "Cost": 23300
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Nethermancer",
+          "Cost": 37700
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Nethermancer",
+          "Cost": 61000
+        },
+        {
+          "Rank": 12,
+          "Source": "ED4Nethermancer",
+          "Cost": 98700
+        },
+        {
+          "Rank": 13,
+          "Source": "ED4Nethermancer",
+          "Cost": 159700
+        }
+      ],
+      "UID": "dec9c70d-6451-4be1-bf73-600181eb8018",
+      "Step": 20,
+      "Cost": 417300
+    },
+    {
+      "Order": "70",
+      "ID": "ED4SpiritHold",
+      "Rank": 3,
+      "Freerank": 0,
+      "Source": "Nethermancer 4",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "4",
+      "Type": "Discipline",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        }
+      ],
+      "UID": "3717c1d0-48a7-4b3e-a3f6-2d1f05af8234",
+      "Step": 9,
+      "Cost": 2600
+    },
+    {
+      "Order": "71",
+      "ID": "ED4StealthyStride",
+      "Rank": 10,
+      "Freerank": 0,
+      "Source": "Nethermancer 4",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "4",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Nethermancer",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Nethermancer",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Nethermancer",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Nethermancer",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Nethermancer",
+          "Cost": 14400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Nethermancer",
+          "Cost": 23300
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Nethermancer",
+          "Cost": 37700
+        }
+      ],
+      "UID": "46b66d7f-0614-428c-aed5-3bfc87081527",
+      "Step": 16,
+      "Cost": 97900
+    },
+    {
+      "Order": "72",
+      "ID": "ED4SummonAllySpirits",
+      "Rank": 5,
+      "Freerank": 0,
+      "Source": "Nethermancer 5",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "5",
+      "Type": "Discipline",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Nethermancer",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Nethermancer",
+          "Cost": 3400
+        }
+      ],
+      "UID": "9ed32ee1-0d0c-434f-84d2-850a0a6f0223",
+      "Step": 12,
+      "Cost": 8100
+    },
+    {
+      "Order": "73",
+      "ID": "ED4SteelyStare",
+      "Rank": 12,
+      "Freerank": 0,
+      "Source": "Nethermancer 5",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "5",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Nethermancer",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Nethermancer",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Nethermancer",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Nethermancer",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Nethermancer",
+          "Cost": 14400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Nethermancer",
+          "Cost": 23300
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Nethermancer",
+          "Cost": 37700
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Nethermancer",
+          "Cost": 61000
+        },
+        {
+          "Rank": 12,
+          "Source": "ED4Nethermancer",
+          "Cost": 98700
+        }
+      ],
+      "UID": "7dd09e9a-f521-4ed3-936a-842e3909ab71",
+      "Step": 18,
+      "Cost": 257600
+    },
+    {
+      "Order": "74",
+      "ID": "ED4BloodShare",
+      "Rank": 7,
+      "Freerank": 0,
+      "Source": "Nethermancer 6",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "6",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Nethermancer",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Nethermancer",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Nethermancer",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Nethermancer",
+          "Cost": 8900
+        }
+      ],
+      "UID": "556ca491-89b1-4f3a-83c9-a54dc9b4cd33",
+      "Step": 12,
+      "Cost": 22500
+    },
+    {
+      "Order": "75",
+      "ID": "ED4OrbitingSpy",
+      "Rank": 3,
+      "Freerank": 0,
+      "Source": "Nethermancer 7",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "7",
+      "Type": "Discipline",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        }
+      ],
+      "UID": "b747b8dc-c4d9-45c3-b29b-64e4fef32f9a",
+      "Step": 10,
+      "Cost": 2600
+    },
+    {
+      "Order": "76",
+      "ID": "ED4SpiritMount",
+      "Rank": 8,
+      "Freerank": 0,
+      "Source": "Nethermancer 7",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "7",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Nethermancer",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Nethermancer",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Nethermancer",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Nethermancer",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Nethermancer",
+          "Cost": 14400
+        }
+      ],
+      "UID": "e7332b2a-945d-4563-ab86-9fb6017d40d1",
+      "Step": 15,
+      "Cost": 36900
+    },
+    {
+      "Order": "77",
+      "ID": "ED4Banish",
+      "Rank": 13,
+      "Freerank": 0,
+      "Source": "Nethermancer 8",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "8",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Nethermancer",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Nethermancer",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Nethermancer",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Nethermancer",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Nethermancer",
+          "Cost": 14400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Nethermancer",
+          "Cost": 23300
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Nethermancer",
+          "Cost": 37700
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Nethermancer",
+          "Cost": 61000
+        },
+        {
+          "Rank": 12,
+          "Source": "ED4Nethermancer",
+          "Cost": 98700
+        },
+        {
+          "Rank": 13,
+          "Source": "ED4Nethermancer",
+          "Cost": 159700
+        }
+      ],
+      "UID": "9c45884f-0981-4d0e-866a-14b1e2438d83",
+      "Step": 24,
+      "Cost": 417300
+    },
+    {
+      "Order": "78",
+      "ID": "ED4MatrixSight",
+      "Rank": 7,
+      "Freerank": 0,
+      "Source": "Nethermancer 9",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "9",
+      "Type": "Discipline",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Nethermancer",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Nethermancer",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Nethermancer",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Nethermancer",
+          "Cost": 8900
+        }
+      ],
+      "UID": "37dd1d34-95b5-49e1-8aee-7bfddc8f8fcf",
+      "Step": 14,
+      "Cost": 22500
+    },
+    {
+      "Order": "79",
+      "ID": "ED4SummoningCircle",
+      "Rank": 11,
+      "Freerank": 0,
+      "Source": "Nethermancer 9",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "9",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Nethermancer",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Nethermancer",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Nethermancer",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Nethermancer",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Nethermancer",
+          "Cost": 14400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Nethermancer",
+          "Cost": 23300
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Nethermancer",
+          "Cost": 37700
+        },
+        {
+          "Rank": 11,
+          "Source": "ED4Nethermancer",
+          "Cost": 61000
+        }
+      ],
+      "UID": "abcd2042-82e2-43dc-a150-41dcd2cdb15b",
+      "Step": "-",
+      "Cost": 158900
+    },
+    {
+      "Order": "80",
+      "ID": "ED4BloodInsight",
+      "Rank": 8,
+      "Freerank": 0,
+      "Source": "Nethermancer 10",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "10",
+      "Type": "Discipline",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Nethermancer",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Nethermancer",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Nethermancer",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Nethermancer",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Nethermancer",
+          "Cost": 14400
+        }
+      ],
+      "UID": "0db685fc-918b-496e-adc1-2bca34742115",
+      "Step": 15,
+      "Cost": 36900
+    },
+    {
+      "Order": "81",
+      "ID": "ED4SoulAegis",
+      "Rank": 10,
+      "Freerank": 0,
+      "Source": "Nethermancer 10",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "10",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Nethermancer",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Nethermancer",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Nethermancer",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Nethermancer",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Nethermancer",
+          "Cost": 14400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Nethermancer",
+          "Cost": 23300
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Nethermancer",
+          "Cost": 37700
+        }
+      ],
+      "UID": "9818cf17-c548-49e7-bb33-74cc6c6d0e5c",
+      "Step": 16,
+      "Cost": 97900
+    },
+    {
+      "Order": "82",
+      "ID": "ED4Netherwalk",
+      "Rank": 10,
+      "Freerank": 0,
+      "Source": "Nethermancer 11",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "11",
+      "Type": "Discipline",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "PayExtraForFirstRank": false,
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Nethermancer",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Nethermancer",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Nethermancer",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Nethermancer",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Nethermancer",
+          "Cost": 14400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Nethermancer",
+          "Cost": 23300
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Nethermancer",
+          "Cost": 37700
+        }
+      ],
+      "UID": "8224f566-1b0f-4b5b-857a-8f924fb42a9f",
+      "Step": 16,
+      "Cost": 97900
+    },
+    {
+      "Order": "83",
+      "ID": "ED4SafeThought",
+      "Rank": 7,
+      "Freerank": 0,
+      "Source": "Nethermancer 11",
+      "DisciplineId": "ED4Nethermancer",
+      "Circle": "11",
+      "Type": "Optional",
+      "Debug": "New Optional Talent ",
+      "FirstLearnt": 3,
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Nethermancer",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Nethermancer",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Nethermancer",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Nethermancer",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Nethermancer",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Nethermancer",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Nethermancer",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Nethermancer",
+          "Cost": 8900
+        }
+      ],
+      "UID": "7432061c-7bbb-4751-897e-97aa0861d3eb",
+      "Step": "-",
+      "Cost": 22500
+    },
+    {
+      "Order": "84",
+      "ID": "ED4PWindmaster",
+      "Rank": "10",
+      "Freerank": 0,
+      "Source": "Windmaster",
+      "PathID": "ED4Windmaster",
+      "Type": "PathTalent",
+      "TalentPointsUseable": "false",
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Windmaster",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Cost": 500,
+          "Source": "ED4Windmaster"
+        },
+        {
+          "Rank": 1,
+          "Source": "ED4Windmaster",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Windmaster",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Windmaster",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Windmaster",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Windmaster",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Windmaster",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Windmaster",
+          "Cost": 8900
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Windmaster",
+          "Cost": 14400
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Windmaster",
+          "Cost": 23300
+        }
+      ],
+      "UID": "f1e97e12-e761-4bba-bdbc-dfae940c9b6d",
+      "Step": "-",
+      "Cost": 97900
+    },
+    {
+      "Order": "85",
+      "ID": "ED4Distract",
+      "Rank": 8,
+      "Freerank": 0,
+      "Source": "Windmaster 1",
+      "PathID": "ED4Windmaster",
+      "PathRank": 1,
+      "Type": "PathGrantedTalent",
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Windmaster",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Windmaster",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Windmaster",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Windmaster",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Windmaster",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Windmaster",
+          "Cost": 1300
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Windmaster",
+          "Cost": 2100
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Windmaster",
+          "Cost": 3400
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Windmaster",
+          "Cost": 5500
+        }
+      ],
+      "UID": "ad1bd5bd-00a0-46d2-9aac-28608a6fdb21",
+      "Step": 14,
+      "Cost": 14100
+    },
+    {
+      "Order": "86",
+      "ID": "ED4Sprint",
+      "Rank": 6,
+      "Freerank": 0,
+      "Source": "Windmaster 2",
+      "PathID": "ED4Windmaster",
+      "PathRank": 2,
+      "Type": "PathGrantedTalent",
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Windmaster",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Windmaster",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Windmaster",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Windmaster",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Windmaster",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Windmaster",
+          "Cost": 1300
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Windmaster",
+          "Cost": 2100
+        }
+      ],
+      "UID": "db4845d5-ef30-4f58-badd-bb0e6e739f4e",
+      "Step": 6,
+      "Cost": 5200
+    },
+    {
+      "Order": "87",
+      "ID": "ED4TigerSpring",
+      "Rank": 8,
+      "Freerank": 0,
+      "Source": "Windmaster 3",
+      "PathID": "ED4Windmaster",
+      "PathRank": 3,
+      "Type": "PathGrantedTalent",
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Windmaster",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Windmaster",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Windmaster",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Windmaster",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Windmaster",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Windmaster",
+          "Cost": 1300
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Windmaster",
+          "Cost": 2100
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Windmaster",
+          "Cost": 3400
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Windmaster",
+          "Cost": 5500
+        }
+      ],
+      "UID": "f221d270-f85f-4772-8458-7443eecfa42b",
+      "Step": 15,
+      "Cost": 14100
+    },
+    {
+      "Order": "88",
+      "ID": "ED4DangerSense",
+      "Rank": 8,
+      "Freerank": 0,
+      "Source": "Windmaster 4",
+      "PathID": "ED4Windmaster",
+      "PathRank": 4,
+      "Type": "PathGrantedTalent",
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Windmaster",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Windmaster",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Windmaster",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Windmaster",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Windmaster",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Windmaster",
+          "Cost": 1300
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Windmaster",
+          "Cost": 2100
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Windmaster",
+          "Cost": 3400
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Windmaster",
+          "Cost": 5500
+        }
+      ],
+      "UID": "811bdc1d-28e3-4c67-80f6-ecbab99c5f5e",
+      "Step": 14,
+      "Cost": 14100
+    },
+    {
+      "Order": "89",
+      "ID": "ED4AirDance",
+      "Rank": 7,
+      "Freerank": 0,
+      "Source": "Windmaster 5",
+      "PathID": "ED4Windmaster",
+      "PathRank": 5,
+      "Type": "PathGrantedTalent",
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Windmaster",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Windmaster",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Windmaster",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Windmaster",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Windmaster",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Windmaster",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Windmaster",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Windmaster",
+          "Cost": 5500
+        }
+      ],
+      "UID": "fa1fc40e-15ce-428f-a8d9-fc48c6e45fb4",
+      "Step": 14,
+      "Cost": 13900
+    },
+    {
+      "Order": "90",
+      "ID": "ED4SpotArmorFlaw",
+      "Rank": 6,
+      "Freerank": 0,
+      "Source": "Windmaster 6",
+      "PathID": "ED4Windmaster",
+      "PathRank": 6,
+      "Type": "PathGrantedTalent",
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Windmaster",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Windmaster",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Windmaster",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Windmaster",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Windmaster",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Windmaster",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Windmaster",
+          "Cost": 3400
+        }
+      ],
+      "UID": "6c08435b-842d-4e63-ac98-ea1ceea4613f",
+      "Step": 13,
+      "Cost": 8400
+    },
+    {
+      "Order": "91",
+      "ID": "ED4TemperFlesh",
+      "Rank": 8,
+      "Freerank": 0,
+      "Source": "Windmaster 7",
+      "PathID": "ED4Windmaster",
+      "PathRank": 7,
+      "Type": "PathGrantedTalent",
+      "CurrentCost": 2,
+      "CurrentSource": "ED4Windmaster",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Windmaster",
+          "Cost": 300
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Windmaster",
+          "Cost": 500
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Windmaster",
+          "Cost": 800
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Windmaster",
+          "Cost": 1300
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Windmaster",
+          "Cost": 2100
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Windmaster",
+          "Cost": 3400
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Windmaster",
+          "Cost": 5500
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Windmaster",
+          "Cost": 8900
+        }
+      ],
+      "UID": "73006627-2e63-4827-89a9-c584c46e2dfb",
+      "Step": 14,
+      "Cost": 22800
+    },
+    {
+      "Order": "92",
+      "ID": "ED4WoundBalance",
+      "Rank": 10,
+      "Freerank": 0,
+      "Source": "Windmaster 8",
+      "PathID": "ED4Windmaster",
+      "PathRank": 8,
+      "Type": "PathGrantedTalent",
+      "CurrentCost": 1,
+      "CurrentSource": "ED4Windmaster",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Windmaster",
+          "Cost": 200
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Windmaster",
+          "Cost": 300
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Windmaster",
+          "Cost": 500
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Windmaster",
+          "Cost": 800
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Windmaster",
+          "Cost": 1300
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Windmaster",
+          "Cost": 2100
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Windmaster",
+          "Cost": 3400
+        },
+        {
+          "Rank": 8,
+          "Source": "ED4Windmaster",
+          "Cost": 5500
+        },
+        {
+          "Rank": 9,
+          "Source": "ED4Windmaster",
+          "Cost": 8900
+        },
+        {
+          "Rank": 10,
+          "Source": "ED4Windmaster",
+          "Cost": 14400
+        }
+      ],
+      "UID": "504fe702-dfe1-49bf-b4b4-14cacd15d874",
+      "Step": 3,
+      "Cost": 37400
+    },
+    {
+      "Order": "93",
+      "ID": "ED4UnflinchingFortitude",
+      "Rank": 7,
+      "Freerank": 0,
+      "Source": "Windmaster 9",
+      "PathID": "ED4Windmaster",
+      "PathRank": 9,
+      "Type": "PathGrantedTalent",
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Windmaster",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Windmaster",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Windmaster",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Windmaster",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Windmaster",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Windmaster",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Windmaster",
+          "Cost": 5500
+        },
+        {
+          "Rank": 7,
+          "Source": "ED4Windmaster",
+          "Cost": 8900
+        }
+      ],
+      "UID": "47a5c88b-b1ff-4354-8926-087a07d6249a",
+      "Step": "-",
+      "Cost": 22500
+    },
+    {
+      "Order": "94",
+      "ID": "ED4WingBlitz",
+      "Rank": 6,
+      "Freerank": 0,
+      "Source": "Windmaster 10",
+      "PathID": "ED4Windmaster",
+      "PathRank": 10,
+      "Type": "PathGrantedTalent",
+      "CurrentCost": 3,
+      "CurrentSource": "ED4Windmaster",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Source": "ED4Windmaster",
+          "Cost": 500
+        },
+        {
+          "Rank": 2,
+          "Source": "ED4Windmaster",
+          "Cost": 800
+        },
+        {
+          "Rank": 3,
+          "Source": "ED4Windmaster",
+          "Cost": 1300
+        },
+        {
+          "Rank": 4,
+          "Source": "ED4Windmaster",
+          "Cost": 2100
+        },
+        {
+          "Rank": 5,
+          "Source": "ED4Windmaster",
+          "Cost": 3400
+        },
+        {
+          "Rank": 6,
+          "Source": "ED4Windmaster",
+          "Cost": 5500
+        }
+      ],
+      "UID": "eb72efb1-0552-4293-9ddf-5a68202d098d",
+      "Step": "-",
+      "Cost": 13600
+    },
+    {
+      "Order": "95",
+      "ID": "ED4StandardMatrix",
+      "Rank": "6",
+      "Freerank": "0",
+      "Source": "Fastoon’s Very Impressive Staff",
+      "DisciplineId": "",
+      "Circle": "",
+      "Type": "Item",
+      "CurrentCost": "Free",
+      "CurrentSource": "ED4FastoonsVeryImpressiveStaff",
+      "Ranks": [],
+      "UID": "02d9bdfa-5afe-43fa-9896-36497eca0558",
+      "Spell": "ED4ECloudSummon",
+      "Step": "-",
+      "Cost": 0
+    },
+    {
+      "Order": "96",
+      "ID": "ED4EnhancedMatrix",
+      "Rank": "8",
+      "Freerank": "0",
+      "Source": "Enhanced Matrix Object",
+      "DisciplineId": "",
+      "Circle": "",
+      "Type": "Item",
+      "CurrentCost": "Free",
+      "CurrentSource": "ED4EnhancedMatrixObject",
+      "UID": "02d9bdfa-5afe-43fa-9896-36497eca0558",
+      "Ranks": [],
+      "Spell": "ED4ECloudSummon",
+      "Step": "-",
+      "Cost": 0
+    },
+    {
+      "Order": "97",
+      "ID": "ED4AnimalBond",
+      "Rank": "2",
+      "BonusRank": "2",
+      "Freerank": 0,
+      "Source": "Custom effect long",
+      "DisciplineId": "",
+      "Circle": "",
+      "Type": "Effect, raisable",
+      "CurrentCost": 1,
+      "CurrentSource": "1495f853-87d4-42b5-a0de-932d20f2472a",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "Cost": 100,
+          "Source": "1495f853-87d4-42b5-a0de-932d20f2472a"
+        },
+        {
+          "Rank": 2,
+          "Cost": 200,
+          "Source": "1495f853-87d4-42b5-a0de-932d20f2472a"
+        }
+      ],
+      "UID": "9b88216d-39ea-4959-ba66-23184ae3b431",
+      "Step": 8,
+      "Cost": 0
+    }
+  ],
+  "Knacks": [
+    {
+      "ID": "ED4ArcaneMutteringsArcaneCurses",
+      "Step": "-",
+      "Attribute": "&nbsp;"
+    },
+    {
+      "ID": "ED4ArcaneMutteringsJinx",
+      "Step": 13,
+      "Attribute": "Charisma"
+    },
+    {
+      "ID": "ED4PatterncraftED4AlterLife[Fauna]",
+      "Step": 18,
+      "Attribute": "Perception"
+    },
+    {
+      "ID": "ED4PatterncraftED4AlterLife[Flora]",
+      "Step": 18,
+      "Attribute": "Perception"
+    },
+    {
+      "ID": "ED4PatterncraftDesignEnchantingPattern",
+      "Step": "-",
+      "Attribute": "&nbsp;"
+    },
+    {
+      "ID": "ED4PatterncraftLearnImprovedSpells",
+      "Step": "-",
+      "Attribute": "&nbsp;"
+    },
+    {
+      "ID": "ED4PatterncraftLearnImprovedSpells",
+      "Step": "-",
+      "Attribute": "&nbsp;"
+    },
+    {
+      "ID": "ED4SpellcastingFortifyPattern",
+      "Step": 23,
+      "Attribute": "Perception"
+    },
+    {
+      "ID": "ED4ElementalismHarvestTrueElement",
+      "Step": 17,
+      "Attribute": "Perception"
+    },
+    {
+      "ID": "ED4NethermancyDetectSpirit",
+      "Step": 16,
+      "Attribute": "Perception"
+    },
+    {
+      "ID": "ED4EmotionSongEpic",
+      "Index": "0",
+      "Step": "-",
+      "Attribute": "&nbsp;"
+    },
+    {
+      "ID": "ED4PatterncraftExtendedBedazzlingDisplayofLogicalAnalysis",
+      "Index": "1",
+      "Step": "-",
+      "Attribute": "&nbsp;"
+    },
+    {
+      "ID": "ED4PatterncraftAllTurntoDustAgain",
+      "Index": "2",
+      "Step": "-",
+      "Attribute": "&nbsp;"
+    },
+    {
+      "ID": "ED4WoodSkinWoodWings",
+      "Index": "3",
+      "Step": 13,
+      "Attribute": "Toughness"
+    }
+  ],
+  "Skills": [
+    {
+      "ID": "ED4ReadWriteLanguage",
+      "Rank": "1",
+      "Freerank": "1",
+      "Category": "General",
+      "Cost": 0,
+      "Step": 8,
+      "UID": "14dc9cf7-6990-4998-9baf-5d1af1e5f755",
+      "Attribute": "Perception"
+    },
+    {
+      "ID": "ED4SpeakLanguage",
+      "Rank": "2",
+      "Freerank": "2",
+      "Category": "General",
+      "Cost": 0,
+      "Step": 9,
+      "UID": "f8607df7-4f34-413d-88a0-19239749d246",
+      "Attribute": "Perception"
+    },
+    {
+      "ID": "ED4Knowledge",
+      "Category": "Knowledge",
+      "Name": "Accounting",
+      "Rank": "6",
+      "Freerank": "2",
+      "Step": 13,
+      "Cost": 4700,
+      "UID": "99b8855f-a5fd-4b63-8570-af6a555de0e3",
+      "Attribute": "Perception"
+    },
+    {
+      "ID": "ED4Knowledge",
+      "Category": "Knowledge",
+      "Name": "Elf Lore",
+      "Rank": "3",
+      "Freerank": "3",
+      "Step": 10,
+      "Cost": 0,
+      "UID": "fb5c08b5-b38f-4d68-a8e9-57335d93b11f",
+      "Attribute": "Perception"
+    },
+    {
+      "ID": "ED4Knowledge",
+      "Category": "Knowledge",
+      "Name": "Legends and Heroes: Orks",
+      "Rank": "6",
+      "Freerank": "0",
+      "Step": 13,
+      "Cost": 5200,
+      "UID": "f1fa2f13-1376-4b3a-a01d-b84888e43bf5",
+      "Attribute": "Perception"
+    },
+    {
+      "ID": "ED4Artisan",
+      "Category": "Artisan",
+      "Name": "Embroidery",
+      "Rank": "3",
+      "Freerank": "3",
+      "Step": 9,
+      "Cost": 0,
+      "UID": "ba3408d7-20be-49f1-bc3d-2ff8a20c54e1",
+      "Attribute": "Charisma"
+    },
+    {
+      "ID": "ED4Artisan",
+      "Category": "Artisan",
+      "Name": "Storytelling",
+      "Rank": "2",
+      "Freerank": "2",
+      "Step": 8,
+      "Cost": 0,
+      "UID": "df84f114-c817-4ad7-8019-8ea86686c0b7",
+      "Attribute": "Charisma"
+    },
+    {
+      "ID": "ED4CreateOrichalcum",
+      "Category": "General",
+      "Name": "Not Selected",
+      "Rank": "1",
+      "Freerank": "0",
+      "Step": 8,
+      "Cost": 500,
+      "UID": "d008f3ba-cc85-4380-8ed8-7a34ce1bdae8",
+      "Attribute": "Perception"
+    },
+    {
+      "ID": "ED4CraftArmor",
+      "Category": "General",
+      "Name": "Not Selected",
+      "Rank": "1",
+      "Freerank": "1",
+      "Step": 8,
+      "Cost": 0,
+      "UID": "4b7418fe-478c-457b-93e2-a58e04b37c94",
+      "Attribute": "Perception"
+    }
+  ],
+  "Spells": [
+    {
+      "ID": "ED4ECrunchClimb",
+      "Index": "0"
+    },
+    {
+      "ID": "ED4EResistElementEarth",
+      "Index": "1"
+    },
+    {
+      "ID": "ED4EResistElementAir",
+      "Index": "2"
+    },
+    {
+      "ID": "ED4EShieldWillow",
+      "Index": "3"
+    },
+    {
+      "ID": "ED4ECloudSummon",
+      "defaultEffect": 25,
+      "Index": "4"
+    },
+    {
+      "ID": "ED4NLifeCircleofOne",
+      "Index": "5"
+    },
+    {
+      "ID": "ED4NDusttoDust",
+      "Index": "6"
+    },
+    {
+      "ID": "ED4NAspectoftheAstralSavant",
+      "Index": "7"
+    },
+    {
+      "ID": "ED4WBedazzlingDisplayofLogicalAnalysis",
+      "Index": "8"
+    },
+    {
+      "ID": "ED4WCatchSpell",
+      "defaultEffect": 21,
+      "Index": "9"
+    },
+    {
+      "ID": "ED4WCompressionBubble",
+      "Index": "10"
+    },
+    {
+      "ID": "ED4WWizardMark",
+      "Index": "11"
+    },
+    {
+      "ID": "ED4WWallWalker",
+      "Index": "12"
+    }
+  ],
+  "Equipment":  [
+    {
+      "ID": "AdventuringKit",
+      "Count": "1",
+      "InUse": "Yes",
+      "Type": "Adventuring"
+    },
+    {
+      "ID": "ArtisanTools",
+      "Count": "1",
+      "InUse": "Yes",
+      "Type": "Adventuring"
+    },
+    {
+      "ID": "Dagger",
+      "Count": "1",
+      "InUse": "Yes",
+      "Type": "Thrown",
+      "DamageStep": -5
+    },
+    {
+      "ID": "TravelersGarb",
+      "Count": "1",
+      "InUse": "Yes",
+      "Type": "Clothing"
+    },
+    {
+      "ID": "RationsTrail1week",
+      "Count": "1",
+      "InUse": "Yes",
+      "Type": "Provender"
+    },
+    {
+      "ID": "Silver",
+      "Count": "100",
+      "InUse": "Yes",
+      "Type": "Valuable"
+    },
+    {
+      "ID": "LuxuryInnwithamenities",
+      "Type": "Accomodation",
+      "Count": "1",
+      "InUse": "Yes"
+    },
+    {
+      "ID": "Chalk",
+      "Type": "Adventuring",
+      "Count": "1",
+      "InUse": "Yes"
+    },
+    {
+      "ID": "EspagraCloak",
+      "Type": "Armor",
+      "Count": "1",
+      "InUse": "Yes",
+      "PhForge": "2",
+      "MyForge": "6"
+    },
+    {
+      "ID": "GarlenStone",
+      "Type": "Blood Charm",
+      "Count": "1",
+      "InUse": "Yes"
+    },
+    {
+      "ID": "BlisteringFlesh",
+      "Type": "Blood Ink",
+      "Count": "1",
+      "InUse": "Yes"
+    },
+    {
+      "ID": "HosePlain",
+      "Type": "Clothing",
+      "Count": "1",
+      "InUse": "Yes"
+    },
+    {
+      "ID": "SalveofClosure",
+      "Type": "Healing Aid",
+      "Count": "1",
+      "InUse": "Yes"
+    },
+    {
+      "ID": "FireflyChalk",
+      "Type": "Magic",
+      "Count": "3",
+      "InUse": "Yes"
+    },
+    {
+      "ID": "Trispear",
+      "Type": "Melee Weapon",
+      "Count": "1",
+      "InUse": "Yes",
+      "Forged": "2",
+      "DamageStep": 0
+    },
+    {
+      "ID": "LightBolts",
+      "Type": "Missile",
+      "Count": "1",
+      "InUse": "Yes"
+    },
+    {
+      "ID": "MediumCrossbow",
+      "Type": "Missile Weapon",
+      "Count": "1",
+      "InUse": "Yes",
+      "DamageStep": -2
+    },
+    {
+      "ID": "Zoak",
+      "Type": "Mount",
+      "Count": "1",
+      "InUse": "Yes"
+    },
+    {
+      "ID": "RationsTrail1week",
+      "Type": "Provender",
+      "Count": "2",
+      "InUse": "Yes"
+    },
+    {
+      "ID": "Riders",
+      "Type": "Shield",
+      "Count": "1",
+      "InUse": "Yes"
+    },
+    {
+      "ID": "WindlingNet",
+      "Type": "Thrown",
+      "Count": "1",
+      "InUse": "Yes",
+      "DamageStep": null
+    },
+    {
+      "ID": "LibraryAccessMajorCity",
+      "Type": "Trade Services",
+      "Count": "1",
+      "InUse": "Yes"
+    },
+    {
+      "ID": "CartSmall",
+      "Type": "Transport",
+      "Count": "1",
+      "InUse": "Yes"
+    },
+    {
+      "ID": "Orichalcum",
+      "Type": "Valuable",
+      "Count": "1",
+      "InUse": "Yes"
+    },
+    {
+      "ID": "iiiBladeOfCaraFahdAlexsi",
+      "Type": "Thread Item",
+      "Count": "1",
+      "InUse": "Yes"
+    },
+    {
+      "ID": "ED4FastoonsVeryImpressiveStaff",
+      "Type": "Thread Item",
+      "Count": "1",
+      "InUse": "Yes",
+      "Rank": "6",
+      "Cost": 5200
+    },
+    {
+      "ID": "ED4EnhancedMatrixObject",
+      "Type": "Thread Item",
+      "Count": "1",
+      "InUse": "Yes",
+      "Rank": "8",
+      "Cost": 14100
+    },
+    {
+      "ID": "ED4BugRepellent",
+      "Type": "Healing Aid / Potion",
+      "Count": "1",
+      "InUse": "Yes",
+      "Index": "27"
+    },
+    {
+      "ID": "Frostblood",
+      "Type": "Rune Tattoo",
+      "Count": "1",
+      "InUse": "Yes",
+      "Index": "28"
+    }
+  ],
+  "Options": {
+    "Edition": "ED4",
+    "Attributepoints": "25",
+    "MaxAttributeIncrease": "3",
+    "Talentpoints": "8",
+    "Spellpoints": "PERstep",
+    "KnowledgeSkillpoints": "2",
+    "ArtisanSkillpoints": "1",
+    "SpeakSkillpoints": "2",
+    "ReadSkillpoints": "1",
+    "FreeSkillpoints": "8",
+    "BuyMoreOptionalMatrices": "false",
+    "FreeMatricesStack": "false",
+    "BuyMatricesPerDiscipline": "true",
+    "CasterCircle5Bonus": "false",
+    "SpellsCostLP": "4ed",
+    "FirstWoundFree": "false",
+    "Books": "All",
+    "StepDice": "ED4",
+    "SkillFreeRanksLimit": "Novice",
+    "RangedAggressive": "false",
+    "Durability": "Best",
+    "AttributeIncrease": "Costs",
+    "DiscBonusesStack": "Highest",
+    "CasterCircle": "First",
+    "AllTalentsToAdvance": "No",
+    "TalentOverlaps": "WhenEqual"
+  },
+  "Damage": 0,
+  "Wounds": 0,
+  "PortraitURL": "./img/Portraits/Windling Scout.jpg",
+  "Questor": {
+    "Doctrine": "ED4Mynbruje",
+    "Ranks": [
+      {
+        "devotionID": "ED4PassionsEmpowerment",
+        "devotionRank": "3",
+        "devotionStep": "-0",
+        "devotionAbility": "",
+        "Cost": "Follower"
+      },
+      {
+        "devotionID": "ED4PassionsInsight",
+        "devotionRank": "3",
+        "devotionStep": 10,
+        "Cost": "Follower"
+      },
+      {
+        "devotionID": "ED4EmpathicSense",
+        "devotionRank": "2",
+        "devotionStep": 8,
+        "Cost": "Follower"
+      },
+      {
+        "devotionID": "ED4RememberConversation",
+        "devotionRank": "3",
+        "devotionStep": 9,
+        "Cost": "Follower"
+      },
+      {
+        "devotionID": "ED4AssessIntentions",
+        "devotionRank": "7",
+        "devotionStep": 13,
+        "devotionAbility": "",
+        "Cost": "Adherent"
+      },
+      {
+        "devotionID": "ED4MynbrujesEye",
+        "devotionRank": "6",
+        "devotionStep": 12,
+        "Cost": "Adherent"
+      },
+      {
+        "devotionID": "ED4Psychometry",
+        "devotionRank": "5",
+        "devotionStep": 12,
+        "Cost": "Adherent"
+      },
+      {
+        "devotionID": "ED4PassionsInspiration",
+        "devotionRank": "3",
+        "devotionStep": 9,
+        "Cost": "Adherent"
+      },
+      {
+        "devotionID": "ED4EideticMemory",
+        "devotionRank": "2",
+        "devotionStep": 8,
+        "devotionAbility": "",
+        "Cost": "Exemplar"
+      },
+      {
+        "devotionID": "ED4TouchingthePast",
+        "devotionRank": "3",
+        "devotionStep": 10,
+        "Cost": "Exemplar"
+      }
+    ],
+    "Rank": "10",
+    "devotionPoints": 0,
+    "questorDevotionStep": 16
+  },
+  "StepsVersion": 1250,
+  "Magic": [
+    {
+      "ID": "ED4CorePatternItem",
+      "Threads": [
+        {
+          "Target": "MyDef",
+          "Rank": 2
+        }
+      ],
+      "Target": "",
+      "Applicable": "Yes"
+    },
+    {
+      "ID": "ED4GroupTruePattern",
+      "Threads": [
+        {
+          "Target": "SoDef",
+          "Rank": 2
+        },
+        {
+          "Target": "ab9fd1dc-e81e-4f92-849d-18872aa78d74",
+          "Rank": 5
+        },
+        {
+          "Target": "Dur",
+          "Rank": 1
+        },
+        {
+          "Target": "WndTh",
+          "Rank": 5
+        },
+        {
+          "Target": "MyArm",
+          "Rank": 5
+        }
+      ],
+      "Target": "",
+      "Applicable": "Yes"
+    },
+    {
+      "ID": "ED4BloodPromise",
+      "Target": ""
+    },
+    {
+      "ID": "ED4BloodPromiseFulfilled",
+      "Target": ""
+    },
+    {
+      "ID": "ED4BloodPeaceBroken",
+      "Target": ""
+    },
+    {
+      "ID": "ED4MinorPatternItem",
+      "Threads": [
+        {
+          "Target": "PhDef",
+          "Rank": 1
+        }
+      ],
+      "Target": "",
+      "Applicable": "Yes"
+    }
+  ],
+  "UIOptions": {
+    "CollapseKnacks": "false",
+    "CollapseEq": "false",
+    "MatrixSortMethod": "Added",
+    "TalentSortMethod": "Added",
+    "KnackSortReversed": "false"
+  },
+  "Effects": [
+    {
+      "ID": "ED4WoodSkin",
+      "Active": "True",
+      "LP": 0,
+      "Extra": "11",
+      "Source": "Self",
+      "Category": "Talent"
+    },
+    {
+      "ID": "ED4WoodSkin",
+      "Active": "True",
+      "LP": 0,
+      "Extra": "1",
+      "Source": "External",
+      "Category": "Talent"
+    },
+    {
+      "ID": "f5f0aa9f-468d-4922-890b-9ad45b443711",
+      "Active": "True",
+      "LP": null,
+      "Extra": 0,
+      "Category": "Legend Points Award",
+      "Source": "Self"
+    },
+    {
+      "ID": "6dc51b27-5a8e-4db8-93ed-df555b5c2094",
+      "Active": "True",
+      "LP": 0,
+      "Extra": "5",
+      "Category": "Spell",
+      "Source": "External"
+    },
+    {
+      "ID": "1495f853-87d4-42b5-a0de-932d20f2472a",
+      "Active": "True",
+      "LP": 0,
+      "Extra": 0,
+      "Category": "Custom",
+      "Source": "Self"
+    }
+  ],
+  "Language": "en",
+  "Theme": "0",
+  "Homebrew": {
+    "Effects": [
+      {
+        "ID": "f5f0aa9f-468d-4922-890b-9ad45b443711",
+        "Name": "LP Award",
+        "Description": "LP Award Effect Long",
+        "Duration": "Long",
+        "Category": "Legend Points Award",
+        "Modifiers": [
+          {
+            "Category": "LP",
+            "ID": "Empty",
+            "Modifier": "",
+            "IsMultipliable": "False"
+          }
+        ]
+      },
+      {
+        "ID": "6dc51b27-5a8e-4db8-93ed-df555b5c2094",
+        "Category": "Spell",
+        "Name": "Spell effect long",
+        "Description": "description",
+        "Duration": "Long",
+        "Modifiers": [
+          {
+            "Category": "AStep",
+            "ID": "StrStep",
+            "Modifier": "-2",
+            "IsMultipliable": "True"
+          }
+        ]
+      },
+      {
+        "ID": "1495f853-87d4-42b5-a0de-932d20f2472a",
+        "Category": "Custom",
+        "Name": "Custom effect long",
+        "Description": "description",
+        "Duration": "Long",
+        "Modifiers": [
+          {
+            "Category": "Combat",
+            "ID": "MlAtk",
+            "Modifier": "5",
+            "IsMultipliable": "False"
+          },
+          {
+            "Category": "Text",
+            "ID": "Empty",
+            "Modifier": "text effect value 2200",
+            "IsMultipliable": "False"
+          },
+          {
+            "Category": "XTalent",
+            "ID": "ED4AnimalBond",
+            "Modifier": "2",
+            "IsMultipliable": "False",
+            "IsRaisable": "True"
+          },
+          {
+            "Category": "Talent",
+            "ID": "ED4AvoidBlow",
+            "Modifier": "-1",
+            "IsMultipliable": "False"
+          },
+          {
+            "Category": "Health",
+            "ID": "RecStep",
+            "Modifier": "8",
+            "IsMultipliable": "False"
+          }
+        ]
+      }
+    ]
+  }
+}
