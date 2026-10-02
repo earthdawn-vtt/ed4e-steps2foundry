@@ -36,10 +36,9 @@ function optionalNumber( value ) {
 
 /**
  * Tries to parse the given value according to the allowed options in {@link BooleanValue}. If the parsing fails,
- * an error is thrown.
+ * `undefined` is returned.
  * @param {any} value
- * @returns {boolean} The parsed boolean value.
- * @throws {Error} If the value is not a valid boolean string.
+ * @returns {boolean|undefined} The parsed boolean value, or `undefined` if it could not be parsed.
  */
 function parseBoolean( value ) {
   if ( typeof value === "boolean" ) return value;
