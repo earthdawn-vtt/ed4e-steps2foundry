@@ -1,11 +1,11 @@
 import { describe, expect, it } from "vitest";
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
-import { SecondStepFormatError } from "../../module/parsers/errors.mjs";
-import { parseSecondStepExport, splitSourceId } from "../../module/parsers/parsing.mjs";
+import { SecondStepFormatError } from "../../../module/parsers/errors.mjs";
+import { parseSecondStepExport, splitSourceId } from "../../../module/parsers/parsing.mjs";
 
 const fixturePath = fileURLToPath(
-  new URL( "../fixtures/character-with-almost-everything.json", import.meta.url ),
+  new URL( "../../fixtures/character-with-almost-everything.json", import.meta.url ),
 );
 const rawExport = JSON.parse( readFileSync( fixturePath, "utf8" ) );
 const TOKEN_REGEX = /^[a-z][a-zA-Z0-9]*$/;

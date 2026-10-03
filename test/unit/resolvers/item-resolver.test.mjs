@@ -1,32 +1,16 @@
-/* eslint-disable jsdoc/require-jsdoc */
-
-import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
-import { clearLookupTableCache } from "../../module/resolvers/lookup-tables.mjs";
-import { resolveItem } from "../../module/resolvers/item-resolver.mjs";
+import { describe, expect, it } from "vitest";
+import { resolveItem } from "../../../module/resolvers/item-resolver.mjs";
+import { mockLookupTable } from "../../mocks/browser.mjs";
+import { mockUuidDocument } from "../../mocks/foundry.mjs";
+import { mockGlobalItemByEdid } from "../../mocks/ed4e.mjs";
 
 const idSource = ( secondStepId ) => ( { id: "Whatever", source: "ED4", secondStepId } );
-
-beforeEach( () => {
-  clearLookupTableCache();
-  globalThis.fromUuid = vi.fn();
-  globalThis.foundry = { utils: { mergeObject: ( target, source ) => Object.assign( target, source ) } };
-  globalThis.game = { ed4e: { helpers: { document: { getSingleGlobalItemByEdid: vi.fn() } } } };
-  globalThis.fetch = vi.fn();
-} );
-
-afterEach( () => {
-  vi.restoreAllMocks();
-} );
-
-function mockTable( table ) {
-  globalThis.fetch.mockResolvedValue( { ok: true, json: async () => table } ) ;
-}
 
 describe( "resolveItems", () => {
 
   it( "resolves via UUID when the table entry matches the expected type", async () => {
-    mockTable( { "ED4Foo": { uuid: "Compendium.pack.talent.Item.123" } } );
-    globalThis.fromUuid.mockResolvedValue( { type: "talent", toObject: () => ( { name: "Foo" } ) } );
+    mockLookupTable( { "ED4Foo": { uuid: "Compendium.pack.talent.Item.123" } } );
+    mockUuidDocument( { type: "talent", toObject: () => ( { name: "Foo" } ) } );
 
     const result = await resolveItem( idSource( "ED4Foo" ), "talent", () => ( { name: "Synthesized" } ) );
 
@@ -35,9 +19,9 @@ describe( "resolveItems", () => {
   } );
 
   it( "falls back to edid when the UUID is stale (wrong type)", async () => {
-    mockTable( { "ED4Foo": { uuid: "Compendium.pack.talent.Item.123", edid: "talent-foo" } } );
-    globalThis.fromUuid.mockResolvedValue( { type: "skill", toObject: () => ( {} ) } );
-    globalThis.game.ed4e.helpers.document.getSingleGlobalItemByEdid.mockResolvedValue(
+    mockLookupTable( { "ED4Foo": { uuid: "Compendium.pack.talent.Item.123", edid: "talent-foo" } } );
+    mockUuidDocument( { type: "skill", toObject: () => ( {} ) } );
+    mockGlobalItemByEdid(
       { toObject: () => ( { name: "FoundViaEdid" } ) },
     );
 
@@ -48,9 +32,9 @@ describe( "resolveItems", () => {
   } );
 
   it( "falls back to edid when the UUID resolves to nothing", async () => {
-    mockTable( { "ED4Foo": { uuid: "Compendium.pack.talent.Item.123", edid: "talent-foo" } } );
-    globalThis.fromUuid.mockResolvedValue( null );
-    globalThis.game.ed4e.helpers.document.getSingleGlobalItemByEdid.mockResolvedValue(
+    mockLookupTable( { "ED4Foo": { uuid: "Compendium.pack.talent.Item.123", edid: "talent-foo" } } );
+    mockUuidDocument( null );
+    mockGlobalItemByEdid(
       { toObject: () => ( { name: "FoundViaEdid" } ) },
     );
 
@@ -60,7 +44,7 @@ describe( "resolveItems", () => {
   } );
 
   it( "synthesizes and flags the item when neither tier resolves", async () => {
-    mockTable( {} );
+    mockLookupTable( {} );
 
     const result = await resolveItem( idSource( "ED4Unknown" ), "talent", () => ( { name: "Synthesized" } ) );
 
@@ -73,7 +57,7 @@ describe( "resolveItems", () => {
   } );
 
   it( "synthesizes when the lookup table has no entry for this ID at all", async () => {
-    mockTable( { "ED4Other": { uuid: "Compendium.pack.talent.Item.999" } } );
+    mockLookupTable( { "ED4Other": { uuid: "Compendium.pack.talent.Item.999" } } );
 
     const result = await resolveItem( idSource( "ED4Missing" ), "talent", () => ( { name: "Synthesized" } ) );
 
@@ -82,8 +66,8 @@ describe( "resolveItems", () => {
   } );
 
   it( "caches the lookup table so fetch is only called once per item type", async () => {
-    mockTable( { "ED4Foo": { uuid: "Compendium.pack.talent.Item.123" } } );
-    globalThis.fromUuid.mockResolvedValue( { type: "talent", toObject: () => ( {} ) } );
+    mockLookupTable( { "ED4Foo": { uuid: "Compendium.pack.talent.Item.123" } } );
+    mockUuidDocument( { type: "talent", toObject: () => ( {} ) } );
 
     await resolveItem( idSource( "ED4Foo" ), "talent", () => ( {} ) );
     await resolveItem( idSource( "ED4Foo" ), "talent", () => ( {} ) );
