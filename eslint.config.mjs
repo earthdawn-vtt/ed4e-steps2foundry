@@ -209,13 +209,24 @@ export default defineConfig( [ {
     } ],
 
     // endregion
-  }
+  },
 },
 
+// Test-specific overrides
+{
+  files: [ "test/**/*.{js,mjs}", ],
+
+  rules: {
+    "jsdoc/require-jsdoc": "off",
+  }
+},
+  
 {
   files: [ "**/*.quench.mjs" ],
 
   rules: {
     "max-nested-callbacks": [ "warn", 5 ], "no-unused-expressions": "off"
   }
-} ] );
+},
+
+] );
