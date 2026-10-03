@@ -133,6 +133,26 @@ export const SECOND_STEP_THREAD_TO_EAE_TARGET = Object.freeze( {
 } );
 
 /**
+ * Maps a SecondStep attribute buildpoint/increase cost to the resulting attribute modifier.
+ * Mirrors ed4e's `legend.mjs` `attributePointsCost` array (cost-by-modifier), inverted to
+ * modifier-by-cost since that is the direction SecondStep's `Buildpoints`/`Increases` fields go.
+ * @satisfies {Readonly<Record<string, number>>}
+ */
+export const ATTRIBUTE_MODIFIER_FROM_COST = Object.freeze( {
+  "-2": -2,
+  "-1": -1,
+  "0":  0,
+  "1":  1,
+  "2":  2,
+  "3":  3,
+  "5":  4,
+  "7":  5,
+  "9":  6,
+  "12": 7,
+  "15": 8,
+} );
+
+/**
  * All values in {@link SECOND_STEP_THREAD_TO_EAE_TARGET}.
  * @typedef { typeof SECOND_STEP_THREAD_TO_EAE_TARGET[keyof typeof SECOND_STEP_THREAD_TO_EAE_TARGET] } MappedSecondStepThreadTarget
  */
