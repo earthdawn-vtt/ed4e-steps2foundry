@@ -353,10 +353,7 @@ function parsePath( path ) {
  * @returns {MappedSecondStepThreadTarget}
  */
 function parseThreadTarget( target ) {
-  if ( !target ) {
-    console.debug( "Empty target: ", target );
-    return undefined;
-  }
+  if ( !target ) return undefined;
 
   const normalizedTarget = target.trim().toLowerCase();
   return Object.hasOwn( SECOND_STEP_THREAD_TO_EAE_TARGET, normalizedTarget )
