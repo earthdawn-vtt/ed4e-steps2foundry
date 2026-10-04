@@ -557,7 +557,10 @@
  * @property {number} order - The order in which the talent was learned.
  * @property {number} rank - The rank of the talent.
  * @property {number} freeRanks - The number of ranks that were assigned for free at character creation.
- * @property {ParsedIdSource} source - The ID of the entity that provides the talent, e.g. disciplines, namegiver, item, or effect.
+ * @property {ParsedIdSource} source - The ID of the entity that provides the talent, e.g., disciplines, namegiver, item, or effect.
+ * @property {ParsedIdSource[]} disciplineIds - The IDs of every discipline in which this talent can be learned in.
+ * Empty for talents not tied to any discipline (like path-/item-/effect-granted talents).
+ * @property {number[]} circles - The circles of each discipline in {@link disciplineIds}, at the same index.
  * @property {NormalizedTalentType} type - The type of the talent.
  * @property {NumberValue} lpCostTier - The tier on which the legend point cost for raising this talent is based on.
  * Mapping Novice, Journeyman, Warden, Master to 0 through 3. Free talents are mapped to -1.

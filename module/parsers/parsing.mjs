@@ -225,20 +225,22 @@ function parseTalentRank( rank ) {
  */
 function parseTalent( talent ) {
   return {
-    id:         splitSourceId( talent.ID ),
-    order:      toNumber( talent.Order ),
-    rank:       toNumber( talent.Rank ),
-    freeRanks:  toNumber( talent.Freerank ),
-    source:     talent.CurrentSource ? splitSourceId( talent.CurrentSource ) : null,
-    type:       normalizeEnumToken( talent.Type ),
-    lpCostTier: toNumber( talent.CurrentCost ),
-    ranks:      talent.Ranks.map( rank => parseTalentRank( rank ) ),
-    uid:        talent.UID ?? null,
-    lpCost:     toNumber( talent.Cost ),
-    spell:      talent.Spell ? splitSourceId( talent.Spell ) : undefined,
-    path:       talent.PathID ? splitSourceId( talent.PathID ) : undefined,
-    pathRank:   optionalNumber( talent.PathRank ),
-    bonusRank:  optionalNumber( talent.BonusRank ),
+    id:            splitSourceId( talent.ID ),
+    order:         toNumber( talent.Order ),
+    rank:          toNumber( talent.Rank ),
+    freeRanks:     toNumber( talent.Freerank ),
+    source:        talent.CurrentSource ? splitSourceId( talent.CurrentSource ) : null,
+    disciplineIds: splitStringList( talent.DisciplineId, ",", splitSourceId ),
+    circles:       splitStringList( talent.Circle, ",", toNumber ),
+    type:          normalizeEnumToken( talent.Type ),
+    lpCostTier:    toNumber( talent.CurrentCost ),
+    ranks:         talent.Ranks.map( rank => parseTalentRank( rank ) ),
+    uid:           talent.UID ?? null,
+    lpCost:        toNumber( talent.Cost ),
+    spell:         talent.Spell ? splitSourceId( talent.Spell ) : undefined,
+    path:          talent.PathID ? splitSourceId( talent.PathID ) : undefined,
+    pathRank:      optionalNumber( talent.PathRank ),
+    bonusRank:     optionalNumber( talent.BonusRank ),
   };
 }
 
