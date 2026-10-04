@@ -157,4 +157,19 @@ export const ATTRIBUTE_MODIFIER_FROM_COST = Object.freeze( {
  * @typedef { typeof SECOND_STEP_THREAD_TO_EAE_TARGET[keyof typeof SECOND_STEP_THREAD_TO_EAE_TARGET] } MappedSecondStepThreadTarget
  */
 
+/**
+ * Maps a normalized SecondStep talent type to ed4e's `talentCategory` enum:
+ * - `pathTalent`/`pathGrantedTalent` → `"other"` (no dedicated group for path-related talents)
+ * - `effectRaisable` → `"other"` (no dedicated group for talents from Active Effects)
+ * @satisfies {Readonly<Record<string, string>>}
+ */
+export const TALENT_CATEGORY_FROM_SECOND_STEP_TYPE = Object.freeze( {
+  discipline:        "discipline",
+  optional:          "optional",
+  free:              "free",
+  pathTalent:        "other",
+  pathGrantedTalent: "other",
+  effectRaisable:    "other",
+} );
+
 // endregion
