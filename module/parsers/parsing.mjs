@@ -69,6 +69,22 @@ function optionalBoolean( value ) {
 }
 
 /**
+ * Splits a comma-separated string into an array of trimmed values, with an optional mapping function applied to each value.
+ * @param {string} theString - The input string containing comma-separated values.
+ * @param {string} [separator=","] - The separator used to split the string.
+ * @param {Function} [mapFunction] - An optional function to transform each trimmed value in the resulting array.
+ * @returns {Array} An array of trimmed and optionally transformed values from the input string.
+ */
+function splitStringList( theString, separator = ",", mapFunction = undefined ) {
+  if ( !theString ) return [];
+  return theString.split(
+    separator,
+  ).map(
+    value => mapFunction ? mapFunction( value.trim() ) : value.trim()
+  );
+}
+
+/**
  * Maps a given attribute name to its corresponding abbreviation.
  *
  * @param {string} attribute - The attribute name to map. Must be a non-empty string.
