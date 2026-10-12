@@ -500,6 +500,11 @@
  */
 
 /**
+ * The normalized form of {@link SecondStepExportTalentSourceType}.
+ * @typedef {"disciplineFree"|"race"} NormalizedTalentSourceType
+ */
+
+/**
  * A normalized value for a {@link SecondStepExportBasics} string property, stripped of sentinels.
  * @typedef ParsedIdSource
  * @property {string} id - The canonical ID of the entity.
@@ -552,12 +557,19 @@
  */
 
 /**
+ * @typedef ParsedTalentSource
+ * @property {NormalizedTalentSourceType} type - The type of the source of the talent, if not a discipline or optional talent.
+ * @property {ParsedIdSource} id - The ID of the source of the talent.
+ */
+
+/**
  * @typedef ParsedTalent
  * @property {ParsedIdSource} id - ID of the talent.
  * @property {number} order - The order in which the talent was learned.
  * @property {number} rank - The rank of the talent.
  * @property {number} freeRanks - The number of ranks that were assigned for free at character creation.
  * @property {ParsedIdSource} source - The ID of the entity that provides the talent, e.g., disciplines, namegiver, item, or effect.
+ * @property {ParsedTalentSource[]} sources - The IDs of the sources of the talent.
  * @property {ParsedIdSource[]} disciplineIds - The IDs of every discipline in which this talent can be learned in.
  * Empty for talents not tied to any discipline (like path-/item-/effect-granted talents).
  * @property {number[]} circles - The circles of each discipline in {@link disciplineIds}, at the same index.

@@ -57,6 +57,20 @@ function extractDisciplineAtLevel( talent ) {
 }
 
 /**
+ * Whether a talent's currently active source is a namegiver. SecondStep only populates `Sources` for talents whose
+ * origin isn't a plain discipline-circle grant, so this returns `false` for the vast majority of talents without
+ * needing to inspect it.
+ * @param {ParsedTalent} talent - The parsed talent to check.
+ * @returns {boolean} True if the talent's source is a namegiver.
+ */
+function isCurrentlySourcedFromNamegiver( talent ) {
+  if ( !talent.source || !talent.sources ) return false;
+  return talent.sources.some(
+    source => source.type === "race" && source.id.secondStepId === talent.source.secondStepId
+  );
+}
+
+/**
  * Determines how a talent is linked to its source (`sourceSecondStepId`/`atLevel`) for a talent, based on its type.
  * @param {ParsedTalent} talent - The parsed talent to determine the link for.
  * @returns {{ sourceSecondStepId: string|undefined, atLevel: number|undefined }} The source link data.
@@ -71,9 +85,26 @@ function getSourceLinkage( talent ) {
       // EAE-granted talents are not yet implemented in ed4e; no resolvable source item exists.
       return { sourceSecondStepId: undefined, atLevel: undefined };
     default:
+      // Talents sourced from the namegiver have no circle-gated progression and no `system.source.class`
+      // equivalent in ed4e — they're linked to the actor implicitly via `actor.namegiver`, not via a
+      // sibling-document pointer on the talent. Leave them sourceless, just like effect-granted talents.
+      if ( isCurrentlySourcedFromNamegiver( talent ) ) {
+        return { sourceSecondStepId: undefined, atLevel: undefined };
+      }
       return { sourceSecondStepId: talent.source?.secondStepId, atLevel: extractDisciplineAtLevel( talent ) };
 
   }
+}
+
+/**
+ * Determines the talent category for a talent, based on its type.
+ * @param {ParsedTalent} talent - The parsed talent to determine the category for.
+ * @returns {string}
+ */
+function getTalentCategory( talent ) {
+  const categoryOther = "other";
+  if ( isCurrentlySourcedFromNamegiver( talent ) ) return categoryOther;
+  return TALENT_CATEGORY_FROM_SECOND_STEP_TYPE[ talent.type ] ?? categoryOther;
 }
 
 /**
@@ -104,7 +135,7 @@ export async function adaptTalents( talents ) {
     );
 
     resolved.data.system.level = talent.rank;
-    resolved.data.system.talentCategory = TALENT_CATEGORY_FROM_SECOND_STEP_TYPE[ talent.type ] ?? "other";
+    resolved.data.system.talentCategory = getTalentCategory( talent );
 
     return {
       resolved,

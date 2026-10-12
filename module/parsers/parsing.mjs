@@ -219,6 +219,19 @@ function parseTalentRank( rank ) {
 }
 
 /**
+ * Parse a single entry of a talent's `Sources` array, which flags non-standard origins (e.g., namegiver-granted,
+ * or discipline-free-granted matrices) alongside the normal `DisciplineId`/`Circle` breakdown.
+ * @param {SecondStepExportTalentSource} source
+ * @returns {ParsedTalentSource}
+ */
+function parseTalentSource( source ) {
+  return {
+    type: normalizeEnumToken( source.Type ),
+    id:   splitSourceId( source.ID ),
+  };
+}
+
+/**
  * Parses provided talent data.
  * @param {SecondStepExportTalent} talent One of the `Talent` data of the SecondStep export.
  * @returns {ParsedTalent} The parsed talent data.
@@ -230,6 +243,7 @@ function parseTalent( talent ) {
     rank:          toNumber( talent.Rank ),
     freeRanks:     toNumber( talent.Freerank ),
     source:        talent.CurrentSource ? splitSourceId( talent.CurrentSource ) : null,
+    sources:       ( talent.Sources ?? [] ).map( source => parseTalentSource( source ) ),
     disciplineIds: splitStringList( talent.DisciplineId, ",", splitSourceId ),
     circles:       splitStringList( talent.Circle, ",", toNumber ),
     type:          normalizeEnumToken( talent.Type ),

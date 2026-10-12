@@ -53,6 +53,21 @@ describe( "adaptTalents", () => {
     expect( adaptedTalent.resolved.data.system.talentCategory ).toBe( "other" );
   } );
 
+  it( "leaves atLevel and source undefined if the talent's source is a namegiver", async () => {
+    mockTalentResolvable();
+    const talent = baseTalent( {
+      source:           idSource( "ED4Wizard" ),
+      sources: [ { type: "race", id: idSource( "ED4Wizard" ) } , ],
+    } );
+    const { talents } = await adaptTalents( [ talent ] );
+
+    const adaptedTalent = talents[ 0 ];
+    expect( adaptedTalent.sourceSecondStepId ).toBeUndefined();
+    expect( adaptedTalent.atLevel ).toBeUndefined();
+    expect( adaptedTalent.isPathTalent ).toBeFalsy();
+    expect( adaptedTalent.resolved.data.system.talentCategory ).toBe( "other" );
+  } );
+
   it( "sources a pathGrantedTalent from its path, with atLevel set to the path rank", async () => {
     mockTalentResolvable();
     const talent = baseTalent( {
@@ -72,7 +87,7 @@ describe( "adaptTalents", () => {
     expect( adaptedTalent.resolved.data.system.talentCategory ).toBe( "other" );
   } );
 
-  it( "leaves an effectRaisable talent withou any source linkage", async () => {
+  it( "leaves an effectRaisable talent without any source linkage", async () => {
     mockTalentResolvable();
     const talent = baseTalent( {
       type:          "effectRaisable",
