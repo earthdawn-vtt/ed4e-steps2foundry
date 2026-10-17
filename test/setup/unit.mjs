@@ -17,6 +17,9 @@ beforeEach( () => {
     }
   } );
   vi.stubGlobal( "game", {
+    ED4E_CONSTANTS: {
+      SYSTEM_ID: "ed4e",
+    },
     settings: {
       get: vi.fn(),
     },
