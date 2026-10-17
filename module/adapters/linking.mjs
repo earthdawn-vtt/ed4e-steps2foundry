@@ -11,7 +11,7 @@
 /**
  * @typedef EmbeddedTalent
  * @property {string} id - The real Foundry ID of the embedded item on the actor.
- * @property {AdaptedTalent} adaptedTalent - The adapted talent data this embedded item was created from.
+ * @property {AdaptedTalent} adapted - The adapted talent data this embedded item was created from.
  */
 
 /**
