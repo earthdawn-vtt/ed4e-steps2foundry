@@ -15,7 +15,6 @@
  * @property {string} secondStepId - The SecondStep ID (the passion/doctrine) this questor devotion was resolved from.
  */
 
-import { MODULE_ID } from "../constants/constants.mjs";
 import { resolveItem } from "../resolvers/item-resolver.mjs";
 
 /**
