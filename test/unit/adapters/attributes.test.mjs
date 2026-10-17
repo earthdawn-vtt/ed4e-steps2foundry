@@ -1,9 +1,8 @@
-import { describe, expect, it, vi } from "vitest";
+import { describe, expect, it, } from "vitest";
 import { mockLookupTable } from "../../mocks/browser.mjs";
 import { mockUuidDocument } from "../../mocks/foundry.mjs";
 import { adaptAttributes } from "../../../module/adapters/attributes.mjs";
-
-const idSource = ( secondStepId ) => ( { id: secondStepId.replace( "ED4", "" ), source: "ED4", secondStepId } );
+import { idSource } from "../../helpers/factories.mjs";
 
 const attribute = ( buildPoints, increases = 0 ) => ( { buildPoints, increases } );
 

@@ -3,8 +3,7 @@ import { resolveItem } from "../../../module/resolvers/item-resolver.mjs";
 import { mockLookupTable } from "../../mocks/browser.mjs";
 import { mockUuidDocument } from "../../mocks/foundry.mjs";
 import { mockGlobalItemByEdid } from "../../mocks/ed4e.mjs";
-
-const idSource = ( secondStepId ) => ( { id: "Whatever", source: "ED4", secondStepId } );
+import { idSource } from "../../helpers/factories.mjs";
 
 describe( "resolveItems", () => {
 
