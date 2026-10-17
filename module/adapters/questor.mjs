@@ -50,11 +50,11 @@ function synthesizeQuestor( questor ) {
  */
 function synthesizeQuestorDevotion( questor ) {
   return {
-    name:   questor.passionId.id || _loc( "S2F.Synthesized" ),
+    name:   questor.passionId.id || _loc( "S2F.Synthesized.Name.questorDevotion" ),
     type:   DEVOTION_ITEM_TYPE,
     img:    DEFAULT_QUESTOR_DEVOTION_IMG,
     system: {
-      edid:  game.settings.get( game.ED4E_CONSTANTS.SYSTEM_ID, "edidQuestorDevotion" ),
+      edid:  game.settings.get( ED4E_CONSTANTS.SYSTEM_ID, "edidQuestorDevotion" ),
       level: questor.rank,
       tier:  "journeyman",
     },

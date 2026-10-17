@@ -16,10 +16,10 @@ beforeEach( () => {
       mergeObject: ( target, source ) => Object.assign( target, source )
     }
   } );
+  vi.stubGlobal( "ED4E_CONSTANTS", {
+    SYSTEM_ID: "ed4e",
+  } );
   vi.stubGlobal( "game", {
-    ED4E_CONSTANTS: {
-      SYSTEM_ID: "ed4e",
-    },
     settings: {
       get: vi.fn(),
     },
