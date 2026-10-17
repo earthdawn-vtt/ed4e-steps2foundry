@@ -17,6 +17,9 @@ beforeEach( () => {
     }
   } );
   vi.stubGlobal( "game", {
+    settings: {
+      get: vi.fn(),
+    },
     ed4e: {
       helpers: {
         document: {
