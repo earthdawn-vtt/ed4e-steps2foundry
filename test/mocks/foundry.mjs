@@ -15,3 +15,11 @@ export function mockUuidDocuments( documents ) {
     return documents[ uuid ] ?? null;
   } );
 }
+
+/**
+ * Stubs `game.settings.get()` to return the given value.
+ * @param {any} value - The value that `game.settings.get()` should return.
+ */
+export function mockSettingsGetValue( value ) {
+  globalThis.game.settings.get.mockReturnValue( value );
+}
