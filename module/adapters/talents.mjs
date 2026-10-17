@@ -1,6 +1,6 @@
 /**
- * @import * from "../types.mjs";
- * @import * from "../resolvers/item-resolvers.mjs";
+ * @import * from "../_types.mjs";
+ * @import * from "../resolvers/item-resolver.mjs";
  */
 
 /**

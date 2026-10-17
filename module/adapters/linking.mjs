@@ -1,5 +1,5 @@
 /**
- * @import { AdaptedTalent } from "./talent.mjs";
+ * @import { AdaptedTalent } from "./talents.mjs";
  */
 
 /**
