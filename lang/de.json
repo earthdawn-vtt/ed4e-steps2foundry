@@ -1,3 +1,9 @@
 {
-  "Steps2Foundry": {}
+  "S2F": {
+    "Synthesized": {
+      "Name": {
+        "questorDevotion": "Questor"
+      }
+    }
+  }
 }
