@@ -2,6 +2,9 @@
   "S2F": {
     "Synthesized": {
       "Name": {
+        "coinCopper":      "Copper",
+        "coinGold":        "Gold",
+        "coinSilver":      "Silver",
         "questorDevotion": "Questor"
       }
     }
