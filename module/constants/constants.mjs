@@ -172,4 +172,47 @@ export const TALENT_CATEGORY_FROM_SECOND_STEP_TYPE = Object.freeze( {
   effectRaisable:    "other",
 } );
 
+const ED4E_ITEM_TYPES = ED4E_CONSTANTS.SYSTEM_TYPES.Item;
+
+/**
+ * Maps a normalized SecondStep equipment type to an item system type in ed4e.
+ * @satisfies {Readonly<Record<string, ED4E_ITEM_TYPES>>}
+ */
+export const EQUIPMENT_TYPE_FROM_SECOND_STEP_TYPE = Object.freeze( {
+  accomodation:     ED4E_ITEM_TYPES.equipment,
+  adventuring:      ED4E_ITEM_TYPES.equipment,
+  armor:            ED4E_ITEM_TYPES.armor,
+  bloodCharm:       ED4E_ITEM_TYPES.equipment,
+  bloodInk:         ED4E_ITEM_TYPES.equipment,
+  clothing:         ED4E_ITEM_TYPES.equipment,
+  healingAidPotion: ED4E_ITEM_TYPES.equipment,
+  healingAid:       ED4E_ITEM_TYPES.equipment,
+  magic:            ED4E_ITEM_TYPES.equipment,
+  meleeWeapon:      ED4E_ITEM_TYPES.weapon,
+  missileWeapon:    ED4E_ITEM_TYPES.weapon,
+  missile:          ED4E_ITEM_TYPES.weapon,
+  mount:            ED4E_ITEM_TYPES.equipment,
+  provender:        ED4E_ITEM_TYPES.equipment,
+  runeTattoo:       ED4E_ITEM_TYPES.equipment,
+  shield:           ED4E_ITEM_TYPES.shield,
+  threadItem:       ED4E_ITEM_TYPES.equipment,
+  thrown:           ED4E_ITEM_TYPES.weapon,
+  tradeServices:    ED4E_ITEM_TYPES.equipment,
+  transport:        ED4E_ITEM_TYPES.equipment,
+  valuable:         ED4E_ITEM_TYPES.equipment,
+} );
+
+const ED4E_ITEM_STATUS_EQUIPPED = "equipped";
+
+/**
+ * Maps a SecondStep item that is `inUse` to the `ed4e` `itemStatus`.
+ * Weapons are left out since they use their own mapping because of their `wieldingType`.
+ * @satisfies {Readonly<Record<ED4E_ITEM_TYPES, ED4E_ITEM_STATUS_EQUIPPED>>}
+ */
+export const IN_USE_ITEM_STATUS_BY_ITEM_TYPE = Object.freeze( {
+  [ ED4E_ITEM_TYPES.armor ]:     ED4E_ITEM_STATUS_EQUIPPED,
+  [ ED4E_ITEM_TYPES.equipment ]: ED4E_ITEM_STATUS_EQUIPPED,
+  [ ED4E_ITEM_TYPES.shield ]:    ED4E_ITEM_STATUS_EQUIPPED,
+} );
+
 // endregion
