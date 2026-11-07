@@ -32,10 +32,6 @@ function synthesizeEquipment( equipment, systemType ) {
     img:    DEFAULT_IMAGES.Synthesized.equipment,
     system: {
       amount:     equipment.amount ?? 1,
-      itemStatus: getItemStatus(
-        systemType,
-        equipment.inUse,
-      ),
     },
   };
 }
@@ -58,7 +54,7 @@ function isCoin( equipment ) {
 function buildCoin( equipment ) {
   const denomination = SECOND_STEP_COINAGE_IDS[ equipment.id?.id.toLowerCase() ];
   const data = {
-    img:    "",
+    img:    DEFAULT_IMAGES.Synthesized.coin,
     name:   _loc( `S2F.Synthesized.Name.Coin.${ denomination }` ),
     system: {
       amount: equipment.amount,
@@ -101,10 +97,14 @@ function applyForging( resolvedData, itemType, parsedEquipment ) {
   switch ( itemType ) {
     case ED4E_SYSTEM_TYPES.Item.armor: {
       const { system } = resolvedData;
-      const physical = system.physical ??= {};
-      const mystical= system.mystical ??= {};
-      physical.forgeBonus = parsedEquipment.timesForgedPhysical ?? physical.forgeBonus;
-      mystical.forgeBonus = parsedEquipment.timesForgedMystical ?? mystical.forgeBonus;
+      if ( parsedEquipment.timesForgedPhysical ) {
+        const physical = system.physical ??= {};
+        physical.forgeBonus = parsedEquipment.timesForgedPhysical;
+      }
+      if ( parsedEquipment.timesForgedMystical ) {
+        const mystical= system.mystical ??= {};
+        mystical.forgeBonus = parsedEquipment.timesForgedMystical;
+      }
       break;
     }
     case ED4E_SYSTEM_TYPES.Item.weapon: {
@@ -134,7 +134,8 @@ export async function adaptEquipment( equipments ) {
   const adaptedEquipments = await Promise.all( realEquipments.map( async ( equipment ) => {
     if ( isCoin( equipment ) ) return { resolved: buildCoin( equipment ) };
 
-    const systemType = EQUIPMENT_TYPE_FROM_SECOND_STEP_TYPE[ equipment.type ];
+    const systemType = EQUIPMENT_TYPE_FROM_SECOND_STEP_TYPE[ equipment.type ]
+      ?? ED4E_SYSTEM_TYPES.Item.equipment;
     const resolved = await resolveItem(
       equipment.id,
       systemType,
