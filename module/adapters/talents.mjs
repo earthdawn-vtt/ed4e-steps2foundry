@@ -24,7 +24,7 @@
  */
 
 import { resolveItem } from "../resolvers/item-resolver.mjs";
-import { TALENT_CATEGORY_FROM_SECOND_STEP_TYPE } from "../constants/constants.mjs";
+import { DEFAULT_IMAGES, ED4E_SYSTEM_TYPES, TALENT_CATEGORY_FROM_SECOND_STEP_TYPE } from "../constants/constants.mjs";
 
 /**
  * Builds a minimal talent item data object to use as the last-resort fallback if the talent cannot be resolved
@@ -35,8 +35,8 @@ import { TALENT_CATEGORY_FROM_SECOND_STEP_TYPE } from "../constants/constants.mj
 function synthesizeTalent( talent ) {
   return {
     name:   talent.id.id,
-    type:   "talent",
-    img:    "icons/svg/book.svg",
+    type:   ED4E_SYSTEM_TYPES.Item.talent,
+    img:    DEFAULT_IMAGES.Synthesized.talent,
     system: {},
   };
 }
