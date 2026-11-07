@@ -2,9 +2,11 @@
   "S2F": {
     "Synthesized": {
       "Name": {
-        "coinCopper":      "Kupfer",
-        "coinGold":        "Gold",
-        "coinSilver":      "Silber",
+        "Coin":            {
+          "copper": "Kupfer",
+          "gold":   "Gold",
+          "silver": "Silber"
+        },
         "questorDevotion": "Questor"
       }
     }

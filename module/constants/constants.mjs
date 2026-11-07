@@ -1,3 +1,7 @@
+/**
+ * @import * from "../_types.mjs";
+ */
+
 export const MODULE_ID = "ed4e-steps2foundry";
 
 /**
@@ -33,6 +37,23 @@ export const QUESTOR_DEVOTION_TIER = Object.freeze( [
   "adherent",
   "exemplar",
 ] );
+
+// region ed4e System
+
+export const ED4E_SYSTEM_TYPES = Object.freeze( {
+  Item: Object.freeze( {
+    armor:     "armor",
+    equipment: "equipment",
+    shield:    "shield",
+    talent:    "talent",
+    weapon:    "weapon",
+  } ),
+} );
+
+
+// endregion
+
+// region Second Step
 
 // region Second Step Sources
 
@@ -116,6 +137,54 @@ export const SECOND_STEP_ID_PREFIX = Object.freeze( [
 
 // endregion
 
+// region Second Step Types
+
+/**
+ * The types of equipments in a Second Step Export, normalized to parsed types.
+ * @type {Readonly<Record<string, NormalizedEquipmentType>>}
+ */
+export const NORMALIZED_SECOND_STEP_EQUIPMENT_TYPES = Object.freeze( {
+  accommodation:    "accomodation",
+  adventuring:      "adventuring",
+  armor:            "armor",
+  bloodCharm:       "bloodCharm",
+  bloodInk:         "bloodInk",
+  clothing:         "clothing",
+  healingAidPotion: "healingAidPotion",
+  healingAid:       "healingAid",
+  magic:            "magic",
+  meleeWeapon:      "meleeWeapon",
+  missileWeapon:    "missileWeapon",
+  missile:          "missile",
+  mount:            "mount",
+  provender:        "provender",
+  runeTattoo:       "runeTattoo",
+  shield:           "shield",
+  threadItem:       "threadItem",
+  thrown:           "thrown",
+  tradeServices:    "tradeServices",
+  transport:        "transport",
+  valuable:         "valuable",
+} );
+
+// endregion
+
+// region Second Step IDs
+
+/**
+ * The IDs of coinage in Second Step.
+ * @type {Readonly<{copper: string, gold: string, silver: string}>}
+ */
+export const SECOND_STEP_COINAGE_IDS = Object.freeze( {
+  copper: "copper",
+  gold:   "gold",
+  silver: "silver",
+} );
+
+// endregion
+
+// endregion
+
 // region Mappings
 
 /**
@@ -172,34 +241,32 @@ export const TALENT_CATEGORY_FROM_SECOND_STEP_TYPE = Object.freeze( {
   effectRaisable:    "other",
 } );
 
-const ED4E_ITEM_TYPES = ED4E_CONSTANTS.SYSTEM_TYPES.Item;
-
 /**
  * Maps a normalized SecondStep equipment type to an item system type in ed4e.
- * @satisfies {Readonly<Record<string, ED4E_ITEM_TYPES>>}
+ * @satisfies {Readonly<Record<string, ED4E_SYSTEM_TYPES>>}
  */
 export const EQUIPMENT_TYPE_FROM_SECOND_STEP_TYPE = Object.freeze( {
-  accomodation:     ED4E_ITEM_TYPES.equipment,
-  adventuring:      ED4E_ITEM_TYPES.equipment,
-  armor:            ED4E_ITEM_TYPES.armor,
-  bloodCharm:       ED4E_ITEM_TYPES.equipment,
-  bloodInk:         ED4E_ITEM_TYPES.equipment,
-  clothing:         ED4E_ITEM_TYPES.equipment,
-  healingAidPotion: ED4E_ITEM_TYPES.equipment,
-  healingAid:       ED4E_ITEM_TYPES.equipment,
-  magic:            ED4E_ITEM_TYPES.equipment,
-  meleeWeapon:      ED4E_ITEM_TYPES.weapon,
-  missileWeapon:    ED4E_ITEM_TYPES.weapon,
-  missile:          ED4E_ITEM_TYPES.weapon,
-  mount:            ED4E_ITEM_TYPES.equipment,
-  provender:        ED4E_ITEM_TYPES.equipment,
-  runeTattoo:       ED4E_ITEM_TYPES.equipment,
-  shield:           ED4E_ITEM_TYPES.shield,
-  threadItem:       ED4E_ITEM_TYPES.equipment,
-  thrown:           ED4E_ITEM_TYPES.weapon,
-  tradeServices:    ED4E_ITEM_TYPES.equipment,
-  transport:        ED4E_ITEM_TYPES.equipment,
-  valuable:         ED4E_ITEM_TYPES.equipment,
+  accommodation:    ED4E_SYSTEM_TYPES.Item.equipment,
+  adventuring:      ED4E_SYSTEM_TYPES.Item.equipment,
+  armor:            ED4E_SYSTEM_TYPES.Item.armor,
+  bloodCharm:       ED4E_SYSTEM_TYPES.Item.equipment,
+  bloodInk:         ED4E_SYSTEM_TYPES.Item.equipment,
+  clothing:         ED4E_SYSTEM_TYPES.Item.equipment,
+  healingAidPotion: ED4E_SYSTEM_TYPES.Item.equipment,
+  healingAid:       ED4E_SYSTEM_TYPES.Item.equipment,
+  magic:            ED4E_SYSTEM_TYPES.Item.equipment,
+  meleeWeapon:      ED4E_SYSTEM_TYPES.Item.weapon,
+  missileWeapon:    ED4E_SYSTEM_TYPES.Item.weapon,
+  missile:          ED4E_SYSTEM_TYPES.Item.equipment,
+  mount:            ED4E_SYSTEM_TYPES.Item.equipment,
+  provender:        ED4E_SYSTEM_TYPES.Item.equipment,
+  runeTattoo:       ED4E_SYSTEM_TYPES.Item.equipment,
+  shield:           ED4E_SYSTEM_TYPES.Item.shield,
+  threadItem:       ED4E_SYSTEM_TYPES.Item.equipment,
+  thrown:           ED4E_SYSTEM_TYPES.Item.weapon,
+  tradeServices:    ED4E_SYSTEM_TYPES.Item.equipment,
+  transport:        ED4E_SYSTEM_TYPES.Item.equipment,
+  valuable:         ED4E_SYSTEM_TYPES.Item.equipment,
 } );
 
 const ED4E_ITEM_STATUS_EQUIPPED = "equipped";
@@ -207,12 +274,28 @@ const ED4E_ITEM_STATUS_EQUIPPED = "equipped";
 /**
  * Maps a SecondStep item that is `inUse` to the `ed4e` `itemStatus`.
  * Weapons are left out since they use their own mapping because of their `wieldingType`.
- * @satisfies {Readonly<Record<ED4E_ITEM_TYPES, ED4E_ITEM_STATUS_EQUIPPED>>}
+ * @satisfies {Readonly<Record<ED4E_SYSTEM_TYPES, ED4E_ITEM_STATUS_EQUIPPED>>}
  */
 export const IN_USE_ITEM_STATUS_BY_ITEM_TYPE = Object.freeze( {
-  [ ED4E_ITEM_TYPES.armor ]:     ED4E_ITEM_STATUS_EQUIPPED,
-  [ ED4E_ITEM_TYPES.equipment ]: ED4E_ITEM_STATUS_EQUIPPED,
-  [ ED4E_ITEM_TYPES.shield ]:    ED4E_ITEM_STATUS_EQUIPPED,
+  [ ED4E_SYSTEM_TYPES.Item.armor ]:     ED4E_ITEM_STATUS_EQUIPPED,
+  [ ED4E_SYSTEM_TYPES.Item.equipment ]: ED4E_ITEM_STATUS_EQUIPPED,
+  [ ED4E_SYSTEM_TYPES.Item.shield ]:    ED4E_ITEM_STATUS_EQUIPPED,
 } );
+
+// endregion
+
+// region Document Creation
+
+// region Default Images
+
+export const DEFAULT_IMAGES = {
+  Synthesized: {
+    coin:      "icons/commodities/currency/coins-assorted-mix-silver.webp",
+    equipment: "icons/containers/bags/sack-canvas-grey.webp",
+    talent:    "icons/svg/book.svg",
+  },
+};
+
+// endregion
 
 // endregion
