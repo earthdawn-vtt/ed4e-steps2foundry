@@ -144,6 +144,7 @@ describe( "parseSecondStepExport", () => {
   } );
 
   describe( "skills", () => {
+    
     it( "normalizes skill categories consistently", () => {
       const { skills } = parseSecondStepExport( rawExport );
       expect( skills ).toHaveLength( rawExport.Skills.length );
@@ -153,6 +154,13 @@ describe( "parseSecondStepExport", () => {
       expect( skills.find( skill => skill.name === "Accounting" ).category ).toBe( "knowledge" );
       expect( skills.find( skill => skill.name === "Embroidery" ).category ).toBe( "artisan" );
     } );
+
+    it( "normalizes names of skills with the 'Not Selected' name", () => {
+      const { skills } = parseSecondStepExport( rawExport );
+      const craftAmor = skills.find( skill => skill.id.secondStepId === "ED4CraftArmor" );
+      expect( craftAmor.name ).toBeNull();
+    } );
+
   } );
 
   describe( "equipment", () => {

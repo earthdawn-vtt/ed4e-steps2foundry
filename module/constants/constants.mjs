@@ -13,6 +13,7 @@ export const PLACEHOLDER_SENTINELS = Object.freeze( [
   "-",
   "&nbsp;",
   "Empty",
+  "NotSelected",
 ] );
 
 /**

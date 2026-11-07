@@ -283,7 +283,7 @@ function parseSkill( skill ) {
     category:  normalizeEnumToken( skill.Category ),
     uid:       skill.UID,
     attribute: mapAttributeToAbbreviation( skill.Attribute ) ?? null,
-    name:      skill.Name ?? null,
+    name:      normalizeSentinel( skill.Name ),
   };
 }
 
