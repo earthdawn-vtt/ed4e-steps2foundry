@@ -44,7 +44,7 @@ function synthesizeTalent( talent ) {
 /**
  * Extracts the circle at which a talent was learned in its currently assigned source discipline, by matching
  * the talent's parsed `disciplineIds`/`circles` against its single `source`. Returns `undefined` if `source` is
- * not found among the talent's listed disciplines (e.g., the talent is curretnly sourced from a namegiver).
+ * not found among the talent's listed disciplines (e.g., the talent is currently sourced from a namegiver).
  * @param {ParsedTalent} talent - The parsed talent to extract the circle from.
  * @returns {number|undefined} The matching circle, or `undefined` if no match is found.
  */
