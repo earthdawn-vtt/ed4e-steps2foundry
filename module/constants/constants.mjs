@@ -47,6 +47,7 @@ export const ED4E_SYSTEM_TYPES = Object.freeze( {
     equipment: "equipment",
     shield:    "shield",
     skill:     "skill",
+    spell:     "spell",
     talent:    "talent",
     weapon:    "weapon",
   } ),
@@ -56,6 +57,14 @@ export const ED4E_SKILL_TYPES = Object.freeze( {
   artisan:   "artisan",
   general:   "general",
   knowledge: "knowledge",
+} );
+
+export const ED4E_SPELLCASTING_TYPES = Object.freeze( {
+  elementalism: "elementalism",
+  illusionism:  "illusionism",
+  nethermancy:  "nethermancy",
+  shamanism:    "shamanism",
+  wizardry:     "wizardry",
 } );
 
 // endregion
@@ -313,6 +322,23 @@ export const SKILL_TYPE_FROM_SECOND_STEP_CATEGORY = Object.freeze( {
   [ NORMALIZED_SECOND_STEP_SKILL_CATEGORIES.knowledge ]: ED4E_SKILL_TYPES.knowledge,
 } );
 
+/**
+ * Maps a single letter to the spellcasting type in ed4e. Only the core types are supported:
+ * - (e)lementalism
+ * - (i)llusionism
+ * - (n)ethermancy
+ * - (s)hamanism
+ * - (w)izardry
+ * @type {Readonly<{e: string, i: string, n: string, s: string, w: string}>}
+ */
+export const SPELLCASTING_TYPE_FROM_SPELL_LETTER = Object.freeze( {
+  e: ED4E_SPELLCASTING_TYPES.elementalism,
+  i: ED4E_SPELLCASTING_TYPES.illusionism,
+  n: ED4E_SPELLCASTING_TYPES.nethermancy,
+  s: ED4E_SPELLCASTING_TYPES.shamanism,
+  w: ED4E_SPELLCASTING_TYPES.wizardry,
+} );
+
 // endregion
 
 // region Document Creation
@@ -324,6 +350,7 @@ export const DEFAULT_IMAGES = {
     coin:      "icons/commodities/currency/coins-assorted-mix-silver.webp",
     equipment: "icons/containers/bags/sack-canvas-grey.webp",
     skill:     "icons/skills/trades/smithing-anvil-brown.webp",
+    spell:     "icons/magic/symbols/runes-triangle-orange.webp",
     talent:    "icons/magic/nature/dreamcatcher-green.webp",
   },
 };
