@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from "vitest";
+import { describe, expect, it, } from "vitest";
 import { mockLookupTable } from "../../mocks/browser.mjs";
 import { mockUuidDocument } from "../../mocks/foundry.mjs";
 import { adaptEquipment } from "../../../module/adapters/equipment.mjs";
@@ -35,12 +35,6 @@ function mockEquipmentResolvable( itemType, system = {}, secondStepId = "ED4Test
 }
 
 describe( "adaptEquipment", () => {
-
-  beforeEach( () => {
-    vi.stubGlobal( "_loc", vi.fn( key => key ) );
-    // Nothing is resolvable unless a test says otherwise.
-    mockLookupTable( {} );
-  } );
 
   describe( "resolved items", () => {
 

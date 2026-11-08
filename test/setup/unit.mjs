@@ -6,19 +6,27 @@
 
 import { afterEach, beforeEach, vi } from "vitest";
 import { clearLookupTableCache } from "../../module/resolvers/lookup-tables.mjs";
+import { mockLookupTable } from "../mocks/browser.mjs";
 
-beforeEach( () => {
-  clearLookupTableCache();
+// region Helpers
 
-  vi.stubGlobal( "fromUuid", vi.fn() );
+function stubGlobals() {
+  vi.stubGlobal( "ED4E_CONSTANTS", {
+    SYSTEM_ID: "ed4e",
+  } );
+
+  vi.stubGlobal( "_loc", vi.fn( key => key ) );
+
+  vi.stubGlobal( "fetch", vi.fn() );
+
   vi.stubGlobal( "foundry", {
     utils: {
       mergeObject: ( target, source ) => Object.assign( target, source )
     }
   } );
-  vi.stubGlobal( "ED4E_CONSTANTS", {
-    SYSTEM_ID: "ed4e",
-  } );
+
+  vi.stubGlobal( "fromUuid", vi.fn() );
+
   vi.stubGlobal( "game", {
     settings: {
       get: vi.fn(),
@@ -31,10 +39,26 @@ beforeEach( () => {
       }
     }
   } );
-  vi.stubGlobal( "fetch", vi.fn() );
+}
+
+function prepareLookupTables() {
+  clearLookupTableCache();
+  // Nothing is resolvable unless a test says otherwise.
+  mockLookupTable( {} );
+}
+
+// endregion
+
+// region setup
+
+beforeEach( () => {
+  stubGlobals();
+  prepareLookupTables();
 } );
 
 afterEach( () => {
   vi.restoreAllMocks();
   vi.unstubAllGlobals();
 } );
+
+// endregion
