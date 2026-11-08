@@ -130,7 +130,7 @@ export async function adaptTalents( talents ) {
   const adaptedTalents = await Promise.all( realTalents.map( async ( talent ) => {
     const resolved = await resolveItem(
       talent.id,
-      "talent",
+      ED4E_SYSTEM_TYPES.Item.talent,
       () => synthesizeTalent( talent ),
     );
 
