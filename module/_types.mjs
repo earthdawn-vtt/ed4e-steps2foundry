@@ -546,7 +546,7 @@
  * @property {ParsedIdSource} id - ID of the discipline.
  * @property {number} circle - The current circle of the discipline.
  * @property {number} order - The place in the order in which multiple disciplines were learned.
- * @property {number} startedAt - The circle of the primary discipline (#Order = 1) this discipline was learned at.
+ * @property {number} startedAt - The circle of the primary discipline (#Order = 0) this discipline was learned at.
  * @property {ParsedOptionalTalent[]} optionalTalentsChosen - Optional talents that were learned in this discipline.
  */
 
