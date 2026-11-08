@@ -161,6 +161,20 @@ describe( "parseSecondStepExport", () => {
       expect( craftAmor.name ).toBeNull();
     } );
 
+    it( "gives skills without a specialization a null or undefined name", () => {
+      const { skills } = parseSecondStepExport( rawExport );
+      const generic = skills.filter( skill => skill.category === "general" );
+      expect( generic.length ).toBeGreaterThan( 0 );
+      expect( generic.every( skill => skill.name === null || skill.name === undefined ) ).toBe( true );
+    } );
+
+    it( "keeps the specialization of knowledge and artisan skills", () => {
+      const { skills } = parseSecondStepExport( rawExport );
+      const specialized = skills.filter( skill => [ "knowledge", "artisan" ].includes( skill.category ) );
+      expect( specialized.length ).toBeGreaterThan( 0 );
+      expect( specialized.every( skill => typeof skill.name === "string" && skill.name.length > 0 ) ).toBe( true );
+    } );
+
   } );
 
   describe( "equipment", () => {
