@@ -46,11 +46,17 @@ export const ED4E_SYSTEM_TYPES = Object.freeze( {
     armor:     "armor",
     equipment: "equipment",
     shield:    "shield",
+    skill:     "skill",
     talent:    "talent",
     weapon:    "weapon",
   } ),
 } );
 
+export const ED4E_SKILL_TYPES = Object.freeze( {
+  artisan:   "artisan",
+  general:   "general",
+  knowledge: "knowledge",
+} );
 
 // endregion
 
@@ -168,6 +174,16 @@ export const NORMALIZED_SECOND_STEP_EQUIPMENT_TYPES = Object.freeze( {
   valuable:         "valuable",
 } );
 
+/**
+ * The types of skills in a Second Step Export, normalized to parsed types.
+ * @type {Readonly<Record<string, NormalizedSkillCategory>>}
+ */
+export const NORMALIZED_SECOND_STEP_SKILL_CATEGORIES = Object.freeze( {
+  artisan:      "artisan",
+  general:      "general",
+  knowledge:    "knowledge",
+} );
+
 // endregion
 
 // region Second Step IDs
@@ -270,6 +286,10 @@ export const EQUIPMENT_TYPE_FROM_SECOND_STEP_TYPE = Object.freeze( {
   [ NORMALIZED_SECOND_STEP_EQUIPMENT_TYPES.valuable ]:         ED4E_SYSTEM_TYPES.Item.equipment,
 } );
 
+/**
+ * The ed4e item status for equipped items.
+ * @type {string}
+ */
 const ED4E_ITEM_STATUS_EQUIPPED = "equipped";
 
 /**
@@ -283,6 +303,16 @@ export const IN_USE_ITEM_STATUS_BY_ITEM_TYPE = Object.freeze( {
   [ ED4E_SYSTEM_TYPES.Item.shield ]:    ED4E_ITEM_STATUS_EQUIPPED,
 } );
 
+/**
+ * Maps a normalized SecondStep skill category to the skill type in ed4e.
+ * @satisfies {Readonly<Record<string, string>>}
+ */
+export const SKILL_TYPE_FROM_SECOND_STEP_CATEGORY = Object.freeze( {
+  [ NORMALIZED_SECOND_STEP_SKILL_CATEGORIES.artisan ]:   ED4E_SKILL_TYPES.artisan,
+  [ NORMALIZED_SECOND_STEP_SKILL_CATEGORIES.general ]:   ED4E_SKILL_TYPES.general,
+  [ NORMALIZED_SECOND_STEP_SKILL_CATEGORIES.knowledge ]: ED4E_SKILL_TYPES.knowledge,
+} );
+
 // endregion
 
 // region Document Creation
@@ -293,7 +323,8 @@ export const DEFAULT_IMAGES = {
   Synthesized: {
     coin:      "icons/commodities/currency/coins-assorted-mix-silver.webp",
     equipment: "icons/containers/bags/sack-canvas-grey.webp",
-    talent:    "icons/svg/book.svg",
+    skill:     "icons/skills/trades/smithing-anvil-brown.webp",
+    talent:    "icons/magic/nature/dreamcatcher-green.webp",
   },
 };
 
