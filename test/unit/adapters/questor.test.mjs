@@ -1,4 +1,4 @@
-import { describe, expect, it, } from "vitest";
+import { describe, expect, it, vi, } from "vitest";
 import { idSource } from "../../helpers/factories.mjs";
 import { mockLookupTable, mockLookupTables } from "../../mocks/browser.mjs";
 import { mockSettingsGetValue, mockUuidDocument, mockUuidDocuments } from "../../mocks/foundry.mjs";
@@ -67,9 +67,13 @@ function baseQuestorDevotionDocument( overrides = {} ) {
 describe( "adaptQuestor", () => {
 
   it( "resolves the questor item by passion id and sets system.level", async () => {
-    mockLookupTable( testLookupTables[ QUESTOR_ITEM_TYPE ] );
-    mockUuidDocument( baseQuestorDocument() );
+    mockLookupTables( testLookupTables );
+    mockUuidDocuments( {
+      [ testQuestorUuid ]:         baseQuestorDocument(),
+      [ testQuestorDevotionUuid ]: baseQuestorDevotionDocument(),
+    } );
     mockSettingsGetValue( undefined );
+    // const warn = vi.spyOn( console, "warn" ).mockImplementation( () => {} );
 
     const { questor } = await adaptQuestor( baseQuestor() );
 

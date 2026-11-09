@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import { resolveItem } from "../../../module/resolvers/item-resolver.mjs";
 import { mockLookupTable } from "../../mocks/browser.mjs";
 import { mockUuidDocument } from "../../mocks/foundry.mjs";
@@ -17,7 +17,8 @@ describe( "resolveItems", () => {
     expect( result.data ).toEqual( { name: "Foo" } );
   } );
 
-  it( "falls back to edid when the UUID is stale (wrong type)", async () => {
+  it( "falls back to edid when the UUID is stale (wrong type) and warns about it", async () => {
+    const warn = vi.spyOn( console, "warn" ).mockImplementation( () => {} );
     mockLookupTable( { "ED4Foo": { uuid: "Compendium.pack.talent.Item.123", edid: "talent-foo" } } );
     mockUuidDocument( { type: "skill", toObject: () => ( {} ) } );
     mockGlobalItemByEdid(
@@ -28,9 +29,12 @@ describe( "resolveItems", () => {
 
     expect( result.resolution ).toBe( "edid" );
     expect( result.data ).toEqual( { name: "FoundViaEdid" } );
+    expect( warn ).toHaveBeenCalledOnce();
+    warn.mockRestore();
   } );
 
-  it( "falls back to edid when the UUID resolves to nothing", async () => {
+  it( "falls back to edid when the UUID resolves to nothing and warns about it", async () => {
+    const warn = vi.spyOn( console, "warn" ).mockImplementation( () => {} );
     mockLookupTable( { "ED4Foo": { uuid: "Compendium.pack.talent.Item.123", edid: "talent-foo" } } );
     mockUuidDocument( null );
     mockGlobalItemByEdid(
@@ -40,6 +44,8 @@ describe( "resolveItems", () => {
     const result = await resolveItem( idSource( "ED4Foo" ), "talent", () => ( { name: "Synthesized" } ) );
 
     expect( result.resolution ).toBe( "edid" );
+    expect( warn ).toHaveBeenCalledOnce();
+    warn.mockRestore();
   } );
 
   it( "synthesizes and flags the item when neither tier resolves", async () => {
