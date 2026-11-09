@@ -43,13 +43,15 @@ export const QUESTOR_DEVOTION_TIER = Object.freeze( [
 
 export const ED4E_SYSTEM_TYPES = Object.freeze( {
   Item: Object.freeze( {
-    armor:     "armor",
-    equipment: "equipment",
-    shield:    "shield",
-    skill:     "skill",
-    spell:     "spell",
-    talent:    "talent",
-    weapon:    "weapon",
+    armor:      "armor",
+    discipline:  "discipline",
+    equipment:  "equipment",
+    path:       "path",
+    shield:     "shield",
+    skill:      "skill",
+    spell:      "spell",
+    talent:     "talent",
+    weapon:     "weapon",
   } ),
 } );
 
@@ -347,11 +349,13 @@ export const SPELLCASTING_TYPE_FROM_SPELL_LETTER = Object.freeze( {
 
 export const DEFAULT_IMAGES = {
   Synthesized: {
-    coin:      "icons/commodities/currency/coins-assorted-mix-silver.webp",
-    equipment: "icons/containers/bags/sack-canvas-grey.webp",
-    skill:     "icons/skills/trades/smithing-anvil-brown.webp",
-    spell:     "icons/magic/symbols/runes-triangle-orange.webp",
-    talent:    "icons/magic/nature/dreamcatcher-green.webp",
+    coin:       "icons/commodities/currency/coins-assorted-mix-silver.webp",
+    discipline: "icons/tools/hand/hammer-construction-claw.webp",
+    equipment:  "icons/containers/bags/sack-canvas-grey.webp",
+    path:       "icons/environment/wilderness/terrain-river-road-gray.webp",
+    skill:      "icons/skills/trades/smithing-anvil-brown.webp",
+    spell:      "icons/magic/symbols/runes-triangle-orange.webp",
+    talent:     "icons/magic/nature/dreamcatcher-green.webp",
   },
 };
 
