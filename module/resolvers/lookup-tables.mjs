@@ -10,6 +10,7 @@
  */
 
 import { MODULE_ID } from "../constants/constants.mjs";
+import { warn } from "../logging/logging.mjs";
 
 /**
  * In-memory cache of loaded lookup tables, keyed by Foundry item type.
@@ -30,7 +31,7 @@ export async function getLookupTable( itemType ) {
     const response = await fetch( `modules/${ MODULE_ID }/lookup-tables/${ itemType }.json` );
     if ( response.ok ) table = await response.json();
   } catch ( error ) {
-    console.warn( `${ MODULE_ID } | Could not load lookup table for item type ${ itemType }`, error );
+    warn( `Could not load lookup table for item type ${ itemType }`, error );
   }
 
   lookupTableCache.set( itemType, table );

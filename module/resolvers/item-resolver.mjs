@@ -17,6 +17,7 @@
 
 import { getLookupTable } from "./lookup-tables.mjs";
 import { MODULE_ID } from "../constants/constants.mjs";
+import { warn } from "../logging/logging.mjs";
 
 /**
  * Resolves a single SecondStep entity reference to Foundry item data, in three tiers:
@@ -40,8 +41,8 @@ export async function resolveItem( idSource, itemType, synthesize ) {
     if ( document?.type === itemType ) {
       return toResolvedItem( document.toObject(), "uuid", idSource, itemType );
     }
-    console.warn(
-      `${ MODULE_ID } | UUID lookup for "${ idSource.secondStepId }" (${ itemType }) is stale or mistyped, falling back`,
+    warn(
+      `UUID lookup for "${ idSource.secondStepId }" (${ itemType }) is stale or mistyped, falling back`,
     );
   }
 
@@ -50,8 +51,8 @@ export async function resolveItem( idSource, itemType, synthesize ) {
     if ( document ) {
       return toResolvedItem( document.toObject(), "edid", idSource, itemType );
     }
-    console.warn(
-      `${ MODULE_ID } | ED-ID lookup for "${ idSource.secondStepId }" (${ itemType }) via "${ entry.edid }" found nothing, synthesizing`,
+    warn(
+      `ED-ID lookup for "${ idSource.secondStepId }" (${ itemType }) via "${ entry.edid }" found nothing, synthesizing`,
     );
   }
 
