@@ -1,5 +1,6 @@
 /**
  * @import { AdaptedTalent } from "./talents.mjs";
+ * @import { AdaptedPath } from "./paths.mjs";
  */
 
 /**
@@ -26,7 +27,14 @@
  * @property {object} updateData - The update payload, setting `system.pathTalentId`/`system.questorDevotionId`.
  */
 
+/**
+ * @typedef EmbeddedPath
+ * @property {string} id - The real Foundry ID of the embedded item on the actor.
+ * @property {AdaptedPath} adapted - The adapted path data this embedded item was created from.
+ */
+
 import { MODULE_ID } from "../constants/constants.mjs";
+import { warn } from "../logging/logging.mjs";
 
 /**
  * Links every embedded talent that has a resolvable `sourceSecondStepId` to the real Foundry ID of its embedded
@@ -55,8 +63,8 @@ export function linkTalentSources( embeddedTalents, sourceableItems ) {
 
     const sourceItemId = sourceItemIdBySecondStepId.get( adapted.sourceSecondStepId );
     if ( !sourceItemId ) {
-      console.warn(
-        `${ MODULE_ID } | Could not link talent (embedded id "${ id }") to its source "${ adapted.sourceSecondStepId }": no matching embedded item found.`,
+      warn(
+        `Could not link talent (embedded id "${ id }") to its source "${ adapted.sourceSecondStepId }": no matching embedded item found.`,
       );
       continue;
     }
@@ -91,6 +99,44 @@ export function linkQuestorDevotion( questorItemId, questorDevotionItemId ) {
 }
 
 /**
+ * Links every embedded path that has a resolvable `sourceSecondStepId` to the real Foundry ID of its embedded
+ * discipline item.
+ *
+ * Talents with `sourceSecondStepId === undefined` (like from namegivers or effects) are left untouched, since there is
+ * no `source` for them right now.
+ * @param {EmbeddedPath[]} embeddedPaths - The paths already embedded in the actor, paired with the adapted data
+ * they were created from.
+ * @param {SourceableEmbeddedItem[]} disciplineItems - The disciplines already embedded in the actor that paths may be
+ * sourced from.
+ * @returns {ClassAbilityLinkUpdate[]} The update payloads to apply via `updateEmbeddedDocuments`.
+ */
+export function linkPathDisciplines( embeddedPaths, disciplineItems ) {
+  const sourceItemIdBySecondStepId = new Map(
+    disciplineItems.map( item => [ item.secondStepId, item.id ] )
+  );
+
+  const updates = [];
+
+  for ( const { id, adapted } of embeddedPaths ) {
+    if ( adapted?.linkedSecondStepId === undefined ) continue;
+
+    const disciplineItemId = sourceItemIdBySecondStepId.get( adapted.linkedSecondStepId );
+    if ( !disciplineItemId ) {
+      warn(
+        `Could not link path (embedded id "${ id }") to its source "${ adapted.sourceSecondStepId }": no matching embedded item found."`
+      );
+      continue;
+    }
+
+    const sourceUpdateData = { "system.sourceDisciplineId": disciplineItemId };
+
+    updates.push( { itemId: id, updateData: sourceUpdateData } );
+  }
+
+  return updates;
+}
+
+/**
  * Zips an array of just-created Foundry documents with the adapted data objects they were created from, by position.
  * Only valid if both arrays were derived from the same source array, in the same order, without being reordered or
  * independently filtered since. This is true as long as the array passed to `createEmbeddedDocuments` is built directly
@@ -109,4 +155,20 @@ export function zipCreatedWithAdapted( createdDocuments, adaptedData ) {
   }
 
   return createdDocuments.map( ( document, index ) => ( { id: document.id, adapted: adaptedData[ index ] } ) );
+}
+
+/**
+ * Merge update payloads that share an {@link ClassAbilityLinkUpdate#itemId}.
+ * @param {ClassAbilityLinkUpdate[]} updates The updates to merge. Does not get modified.
+ * @returns {ClassAbilityLinkUpdate[]} The merged updates, with one payload per `itemId`.
+ */
+export function mergeLinkUpdates( updates ) {
+  const updatesByItemId = new Map();
+
+  for ( const { itemId, updateData } of updates ) {
+    const mergedUpdateData = {  ...updatesByItemId.get( itemId )?.updateData, ...updateData };
+    updatesByItemId.set( itemId, { itemId, updateData: mergedUpdateData } );
+  }
+
+  return Array.from( updatesByItemId.values() );
 }
