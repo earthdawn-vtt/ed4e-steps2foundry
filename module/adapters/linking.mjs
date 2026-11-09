@@ -99,10 +99,10 @@ export function linkQuestorDevotion( questorItemId, questorDevotionItemId ) {
 }
 
 /**
- * Links every embedded path that has a resolvable `sourceSecondStepId` to the real Foundry ID of its embedded
+ * Links every embedded path that has a resolvable `linkedSecondStepId` to the real Foundry ID of its embedded
  * discipline item.
  *
- * Talents with `sourceSecondStepId === undefined` (like from namegivers or effects) are left untouched, since there is
+ * Paths with `linkedSecondStepId === undefined` (like from namegivers or effects) are left untouched, since there is
  * no `source` for them right now.
  * @param {EmbeddedPath[]} embeddedPaths - The paths already embedded in the actor, paired with the adapted data
  * they were created from.
@@ -123,7 +123,7 @@ export function linkPathDisciplines( embeddedPaths, disciplineItems ) {
     const disciplineItemId = sourceItemIdBySecondStepId.get( adapted.linkedSecondStepId );
     if ( !disciplineItemId ) {
       warn(
-        `Could not link path (embedded id "${ id }") to its source "${ adapted.sourceSecondStepId }": no matching embedded item found."`
+        `Could not link path (embedded id "${ id }") to its source "${ adapted.linkedSecondStepId }": no matching embedded item found.`
       );
       continue;
     }
