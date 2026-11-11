@@ -16,7 +16,8 @@
  */
 
 /**
- * A matrix granted by a thread item/quipment rather than a talent. Consumed by the equipment adapter.
+ * A matrix granted by a thread item/quipment rather than a talent. Consumed with together with thread items
+ * in a second pass.
  * @typedef MatrixGrant
  * @property {string|undefined} equipmentSecondStepId - The SecondStep ID of the equipment item that grants the matrix.
  * @property {string|undefined} spellSecondStepId - The SecondStep ID of the spell attuned to the matrix, if any.

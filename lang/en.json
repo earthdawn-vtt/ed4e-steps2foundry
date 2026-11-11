@@ -1,5 +1,24 @@
 {
   "S2F": {
+    "Character":   {
+      "unnamed": "Unnamed"
+    },
+    "Description": {
+      "age":     "Age",
+      "eyes":    "Eyes",
+      "gender":  "Gender",
+      "hair":    "Hair",
+      "height":  "Height",
+      "passion": "Passion",
+      "player":  "Player",
+      "skin":    "Skin",
+      "traits":  "Traits",
+      "weight":  "Weight"
+    },
+    "Journal":     {
+      "logJournalName": "Log: {characterName}",
+      "logPageName":    "Log"
+    },
     "Synthesized": {
       "Name": {
         "Coin":            {

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { lowerCaseFirstLetter, splitCamelCase } from "../../../module/utils/string.mjs";
+import { escapeHtml, lowerCaseFirstLetter, splitCamelCase } from "../../../module/utils/string.mjs";
 
 describe( "lowerCaseFirstLetter", () => {
 
@@ -87,4 +87,41 @@ describe( "splitCamelCase", () => {
   it( "handles a string with only digits", () => {
     expect( splitCamelCase( "12345" ) ).toBe( "12345" );
   } );
+} );
+
+describe( "escapeHtml", () => {
+
+  it.each( [
+    [ "&", "&amp;" ],
+    [ "<", "&lt;" ],
+    [ ">", "&gt;" ],
+    [ "\"", "&quot;" ],
+  ] )( "escapes %s", ( input, expected ) => {
+    expect( escapeHtml( input ) ).toBe( expected );
+  } );
+
+  it( "escapes a single quote", () => {
+    expect( escapeHtml( "'" ) ).not.toContain( "'" );
+  } );
+
+  it( "escapes the ampersand of an existing entity instead of leaving it alone", () => {
+    expect( escapeHtml( "&lt;" ) ).toBe( "&amp;lt;" );
+  } );
+
+  it( "escapes the ampersand first, so the entities it creates stay intact", () => {
+    expect( escapeHtml( "<b>" ) ).toBe( "&lt;b&gt;" );
+  } );
+
+  it( "leaves no tag characters in a script tag", () => {
+    const escaped = escapeHtml( "<script>alert(\"x\")</script>" );
+
+    expect( escaped ).not.toContain( "<" );
+    expect( escaped ).not.toContain( ">" );
+  } );
+
+  it( "leaves plain text and an empty string alone", () => {
+    expect( escapeHtml( "Elf Lore" ) ).toBe( "Elf Lore" );
+    expect( escapeHtml( "" ) ).toBe( "" );
+  } );
+
 } );

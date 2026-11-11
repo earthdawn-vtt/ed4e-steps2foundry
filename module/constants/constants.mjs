@@ -42,6 +42,10 @@ export const QUESTOR_DEVOTION_TIER = Object.freeze( [
 // region ed4e System
 
 export const ED4E_SYSTEM_TYPES = Object.freeze( {
+  Actor: Object.freeze( {
+    character: "character",
+    pc:        "character",
+  } ),
   Item: Object.freeze( {
     armor:      "armor",
     discipline:  "discipline",
@@ -193,6 +197,24 @@ export const NORMALIZED_SECOND_STEP_SKILL_CATEGORIES = Object.freeze( {
   artisan:      "artisan",
   general:      "general",
   knowledge:    "knowledge",
+} );
+
+/**
+ * The fields that can be filled out in the Second Step sheet at the top, describing the character.
+ * Except "Description".
+ * @type {Readonly<{Record<string,string>}>}
+ */
+export const NORMALIZED_SECOND_STEP_BASICS_DESCRIPTOR_FIELDS = Object.freeze( {
+  gender:  "gender",
+  age:     "age",
+  height:  "height",
+  weight:  "weight",
+  hair:    "hair",
+  eyes:    "eyes",
+  skin:    "skin",
+  player:  "player",
+  passion: "passion",
+  traits:  "traits",
 } );
 
 // endregion

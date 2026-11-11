@@ -1,4 +1,18 @@
 /**
+ * Escapes HTML special characters in a string.
+ * @param {string} theString The string to escape.
+ * @returns {string} The escaped string.
+ */
+export function escapeHtml( theString ) {
+  return String( theString )
+    .replace( /&/g, "&amp;" )
+    .replace( /</g, "&lt;" )
+    .replace( />/g, "&gt;" )
+    .replace( /"/g, "&quot;" )
+    .replace( /'/g, "&#39;" );
+}
+
+/**
  * Converts the first letter of a string to lowercase.
  * @param { string } theString The string to be modified.
  * @returns { string } The input string with its first letter converted to lowercase.

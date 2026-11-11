@@ -18,7 +18,7 @@
 import { resolveItem } from "../resolvers/item-resolver.mjs";
 
 /**
- * @typedef AdapatedQuestorResult
+ * @typedef AdaptedQuestorResult
  * @property {AdaptedQuestor} questor - The adapted questor item.
  * @property {AdaptedQuestorDevotion} devotion - The synthesized questor devotion item.
  */
@@ -65,10 +65,10 @@ function synthesizeQuestorDevotion( questor ) {
  * it implies. Both ar keyed by {@link SecondStepExportQuestor#Doctrine}, since the questor devotion is not explicitly
  * exported by Second Step.
  *
- * The questor devotion is resolved via the devotion lookup table, and as the last ressort fallback synthesized if a
+ * The questor devotion is resolved via the devotion lookup table, and as the last resort fallback synthesized if a
  * generic questor devotion could not be found (see {@link synthesizeQuestorDevotion}).
  * @param {ParsedQuestor} questor - The parsed questor data from {@link parseSecondStepExport}.
- * @returns {Promise<AdapatedQuestorResult>} The adapted questor and questor devotion items.
+ * @returns {Promise<AdaptedQuestorResult>} The adapted questor and questor devotion items.
  */
 export async function adaptQuestor( questor ) {
   const resolvedQuestor = await resolveItem(
