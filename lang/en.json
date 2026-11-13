@@ -15,6 +15,11 @@
       "traits":  "Traits",
       "weight":  "Weight"
     },
+    "Error":       {
+      "importFailed":        "Importing the character failed.",
+      "noActorPermission":   "You do not have permission to create actors.",
+      "noJournalPermission": "You do not have permission to create journal entries."
+    },
     "Journal":     {
       "logJournalName": "Log: {characterName}",
       "logPageName":    "Log"

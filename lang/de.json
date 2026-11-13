@@ -15,6 +15,11 @@
       "traits":  "Charakterzüge",
       "weight":  "Gewicht"
     },
+    "Error":       {
+      "importFailed":        "Der Import des Charakters ist fehlgeschlagen.",
+      "noActorPermission":   "Du hast keine Berechtigung, Akteure zu erstellen.",
+      "noJournalPermission": "Du hast keine Berechtigung, Journaleinträge zu erstellen."
+    },
     "Journal":     {
       "logJournalName": "Log von {characterName}",
       "logPageName":    "Log"

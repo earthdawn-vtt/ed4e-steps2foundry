@@ -32,7 +32,9 @@
 
 // endregion
 
-// region SecondStep Export Types
+// region SecondStep
+
+// region Export Types
 
 /**
  * @typedef SecondStepExportBasics
@@ -421,7 +423,11 @@
 
 // endregion
 
-// region Steps2Foundry Parsed Types
+// endregion
+
+// region Steps2Foundry
+
+// region Parsed Types
 
 /**
  * A normalized value for a {@link SecondStepExportBasics} string property, stripped of sentinels.
@@ -723,5 +729,66 @@
  * @property {number} wounds - How many wounds this character currently has.
  * @property {number} legendPoints - Amount of total Legend Points this character has.
  */
+
+// endregion
+
+// region Import
+
+/**
+ * @typedef {
+ *   "namegiver"
+ *   | "discipline"
+ *   | "path"
+ *   | "questor"
+ *   | "questorDevotion"
+ *   | "talent"
+ *   | "skill"
+ *   | "spell"
+ *   | "equipment"
+ * } ItemEntryKind
+ */
+
+/**
+ * @typedef ItemEntry
+ * @property {ItemEntryKind} kind - What kind of SecondStep entity this entry was made from.
+ * @property {import("./resolvers/item-resolver.mjs").ResolvedItem} resolved - The resolved item.
+ * @property {import("./adapters/talents.mjs").AdaptedTalent|import("./adapters/paths.mjs").AdaptedPath} [adapted] -
+ * The adapted data the entry was made from. Only set for talents and paths, as linking needs it.
+ */
+
+/**
+ * Parts of the SecondStep export that are parsed but not imported yet.
+ * @typedef {"threadItems"|"matrixGrants"|"knacks"|"magic"|"effects"|"homebrewEffects"|"legendPoints"} DeferredSection
+ */
+
+/**
+ * @typedef AdaptedCharacter
+ * @property {object} actorData - The payload for `Actor.create`.
+ * @property {object|null} journalData - The payload for `JournalEntry.create`, or `null` if there is no log.
+ * @property {ItemEntry[]} entries - All items to embed in the actor, in creation order.
+ * @property {Record<DeferredSection, number>} deferred - How much of each deferred section was found. For
+ * `legendPoints`, the number is the amount of legend points.
+ */
+
+/**
+ * @typedef ImportReportItem
+ * @property {ItemEntryKind} kind - The kind of the unresolved entry.
+ * @property {string} name - The name of the (synthesized) item.
+ * @property {string} itemType - The expected Foundry item type.
+ * @property {string} secondStepId - The SecondStep ID that could not be resolved.
+ */
+
+/**
+ * @typedef ImportReport
+ * @property {string} characterName - The name of the imported character.
+ * @property {number} itemCount - The number of items embedded in the actor.
+ * @property {{ uuid: number, edid: number, synthesized: number }} resolutions - How many items were resolved by
+ * each method.
+ * @property {ImportReportItem[]} unresolved - Items that could not be resolved and need review.
+ * @property {{ section: DeferredSection, count: number }[]} deferred - Sections that were not imported, with
+ * a count above 0.
+ */
+
+// endregion
 
 // endregion

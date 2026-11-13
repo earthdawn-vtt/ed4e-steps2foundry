@@ -28,16 +28,19 @@ function stubGlobals() {
   vi.stubGlobal( "fromUuid", vi.fn() );
 
   vi.stubGlobal( "game", {
-    settings: {
-      get: vi.fn(),
-    },
     ed4e: {
       helpers: {
         document: {
           getSingleGlobalItemByEdid: vi.fn()
         }
       }
-    }
+    },
+    settings: {
+      get: vi.fn(),
+    },
+    user: {
+      can: vi.fn( () => true )
+    },
   } );
 }
 
