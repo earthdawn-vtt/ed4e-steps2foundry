@@ -1,1 +1,50 @@
-{}
+{
+  "ED4Astendar": {
+    "uuid": "Compendium.earthdawn-questors.questors-questors-en.Item.vJrDRYHueVbwEb9y",
+    "edid": "questor-of-astendar"
+  },
+  "ED4Chorrolis": {
+    "uuid": "Compendium.earthdawn-questors.questors-questors-en.Item.2u2Zwo8xK86JMofz",
+    "edid": "questor-of-chorrolis"
+  },
+  "ED4Dis": {
+    "uuid": "Compendium.earthdawn-questors.questors-questors-en.Item.45e3RArAr3UYbTHp",
+    "edid": "questor-of-dis"
+  },
+  "ED4Floranuus": {
+    "uuid": "Compendium.earthdawn-questors.questors-questors-en.Item.BwkHsNQ7d1QpAlXS",
+    "edid": "questor-of-floranuus"
+  },
+  "ED4Garlen": {
+    "uuid": "Compendium.earthdawn-questors.questors-questors-en.Item.HBC9694qjjqJZQ5H",
+    "edid": "questor-of-garlen"
+  },
+  "ED4Jaspree": {
+    "uuid": "Compendium.earthdawn-questors.questors-questors-en.Item.GgU1iHcG5WzfbESK",
+    "edid": "questor-of-jaspree"
+  },
+  "ED4Lochost": {
+    "uuid": "Compendium.earthdawn-questors.questors-questors-en.Item.PCkiUSfn5sjGbVcP",
+    "edid": "questor-of-lochost"
+  },
+  "ED4Mynbruje": {
+    "uuid": "Compendium.earthdawn-questors.questors-questors-en.Item.QzvBB1rnuN8AqpuJ",
+    "edid": "questor-of-mynbruje"
+  },
+  "ED4Raggok": {
+    "uuid": "Compendium.earthdawn-questors.questors-questors-en.Item.YFgeIpq9vE7n3gr5",
+    "edid": "questor-of-raggok"
+  },
+  "ED4Thystonius": {
+    "uuid": "Compendium.earthdawn-questors.questors-questors-en.Item.jdULRT5bNkWbiRNp",
+    "edid": "questor-of-thystonius"
+  },
+  "ED4Upandal": {
+    "uuid": "Compendium.earthdawn-questors.questors-questors-en.Item.rs0XXxdL5gRcqhU8",
+    "edid": "questor-of-upandal"
+  },
+  "ED4Vestrial": {
+    "uuid": "Compendium.earthdawn-questors.questors-questors-en.Item.vsXavt4ItiissvEG",
+    "edid": "questor-of-vestrial"
+  }
+}

@@ -1,1 +1,382 @@
-{}
+{
+  "ED4AncientBondsAncientPromise": {
+    "uuid": null,
+    "edid": "knackkarma-ancient-promise"
+  },
+  "ED4AncientBondsSpiritLink": {
+    "uuid": null,
+    "edid": "knackkarma-spirit-link"
+  },
+  "ED4HorrorStalkDefendAgainsttheDarkness": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.sDUFfYpLGsTs1cl8",
+    "edid": "knackkarma-defend-against-the-darkness"
+  },
+  "ED4HorrorStalkHunterHunted": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.haaOtvjg1aeP3Tn3",
+    "edid": "knackkarma-hunter-hunted"
+  },
+  "ED4HorrorStalkKnowledgeisPower": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.avHIa6ifEUT7IIEO",
+    "edid": "knackkarma-knowledge-is-power"
+  },
+  "ED4HorrorStalkStabattheSpawn": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.EZ2nziUYDg2LI63k",
+    "edid": "knackkarma-stab-at-the-spawn"
+  },
+  "ED4HorrorStalkStriketheDarkness": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.BDP8Qw1nmeGsbvy2",
+    "edid": "knackkarma-strike-the-darkness"
+  },
+  "ED4PAvowedBeastEagerness": {
+    "uuid": null,
+    "edid": "knackkarma-the-beasts-eagerness"
+  },
+  "ED4PAvowedBoundtotheForest": {
+    "uuid": null,
+    "edid": "knackkarma-bound-to-the-forest"
+  },
+  "ED4PAvowedIncarnate": {
+    "uuid": null,
+    "edid": "knackkarma-vow-incarnate"
+  },
+  "ED4PAvowedNettlePunishment": {
+    "uuid": null,
+    "edid": "knackkarma-the-darks-punishment"
+  },
+  "ED4PAvowedNettleRevenge": {
+    "uuid": null,
+    "edid": "knackkarma-the-darks-revenge"
+  },
+  "ED4PAvowedSleeperProtection": {
+    "uuid": null,
+    "edid": "knackkarma-the-sleepers-protection"
+  },
+  "ED4PAvowedSleeperShelter": {
+    "uuid": null,
+    "edid": "knackkarma-the-sleepers-shelter"
+  },
+  "ED4PBrotherofSEarthBrother": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.eEh7wYxUPS19uyNt",
+    "edid": "knackkarma-earth-brother"
+  },
+  "ED4PBrotherofSEarthCloak": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.HOPiKdxVxpa8gKfY",
+    "edid": "knackkarma-earth-cloak"
+  },
+  "ED4PBrotherofSEarthElementalAffinity": {
+    "uuid": null,
+    "edid": "knackkarma-earth-elemental-affinity"
+  },
+  "ED4PBrotherofSEarthSense": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.uDmEXOPlbDCHeMHj",
+    "edid": "knackkarma-earth-sense"
+  },
+  "ED4PBrotherofSForceofStone": {
+    "uuid": null,
+    "edid": "knackkarma-force-of-stone"
+  },
+  "ED4PBrotherofSResilienceofStone": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.wjt0X7TCzVrby5Vf",
+    "edid": "knackkarma-resilience-of-stone"
+  },
+  "ED4PBrotherofSStabilityofStone": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.EqlR5gJavEe6sTaP",
+    "edid": "knackkarma-stability-of-stone"
+  },
+  "ED4PBrotherofSStoneFlesh": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.89m3uJZ8P65zAv11",
+    "edid": "knackkarma-stone-flesh"
+  },
+  "ED4PFireEaterCommunalGahad": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.cufSYv3AcLYETUXd",
+    "edid": "knackkarma-communal-gahad"
+  },
+  "ED4PFireEaterControlGahad": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.YIe4rpWmZwBG5md2",
+    "edid": "knackkarma-control-gahad"
+  },
+  "ED4PFireEaterHarmonywithGahad": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.RTezhMgMmWKSzhA5",
+    "edid": "knackkarma-harmony-with-gahad"
+  },
+  "ED4PFireEaterHarnessGahad": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.xr2XahmVLzJodtqu",
+    "edid": "knackkarma-harness-gahad"
+  },
+  "ED4PFireEaterRestrainGahad": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.YvD0ZaafCXUHr9Fm",
+    "edid": "knackkarma-restrain-gahad"
+  },
+  "ED4PJourneymanAppliedVersatility": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.obPMdpkGvyqnljwK",
+    "edid": "knackkarma-applied-versatility"
+  },
+  "ED4PJourneymanPracticedVersatility": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.kklUBGBDTdUpOLNL",
+    "edid": "versatility"
+  },
+  "ED4PJourneymanSkilledVersatility": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.fZZ9SK1MlqVfhaH9",
+    "edid": "versatility"
+  },
+  "ED4PLiberatorBlendingIn": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.TqZ7tMufuIP8L61R",
+    "edid": "knackkarma-blending-in"
+  },
+  "ED4PLiberatorFreedomCrusade": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.1l2dEf7Ne8pLJ4mQ",
+    "edid": "knackkarma-freedom-crusade"
+  },
+  "ED4PLiberatorInquisitionofTyrants": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.y9fgYUG8HuDxMON1",
+    "edid": "knackkarma-inquisition-of-tyrants"
+  },
+  "ED4PLiberatorInsurgency": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.VtCn6blprYjZSU5T",
+    "edid": "knackkarma-insurgency"
+  },
+  "ED4PLiberatorLiberatorsReprisal": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.n2GiY5Tk1rQlX9v3",
+    "edid": "knackkarma-liberators-reprisal"
+  },
+  "ED4PLiberatorLiberatorsVengeance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.T00zmAX9SvbZcg4f",
+    "edid": "knackkarma-liberators-vengeance"
+  },
+  "ED4PLiberatorSowingDissent": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.IvYZkeOdd7IGx5Io",
+    "edid": "knackkarma-sowing-dissent"
+  },
+  "ED4PMessengerBlandPleasantries": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.OVrJGxx9m5Gx6N5j",
+    "edid": "knackkarma-bland-pleasantries"
+  },
+  "ED4PMessengerFacelessMessenger": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.gcTLBCVXUCemU9qB",
+    "edid": "knackkarma-faceless-messenger"
+  },
+  "ED4PMessengerMakingtheRounds": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.CgDlFZgqhsG5SqQI",
+    "edid": "knackkarma-making-the-rounds"
+  },
+  "ED4PMessengerMessengersDuty": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.7C7WvUXKIzwiOA3w",
+    "edid": "knackkarma-messengers-duty"
+  },
+  "ED4PMessengerMessengersEncouragement": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.zK5pWvOfD1tb5n2N",
+    "edid": "knackkarma-messengers-encouragement"
+  },
+  "ED4PMessengerMessengersEndurance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.XNTHSbbDntmRPzuH",
+    "edid": "knackkarma-messengers-endurance"
+  },
+  "ED4PMessengerMessengersPerseverance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.7Nneaw94TSqW6rnS",
+    "edid": "knackkarma-messengers-perseverance"
+  },
+  "ED4PMessengerSeetheMessage": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.ZU337y2j8YiJD2SV",
+    "edid": "knackkarma-see-the-message"
+  },
+  "ED4POutcastOutcastsHonor": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.w3qTU3K0mTEmhjpI",
+    "edid": "knackkarma-outcasts-honor"
+  },
+  "ED4POutcastOutcastsRedemption": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.1TEhuphwATbrHFuq",
+    "edid": "knackkarma-outcasts-redemption"
+  },
+  "ED4POutcastRelentlessOutcast": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.SDoHnFdhMxzQo99u",
+    "edid": "knackkarma-relentless-outcast"
+  },
+  "ED4POutcastUnbentOutcast": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.ZS7MjINlKGJLPrGA",
+    "edid": "knackkarma-unbent-outcast"
+  },
+  "ED4POutcastUnyieldingOutcast": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.5ci3qH1858Odd3J4",
+    "edid": "knackkarma-unyielding-outcast"
+  },
+  "ED4PPurifierPurifiersAuspices": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.OLOHAojHFuhPWBHk",
+    "edid": "knackkarma-purifiers-auspices"
+  },
+  "ED4PPurifierPurifiersRetaliation": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.TnYuKlxeG1qJ73wd",
+    "edid": "knackkarma-purifiers-retaliation"
+  },
+  "ED4PPurifierPurifiersTouch": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.Lf6xvZZcJ0f3cdV1",
+    "edid": "knackkarma-purifiers-touch"
+  },
+  "ED4PPurifierPurifiersVengeance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.QLQ802uwu22FmbFa",
+    "edid": "knackkarma-purifiers-vengeance"
+  },
+  "ED4PPurifierTearOuttheRoot": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.nZVTyfjjcEsIKaHd",
+    "edid": "knackkarma-tear-out-the-root"
+  },
+  "ED4PScholarMnemonicsMaster": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.RgjWRiO6X2Hk532z",
+    "edid": "knackkarma-mnemonics-master"
+  },
+  "ED4PScholarPracticalLearning": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.7jMeWrtpL4ufBrQp",
+    "edid": "knackkarma-practical-learning"
+  },
+  "ED4PScholarSagesInsight": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.E4Cc9mJdQGAgQ11M",
+    "edid": "knackkarma-sages-insight"
+  },
+  "ED4PTailDancerChtardStab": {
+    "uuid": null,
+    "edid": "knackkarma-chtard-stab"
+  },
+  "ED4PTailDancerCourseoftheRiver": {
+    "uuid": null,
+    "edid": "knackkarma-course-of-the-river"
+  },
+  "ED4PTailDancerEdoFlick": {
+    "uuid": null,
+    "edid": "knackkarma-edo-flick"
+  },
+  "ED4PTailDancerRiverDance": {
+    "uuid": null,
+    "edid": "knackkarma-river-dance"
+  },
+  "ED4PTailDancerShivoavaraAdvance": {
+    "uuid": null,
+    "edid": "knackkarma-shivoavara-advance"
+  },
+  "ED4PTailDancerSkoraTwist": {
+    "uuid": null,
+    "edid": "knackkarma-skora-twist"
+  },
+  "ED4PTailDancerTailRush": {
+    "uuid": null,
+    "edid": "knackkarma-tail-rush"
+  },
+  "ED4PWindmasterAnnoyingLittle": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.JiPZxd0z118RDm63",
+    "edid": "knackkarma-annoying-little"
+  },
+  "ED4PWindmasterDeathFromAbove": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.UkeDFYNTkg4ePj8S",
+    "edid": "knackkarma-death-from-above"
+  },
+  "ED4PWindmasterMazShyeratis": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.seVeyHCaoHNNxlYv",
+    "edid": "knackkarma-maz-shyera-tis"
+  },
+  "ED4PWindmasterNeverAlone": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.ucZVAfzZpDz3CBew",
+    "edid": "knackkarma-never-alone"
+  },
+  "ED4PWindmasterShyeratis": {
+    "uuid": null,
+    "edid": "knackkarma-shyera-tis"
+  },
+  "ED4PWindmasterWindmasterTechnique": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.Bi9sOSti7VH1Jz6i",
+    "edid": "knackkarma-windmaster-technique"
+  },
+  "ED4PWindmasterWindmasterTraining": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.dM5K7CE2gE3lQ9y1",
+    "edid": "knackkarma-windmaster-training"
+  },
+  "ED4PWindmasterWindmastersAdvantage": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.kXGUebRUPCXXWDpA",
+    "edid": "knackkarma-windmasters-advantage"
+  },
+  "ED4PWindmasterWindmastersDance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.qqUJDfkVlJXrH3w0",
+    "edid": "knackkarma-windmasters-dance"
+  },
+  "ED4PWindmasterWindmastersResilience": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.PfehtKLXhqcoklNi",
+    "edid": "knackkarma-windmasters-resilience"
+  },
+  "ED4PWoodsmanNordalDefender": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.511jupqye8YF1X9I",
+    "edid": "knackkarma-nordal-defender"
+  },
+  "ED4PWoodsmanRespkeFelyat": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.8afuQK5kcE0evBAF",
+    "edid": "knackkarma-resp-ke-felyat"
+  },
+  "ED4PWoodsmanRespkeLavota": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.CwyKOpZHqVwCodyb",
+    "edid": "knackkarma-resp-ke-lavota"
+  },
+  "ED4PWoodsmanRespkeThiel": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.8omC8hQoeKTd0cVY",
+    "edid": "knackkarma-resp-ke-thiel"
+  },
+  "ED4PWoodsmanRespkeVardan": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.BILfIHz4s99BlZoj",
+    "edid": "knackkarma-resp-ke-vardan"
+  },
+  "ED4PWoodsmanRetishay": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.CPwLaimJHSBRlVlb",
+    "edid": "knackkarma-retishay"
+  },
+  "ED4PWoodsmanWoodElementalAffinity": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.SMjtdFdTNXLT1Tum",
+    "edid": "knackkarma-wood-elemental-affinity"
+  },
+  "ED4PWoodsmanWoodmansHunt": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.vJMd4Gy5xHxxsmhH",
+    "edid": "knackkarma-woodmans-hunt"
+  },
+  "ED4PWoodsmanWoodsmansHome": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.skzBgKOwwyIMfY73",
+    "edid": "knackkarma-woodsmans-home"
+  },
+  "ED4VowoftheBeastGlee": {
+    "uuid": null,
+    "edid": "knackkarma-the-beasts-glee"
+  },
+  "PandaThreadWeavingSentryWeaving": {
+    "uuid": null,
+    "edid": "knackkarma-common-cause"
+  },
+  "SKPBattleBrotherForVictory": {
+    "uuid": null,
+    "edid": "knackkarma-for-victory"
+  },
+  "SKPBattleBrotherHeroesRespite": {
+    "uuid": null,
+    "edid": "knackkarma-heroes-respite"
+  },
+  "SKPBattleBrotherHonourValourGlory": {
+    "uuid": null,
+    "edid": "knackkarma-honour-valor-glory"
+  },
+  "SKPBattleBrotherLestWeForget": {
+    "uuid": null,
+    "edid": "knackkarma-lest-we-forget"
+  },
+  "SKPBattleBrotherNoGutsNoGlory": {
+    "uuid": null,
+    "edid": "knackkarma-no-guts-no-glory"
+  },
+  "SKPBattleBrotherOldOneTwo": {
+    "uuid": null,
+    "edid": "knackkarma-the-ol-one-two"
+  },
+  "SKPBattleBrotherTaleteller": {
+    "uuid": null,
+    "edid": "knackkarma-taletellers-memory"
+  },
+  "SKPBattleBrotherWarMaster": {
+    "uuid": null,
+    "edid": "knackkarma-war-master"
+  },
+  "SKSoslvuulSwarmFriend": {
+    "uuid": null,
+    "edid": "knackkarma-friend-of-the-swarm"
+  }
+}

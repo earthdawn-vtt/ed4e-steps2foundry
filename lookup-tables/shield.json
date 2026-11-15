@@ -1,1 +1,38 @@
-{}
+{
+  "BarkShield": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.2VkUzhMMU5KV0Hwh",
+    "edid": "shield-bark-shield"
+  },
+  "Body": {
+    "uuid": null,
+    "edid": "shield-body"
+  },
+  "Buckler": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.sEaS7u3V19ieuGz5",
+    "edid": "shield-buckler"
+  },
+  "CrystalBuckler": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.iQNRlJOk8JPt6eRm",
+    "edid": "shield-crystal-buckler"
+  },
+  "CrystalRaider": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.kXruz30CrELIzhe1",
+    "edid": "shield-crystal-raider"
+  },
+  "Ferndask": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.vw9FNpS29OMKV6Sf",
+    "edid": "shield-ferndask"
+  },
+  "Footmans": {
+    "uuid": null,
+    "edid": "shield-footmans"
+  },
+  "Riders": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.OO8fXkp0bXr5GEt2",
+    "edid": "shield-riders"
+  },
+  "StoneShield": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.f8lzYXPmojlpmGea",
+    "edid": "shield-stone-shield"
+  }
+}
