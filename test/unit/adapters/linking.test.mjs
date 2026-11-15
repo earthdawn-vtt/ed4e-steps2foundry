@@ -2,8 +2,8 @@ import { describe, expect, it, vi } from "vitest";
 import {
   linkPathDisciplines,
   linkQuestorDevotion,
-  linkTalentSources, mergeLinkUpdates,
-  zipCreatedWithAdapted
+  linkTalentSources,
+  mergeLinkUpdates,
 } from "../../../module/adapters/linking.mjs";
 
 function adaptedTalent( overrides = {} ) {
@@ -113,24 +113,6 @@ describe( "linkQuestorDevotion", () => {
       updateData: { "system.questorDevotionId": "devotion1" },
     } );
   } );
-} );
-
-describe( "zipCreatedWithAdapted", () => {
-
-  it( "zips created documents with the adapted data they came from, by position", () => {
-    const created = [ { id: "a" }, { id: "b" } ];
-    const adaptedData = [ { foo: 1 }, { foo: 2 } ];
-
-    expect( zipCreatedWithAdapted( created, adaptedData ) ).toEqual( [
-      { id: "a", adapted: { foo: 1 } },
-      { id: "b", adapted: { foo: 2 } },
-    ] );
-  } );
-
-  it( "throws on length mismatch", () => {
-    expect( () => zipCreatedWithAdapted( [ { id: "a" } ], [] ) ).toThrow();
-  } );
-
 } );
 
 describe( "linkPathDisciplines", () => {

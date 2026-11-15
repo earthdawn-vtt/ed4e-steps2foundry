@@ -1,5 +1,5 @@
 /**
- * @import { AdaptedCharacter } from "../_types.mjs";
+ * @import * from "../_types.mjs";
  */
 
 import { SecondStepImportError } from "./errors.mjs";
@@ -8,7 +8,6 @@ import {
   linkQuestorDevotion,
   linkTalentSources,
   mergeLinkUpdates,
-  zipCreatedWithAdapted,
 } from "../adapters/linking.mjs";
 import { error } from "../logging/logging.mjs";
 
@@ -26,20 +25,48 @@ function assertCanCreate( adaptedCharacter ) {
 }
 
 /**
+ * Makes sure that every item was created with the ID that was assigned to it.
+ * @param {{ id: string, entry: ItemEntry }[]} embedded - The entries with their assigned IDs.
+ * @param {Item[]} created - The documents Foundry returned. Only their IDs are used, never their order.
+ * @throws {Error} If an item is missing from the returned documents.
+ */
+function assertAllCreated( embedded, created ) {
+  const createdIds = new Set( created.map( document => document.id ) );
+  const missing = embedded.filter( ( { id } ) => !createdIds.has( id ) );
+  if ( missing.length === 0 ) return;
+
+  const names = missing.map( ( { entry } ) => `${ entry.resolved.data.name } (${ entry.resolved.secondStepId })` );
+  throw new SecondStepImportError(
+    `${ missing.length } of ${ embedded.length } items were not created with their assigned ID: ${ names.join( ", " ) }`
+  );
+}
+
+/**
  * Embeds all items in the actor and links them to each other.
+ *
+ * The documents that Foundry returns from a batch creation are not guaranteed to be in the order of the data that was
+ * passed in, so that order is never used to match documents to entries. Instead, every item gets its own ID up front
+ * and is created with `keepId`, which means the ID of every entry is known before anything is created.
  * @param {Actor} actor - The created actor.
- * @param {import("../_types.mjs").ItemEntry[]} entries - The item entries to embed.
+ * @param {ItemEntry[]} entries - The item entries to embed.
+ * @throws {SecondStepImportError} If an item was not created with the ID that was assigned to it.
  */
 async function embedItems( actor, entries ) {
-  const created = await actor.createEmbeddedDocuments( "Item", entries.map( entry => entry.resolved.data ) );
-  const zipped = zipCreatedWithAdapted( created, entries );
-  const ofKind = kind => zipped.filter( ( { adapted: entry } ) => entry.kind === kind );
+  const embedded = entries.map( entry => ( { id: foundry.utils.randomID(), entry } ) );
+
+  // `_id` is always overwritten: the data of a compendium item brings the `_id` of that compendium item with it,
+  // and several entries (like three Knowledge skills) can come from the same one.
+  const itemData = embedded.map( ( { id, entry } ) => ( { ...entry.resolved.data, _id: id } ) );
+  const created = await actor.createEmbeddedDocuments( "Item", itemData, { keepId: true } );
+  assertAllCreated( embedded, created );
+
+  const ofKind = kind => embedded.filter( ( { entry } ) => entry.kind === kind );
 
   const sourceableItems = [ ...ofKind( "discipline" ), ...ofKind( "path" ) ].map(
-    ( { id, adapted: entry } ) => ( { id, secondStepId: entry.resolved.secondStepId } )
+    ( { id, entry } ) => ( { id, secondStepId: entry.resolved.secondStepId } )
   );
-  const embeddedTalents = ofKind( "talent" ).map( ( { id, adapted: entry } ) => ( { id, adapted: entry.adapted } ) );
-  const embeddedPaths = ofKind( "path" ).map( ( { id, adapted: entry } ) => ( { id, adapted: entry.adapted } ) );
+  const embeddedTalents = ofKind( "talent" ).map( ( { id, entry } ) => ( { id, adapted: entry.adapted } ) );
+  const embeddedPaths = ofKind( "path" ).map( ( { id, entry } ) => ( { id, adapted: entry.adapted } ) );
 
   const { talentUpdates, pathUpdates } = linkTalentSources( embeddedTalents, sourceableItems );
   const pathDisciplineUpdates = linkPathDisciplines( embeddedPaths, sourceableItems );

@@ -33,7 +33,6 @@
  * @property {AdaptedPath} adapted - The adapted path data this embedded item was created from.
  */
 
-import { MODULE_ID } from "../constants/constants.mjs";
 import { warn } from "../logging/logging.mjs";
 
 /**
@@ -134,27 +133,6 @@ export function linkPathDisciplines( embeddedPaths, disciplineItems ) {
   }
 
   return updates;
-}
-
-/**
- * Zips an array of just-created Foundry documents with the adapted data objects they were created from, by position.
- * Only valid if both arrays were derived from the same source array, in the same order, without being reordered or
- * independently filtered since. This is true as long as the array passed to `createEmbeddedDocuments` is built directly
- * from the adapted data array.
- * @template T
- * @param {{ id: string }[]} createdDocuments - The documents returned by `createEmbeddedDocuments`.
- * @param {T[]} adaptedData - The adapted data objects the documents were created from, in the same order.
- * @returns {{ id: string, adapted: T }[]} The zipped pairs.
- * @throws {RangeError} If the two arrays do not have the same length.
- */
-export function zipCreatedWithAdapted( createdDocuments, adaptedData ) {
-  if ( createdDocuments.length !== adaptedData.length ) {
-    throw new RangeError(
-      `${ MODULE_ID } | Cannot zip created documents with adapted data; different lengths: ${ createdDocuments.length } vs ${ adaptedData.length }`,
-    );
-  }
-
-  return createdDocuments.map( ( document, index ) => ( { id: document.id, adapted: adaptedData[ index ] } ) );
 }
 
 /**

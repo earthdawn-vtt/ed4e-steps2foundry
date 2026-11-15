@@ -10,6 +10,8 @@ import { mockLookupTable } from "../mocks/browser.mjs";
 
 // region Helpers
 
+let idCounter = 0;
+
 function stubGlobals() {
   vi.stubGlobal( "ED4E_CONSTANTS", {
     SYSTEM_ID: "ed4e",
@@ -21,7 +23,8 @@ function stubGlobals() {
 
   vi.stubGlobal( "foundry", {
     utils: {
-      mergeObject: ( target, source ) => Object.assign( target, source )
+      mergeObject: ( target, source ) => Object.assign( target, source ),
+      randomID:    () => `testid${ String( ++idCounter ).padStart( 10, "0" )}`,
     }
   } );
 
