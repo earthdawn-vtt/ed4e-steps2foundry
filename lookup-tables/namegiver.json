@@ -1,1 +1,130 @@
-{}
+{
+  "D74Halfling": {
+    "uuid": null,
+    "edid": "namegiver-halfling"
+  },
+  "ED4BloodElf": {
+    "uuid": null,
+    "edid": "namegiver-blood-elf"
+  },
+  "ED4Dwarf": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-namegiver-en.Item.N9YtIUbmM9OhlSAU",
+    "edid": "namegiver-dwarf"
+  },
+  "ED4Elf": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-namegiver-en.Item.gY4xjNZYEbH9iphb",
+    "edid": "namegiver-elf"
+  },
+  "ED4Human": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-namegiver-en.Item.LV5y18r8Erb70woo",
+    "edid": "namegiver-human"
+  },
+  "ED4Leafer": {
+    "uuid": null,
+    "edid": "namegiver-leafer"
+  },
+  "ED4Obsidiman": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-namegiver-en.Item.CBPjX7XnGx6KfQoj",
+    "edid": "namegiver-obsidiman"
+  },
+  "ED4Ork": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-namegiver-en.Item.3LZuxwyRAjmVtC62",
+    "edid": "namegiver-ork"
+  },
+  "ED4Talveni": {
+    "uuid": null,
+    "edid": "namegiver-talveni"
+  },
+  "ED4Troll": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-namegiver-en.Item.sDyx92jnqJlgQDjS",
+    "edid": "namegiver-troll"
+  },
+  "ED4Tskrang": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-namegiver-en.Item.KvcBOPsBS9Tlxuw8",
+    "edid": "namegiver-tskrang"
+  },
+  "ED4Windling": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-namegiver-en.Item.9bhRFbwRhQV51Hzq",
+    "edid": "namegiver-windling"
+  },
+  "LGOgre": {
+    "uuid": null,
+    "edid": "namegiver-ogre"
+  },
+  "PandaCyclops": {
+    "uuid": null,
+    "edid": "namegiver-cyclops"
+  },
+  "PandaDryad": {
+    "uuid": null,
+    "edid": "namegiver-dryad"
+  },
+  "PandaDwarfS": {
+    "uuid": null,
+    "edid": "namegiver-dwarf-standard"
+  },
+  "PandaFomori": {
+    "uuid": null,
+    "edid": "namegiver-fomori"
+  },
+  "PandaGiant": {
+    "uuid": null,
+    "edid": "namegiver-giant"
+  },
+  "PandaHobgoblin": {
+    "uuid": null,
+    "edid": "namegiver-hobgoblin"
+  },
+  "PandaJackalman": {
+    "uuid": null,
+    "edid": "namegiver-jackalman"
+  },
+  "PandaJubruq": {
+    "uuid": null,
+    "edid": "namegiver-jubruq"
+  },
+  "PandaKoborokuru": {
+    "uuid": null,
+    "edid": "namegiver-koborokuru"
+  },
+  "PandaLeafer": {
+    "uuid": null,
+    "edid": "namegiver-leafer"
+  },
+  "PandaMenehune": {
+    "uuid": null,
+    "edid": "namegiver-menehune"
+  },
+  "PandaMinotaur": {
+    "uuid": null,
+    "edid": "namegiver-minotaur"
+  },
+  "PandaNightOne": {
+    "uuid": null,
+    "edid": "namegiver-the-night-one"
+  },
+  "PandaOni": {
+    "uuid": null,
+    "edid": "namegiver-oni"
+  },
+  "PandaSatyr": {
+    "uuid": null,
+    "edid": "namegiver-satyr"
+  },
+  "PandaTalo": {
+    "uuid": null,
+    "edid": "namegiver-talo"
+  },
+  "PandaUlkMan": {
+    "uuid": null,
+    "edid": "namegiver-ulk-man"
+  },
+  "PandaWakyambi": {
+    "uuid": null,
+    "edid": "namegiver-wakyambi"
+  },
+  "SKKstulaami": {
+    "uuid": null,
+    "edid": "namegiver-kstulaami-winged-tskrang"
+  }
+}

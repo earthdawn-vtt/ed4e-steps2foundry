@@ -1,1 +1,2726 @@
-{}
+{
+  "ED3WClean": {
+    "uuid": null,
+    "edid": "spell-clean"
+  },
+  "ED4BreakItUp": {
+    "uuid": null,
+    "edid": "spell-break-it-up"
+  },
+  "ED4ComeBetween": {
+    "uuid": null,
+    "edid": "spell-come-between"
+  },
+  "ED4EAirArmor": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.GV0rLjH1a5cso60e",
+    "edid": "spell-air-armor"
+  },
+  "ED4EAirBlast": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.Gcs5UJEXkCCaF1Zi",
+    "edid": "spell-air-blast"
+  },
+  "ED4EAirFortress": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.6x2IqhxAt3Zevjzj",
+    "edid": "spell-air-fortress"
+  },
+  "ED4EAirMattress": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.bBgg0FTLYOHylMSo",
+    "edid": "spell-air-mattress"
+  },
+  "ED4EAirSentry": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.1JYRirU3a2p33vaK",
+    "edid": "spell-air-sentry"
+  },
+  "ED4EBalloonsofMist": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.75GYMjtAz4ixV3M8",
+    "edid": "spell-balloons-of-mist"
+  },
+  "ED4EBladeFury": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.DuGNz3FlErU0XqoV",
+    "edid": "spell-blade-fury"
+  },
+  "ED4EBlastingSeeds": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.5v3iOjEEsZgGRiWe",
+    "edid": "spell-blasting-seeds"
+  },
+  "ED4EBlizzardSphere": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.VfG33Jv2eBg0eXrX",
+    "edid": "spell-blizzard-sphere"
+  },
+  "ED4EBoilWater": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.RN8J2KS3R1J49axx",
+    "edid": "spell-boil-water"
+  },
+  "ED4EBonesoftheEarth": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.3flAisr5cWlJiE8h",
+    "edid": "spell-bones-of-the-earth"
+  },
+  "ED4ECallForththeMaelstrom": {
+    "uuid": null,
+    "edid": "spell-call-forth-the-maelstrom"
+  },
+  "ED4ECallForththeMaelstrom(Air)": {
+    "uuid": null,
+    "edid": "spell-call-forth-the-maelstrom-air"
+  },
+  "ED4ECallForththeMaelstrom(Earth)": {
+    "uuid": null,
+    "edid": "spell-call-forth-the-maelstrom-earth"
+  },
+  "ED4ECallForththeMaelstrom(Fire)": {
+    "uuid": null,
+    "edid": "spell-call-forth-the-maelstrom-fire"
+  },
+  "ED4ECallForththeMaelstrom(Water)": {
+    "uuid": null,
+    "edid": "spell-call-forth-the-maelstrom-water"
+  },
+  "ED4ECallForththeMaelstrom(Wood)": {
+    "uuid": null,
+    "edid": "spell-call-forth-the-maelstrom-wood"
+  },
+  "ED4ECloudBanish": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.A7cd3Zpy53DMHG5h",
+    "edid": "spell-cloud-banish"
+  },
+  "ED4ECloudMaze": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.wf3TgYhtL2jR3se2",
+    "edid": "spell-cloud-maze"
+  },
+  "ED4ECloudSummon": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.fG2s91YODCADxSHK",
+    "edid": "spell-cloud-summon"
+  },
+  "ED4ECorrode": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.LzTOknnt7mJUVCkN",
+    "edid": "spell-corrode"
+  },
+  "ED4ECounciloftheElements": {
+    "uuid": null,
+    "edid": "spell-council-of-the-elements"
+  },
+  "ED4ECounciloftheElements(Air)": {
+    "uuid": null,
+    "edid": "spell-council-of-the-elements-air"
+  },
+  "ED4ECounciloftheElements(Earth)": {
+    "uuid": null,
+    "edid": "spell-council-of-the-elements-earth"
+  },
+  "ED4ECounciloftheElements(Fire)": {
+    "uuid": null,
+    "edid": "spell-council-of-the-elements-fire"
+  },
+  "ED4ECounciloftheElements(Water)": {
+    "uuid": null,
+    "edid": "spell-council-of-the-elements-water"
+  },
+  "ED4ECounciloftheElements(Wood)": {
+    "uuid": null,
+    "edid": "spell-council-of-the-elements-wood"
+  },
+  "ED4ECrunchClimb": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.jEl9btzJ6baOKs6L",
+    "edid": "spell-crunch-climb"
+  },
+  "ED4ECrushingHandofEarth": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.pWfakUmYgguH0C99",
+    "edid": "spell-crushing-hand-of-earth"
+  },
+  "ED4EDeathRain": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.mXkFdzR4Wil2z8WS",
+    "edid": "spell-death-rain"
+  },
+  "ED4EDragonsBreath": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.MRuWRqxBNwXInhF8",
+    "edid": "spell-dragons-breath"
+  },
+  "ED4EDrasticTemperature": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.UX4rNA3woln2uIqY",
+    "edid": "spell-drastic-temperature"
+  },
+  "ED4EDryandWet": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.rPcs2Nq2n0wIl9zy",
+    "edid": "spell-dry-and-wet"
+  },
+  "ED4EDustDevil": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.kGIC0jgR1E8lStmT",
+    "edid": "spell-dust-devil"
+  },
+  "ED4EEarthDarts": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.WnBXKRihpcKuXKpN",
+    "edid": "spell-earth-darts"
+  },
+  "ED4EEarthStaff": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.2Qm6zycNi7jSyGzE",
+    "edid": "spell-earth-staff"
+  },
+  "ED4EEarthSurfing": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.z8kAc0FQZ27kbjrh",
+    "edid": "spell-earth-surfing"
+  },
+  "ED4EEarthWall": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.sJdU7iJBVtUALzxJ",
+    "edid": "spell-earth-wall"
+  },
+  "ED4EEarthandAir": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.gpre7zXMuaPXWUPo",
+    "edid": "spell-earth-and-air"
+  },
+  "ED4EElementalRedoubt": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.mCjsTkQc8FDpszcf",
+    "edid": "spell-elemental-redoubt"
+  },
+  "ED4EElementalSpearAir": {
+    "uuid": null,
+    "edid": "spell-elemental-spear-air"
+  },
+  "ED4EElementalSpearEarth": {
+    "uuid": null,
+    "edid": "spell-elemental-spear-earth"
+  },
+  "ED4EElementalSpearFire": {
+    "uuid": null,
+    "edid": "spell-elemental-spear-fire"
+  },
+  "ED4EElementalSpearWater": {
+    "uuid": null,
+    "edid": "spell-elemental-spear-water"
+  },
+  "ED4EElementalSpearWood": {
+    "uuid": null,
+    "edid": "spell-elemental-spear-wood"
+  },
+  "ED4EEngulf(Air)": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.ogZL2pxu2BnwZ5fz",
+    "edid": "spell-engulf-air"
+  },
+  "ED4EEngulf(Earth)": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.63ozAvNKYNHg5XsL",
+    "edid": "spell-engulf-earth"
+  },
+  "ED4EEngulf(Fire)": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.MbDFpeFrRVQpWccS",
+    "edid": "spell-engulf-fire"
+  },
+  "ED4EEngulf(Water)": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.nlY3ezxbwU9hxN9i",
+    "edid": "spell-engulf-water"
+  },
+  "ED4EEngulf(Wood)": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.BNqZ6qLW7mQ0vJDR",
+    "edid": "spell-engulf-wood"
+  },
+  "ED4EEngulf[Element]": {
+    "uuid": null,
+    "edid": "spell-engulf-element"
+  },
+  "ED4EFingersofWind": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.o8w8GgrsAPdvUG5D",
+    "edid": "spell-fingers-of-wind"
+  },
+  "ED4EFireHounds": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.YS11wY6PXFjIGByI",
+    "edid": "spell-fire-hounds"
+  },
+  "ED4EFireWall": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.fALwLkhQv6UnpAy6",
+    "edid": "spell-fire-wall"
+  },
+  "ED4EFireWhip": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.P7uj2x08jqihOE7n",
+    "edid": "spell-fire-whip"
+  },
+  "ED4EFireandWater": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.cpYK95lflQuSzy14",
+    "edid": "spell-fire-and-water"
+  },
+  "ED4EFireball": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.ztnbDUTzt5iOuZiz",
+    "edid": "spell-fireball"
+  },
+  "ED4EFireweave": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.T3rmJBxM27DXhDif",
+    "edid": "spell-fireweave"
+  },
+  "ED4EFlameDarts": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.TFLDWhb8QaOdwZW6",
+    "edid": "spell-flame-darts"
+  },
+  "ED4EFlameStrike": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.nA7r6dT8uDujqBaa",
+    "edid": "spell-flame-strike"
+  },
+  "ED4EFlameshaw": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.BV4CvFGMIo9stlex",
+    "edid": "spell-flameshaw"
+  },
+  "ED4EFlameweapon": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.YrRRklxQXGQl0y8M",
+    "edid": "spell-flameweapon"
+  },
+  "ED4EFrozenHarbor": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.55Hj0m4bYQ1Fgr8x",
+    "edid": "spell-frozen-harbor"
+  },
+  "ED4EFuelFlame": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.EjWFX4UXIRzb5kN4",
+    "edid": "spell-fuel-flame"
+  },
+  "ED4EGraspingHandofEarth": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.El9ldCTEsTEHKeCG",
+    "edid": "spell-grasping-hand-of-earth"
+  },
+  "ED4EGreatStickyVines": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.hBSzAppDTbcCtF2P",
+    "edid": "spell-great-sticky-vines"
+  },
+  "ED4EGrounding": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.jhntVQJ9GZI1jXH2",
+    "edid": "spell-grounding"
+  },
+  "ED4EGroveRenewal": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.bCAxXJSi2NhP2Hjs",
+    "edid": "spell-grove-renewal"
+  },
+  "ED4EHeartofStone": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.zF5ZWTbZydEO4oEz",
+    "edid": "spell-heart-of-stone"
+  },
+  "ED4EHeatArmor": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.Lj78vEcb9sPX1Ga0",
+    "edid": "spell-heat-armor"
+  },
+  "ED4EHeatFood": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.exWWWdDhXso0vHd8",
+    "edid": "spell-heat-food"
+  },
+  "ED4EIceBarrier": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.R25EtyQ7LGwIlVh1",
+    "edid": "spell-ice-barrier"
+  },
+  "ED4EIceLance": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.NtAkcTIfk5O4Wyfl",
+    "edid": "spell-ice-lance"
+  },
+  "ED4EIceMaceandChain": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.Kahe9l1g48jdDVZS",
+    "edid": "spell-ice-mace-and-chain"
+  },
+  "ED4EIcySurface": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.Och1URDa8FmovOCM",
+    "edid": "spell-icy-surface"
+  },
+  "ED4EIgnite": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.8NKnXzix94dxrQ52",
+    "edid": "spell-ignite"
+  },
+  "ED4EInflame": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.XB0Frr0Kg5JaaawL",
+    "edid": "spell-inflame"
+  },
+  "ED4EIronskin": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.wO8Rxw3dpXxhlRQL",
+    "edid": "spell-ironskin"
+  },
+  "ED4EIronwood": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.87sGlC2DyKJMTpIm",
+    "edid": "spell-ironwood"
+  },
+  "ED4ELightningBolt": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.vhRvzKVoS6T74hLr",
+    "edid": "spell-lightning-bolt"
+  },
+  "ED4ELightningCloud": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.JEVaUqKxHb0ABbdf",
+    "edid": "spell-lightning-cloud"
+  },
+  "ED4ELightningShield": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.bAkg972dxsceSTaq",
+    "edid": "spell-lightning-shield"
+  },
+  "ED4ELightningStep": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.KPbtapskQFv5PEV0",
+    "edid": "spell-lightning-step"
+  },
+  "ED4ELiquidArrow": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.tBBA73sc8vDeeTvK",
+    "edid": "spell-liquid-arrow"
+  },
+  "ED4ELiquidEyes": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.defBu6eScgWyXbtR",
+    "edid": "spell-liquid-eyes"
+  },
+  "ED4ELivingWall": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.eyH7eoA5aHotAlPQ",
+    "edid": "spell-living-wall"
+  },
+  "ED4ELodestonesTouch": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.3ZkiNQcL06SZv0b3",
+    "edid": "spell-lodestones-touch"
+  },
+  "ED4EMantleoftheBloodElf": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.uOL3asiC6b4a8i31",
+    "edid": "spell-mantle-of-the-blood-elf"
+  },
+  "ED4EMantleoftheFireMarauder": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.2bpTovHFe3Nbp7U8",
+    "edid": "spell-mantle-of-the-fire-marauder"
+  },
+  "ED4EMantleoftheLightningVanguard": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.uVtErZ1HQNRTxykq",
+    "edid": "spell-mantle-of-the-lightning-vanguard"
+  },
+  "ED4EMantleoftheReflectingPool": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.yplGC66IZmXp4Trv",
+    "edid": "spell-mantle-of-the-reflecting-pool"
+  },
+  "ED4EMantleoftheWoodlandHunter": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.uAF9nZzmP5Z5g7d6",
+    "edid": "spell-mantle-of-the-woodland-hunter"
+  },
+  "ED4EMetalWings": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.PuRHfj3pR0Jhq9LY",
+    "edid": "spell-metal-wings"
+  },
+  "ED4ENutritiousEarth": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.WPEMhR2dtVIy0ZhC",
+    "edid": "spell-nutritious-earth"
+  },
+  "ED4EPetrify": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.bM6lsEkdtAND6VMv",
+    "edid": "spell-petrify"
+  },
+  "ED4EPlantFeast": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.MZiswRfCEv16kT2Q",
+    "edid": "spell-plant-feast"
+  },
+  "ED4EPorter": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.IpmXdkO9sLKyMyrC",
+    "edid": "spell-porter"
+  },
+  "ED4EPuddleDeep": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.dGcmjdOvZ6471Ojt",
+    "edid": "spell-puddle-deep"
+  },
+  "ED4EPurifyEarth": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.dJnEER3UGZ7Xj1yh",
+    "edid": "spell-purify-earth"
+  },
+  "ED4EPurifyWater": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.3yLvoq5S3XYYCHLL",
+    "edid": "spell-purify-water"
+  },
+  "ED4ERepair": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.Ps0aTnHl1NdMIlGm",
+    "edid": "spell-repair"
+  },
+  "ED4EResistElementAir": {
+    "uuid": null,
+    "edid": "spell-resist-element-air"
+  },
+  "ED4EResistElementEarth": {
+    "uuid": null,
+    "edid": "spell-resist-element-earth"
+  },
+  "ED4EResistElementFire": {
+    "uuid": null,
+    "edid": "spell-resist-element-fire"
+  },
+  "ED4EResistElementWater": {
+    "uuid": null,
+    "edid": "spell-resist-element-water"
+  },
+  "ED4EResistElementWood": {
+    "uuid": null,
+    "edid": "spell-resist-element-wood"
+  },
+  "ED4ERidetheLightning": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.q2n0GeiIo6m5HXeK",
+    "edid": "spell-ride-the-lightning"
+  },
+  "ED4ERoomTemperature": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.rwOFJCWohXHCh445",
+    "edid": "spell-room-temperature"
+  },
+  "ED4ERootTrap": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.r0RcYUwkAP1M0Nlw",
+    "edid": "spell-root-trap"
+  },
+  "ED4EShatteringStone": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.29wg3ARK0ORvNSAy",
+    "edid": "spell-shattering-stone"
+  },
+  "ED4EShelter": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.Qwb7EgrAH4d1Y5PQ",
+    "edid": "spell-shelter"
+  },
+  "ED4EShieldWillow": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.X8IYd2khH3gLwgqB",
+    "edid": "spell-shield-willow"
+  },
+  "ED4ESlowWeapon": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.cQwTUMyPNw8VX49L",
+    "edid": "spell-slow-weapon"
+  },
+  "ED4ESmokeCloud": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.UKQOsd9lDmRp0hnb",
+    "edid": "spell-smoke-cloud"
+  },
+  "ED4ESnuff": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.VraWkFrBmlpKjhfE",
+    "edid": "spell-snuff"
+  },
+  "ED4ESpiritsofDeathsSea": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.NLF5Z1WMVVoOfsCO",
+    "edid": "spell-spirits-of-deaths-sea"
+  },
+  "ED4EStoneCage": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.w8BBT7plRFfPV6Ak",
+    "edid": "spell-stone-cage"
+  },
+  "ED4EStoneRain": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.FalsUGFhyuHzsArw",
+    "edid": "spell-stone-rain"
+  },
+  "ED4EStoneSpike": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.mpwRcnTZnsqYPBMc",
+    "edid": "spell-stone-spike"
+  },
+  "ED4EStormManacles": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.YluTK8xkIVzb3HQd",
+    "edid": "spell-storm-manacles"
+  },
+  "ED4EStormShip": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.AYJduhRulScragKZ",
+    "edid": "spell-storm-ship"
+  },
+  "ED4ESuffocatingPaste": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.BPstMRkdPt0gkkba",
+    "edid": "spell-suffocating-paste"
+  },
+  "ED4ESummonElementalMerchant": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.HsYl9Ba6H3U5pzZB",
+    "edid": "spell-summon-elemental-merchant"
+  },
+  "ED4ETerracottaLegion": {
+    "uuid": null,
+    "edid": "spell-terracotta-legion"
+  },
+  "ED4EThornFury": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.vqP3VbS3DmEXai54",
+    "edid": "spell-thorn-fury"
+  },
+  "ED4EThrive": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.sAzTymdTnAf2zGMi",
+    "edid": "spell-thrive"
+  },
+  "ED4EThroneofAir": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.uCnfeLpMqFEgxVt4",
+    "edid": "spell-throne-of-air"
+  },
+  "ED4EThunderclap": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.7RisLv93JJd9nog8",
+    "edid": "spell-thunderclap"
+  },
+  "ED4ETossingEarth": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.VZB71GGt54rgqZEm",
+    "edid": "spell-tossing-earth"
+  },
+  "ED4EUnevenGround": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.kVgLTzWVqIeuAiH6",
+    "edid": "spell-uneven-ground"
+  },
+  "ED4EVenomousFury": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.vowsvfdPdB7vmEsl",
+    "edid": "spell-venomous-fury"
+  },
+  "ED4EVitalSprings": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.pfoqQW0hXM0puOvG",
+    "edid": "spell-vital-springs"
+  },
+  "ED4EWaterWall": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.3NbkxTWA7hpknA5H",
+    "edid": "spell-water-wall"
+  },
+  "ED4EWaterproof": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.OpUwdvNiRJWuj0Wa",
+    "edid": "spell-waterproof"
+  },
+  "ED4EWhirlwind": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.mR3oUM3Tw4iZnIPP",
+    "edid": "spell-whirlwind"
+  },
+  "ED4EWindKnife": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.JObfTN4rS2IioUpT",
+    "edid": "spell-wind-knife"
+  },
+  "ED4EWindsofDeflection": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.ge0kApufdDdVmM5v",
+    "edid": "spell-winds-of-deflection"
+  },
+  "ED4EWithoutaTrace": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.6OlWIq179ZkXmLAq",
+    "edid": "spell-without-a-trace"
+  },
+  "ED4EWoodBlade": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.Qy7N4MTtv5R8iJ07",
+    "edid": "spell-wood-blade"
+  },
+  "ED4IAfterlife": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.DRmP5js93wULVZb6",
+    "edid": "spell-afterlife"
+  },
+  "ED4IAndTheirMoney": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.a2Va5IVQJIE7GpkK",
+    "edid": "spell-and-their-money"
+  },
+  "ED4IAndThenIWokeUp": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.oq82Zf6gUX92fQJn",
+    "edid": "spell-and-then-i-woke-up"
+  },
+  "ED4IAssuringTouch": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.gvZyiT0e1bEYR8mH",
+    "edid": "spell-assuring-touch"
+  },
+  "ED4IAstralNightmare": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.516KtALEd9yzz9XL",
+    "edid": "spell-astral-nightmare"
+  },
+  "ED4IAstralShadow": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.TzxbDe1Rx6BxvLuZ",
+    "edid": "spell-astral-shadow"
+  },
+  "ED4IBackgroundColor": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.yebkl4geu1vip3qI",
+    "edid": "spell-background-color"
+  },
+  "ED4IBellowoftheThundras": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.fmUIq2ok4so8bm5m",
+    "edid": "spell-bellow-of-the-thundras"
+  },
+  "ED4IBestFace": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.DBojRX80M6B3uNwh",
+    "edid": "spell-best-face"
+  },
+  "ED4IBillowingCloak": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.NZ3GX9PX0NEWdk8G",
+    "edid": "spell-billowing-cloak"
+  },
+  "ED4IBlazingFistsofRage": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.BuPeexwhdtvBT8cZ",
+    "edid": "spell-blazing-fists-of-rage"
+  },
+  "ED4IBlindingGlare": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.ekPPJSHhWv9wQif6",
+    "edid": "spell-blinding-glare"
+  },
+  "ED4IBlindness": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.ZFa1MnTHPh2fJEbc",
+    "edid": "spell-blindness"
+  },
+  "ED4IBondofSilence": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.9dv27Y4FJWv2aTTa",
+    "edid": "spell-bond-of-silence"
+  },
+  "ED4IChicanery": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.gVtR8V5YUjWE21oX",
+    "edid": "spell-chicanery"
+  },
+  "ED4IChosenPath": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.PC0XiFMSdLIYaMLM",
+    "edid": "spell-chosen-path"
+  },
+  "ED4IClarionCall": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.bsuGMlpqULnByfkP",
+    "edid": "spell-clarion-call"
+  },
+  "ED4ICloak": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.Vc0qcuTZx90vidPd",
+    "edid": "spell-cloak"
+  },
+  "ED4IClothingGone": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.43skAHHtjQCpyTe6",
+    "edid": "spell-clothing-gone"
+  },
+  "ED4IConcealTracks": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.L50OKSS9anmUCRGT",
+    "edid": "spell-conceal-tracks"
+  },
+  "ED4ICraftyThought": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.iy3wrh8Hz5D6BC1W",
+    "edid": "spell-crafty-thought"
+  },
+  "ED4IDancingDisks": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.7AkWhf3lcS3S2BKe",
+    "edid": "spell-dancing-disks"
+  },
+  "ED4IDancingDragon": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.L77AToI4Bey8i04J",
+    "edid": "spell-dancing-dragon"
+  },
+  "ED4IDeathsVisage": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.c1oXmxEOGvuH8idZ",
+    "edid": "spell-deaths-visage"
+  },
+  "ED4IDilapidatedShack": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.FhH9flle0uicGZnC",
+    "edid": "spell-dilapidated-shack"
+  },
+  "ED4IDisaster": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.TmdGqJoIB6IkCTNh",
+    "edid": "spell-disaster"
+  },
+  "ED4IDisguiseMetal": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.Vx653xM4RvyruZ3F",
+    "edid": "spell-disguise-metal"
+  },
+  "ED4IDisplaceImage": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.SJ9Aa5c1U36hUmeC",
+    "edid": "spell-displace-image"
+  },
+  "ED4IDoUntoOthers": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.DB4t3mYCuYqKImbw",
+    "edid": "spell-do-unto-others"
+  },
+  "ED4IDreamSend": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.kU7zFSxHk4Ml1FWb",
+    "edid": "spell-dream-send"
+  },
+  "ED4IDreamSight": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.sCFvbeprPOdOLnDh",
+    "edid": "spell-dream-sight"
+  },
+  "ED4IDrunkenStagger": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.6DjXg5OhPwCtCgTE",
+    "edid": "spell-drunken-stagger"
+  },
+  "ED4IEncrypt": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.E0ZMYFtINc6C7Nup",
+    "edid": "spell-encrypt"
+  },
+  "ED4IEnterandExit": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.Cm5O5lf4uhrC4TzP",
+    "edid": "spell-enter-and-exit"
+  },
+  "ED4IEphemeralBolt": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.v3DXCWliyoQiRFLM",
+    "edid": "spell-ephemeral-bolt"
+  },
+  "ED4IEyeofTruth": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.4LPcG45PavMVidzX",
+    "edid": "spell-eye-of-truth"
+  },
+  "ED4IEyesHaveIt": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.m2ZM7k0qMINHbVp9",
+    "edid": "spell-eyes-have-it"
+  },
+  "ED4IFaceLift": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.lfAqL6XJzIJlmzbf",
+    "edid": "spell-face-lift"
+  },
+  "ED4IFalseEnchantment": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.5o6BNhKrquGEvVUi",
+    "edid": "spell-false-enchantment"
+  },
+  "ED4IFalseFloor": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.1Il1yfJyXbDQXdQj",
+    "edid": "spell-false-floor"
+  },
+  "ED4IFleshEater": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.bEaGr16zSSVTrC0p",
+    "edid": "spell-flesh-eater"
+  },
+  "ED4IFlyingCarpet": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.1KPHv69Q7OxkYsaJ",
+    "edid": "spell-flying-carpet"
+  },
+  "ED4IFogofJeer": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.SmMlb7v2ew45M8ba",
+    "edid": "spell-fog-of-jeer"
+  },
+  "ED4IFormExchange": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.WQEelShLOjjLqskl",
+    "edid": "spell-form-exchange"
+  },
+  "ED4IFriendorFoe": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.iJtFyMYh2A7AOUCY",
+    "edid": "spell-friend-or-foe"
+  },
+  "ED4IFunWithDoors": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.pS1vjj9z28RvVVk4",
+    "edid": "spell-fun-with-doors"
+  },
+  "ED4IGreatWeapon": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.Y8XzaveF9UBO15Qm",
+    "edid": "spell-great-weapon"
+  },
+  "ED4IHauntedHouse": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.MNiGIPN1HkJKrAIX",
+    "edid": "spell-haunted-house"
+  },
+  "ED4IHiddenWeapons": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.ttJjRdrPKLeu3d7q",
+    "edid": "spell-hidden-weapons"
+  },
+  "ED4IIllusion": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.V1EA36xRqYJdzgao",
+    "edid": "spell-illusion"
+  },
+  "ED4IIllusoryMissiles": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.EQbpOBKhMYjszF99",
+    "edid": "spell-illusory-missiles"
+  },
+  "ED4IImpenetrableFortress": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.D7wYyDAAFs7E9VQ9",
+    "edid": "spell-impenetrable-fortress"
+  },
+  "ED4IImpossibleKnot": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.PomunYMESEBZhXc9",
+    "edid": "spell-impossible-knot"
+  },
+  "ED4IIncessantTalking": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.I4BTeCoEG6HzlAXr",
+    "edid": "spell-incessant-talking"
+  },
+  "ED4IInnocentActivity": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.zyi3Gf8zZQPPCEFQ",
+    "edid": "spell-innocent-activity"
+  },
+  "ED4IInstantMansion": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.WO8FOsk4XbtIkipL",
+    "edid": "spell-instant-mansion"
+  },
+  "ED4IInsurgentLimbs": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.qzwMvHAyHCcyINiA",
+    "edid": "spell-insurgent-limbs"
+  },
+  "ED4ILeapingLizards": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.5w4QjmpdYO5KY2TE",
+    "edid": "spell-leaping-lizards"
+  },
+  "ED4ILightShow": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.IwMSJbh9Lze1EhO1",
+    "edid": "spell-light-show"
+  },
+  "ED4IMemoryBlank": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.C9eGxk2d0UbRu4YF",
+    "edid": "spell-memory-blank"
+  },
+  "ED4IMemoryScribe": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.Y0A4vF7tx4uXGKMA",
+    "edid": "spell-memory-scribe"
+  },
+  "ED4IMetalScream": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.FjHhBoGcOGkAJ2mm",
+    "edid": "spell-metal-scream"
+  },
+  "ED4IMindFog": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.5s5JbjYcZvojugRU",
+    "edid": "spell-mind-fog"
+  },
+  "ED4IMonstrousMantle": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.FNObWwwhPOOy7Y48",
+    "edid": "spell-monstrous-mantle"
+  },
+  "ED4IMyImaginaryFriend": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.9TCuHjic38LweKaq",
+    "edid": "spell-my-imaginary-friend"
+  },
+  "ED4INobodyHere": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.qDhsmubpxgsU013h",
+    "edid": "spell-nobody-here"
+  },
+  "ED4INoticeNot": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.Z3d5kweKBlV1Vd0n",
+    "edid": "spell-notice-not"
+  },
+  "ED4IOneoftheCrowd": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.wt1sPTu3v3fp1EVo",
+    "edid": "spell-one-of-the-crowd"
+  },
+  "ED4IOtherPlace": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.kJaU9d2stFqL2hf3",
+    "edid": "spell-other-place"
+  },
+  "ED4IPapersPlease": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.YU1yrfVZZgQY0cwI",
+    "edid": "spell-papers-please"
+  },
+  "ED4IPaupersPurse": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.RNz651jGwpl7uXcj",
+    "edid": "spell-paupers-purse"
+  },
+  "ED4IPhantomAstralSpear": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.CQ4CTq541KksUG2R",
+    "edid": "spell-phantom-astral-spear"
+  },
+  "ED4IPhantomCrowTear": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.LCl6zPYu0XywQC5e",
+    "edid": "spell-phantom-crow-tear"
+  },
+  "ED4IPhantomDaylight": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.x1GnJsg6WNiS164Z",
+    "edid": "spell-phantom-daylight"
+  },
+  "ED4IPhantomEclipse": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.kgV8d29OLDtkCDAj",
+    "edid": "spell-phantom-eclipse"
+  },
+  "ED4IPhantomEspagraFrenzy": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.XFHp2gVh1iRGKYnf",
+    "edid": "spell-phantom-espagra-frenzy"
+  },
+  "ED4IPhantomFireball": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.GNGxdrQw4xkG8wAA",
+    "edid": "spell-phantom-fireball"
+  },
+  "ED4IPhantomFlame": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.BrXemP8wCOyC2nWR",
+    "edid": "spell-phantom-flame"
+  },
+  "ED4IPhantomLightning": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.R5ORsbkw3NMeu7ab",
+    "edid": "spell-phantom-lightning"
+  },
+  "ED4IPhantomLiquidArrow": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.7XCWwXBO5BuDfKAf",
+    "edid": "spell-phantom-liquid-arrow"
+  },
+  "ED4IPhantomStarShower": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.XslvY9hmiK499ONw",
+    "edid": "spell-phantom-star-shower"
+  },
+  "ED4IPhantomWarrior": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.Q4yI2cpuQxyNtMjj",
+    "edid": "spell-phantom-warrior"
+  },
+  "ED4IPilferousPaper": {
+    "uuid": null,
+    "edid": "spell-pilferous-paper"
+  },
+  "ED4IPleasantVisions": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.BHmPxQNWDOGvOjAj",
+    "edid": "spell-pleasant-visions"
+  },
+  "ED4IPresto": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.LTlPFNcXzyFLggjF",
+    "edid": "spell-presto"
+  },
+  "ED4IPuppetShow": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.scsZzzR5EC3MtHL6",
+    "edid": "spell-puppet-show"
+  },
+  "ED4IRealityStorm": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.3lhFr2f6jIrWWwdB",
+    "edid": "spell-reality-storm"
+  },
+  "ED4IRebelLimb": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.u8TWRgphM1uyMvRI",
+    "edid": "spell-rebel-limb"
+  },
+  "ED4IRemoveShadow": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.hoOu1TIJRLCydQar",
+    "edid": "spell-remove-shadow"
+  },
+  "ED4IReversalofPassion": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.YTGez79buc4JdlFi",
+    "edid": "spell-reversal-of-passion"
+  },
+  "ED4IRevulsion": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.7UAAotfEZU7KfMJO",
+    "edid": "spell-revulsion"
+  },
+  "ED4IRewritingYourHistory": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.RVRsbXjHQrqP4GDP",
+    "edid": "spell-rewriting-your-history"
+  },
+  "ED4IRopeGuide": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.BgLO9sB2bA8vpnvD",
+    "edid": "spell-rope-guide"
+  },
+  "ED4ISecretDoor": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.kr9Qw5U82KVuxSHv",
+    "edid": "spell-secret-door"
+  },
+  "ED4ISeetheUnseen": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.t1CEjwNXO8hZGAPj",
+    "edid": "spell-see-the-unseen"
+  },
+  "ED4ISendMessage": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.OJwgucoR4wuehggG",
+    "edid": "spell-send-message"
+  },
+  "ED4IShadowSpell": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.bIGCJ3XPpMKlnYl8",
+    "edid": "spell-shadow-spell"
+  },
+  "ED4IShiftWalls": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.6nrXQMrLVmaePenV",
+    "edid": "spell-shift-walls"
+  },
+  "ED4ISilentConverse": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.i4c8ZHfsOvzyCl2v",
+    "edid": "spell-silent-converse"
+  },
+  "ED4ISilentStampede": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.SaeoiFPJ9w2q3l5k",
+    "edid": "spell-silent-stampede"
+  },
+  "ED4ISoaringGallery": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.eyidtYMpnzysbUxP",
+    "edid": "spell-soaring-gallery"
+  },
+  "ED4ISpotlight": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.PEWUDWXMxznd95qT",
+    "edid": "spell-spotlight"
+  },
+  "ED4IStampede": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.nYl6yGdV4lLmtzvZ",
+    "edid": "spell-stampede"
+  },
+  "ED4IStench": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.nW05tYaKI9c8fAXL",
+    "edid": "spell-stench"
+  },
+  "ED4IStopRightThere": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.yjR5poZ3r1oiD4TX",
+    "edid": "spell-stop-right-there"
+  },
+  "ED4ISuffocation": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.wc5iHaCuB5Gj5qCX",
+    "edid": "spell-suffocation"
+  },
+  "ED4ISwitch": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.2IiXKZt82UYHj8pb",
+    "edid": "spell-switch"
+  },
+  "ED4ITailor": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.p4nHJlXseEIvxrwb",
+    "edid": "spell-tailor"
+  },
+  "ED4IThunderingWalls": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.kF2b5uSUuBrAsLxq",
+    "edid": "spell-thundering-walls"
+  },
+  "ED4ITickTock": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.YQZHRqpADckAmoTR",
+    "edid": "spell-tick-tock"
+  },
+  "ED4ITimeFlies": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.LK04RLdoWyxMwv5S",
+    "edid": "spell-time-flies"
+  },
+  "ED4ITrueBlazingFistsofRage": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.2IyAWSq9807cBOr7",
+    "edid": "spell-true-blazing-fists-of-rage"
+  },
+  "ED4ITrueEphemeralBolt": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.WaqL6ohwBKgXYVc2",
+    "edid": "spell-true-ephemeral-bolt"
+  },
+  "ED4ITrueMissiles": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.WxHoriC3zdjrdbv8",
+    "edid": "spell-true-missiles"
+  },
+  "ED4ITrueSwitch": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.bNk9GOystZcbNIFq",
+    "edid": "spell-true-switch"
+  },
+  "ED4ITrust": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.MW81sbzgtt6MVOQF",
+    "edid": "spell-trust"
+  },
+  "ED4ITwistedTongues": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.TMHxHrPNtKKfhGnm",
+    "edid": "spell-twisted-tongues"
+  },
+  "ED4IUnmask": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.gzVcsdmULCtJtELI",
+    "edid": "spell-unmask"
+  },
+  "ED4IUnseenVoices": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.C64EL1yYcHOy2JWd",
+    "edid": "spell-unseen-voices"
+  },
+  "ED4IVertigo": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.RzNZ9yX5g1v3CqXB",
+    "edid": "spell-vertigo"
+  },
+  "ED4IWalkThrough": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.Pl8KoayRfTLgnEXb",
+    "edid": "spell-walk-through"
+  },
+  "ED4IWallofUnfire": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.OySLaFmx2yI8X5Q0",
+    "edid": "spell-wall-of-unfire"
+  },
+  "ED4IWarningSignal": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.1Ubrwag7D5yIPGdj",
+    "edid": "spell-warning-signal"
+  },
+  "ED4NAnimateSkeleton": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.Es3d3OPrKh0xAfCX",
+    "edid": "spell-animate-skeleton"
+  },
+  "ED4NAnimateSpiritObject": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.GmhvPNGKAj9UmT5L",
+    "edid": "spell-animate-spirit-object"
+  },
+  "ED4NAnnihilatePattern": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.iZaaK2NAE3w57QIt",
+    "edid": "spell-annihilate-pattern"
+  },
+  "ED4NArmorofBone": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.jVWyfkxT1AVXyJsM",
+    "edid": "spell-armor-of-bone"
+  },
+  "ED4NArrowofNight": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.1LUAGawb6JSkx5rQ",
+    "edid": "spell-arrow-of-night"
+  },
+  "ED4NAspectoftheAstralSavant": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.jR2DCme1ijyx0wnt",
+    "edid": "spell-aspect-of-the-astral-savant"
+  },
+  "ED4NAspectoftheBoneSpirit": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.oiYvPPcrduGUXfTh",
+    "edid": "spell-aspect-of-the-bone-spirit"
+  },
+  "ED4NAspectoftheCasualMurderer": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.CoUNQk1fcrdiGBFH",
+    "edid": "spell-aspect-of-the-casual-murderer"
+  },
+  "ED4NAspectoftheCowardlySkulk": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.WMw8st2gBoKhzfsV",
+    "edid": "spell-aspect-of-the-cowardly-skulk"
+  },
+  "ED4NAspectoftheCruelPhysician": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.xY1EAsNBeia4GtY9",
+    "edid": "spell-aspect-of-the-cruel-physician"
+  },
+  "ED4NAspectoftheFogGhost": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.MruPnoTP84wanmXe",
+    "edid": "spell-aspect-of-the-fog-ghost"
+  },
+  "ED4NAspectoftheMenacingTyrant": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.eF0dZEGpykCVPjhp",
+    "edid": "spell-aspect-of-the-menacing-tyrant"
+  },
+  "ED4NAspectoftheShadowHunter": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.oCZ7iOCygrSa1Pnx",
+    "edid": "spell-aspect-of-the-shadow-hunter"
+  },
+  "ED4NAstralBeacon": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.cCRFsFoqK1tIr1VA",
+    "edid": "spell-astral-beacon"
+  },
+  "ED4NAstralMaterialization": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.j5OSjqMoyxti5t3t",
+    "edid": "spell-astral-materialization"
+  },
+  "ED4NAstralMaw": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.kP4xuvYVzXeVXCF0",
+    "edid": "spell-astral-maw"
+  },
+  "ED4NAstralSeeking": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.OzeJgWbu3roHXrN3",
+    "edid": "spell-astral-seeking"
+  },
+  "ED4NAstralSpear": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.DNRci7ydoPXM5Imn",
+    "edid": "spell-astral-spear"
+  },
+  "ED4NAstralWhisper": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.fxZkH39dAgVxkNh9",
+    "edid": "spell-astral-whisper"
+  },
+  "ED4NBanquetofDis": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.bOt5cU2AmS3NFvHH",
+    "edid": "spell-banquet-of-dis"
+  },
+  "ED4NBlind": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.XDlYplrrSKtFHhpd",
+    "edid": "spell-blind"
+  },
+  "ED4NBloodBoil": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.stGkNaruHuNySODN",
+    "edid": "spell-blood-boil"
+  },
+  "ED4NBloodLost": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.D1k2CFET76iweurj",
+    "edid": "spell-blood-lost"
+  },
+  "ED4NBloodServitor": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.RHKhM68ZiDuyHEuu",
+    "edid": "spell-blood-servitor"
+  },
+  "ED4NBoneCircle": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.L6NfwVpLAu6WjJzY",
+    "edid": "spell-bone-circle"
+  },
+  "ED4NBoneDance": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.4L0QJQtuLt25bFvQ",
+    "edid": "spell-bone-dance"
+  },
+  "ED4NBonePudding": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.mpuGbYhLxERiaFyf",
+    "edid": "spell-bone-pudding"
+  },
+  "ED4NBoneShatter": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.nOnhq31DoyLI7V5Z",
+    "edid": "spell-bone-shatter"
+  },
+  "ED4NBoneWalker": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.Op0Sg8TpZmiRnFxW",
+    "edid": "spell-bone-walker"
+  },
+  "ED4NBreachtheAstralGates": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.wz9wVIlQMvUDtNjO",
+    "edid": "spell-breach-the-astral-gates"
+  },
+  "ED4NCallForththeArmyofDecay": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.2GEJQyivFsoA17PV",
+    "edid": "spell-call-forth-the-army-of-decay"
+  },
+  "ED4NChillingCircle": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.sKLZYp4yfyLZuW7L",
+    "edid": "spell-chilling-circle"
+  },
+  "ED4NCircleofAstralProtection": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.ChpJnAifeaa48Myt",
+    "edid": "spell-circle-of-astral-protection"
+  },
+  "ED4NColdStorage": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.zASjk8Fz8rfeDdfB",
+    "edid": "spell-cold-storage"
+  },
+  "ED4NConstrictHeart": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.7BbUdwokR0DTyfKP",
+    "edid": "spell-constrict-heart"
+  },
+  "ED4NCreepingDread": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.3Rd5yGBrWCr9XHU1",
+    "edid": "spell-creeping-dread"
+  },
+  "ED4NCropBlight": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.BwO5DbpgWrmRXhiq",
+    "edid": "spell-crop-blight"
+  },
+  "ED4NDamageShift": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.GHbqAYuwxmJd5DA5",
+    "edid": "spell-damage-shift"
+  },
+  "ED4NDarkMessenger": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.wuWEj8ongA4YFRT2",
+    "edid": "spell-dark-messenger"
+  },
+  "ED4NDarkSpy": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.Md27rVZ6M1Ekift8",
+    "edid": "spell-dark-spy"
+  },
+  "ED4NDarkSword": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.MC4xSXCwL5yYJWv7",
+    "edid": "spell-dark-sword"
+  },
+  "ED4NDeathTrance": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.g4PfSBaniLjjWjAM",
+    "edid": "spell-death-trance"
+  },
+  "ED4NDeathsHead": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.PbciSun5XvLKkKji",
+    "edid": "spell-deaths-head"
+  },
+  "ED4NDeathsVisitation": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.yEP8nYz0Y5r0cTGM",
+    "edid": "spell-deaths-visitation"
+  },
+  "ED4NDebilitatingGloom": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.tBljUiTw8nM6TwV5",
+    "edid": "spell-debilitating-gloom"
+  },
+  "ED4NDesiccate": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.p1WD9feeFfUdtM5x",
+    "edid": "spell-desiccate"
+  },
+  "ED4NDetectUndead": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.H0qoTSKLpdLdRxVN",
+    "edid": "spell-detect-undead"
+  },
+  "ED4NDrainingEye": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.tMuwVdbPf40hVzg9",
+    "edid": "spell-draining-eye"
+  },
+  "ED4NDusttoDust": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.YIHKEsZDCpZVhBmd",
+    "edid": "spell-dust-to-dust"
+  },
+  "ED4NEclipse": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.fTeYNtyAxyAD4Yez",
+    "edid": "spell-eclipse"
+  },
+  "ED4NEtherealDarkness": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.CPMnrtdVMW5MqeuO",
+    "edid": "spell-ethereal-darkness"
+  },
+  "ED4NEvilEye": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.DqYsAoXT8WEt1tSa",
+    "edid": "spell-evil-eye"
+  },
+  "ED4NExperienceDeath": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.8fyhD2lxLUIQhcSK",
+    "edid": "spell-experience-death"
+  },
+  "ED4NFatalFood": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.JaPGqIFQycuObzvN",
+    "edid": "spell-fatal-food"
+  },
+  "ED4NFogofFear": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.exf02r3KNysafkt8",
+    "edid": "spell-fog-of-fear"
+  },
+  "ED4NForgetHunger": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.evv6rVvaPE0bYnW4",
+    "edid": "spell-forget-hunger"
+  },
+  "ED4NFoulVapors": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.v0Pn1zpJELUVi0Xl",
+    "edid": "spell-foul-vapors"
+  },
+  "ED4NFriendlyDarkness": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.LDv5yM414REI8knK",
+    "edid": "spell-friendly-darkness"
+  },
+  "ED4NGateway": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.A7Vg88wPEcts3NlJ",
+    "edid": "spell-gateway"
+  },
+  "ED4NGraveMessage": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.VzcMEDuEafvzkoAW",
+    "edid": "spell-grave-message"
+  },
+  "ED4NGraveSilence": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.blaV91s32K4wPfgW",
+    "edid": "spell-grave-silence"
+  },
+  "ED4NGravelight": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.yWqUWf1BrKs4QmPL",
+    "edid": "spell-gravelight"
+  },
+  "ED4NHorrorCall": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.drbCiH7brc1QBibg",
+    "edid": "spell-horror-call"
+  },
+  "ED4NJourneytoLife": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.ZB0UMiPgVYvBvUTE",
+    "edid": "spell-journey-to-life"
+  },
+  "ED4NLastChance": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.DgIYTtL3IFtni2lG",
+    "edid": "spell-last-chance"
+  },
+  "ED4NLifeCircleofOne": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.b5hNtuG4sSfRQcvj",
+    "edid": "spell-life-circle-of-one"
+  },
+  "ED4NLocktheAstralGates": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.aWLWwk8uPAs8HrrJ",
+    "edid": "spell-lock-the-astral-gates"
+  },
+  "ED4NMoonShadow": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.WKtl42S0hHXAfr9x",
+    "edid": "spell-moon-shadow"
+  },
+  "ED4NMysticVessel": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.vUSZGstZpvEfOIwr",
+    "edid": "spell-mystic-vessel"
+  },
+  "ED4NNetherblade": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.FNu2o9dHVi0Jren0",
+    "edid": "spell-netherblade"
+  },
+  "ED4NNetherlight": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.ufccDvT3jdk7VYQG",
+    "edid": "spell-netherlight"
+  },
+  "ED4NNetherwave": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.KizUJ6I2OTbod3ox",
+    "edid": "spell-netherwave"
+  },
+  "ED4NNightflyersCloak": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.572el083aZZFUSGF",
+    "edid": "spell-nightflyers-cloak"
+  },
+  "ED4NNightmareofForeboding": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.sjO7IlMw66cAGASx",
+    "edid": "spell-nightmare-of-foreboding"
+  },
+  "ED4NNightsEdge": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.S6B0X9WcqtaaCPNB",
+    "edid": "spell-nights-edge"
+  },
+  "ED4NOnionBlood": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.QxFhvYIrHucdSeNH",
+    "edid": "spell-onion-blood"
+  },
+  "ED4NPain": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.IQlXGMJZfJncSl4t",
+    "edid": "spell-pain"
+  },
+  "ED4NPatternLigature": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.uPl6YgzeKvyjIB53",
+    "edid": "spell-pattern-ligature"
+  },
+  "ED4NPatternSpike": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.hbHWksqT4jLx08sm",
+    "edid": "spell-pattern-spike"
+  },
+  "ED4NPreserve": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.hTmIC0Wcp3TE6SU2",
+    "edid": "spell-preserve"
+  },
+  "ED4NPutrefy": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.xCADNlCXMz9nW75w",
+    "edid": "spell-putrefy"
+  },
+  "ED4NRecovery": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.0V5jFxW0EJSMMCTj",
+    "edid": "spell-recovery"
+  },
+  "ED4NRestlessDeath": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.afJtmwHv2397uEgr",
+    "edid": "spell-restless-death"
+  },
+  "ED4NRestrainEntity": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.53XZEbQY1ugUq2AF",
+    "edid": "spell-restrain-entity"
+  },
+  "ED4NReverseWithering": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.NaxrY1EyomHdmSUK",
+    "edid": "spell-reverse-withering"
+  },
+  "ED4NSculptDarkness": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.fPYWgtqRgp6dB00Z",
+    "edid": "spell-sculpt-darkness"
+  },
+  "ED4NScytheWard": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.BeyjoMonQiaH6GqO",
+    "edid": "spell-scythe-ward"
+  },
+  "ED4NShadowMeld": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.Nx2ABXppabYP5Eg8",
+    "edid": "spell-shadow-meld"
+  },
+  "ED4NShadowPalace": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.2Hy9hQgBWZu0uOST",
+    "edid": "spell-shadow-palace"
+  },
+  "ED4NShadowTether": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.flHJwiAA1xQ3rLof",
+    "edid": "spell-shadow-tether"
+  },
+  "ED4NShadowsWhisper": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.2OC6YaGlG5FsV64W",
+    "edid": "spell-shadows-whisper"
+  },
+  "ED4NShieldMist": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.dH8J92QJ4kmoMk1a",
+    "edid": "spell-shield-mist"
+  },
+  "ED4NSilentDarkness": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.pwJkdyB7VofI4RhR",
+    "edid": "spell-silent-darkness"
+  },
+  "ED4NSkinShift": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.H93zv9S5jXkBGWqU",
+    "edid": "spell-skin-shift"
+  },
+  "ED4NSoulArmor": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.ABhwsRKzhiU6dRdG",
+    "edid": "spell-soul-armor"
+  },
+  "ED4NSoulTrap": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.1ny22cV3Vb5mVjE5",
+    "edid": "spell-soul-trap"
+  },
+  "ED4NSoullessEyes": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.MxMLDs4mOHYVXNRV",
+    "edid": "spell-soulless-eyes"
+  },
+  "ED4NSpiritBolt": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.8EE9dgcYpuKxJc7m",
+    "edid": "spell-spirit-bolt"
+  },
+  "ED4NSpiritDart": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.c3CrrYs1vxbv2H7M",
+    "edid": "spell-spirit-dart"
+  },
+  "ED4NSpiritDouble": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.eRMrNNoLh202sayE",
+    "edid": "spell-spirit-double"
+  },
+  "ED4NSpiritGrip": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.J17WxXIjvI7Wruw5",
+    "edid": "spell-spirit-grip"
+  },
+  "ED4NSpiritLabor": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.26qw6bvfmdelN6dm",
+    "edid": "spell-spirit-labor"
+  },
+  "ED4NSpiritPortal": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.sVqqpNVG1lRXhw22",
+    "edid": "spell-spirit-portal"
+  },
+  "ED4NSpiritServant": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.IR5brh5FzPvuLXOr",
+    "edid": "spell-spirit-servant"
+  },
+  "ED4NSpiritTempest": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.QEDd0LSCALzFKEaL",
+    "edid": "spell-spirit-tempest"
+  },
+  "ED4NStepThroughShadow": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.pvipRfCSOoXmNqHy",
+    "edid": "spell-step-through-shadow"
+  },
+  "ED4NSummonBoneSpirit": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.4L57VW4KtQjeDIEz",
+    "edid": "spell-summone-bone-spirit"
+  },
+  "ED4NSummonFogGhost": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.LJ1pJQ8qzjso5q4i",
+    "edid": "spell-summon-fog-ghost"
+  },
+  "ED4NSummonShadowHunter": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.jFoeoRUNtDt2hsjX",
+    "edid": "spell-summon-shadow-hunter"
+  },
+  "ED4NTapHorrorKarma": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.upfa3BSbqbU8AZqQ",
+    "edid": "spell-tap-horror-karma"
+  },
+  "ED4NTearsoftheScourge": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.PkZ41BX2q2vrOdOm",
+    "edid": "spell-tears-of-the-scourge"
+  },
+  "ED4NTranslatorSpirit": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.ieOOiRseapsfnxsK",
+    "edid": "spell-translator-spirit"
+  },
+  "ED4NTwistEmotion": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.0lqtbN5GX0gfXtyK",
+    "edid": "spell-twist-emotion"
+  },
+  "ED4NUndeadStruggle": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.tXOC5Lc2Xm32QDJQ",
+    "edid": "spell-undead-struggle"
+  },
+  "ED4NViewpoint": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.mqmbS31W2gRToJv7",
+    "edid": "spell-viewpoint"
+  },
+  "ED4NVisionsofDeath": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.7kQicJjoPqygOMBw",
+    "edid": "spell-visions-of-death"
+  },
+  "ED4NVoidWave": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.ALMoSO4ZQQEzClGk",
+    "edid": "spell-void-wave"
+  },
+  "ED4NWalkingDead": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.zKX1e5st66JNYWg0",
+    "edid": "spell-walking-dead"
+  },
+  "ED4NWallofDarkness": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.w4A0FbwEPr20X3Aq",
+    "edid": "spell-wall-of-darkness"
+  },
+  "ED4NWhisperThroughtheNight": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.QD9BpsbmV2poeyGw",
+    "edid": "spell-whisper-through-the-night"
+  },
+  "ED4NWitFriend": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.ClxLEbqssSDxXMuN",
+    "edid": "spell-wit-friend"
+  },
+  "ED4NWitherAway": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.6wOPWnabXF1UrA16",
+    "edid": "spell-wither-away"
+  },
+  "ED4NWitherLimb": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.keRTPeqg0KXwTVCF",
+    "edid": "spell-wither-limb"
+  },
+  "ED4SAlarm": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.Y2qj35YTxiLE4kfz",
+    "edid": "spell-alarm"
+  },
+  "ED4SAlterTracks": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.t28R4wmyQXgVkoXF",
+    "edid": "spell-alter-tracks"
+  },
+  "ED4SAnimalFriendship": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.GEo10AafX7MmGpDA",
+    "edid": "spell-animal-friendship"
+  },
+  "ED4SAutumnalBear": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.CTUPXD6akRBu8Lr3",
+    "edid": "spell-autumnal-bear"
+  },
+  "ED4SAwaken": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.rvHAiE6VYkliygqn",
+    "edid": "spell-awaken"
+  },
+  "ED4SBadgerMettle": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.JZPIZ5i6MRSN2oFC",
+    "edid": "spell-badger-mettle"
+  },
+  "ED4SBearsMight": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.sCoTuDa8AB5mlgvV",
+    "edid": "spell-bears-might"
+  },
+  "ED4SBearsSleep": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.U2WgzjBN0zmLryhi",
+    "edid": "spell-bears-sleep"
+  },
+  "ED4SBeastform": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.WKnp70G81CHv0w6P",
+    "edid": "spell-beastform"
+  },
+  "ED4SBioluminescence": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.HuUkvO6xK0R8Pm2r",
+    "edid": "spell-bioluminescence"
+  },
+  "ED4SBleedingEdge": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.KVRHfsM8iYzLOHtc",
+    "edid": "spell-bleeding-edge"
+  },
+  "ED4SBrightleaf": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.yIMHMHBBWAnPTb8k",
+    "edid": "spell-brightleaf"
+  },
+  "ED4SCatsVictory": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.UTEm2WvSQXQooOdp",
+    "edid": "spell-cats-victory"
+  },
+  "ED4SCatwalk": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.Q3hcsQKT29Wrevc3",
+    "edid": "spell-catwalk"
+  },
+  "ED4SCetaceanBreathing": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.4ZG40WyUKBju6MGi",
+    "edid": "spell-cetacean-breathing"
+  },
+  "ED4SClawTalisman": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.WH3uei9te7smBqVE",
+    "edid": "spell-claw-talisman"
+  },
+  "ED4SClingtoLife": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.ZGiu6aeFK3HhyXc3",
+    "edid": "spell-cling-to-life"
+  },
+  "ED4SCouncilofBeasts": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.RJvr2F0UOGwmDNuG",
+    "edid": "spell-council-of-beasts"
+  },
+  "ED4SCreepingViper": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.4gDrzPYq7pGam4H7",
+    "edid": "spell-creeping-viper"
+  },
+  "ED4SCrowsAffinity": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.F5KzbMpjH9IoHbfg",
+    "edid": "spell-crows-affinity"
+  },
+  "ED4SDampenKarma": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.k1PXvwy8NXyz3t3a",
+    "edid": "spell-dampen-karma"
+  },
+  "ED4SDartingMongoose": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.fado33Vc66e66eKI",
+    "edid": "spell-darting-mongoose"
+  },
+  "ED4SDeathVow": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.ovZiSDFUXOhcpIbe",
+    "edid": "spell-death-vow"
+  },
+  "ED4SDelayFate": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.TRpGMaZBu3XRKZWT",
+    "edid": "spell-delay-fate"
+  },
+  "ED4SDietaryRestriction": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.YOwGeE7XKGFldMXX",
+    "edid": "spell-dietary-restriction"
+  },
+  "ED4SDiminutiveWarrior": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.CrKbr6kRidbdZ50j",
+    "edid": "spell-diminutive-warrior"
+  },
+  "ED4SEaglesBearing": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.SMD2LI2dONQ9eCML",
+    "edid": "spell-eagles-bearing"
+  },
+  "ED4SEarthQwril": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.bN1SskD3PxPUdUTm",
+    "edid": "spell-earth-qwril"
+  },
+  "ED4SEternalDay": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.jp9CXCcV9SNCi8PF",
+    "edid": "spell-eternal-day"
+  },
+  "ED4SFalconsCloak": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.qLrAexI2gnlNaqgD",
+    "edid": "spell-falcons-cloak"
+  },
+  "ED4SFerocity": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.vZLrlIZKnD1bKK8l",
+    "edid": "spell-ferocity"
+  },
+  "ED4SFerretReflex": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.O7ZtDU6m5oqjKCwg",
+    "edid": "spell-ferret-reflex"
+  },
+  "ED4SFlashofInsight": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.XoNLeSD5iSU8mbaw",
+    "edid": "spell-flash-of-insight"
+  },
+  "ED4SFullMoonsCurse": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.6q9a6KcKYJKmmdQB",
+    "edid": "spell-full-moons-curse"
+  },
+  "ED4SGatheringofSouls": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.mNwAKYfc3i05WPwe",
+    "edid": "spell-gathering-of-souls"
+  },
+  "ED4SGills": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.JzBJWLcRWS2FVCXd",
+    "edid": "spell-gills"
+  },
+  "ED4SGuidingVisions": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.8oh8DQ7TCmUt8Ful",
+    "edid": "spell-guiding-visions"
+  },
+  "ED4SHairFrenzy": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.trY0oGAeSz1MS8je",
+    "edid": "spell-hair-frenzy"
+  },
+  "ED4SHerosFeast": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.XUV6JsMqAHRTLIfS",
+    "edid": "spell-heros-feast"
+  },
+  "ED4SHulkingChampion": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.YvyqboDCDkQrJvOu",
+    "edid": "spell-hulking-champion"
+  },
+  "ED4SHungerPangs": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.xWcevg0fmeol9qDM",
+    "edid": "spell-hunger-pangs"
+  },
+  "ED4SHungryLiketheWolf": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.vfvqESGlZodJY1cG",
+    "edid": "spell-hungry-like-the-wolf"
+  },
+  "ED4SHuntersSense": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.7MP9ccktAamlbmu0",
+    "edid": "spell-hunters-sense"
+  },
+  "ED4SImbueSpirits": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.i2UN3TmMBcDc3tF1",
+    "edid": "spell-imbue-spirits"
+  },
+  "ED4SImproveKarma": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.6RK7HWwFOSL0oXfV",
+    "edid": "spell-improve-karma"
+  },
+  "ED4SInsectRepellent": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.FkYKiAa7lbXrvAlV",
+    "edid": "spell-insect-repellent"
+  },
+  "ED4SInvigorate": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.51Z5UXynMNxVWo6Q",
+    "edid": "spell-invigorate"
+  },
+  "ED4SInvokeBoarCharge": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.Hf5ftocWtsdBZG64",
+    "edid": "spell-invoke-boar-charge"
+  },
+  "ED4SInvokeCrowTear": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.Ev5Zy486rhzmFEZ3",
+    "edid": "spell-invoke-crow-tear"
+  },
+  "ED4SInvokeEspagraFrenzy": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.iGCPKBtnYA6hF8fb",
+    "edid": "spell-invoke-espagra-frenzy"
+  },
+  "ED4SInvokeFalconDive": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.E01SDovY6kgFfa4l",
+    "edid": "spell-invoke-falcon-dive"
+  },
+  "ED4SInvokeFoxSkirmish": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.yQYt7fTiYiaIQw9Y",
+    "edid": "spell-invoke-fox-skirmish"
+  },
+  "ED4SInvokeHedgehogNip": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.TodtZ3krgu4Qv8eg",
+    "edid": "spell-invoke-hedgehog-nip"
+  },
+  "ED4SInvokeLeopardPounce": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.UhxvoznIR2DbrH7t",
+    "edid": "spell-invoke-leopard-pounce"
+  },
+  "ED4SInvokeLionsPride": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.gpOekADaNYfjr1yf",
+    "edid": "spell-invoke-lions-pride"
+  },
+  "ED4SInvokeMinkSnap": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.w2cosZwChxhohqoY",
+    "edid": "spell-invoke-mink-snap"
+  },
+  "ED4SInvokeRhinocerosRush": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.KZM0OgVjq7eNYIJE",
+    "edid": "spell-invoke-rhinoceros-rush"
+  },
+  "ED4SInvokeSharkRend": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.xz1GTZOMOd2Xgerv",
+    "edid": "spell-invoke-shark-rend"
+  },
+  "ED4SInvokeTurtleSnap": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.WEbVzjNf1HGun1ce",
+    "edid": "spell-invoke-turtle-snap"
+  },
+  "ED4SInvokeUnicornCharge": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.GOZ1gW8mxRUV5rOZ",
+    "edid": "spell-invoke-unicorn-charge"
+  },
+  "ED4SInvokeWolfMaim": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.GbKV3Ub4YU10VBsT",
+    "edid": "spell-invoke-wolf-maim"
+  },
+  "ED4SKarmicConnection": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.3iWxs00ucQvq6kVg",
+    "edid": "spell-karmic-connection"
+  },
+  "ED4SLifePatterns": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.skT03u7pF0fL5ZyK",
+    "edid": "spell-life-patterns"
+  },
+  "ED4SLifelight": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.6IwN5XZ6i5KAlmex",
+    "edid": "spell-lifelight"
+  },
+  "ED4SLifesense": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.W8XmFeyIbUdyQUEf",
+    "edid": "spell-lifesense"
+  },
+  "ED4SLionsPride": {
+    "uuid": null,
+    "edid": "spell-lions-pride"
+  },
+  "ED4SMarkoftheBadger": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.Lg7KdwvoYCnHcFKe",
+    "edid": "spell-mark-of-the-badger"
+  },
+  "ED4SMarkoftheBear": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.BOXY9q6d2BvqKSjv",
+    "edid": "spell-mark-of-the-bear"
+  },
+  "ED4SMarkoftheBison": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.9GRWpeco5RcY12Qh",
+    "edid": "spell-mark-of-the-bison"
+  },
+  "ED4SMarkoftheBoar": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.mkLv9aPbIGBmvMjy",
+    "edid": "spell-mark-of-the-boar"
+  },
+  "ED4SMarkoftheCrane": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.EVomEH5u1He9mVMF",
+    "edid": "spell-mark-of-the-crane"
+  },
+  "ED4SMarkoftheEagle": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.DJk6jMQHiKLsmT3u",
+    "edid": "spell-mark-of-the-eagle"
+  },
+  "ED4SMarkoftheSnake": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.PqWFhAB0baLVzs7O",
+    "edid": "spell-mark-of-the-snake"
+  },
+  "ED4SMarkoftheTarrack": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.zSfYPjrGm3cWxaNv",
+    "edid": "spell-mark-of-the-tarrack"
+  },
+  "ED4SMarkoftheWolf": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.soROuDR1jvZZjmsc",
+    "edid": "spell-mark-of-the-wolf"
+  },
+  "ED4SMeerkatEstate": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.Rq9qxfywZXUA5GaX",
+    "edid": "spell-meerkat-estate"
+  },
+  "ED4SMoldtheSkin": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.1hLsW0OReSEHR2Rl",
+    "edid": "spell-mold-the-skin"
+  },
+  "ED4SMoonglow": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.39cEOYcx4JRYteSI",
+    "edid": "spell-moonglow"
+  },
+  "ED4SMountainGoatLeap": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.KJz9LrSl4Jg2fa82",
+    "edid": "spell-mountain-goat-leap"
+  },
+  "ED4SNewMoonsBlessing": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.mY3ZZin8yADmfXf3",
+    "edid": "spell-new-moons-blessing"
+  },
+  "ED4SOctopusSnare": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.rcmjwX0MWiCpghqU",
+    "edid": "spell-octopus-snare"
+  },
+  "ED4SOtterSwim": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.0oK07qZ9ogNwjwKF",
+    "edid": "spell-otter-swim"
+  },
+  "ED4SPackMule": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.o8HIvcPiMX3xw7Ts",
+    "edid": "spell-pack-mule"
+  },
+  "ED4SPackTactics": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.ibn2NsJbFQPz1m2j",
+    "edid": "spell-pack-tactics"
+  },
+  "ED4SPangolinArmor": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.EXCAq95DPUkTAFHz",
+    "edid": "spell-pangolin-armor"
+  },
+  "ED4SPathHome": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.NH1IccVMyAXUqL0c",
+    "edid": "spell-path-home"
+  },
+  "ED4SPelicanSoar": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.vHWzE7qinpGcL5hn",
+    "edid": "spell-pelican-soar"
+  },
+  "ED4SPersonalSpace": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.RAMbkYT35DyjOvBn",
+    "edid": "spell-personal-space"
+  },
+  "ED4SPolecatResilience": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.ZJtx4kLr2dx24oze",
+    "edid": "spell-polecat-resilience"
+  },
+  "ED4SPorcupineQuills": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.v7ZR7PKScwnaBxxl",
+    "edid": "spell-porcupine-quills"
+  },
+  "ED4SPredatorSenses": {
+    "uuid": null,
+    "edid": "spell-predator-senses"
+  },
+  "ED4SPremonitionofVictory": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.TfKRMYp18Z03bcir",
+    "edid": "spell-premonition-of-victory"
+  },
+  "ED4SPreySenses": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.eGKC7vDCyzVLIYRO",
+    "edid": "spell-prey-senses"
+  },
+  "ED4SRatsTrickery": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.rkVBIKUOzeFlhZr2",
+    "edid": "spell-rats-trickery"
+  },
+  "ED4SReattachLimb": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.hmPyE7vUpJf1oXcr",
+    "edid": "spell-reattach-limb"
+  },
+  "ED4SRegrowth": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.CnYHyWQ7JitZbSUE",
+    "edid": "spell-regrowth"
+  },
+  "ED4SRelax": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.yvfGQRlHucQynDxy",
+    "edid": "spell-relax"
+  },
+  "ED4SRepelAnimal": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.b7uCA9PVc46vofce",
+    "edid": "spell-repel-animal"
+  },
+  "ED4SRestorePattern": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.Xk7WHwSTzLId6KLa",
+    "edid": "spell-restore-pattern"
+  },
+  "ED4SSalamanderRegeneration": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.16isoO2qC6jUMrdp",
+    "edid": "spell-salamander-regeneration"
+  },
+  "ED4SSearchtheStars": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.p8pWuUpeyBG9CIst",
+    "edid": "spell-search-the-stars"
+  },
+  "ED4SShareSenses": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.xbfN6rZrmSp1WaX2",
+    "edid": "spell-share-senses"
+  },
+  "ED4SShrunkenFoe": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.yiGyBxInTuW88vfx",
+    "edid": "spell-shrunken-foe"
+  },
+  "ED4SSongbird": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.3L4Eg2UHf7dvEDdp",
+    "edid": "spell-songbird"
+  },
+  "ED4SSoothetheSavageBeast": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.WqJ4Kw4giTjwNDNF",
+    "edid": "spell-soothe-the-savage-beast"
+  },
+  "ED4SSoothingAtmosphere": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.YJjIWb38JTYZCHcZ",
+    "edid": "spell-soothing-atmosphere"
+  },
+  "ED4SSparrowRaid": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.l8apdd6fdxzbFzUJ",
+    "edid": "spell-sparrow-raid"
+  },
+  "ED4SStarCrossed": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.sZEToaRdC3Ut7LPi",
+    "edid": "spell-star-crossed"
+  },
+  "ED4SStormWolfCall": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.658SnvMksZPyYq18",
+    "edid": "spell-storm-wolf-call"
+  },
+  "ED4SSunlight": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.sRUfAiTrydbS6qWP",
+    "edid": "spell-sunlight"
+  },
+  "ED4SSwornProtector": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.s72gikZGWrJ3vrta",
+    "edid": "spell-sworn-protector"
+  },
+  "ED4STheyGrowUpsoFast": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.z186bn8sh0vg99cR",
+    "edid": "spell-they-grow-up-so-fast"
+  },
+  "ED4STigerRoar": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.P28wkb2lTZoSDwVO",
+    "edid": "spell-tiger-roar"
+  },
+  "ED4SViperFangs": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.57I7EC6fGu8pIMNB",
+    "edid": "spell-viper-fangs"
+  },
+  "ED4SWakewiththeSun": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.0jzVaSA443cKpA52",
+    "edid": "spell-wake-with-the-sun"
+  },
+  "ED4SWarParty": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.MOvFSojkRkXj1SMo",
+    "edid": "spell-war-party"
+  },
+  "ED4SWeatherChange": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.vfFM5BHNxgSdHANI",
+    "edid": "spell-weather-change"
+  },
+  "ED4SWeatherCloak": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.qWUEH4MFkdhQSwO6",
+    "edid": "spell-weather-cloak"
+  },
+  "ED4SWildBoar": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.q5yvFTo4ZmXWXtnS",
+    "edid": "spell-wild-boar"
+  },
+  "ED4SWildHunt": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.Hej8B1HNBex2cxiP",
+    "edid": "spell-wild-hunt"
+  },
+  "ED4SWisentVitality": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.fjX1iwhElYJsuXYQ",
+    "edid": "spell-wisent-vitality"
+  },
+  "ED4SWolfPack": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.OoCdpaZKEUkr5HYm",
+    "edid": "spell-wolf-pack"
+  },
+  "ED4SWolfRun": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spells-en.Item.msAv7Vn3dP4TedOC",
+    "edid": "spell-wolf-run"
+  },
+  "ED4SWoodlandHelpers": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.z7A4mglT1l5MjXOH",
+    "edid": "spell-woodland-helpers"
+  },
+  "ED4WAbsorbingSphere": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.P1gRmfxndWINSB6e",
+    "edid": "spell-absorbing-sphere"
+  },
+  "ED4WArcaneGuard": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.uAY8UfsvMjBSkZWx",
+    "edid": "spell-arcane-guard"
+  },
+  "ED4WArcaneHammer": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.eulFOi7oC59wnb3Q",
+    "edid": "spell-arcane-hammer"
+  },
+  "ED4WAstralCatastrophe": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.lLiieNF5MSECZoJ7",
+    "edid": "spell-astral-catastrophe"
+  },
+  "ED4WAstralFlare": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.93JuzbbzQvmcNM4I",
+    "edid": "spell-astral-flare"
+  },
+  "ED4WAstralGift": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.VMTitJ2cVZd5HroX",
+    "edid": "spell-astral-gift"
+  },
+  "ED4WAstralPrison": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.IrEjL7FtAl4whv1s",
+    "edid": "spell-astral-prison"
+  },
+  "ED4WAstralSense": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.Er3aZu9VecsdNHio",
+    "edid": "spell-astral-sense"
+  },
+  "ED4WAstralShield": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.fgNBMbn7mul5j3lV",
+    "edid": "spell-astral-shield"
+  },
+  "ED4WAstralTargeting": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.V4kNmVaM8z31MK6b",
+    "edid": "spell-astral-targeting"
+  },
+  "ED4WAstralWall": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.WWv0tW37k21I289o",
+    "edid": "spell-astral-wall"
+  },
+  "ED4WAuraStrike": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.nDQDdqB5TZuhOIUY",
+    "edid": "spell-aura-strike"
+  },
+  "ED4WAwakenMagic": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.iMEoStONoFXSv8is",
+    "edid": "spell-awaken-magic"
+  },
+  "ED4WBallofString": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.BgGtLiIyCTAAEOfd",
+    "edid": "spell-ball-of-string"
+  },
+  "ED4WBaselineSubtraction": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.P9IyDZgAsG0KbV94",
+    "edid": "spell-baseline-subtraction"
+  },
+  "ED4WBatteringRam": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.LnLfIDOWzETUwpJV",
+    "edid": "spell-battering-ram"
+  },
+  "ED4WBedazzlingDisplayofLogicalAnalysis": {
+    "uuid": null,
+    "edid": "spell-bedazzling-display-of-logical-analysis"
+  },
+  "ED4WBehindEye": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.psdvN9OPdIciF8eC",
+    "edid": "spell-behind-eye"
+  },
+  "ED4WBindingThreads": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.QoegPaTwexeOw69d",
+    "edid": "spell-binding-threads"
+  },
+  "ED4WBlockMagic": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.PvkF7STjEC25QGtS",
+    "edid": "spell-block-magic"
+  },
+  "ED4WBookbytheCover": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.VglN3hXFBEA3FTbh",
+    "edid": "spell-book-by-the-cover"
+  },
+  "ED4WBouncingBlaster": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.mWFs3EdlAEQ6Asz2",
+    "edid": "spell-bouncing-blaster"
+  },
+  "ED4WCall": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.yIpK481HWliBviol",
+    "edid": "spell-call"
+  },
+  "ED4WCatchSpell": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.XEqiKe6NeXHcnbKu",
+    "edid": "spell-catch-spell"
+  },
+  "ED4WCatseyes": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.jYNA2JPkNl9wHEw0",
+    "edid": "spell-catseyes"
+  },
+  "ED4WChannelRawMagic": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.MHrNCDakfNH6Jvwo",
+    "edid": "spell-channel-raw-magic"
+  },
+  "ED4WCityinaBottle": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.nIxvi3pju5N7SU30",
+    "edid": "spell-city-in-a-bottle"
+  },
+  "ED4WClean": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.7qHUUkQ42YqdFSpY",
+    "edid": "spell-clean"
+  },
+  "ED4WCombatFury": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.iHqXMPBSeK2Ay3VY",
+    "edid": "spell-combat-fury"
+  },
+  "ED4WCompressionBubble": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.0tMX6ymkCsxkVNeF",
+    "edid": "spell-compression-bubble"
+  },
+  "ED4WConfusingWeave": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.PlAke8MptjSLzy3f",
+    "edid": "spell-confusing-weave"
+  },
+  "ED4WCounterspell": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.LbOBsk26qktnOtrB",
+    "edid": "spell-counterspell"
+  },
+  "ED4WCrushingWill": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.922bhgF8msdAp1mZ",
+    "edid": "spell-crushing-will"
+  },
+  "ED4WDislodgeSpell": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.RqZJaKN1UIn5yJRm",
+    "edid": "spell-dislodge-spell"
+  },
+  "ED4WDispellingGlyph": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.zeUPkuwiebdN7a64",
+    "edid": "spell-dispelling-glyph"
+  },
+  "ED4WDisplaceSelf": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.OLZUUF9v5ihKmcO3",
+    "edid": "spell-displace-self"
+  },
+  "ED4WDivineAura": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.2UT5JzQQ2uqnVcv2",
+    "edid": "spell-divine-aura"
+  },
+  "ED4WDodgeBoost": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.2XOyDzdVrOI4i6kN",
+    "edid": "spell-dodge-boost"
+  },
+  "ED4WDoomMissile": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.mDTBtxk6yQhNt4HF",
+    "edid": "spell-doom-missile"
+  },
+  "ED4WDrawandQuarter": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.A5DsldiHTc84rbrl",
+    "edid": "spell-draw-and-quarter"
+  },
+  "ED4WEchoBlow": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.TwfHbHM7LA2JjfGg",
+    "edid": "spell-echo-blow"
+  },
+  "ED4WEnergyShield": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.JLvcUwfZQ6Ik8uwh",
+    "edid": "spell-energy-shield"
+  },
+  "ED4WEntryLog": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.9FBv5dEprFwDI5eX",
+    "edid": "spell-entry-log"
+  },
+  "ED4WEtchandSketch": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.jZNkXdWxpDBz5i8N",
+    "edid": "spell-etch-and-sketch"
+  },
+  "ED4WEvolvedConsciousness": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.YhTLZGtQttQVOf0Q",
+    "edid": "spell-evolved-concsiousness"
+  },
+  "ED4WFlameFlash": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.m64zjQWrzr4LC57T",
+    "edid": "spell-flame-flash"
+  },
+  "ED4WFlight": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.50ZseISNj7wegO6o",
+    "edid": "spell-flight"
+  },
+  "ED4WForceBarrier": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.URtEEMmZ2XhvQdKq",
+    "edid": "spell-force-barrier"
+  },
+  "ED4WForgeStrawman": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.E87q153viX0vcydi",
+    "edid": "spell-forge-strawman"
+  },
+  "ED4WFragilePattern": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.xqQ65PoZM1VmlPsT",
+    "edid": "spell-fragile-pattern"
+  },
+  "ED4WFulcrum": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.GTgKF52vnebbTVl6",
+    "edid": "spell-fulcrum"
+  },
+  "ED4WGiantSize": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.tknhcoQRbFrhuF4q",
+    "edid": "spell-giant-size"
+  },
+  "ED4WGlowingSwarm": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.oGVfoX7RfaP4D1ml",
+    "edid": "spell-glowing-swarm"
+  },
+  "ED4WHoldPattern": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.zp9pReDLVMIBaXsB",
+    "edid": "spell-hold-pattern"
+  },
+  "ED4WHypervelocity": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.fjiQAiD6RT8HyNzp",
+    "edid": "spell-hypervelocity"
+  },
+  "ED4WIcyProtection": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.54grpzxYLytvH8UP",
+    "edid": "spell-icy-protection"
+  },
+  "ED4WIdentifyMagic": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.MimMKAP6Ukqyucay",
+    "edid": "spell-identify-magic"
+  },
+  "ED4WImmovableObjectAnimate": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.sTyIU4H2DywQoUSM",
+    "edid": "spell-immovable-object-animate"
+  },
+  "ED4WImmovableObjectInanimate": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.KoWdMfnwCPvxlIPg",
+    "edid": "spell-immovable-object-inanimate"
+  },
+  "ED4WInventory": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.73SrdLrFFnqbpJY3",
+    "edid": "spell-inventory"
+  },
+  "ED4WIronHand": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.zpFEuUAc3vEW6juC",
+    "edid": "spell-iron-hand"
+  },
+  "ED4WJugglersTouch": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.Olk5yt0EEqUR1XDW",
+    "edid": "spell-jugglers-touch"
+  },
+  "ED4WKarmaCancel": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.1VHG0DhcewUW0a9L",
+    "edid": "spell-karma-cancel"
+  },
+  "ED4WLevitate": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.1whJLfJf8HFQ8RuB",
+    "edid": "spell-levitate"
+  },
+  "ED4WLightenLoad": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.eYpORlrVWOKiLia3",
+    "edid": "spell-lighten-load"
+  },
+  "ED4WLoanSpell": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.85u0BXIG53Ryldzo",
+    "edid": "spell-loan-spell"
+  },
+  "ED4WMageArmor": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.YwCI8ETmyyPhL5xQ",
+    "edid": "spell-mage-armor"
+  },
+  "ED4WMakeshiftMissile": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.KDnveT3rFh573xQj",
+    "edid": "spell-makeshift-missile"
+  },
+  "ED4WMakeshiftWeapon": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.f3MePxkE4BK3cg6C",
+    "edid": "spell-makeshift-weapon"
+  },
+  "ED4WMassiveMissiles": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.YA4BYiLnjerwh1Ic",
+    "edid": "spell-massive-missiles"
+  },
+  "ED4WMentalLibrary": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.4Dmehkfp0dcuXdzm",
+    "edid": "spell-mental-library"
+  },
+  "ED4WMindDagger": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.LW8NghKWEuxsqfDm",
+    "edid": "spell-mind-dagger"
+  },
+  "ED4WMoveonThrough": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.JmDSKMc4zJ4d5dAH",
+    "edid": "spell-move-on-through"
+  },
+  "ED4WMultiMissile": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.F0hLSN02z4AD1yR4",
+    "edid": "spell-multi-missile"
+  },
+  "ED4WMysticNet": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.J7BoSh4YbR9ZClQ5",
+    "edid": "spell-mystic-net"
+  },
+  "ED4WMysticShock": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.Bo1UXz4oJPswzzvp",
+    "edid": "spell-mystic-shock"
+  },
+  "ED4WMysticVines": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.zqfsh0qvBR4Mzkf4",
+    "edid": "spell-mystic-vines"
+  },
+  "ED4WObserveEvent": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.9szPOcNoI6LYYoVn",
+    "edid": "spell-observe-event"
+  },
+  "ED4WPeacebond": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.oC463W8TdqCipZzZ",
+    "edid": "spell-peacebond"
+  },
+  "ED4WPerimeterAlarm": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.ilKeGVk8M1HvcBWN",
+    "edid": "spell-perimeter-alarm"
+  },
+  "ED4WQuickStudy": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.3Hv7to8AoZaEpVhB",
+    "edid": "spell-quick-study"
+  },
+  "ED4WQuickenPace": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.7CrFVd1WfGEUAehQ",
+    "edid": "spell-quicken-pace"
+  },
+  "ED4WRampage": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.AxQMeWQu1AQZEVyl",
+    "edid": "spell-rampage"
+  },
+  "ED4WRazorOrb": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.Q34aPQP3EdCjA2yX",
+    "edid": "spell-razor-orb"
+  },
+  "ED4WRicochetAttack": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.WlSByTOUK9wiqj9k",
+    "edid": "spell-ricochet-attack"
+  },
+  "ED4WRopeLadder": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.RC7rgMqpoayGLRU6",
+    "edid": "spell-rope-ladder"
+  },
+  "ED4WSanctuary": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.yj86uRjOkWvq7s2u",
+    "edid": "spell-sanctuary"
+  },
+  "ED4WSeal": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.4kSCbJCGJqQ1WdYp",
+    "edid": "spell-seal"
+  },
+  "ED4WSearch": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.85RbXlGug6qdRqgD",
+    "edid": "spell-search"
+  },
+  "ED4WSeekingSight": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.XVZ9UAOsJKeJYigM",
+    "edid": "spell-seeking-sight"
+  },
+  "ED4WSeverTalent": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.0uqFB6OnHEeSIClV",
+    "edid": "spell-sever-talent"
+  },
+  "ED4WShatterLock": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.lKpCyMATH7I9bYhC",
+    "edid": "spell-shatter-lock"
+  },
+  "ED4WShatterPattern": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.r6lU5xBnCsz8GpyQ",
+    "edid": "spell-shatter-pattern"
+  },
+  "ED4WShieldofWarping": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.nJfw4zrq9VVfMpgI",
+    "edid": "spell-shield-of-warping"
+  },
+  "ED4WSilenceObjects": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.QNdeH3iCM0CG1TMD",
+    "edid": "spell-silence-objects"
+  },
+  "ED4WSilverShadow": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.pQRkHwl7RNbAYbWQ",
+    "edid": "spell-silver-shadow"
+  },
+  "ED4WSkyLattice": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.7MgoFk8Xb2iOUmF8",
+    "edid": "spell-sky-lattice"
+  },
+  "ED4WSleep": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.TWzCBXb8AJ3YAZQB",
+    "edid": "spell-sleep"
+  },
+  "ED4WSlow": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.gtKbh2YMKzkn7tye",
+    "edid": "spell-slow"
+  },
+  "ED4WSmudgedFingers": {
+    "uuid": null,
+    "edid": "spell-smudged-fingers"
+  },
+  "ED4WSpeedReading": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.rR4ONMBfO1UF8vh8",
+    "edid": "spell-speed-reading"
+  },
+  "ED4WSpellCage": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.T4gJeWixvRFikQ8L",
+    "edid": "spell-spell-cage"
+  },
+  "ED4WSpellFusion": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.0m0LJsXLQpdxD2zB",
+    "edid": "spell-spell-fusion"
+  },
+  "ED4WSpellSnatcher": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.pgiO0VFWhbVqiuW9",
+    "edid": "spell-spell-snatcher"
+  },
+  "ED4WSpellstore": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.gffyr5602pdDnQNb",
+    "edid": "spell-spellstore"
+  },
+  "ED4WStarShower": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.bD62NFTuUpGrzjJs",
+    "edid": "spell-star-shower"
+  },
+  "ED4WSterilize": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.lJRpHZtNwaEm3e5f",
+    "edid": "spell-sterilize"
+  },
+  "ED4WStickTogether": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.SzUaM6djahjS30iZ",
+    "edid": "spell-stick-together"
+  },
+  "ED4WStrongPattern": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.DGdtFv5PgJk7QALY",
+    "edid": "spell-strong-pattern"
+  },
+  "ED4WTalentShredder": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.sphrJH4EHKqMs0dq",
+    "edid": "spell-talent-shredder"
+  },
+  "ED4WTemporaryErase": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.w7R9oIlG8TIFiOO5",
+    "edid": "spell-temporary-erase"
+  },
+  "ED4WThornyRetreat": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.ZZnW28orq6AjycV4",
+    "edid": "spell-thorny-retreat"
+  },
+  "ED4WTravelog": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.3jQD9NV7zV481zXQ",
+    "edid": "spell-travelog"
+  },
+  "ED4WTriangulate": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.LgPkfEwY7QRvhnn8",
+    "edid": "spell-triangulate"
+  },
+  "ED4WVolumeControl": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.8VwOjKlRhZGdoURb",
+    "edid": "spell-volume-control"
+  },
+  "ED4WWakeUpCall": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.NQKWyEE4KyBcjjFH",
+    "edid": "spell-wake-up-call"
+  },
+  "ED4WWallWalker": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.l1HZ66t0C7arHhsN",
+    "edid": "spell-wall-walker"
+  },
+  "ED4WWardofWarning": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.aSD3blFlDQXsvvzY",
+    "edid": "spell-ward-of-warning"
+  },
+  "ED4WWeaponBack": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.lyBBTui2lPHWLVUe",
+    "edid": "spell-weapon-back"
+  },
+  "ED4WWipeMatrices": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.OBzPcDslYbMCrxat",
+    "edid": "spell-wipe-matrices"
+  },
+  "ED4WWizardMark": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.d638sjIPFLAPUpWt",
+    "edid": "spell-wizard-mark"
+  },
+  "ED4WWizardsCloak": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-spells-en.Item.jGLKzfsfGwYAwIZD",
+    "edid": "spell-wizards-cloak"
+  },
+  "ED4WWoundMask": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-spells-en.Item.36e1qaSdrhvtsZSw",
+    "edid": "spell-wound-mask"
+  },
+  "NHNClean": {
+    "uuid": null,
+    "edid": "spell-clean"
+  },
+  "PandaBladeGenesis": {
+    "uuid": null,
+    "edid": "spell-blade-genesis"
+  },
+  "PandaChainsofChaos": {
+    "uuid": null,
+    "edid": "spell-chains-of-chaos"
+  },
+  "PandaChannelAstralDecay": {
+    "uuid": null,
+    "edid": "spell-channel-astral-decay"
+  },
+  "PandaChannelBastionCrumble": {
+    "uuid": null,
+    "edid": "spell-channel-bastion-crumble"
+  },
+  "PandaChannelChaoticFixation": {
+    "uuid": null,
+    "edid": "spell-channel-chaotic-fixation"
+  },
+  "PandaChannelConcussiveForce": {
+    "uuid": null,
+    "edid": "spell-channel-concussive-force"
+  },
+  "PandaChannelCrystalGuard": {
+    "uuid": null,
+    "edid": "spell-channel-crystal-guard"
+  },
+  "PandaChannelCyclonicPurge": {
+    "uuid": null,
+    "edid": "spell-channel-cyclonic-purge"
+  },
+  "PandaChannelDegenerateReorder": {
+    "uuid": null,
+    "edid": "spell-channel-degenerate-reorder"
+  },
+  "PandaChannelDescenttoChaos": {
+    "uuid": null,
+    "edid": "spell-channel-descent-to-chaos"
+  },
+  "PandaChannelDiscordofLife": {
+    "uuid": null,
+    "edid": "spell-channel-discord-of-life"
+  },
+  "PandaChannelDissonantDefense": {
+    "uuid": null,
+    "edid": "spell-channel-dissonant-defense"
+  },
+  "PandaChannelEntropicShield": {
+    "uuid": null,
+    "edid": "spell-channel-entropic-shield"
+  },
+  "PandaChannelForcedPerspective": {
+    "uuid": null,
+    "edid": "spell-channel-forced-perspective"
+  },
+  "PandaChannelHarmonicImbalance": {
+    "uuid": null,
+    "edid": "spell-channel-harmonic-imbalance"
+  },
+  "PandaChannelPatternDefense": {
+    "uuid": null,
+    "edid": "spell-channel-pattern-defense"
+  },
+  "PandaChannelRecklessIntent": {
+    "uuid": null,
+    "edid": "spell-channel-reckless-intent"
+  },
+  "PandaChannelStaticMotion": {
+    "uuid": null,
+    "edid": "spell-channel-static-motion"
+  },
+  "PandaChannelStructuredChaos": {
+    "uuid": null,
+    "edid": "spell-channel-structured-chaos"
+  },
+  "PandaChannelSymmetricalOffensive": {
+    "uuid": null,
+    "edid": "spell-channel-symmetrical-offensive"
+  },
+  "PandaChannelTumultuousConflict": {
+    "uuid": null,
+    "edid": "spell-channel-tumultuous-conflict"
+  },
+  "PandaChaoticRearrangement": {
+    "uuid": null,
+    "edid": "spell-chaotic-rearrangement"
+  },
+  "PandaCircleofPandemonium": {
+    "uuid": null,
+    "edid": "spell-circle-of-pandemonium"
+  },
+  "PandaDismantleAstralThreat": {
+    "uuid": null,
+    "edid": "spell-dismantle-astral-threat"
+  },
+  "PandaDisorderLocation": {
+    "uuid": null,
+    "edid": "spell-disorder-location"
+  },
+  "PandaDisorientingField": {
+    "uuid": null,
+    "edid": "spell-disorienting-field"
+  },
+  "PandaDisruptedThoughts": {
+    "uuid": null,
+    "edid": "spell-disrupted-thoughts"
+  },
+  "PandaEntropicSpear": {
+    "uuid": null,
+    "edid": "spell-entropic-spear"
+  },
+  "PandaErodeRecord": {
+    "uuid": null,
+    "edid": "spell-erode-record"
+  },
+  "PandaFocusedThoughts": {
+    "uuid": null,
+    "edid": "spell-focused-thoughts"
+  },
+  "PandaForceofOrder": {
+    "uuid": null,
+    "edid": "spell-force-of-order"
+  },
+  "PandaIlluminate": {
+    "uuid": null,
+    "edid": "spell-illuminate"
+  },
+  "PandaModelReformation": {
+    "uuid": null,
+    "edid": "spell-model-reformation"
+  },
+  "PandaOrderedLinks": {
+    "uuid": null,
+    "edid": "spell-ordered-links"
+  },
+  "PandaOrdersFindaWay": {
+    "uuid": null,
+    "edid": "spell-orders-find-a-way"
+  },
+  "PandaPatternGliding": {
+    "uuid": null,
+    "edid": "spell-pattern-gliding"
+  },
+  "PandaPrismScout": {
+    "uuid": null,
+    "edid": "spell-prism-scout"
+  },
+  "PandaRealityShards": {
+    "uuid": null,
+    "edid": "spell-reality-shards"
+  },
+  "PandaRearrangePositionChaos": {
+    "uuid": null,
+    "edid": "spell-rearrange-position-chaos"
+  },
+  "PandaRearrangePositionOrder": {
+    "uuid": null,
+    "edid": "spell-rearrange-position-order"
+  },
+  "PandaReorderStructure": {
+    "uuid": null,
+    "edid": "spell-reorder-structure"
+  },
+  "PandaShiftingForms": {
+    "uuid": null,
+    "edid": "spell-shifting-forms"
+  },
+  "PandaStructuredLink": {
+    "uuid": null,
+    "edid": "spell-structured-link"
+  },
+  "PandaSystematicExamination": {
+    "uuid": null,
+    "edid": "spell-systematic-examination"
+  },
+  "PandaTearDowntheWalls": {
+    "uuid": null,
+    "edid": "spell-tear-down-the-walls"
+  }
+}

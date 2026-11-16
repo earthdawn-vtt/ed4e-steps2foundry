@@ -1,1 +1,82 @@
-{}
+{
+  "ED4AvowedBeast": {
+    "uuid": null,
+    "edid": "path-avowed-maw-of-the-beast"
+  },
+  "ED4AvowedNettle": {
+    "uuid": null,
+    "edid": "path-avowed-nettle-of-the-dark"
+  },
+  "ED4AvowedSleeper": {
+    "uuid": null,
+    "edid": "path-avowed-heart-of-the-sleeper"
+  },
+  "ED4BrotherofStone": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-paths-en.Item.pVHDWFQJAZIP7NLm",
+    "edid": "brother-of-stone"
+  },
+  "ED4FireEater": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-paths-en.Item.xlxyxqKNFlCYygKv",
+    "edid": "fire-eater"
+  },
+  "ED4HorrorStalker": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-paths-en.Item.6GmVf3KSDdYamqLS",
+    "edid": "horror-stalker"
+  },
+  "ED4Journeyman": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-paths-en.Item.Y39DKX2bbYe0kW52",
+    "edid": "journeyman"
+  },
+  "ED4Liberator": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-paths-en.Item.yMhE5P993ygeZjlb",
+    "edid": "liberator"
+  },
+  "ED4Messenger": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-paths-en.Item.UUMZW5SR6PN615kc",
+    "edid": "messenger"
+  },
+  "ED4Outcast": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-paths-en.Item.pSpCY3IxLXgFgV03",
+    "edid": "outcast"
+  },
+  "ED4Purifier": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-paths-en.Item.tyrOoAYiaFnijJN0",
+    "edid": "purifier"
+  },
+  "ED4Scholar": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-paths-en.Item.bOMDsenGYwjKf6fs",
+    "edid": "scholar"
+  },
+  "ED4TailDancerChtard": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-paths-en.Item.V996cqLDashOAwbp",
+    "edid": "tail-dancer"
+  },
+  "ED4TailDancerEdo": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-paths-en.Item.FxRzoEOXfPY3IuOQ",
+    "edid": "tail-dancer"
+  },
+  "ED4TailDancerShivoavara": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-paths-en.Item.uhjZWrPcpZccbTyO",
+    "edid": "tail-dancer"
+  },
+  "ED4TailDancerSkora": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-paths-en.Item.2RHZJGDE7sBn5Evo",
+    "edid": "tail-dancer"
+  },
+  "ED4Windmaster": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-paths-en.Item.wViSbRjUqBFkVCNr",
+    "edid": "windmaster"
+  },
+  "ED4Woodsman": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-paths-en.Item.fGc4TOMrj60Vbx7p",
+    "edid": "woodsman"
+  },
+  "SKBattleBrother": {
+    "uuid": null,
+    "edid": "path-greppr"
+  },
+  "SKSoslvuul": {
+    "uuid": null,
+    "edid": "path-soslvuul"
+  }
+}

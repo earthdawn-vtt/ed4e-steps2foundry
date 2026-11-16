@@ -1,1 +1,2842 @@
-{}
+{
+  "1000spGem": {
+    "uuid": null,
+    "edid": "equipment-1000spgem"
+  },
+  "100spGem": {
+    "uuid": null,
+    "edid": "equipment-100spgem"
+  },
+  "200spGem": {
+    "uuid": null,
+    "edid": "equipment-200spgem"
+  },
+  "500spGem": {
+    "uuid": null,
+    "edid": "equipment-500spgem"
+  },
+  "50spGem": {
+    "uuid": null,
+    "edid": "equipment-50spgem"
+  },
+  "AbsorbBlow": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.9cT76BkqLIQKaKya",
+    "edid": "equipment-absorb-blow"
+  },
+  "AdventuringKit": {
+    "uuid": null,
+    "edid": "equipment-adventuring-kit-backpack-bedroll-flint"
+  },
+  "AdventuringKitwithtent": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.JqEVr0BdEUjM377S",
+    "edid": "equipment-adventuring-kit-with-tent"
+  },
+  "Air": {
+    "uuid": null,
+    "edid": "equipment-air"
+  },
+  "AlchemistsKit": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.T1cc7iwX8oUmKQvF",
+    "edid": "equipment-alchemists-kit"
+  },
+  "AlchemistsShop": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.30ZLif7kvBFMszBK",
+    "edid": "equipment-alchemists-shop"
+  },
+  "AleAverage": {
+    "uuid": null,
+    "edid": "equipment-ale-average"
+  },
+  "AleDwarfStout": {
+    "uuid": null,
+    "edid": "equipment-ale-dwarf-stout"
+  },
+  "AleGood": {
+    "uuid": null,
+    "edid": "equipment-ale-good"
+  },
+  "ArmorerBasicDecoration": {
+    "uuid": null,
+    "edid": "equipment-armorer-basic-decoration"
+  },
+  "ArmorerOrnateDecoration": {
+    "uuid": null,
+    "edid": "equipment-armorer-ornate-decoration"
+  },
+  "ArtisanTools": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.5G1H7lEaueOcl7cM",
+    "edid": "equipment-artisan-tools"
+  },
+  "ArtisanToolsCarving": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.6IVLJmwReNlcSllq",
+    "edid": "equipment-artisan-tools-carving"
+  },
+  "ArtisanToolsEmbroiderySewing": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.bboeNmQbQhG3aGYv",
+    "edid": "equipment-artisan-tools-embroiderysewing"
+  },
+  "ArtisanToolsForge": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.sPR4MN0lPHKqJJrN",
+    "edid": "equipment-artisan-tools-forge"
+  },
+  "ArtisanToolsPainting": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.VP8NpYGxUQFkZ9wy",
+    "edid": "equipment-artisan-tools-painting"
+  },
+  "ArtisanToolsSculpting": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.zTxYfaXXXcekfWtN",
+    "edid": "equipment-artisan-tools-sculpting"
+  },
+  "AstralSensitiveEye": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.sZgwWXKxa45SV3mM",
+    "edid": "equipment-astral-sensitive-eye"
+  },
+  "BTLHase": {
+    "uuid": null,
+    "edid": "equipment-hase"
+  },
+  "BTLSchneid": {
+    "uuid": null,
+    "edid": "equipment-schneid"
+  },
+  "BTLStraßenzauber": {
+    "uuid": null,
+    "edid": "equipment-strassenzauber"
+  },
+  "BTLWolfsspinne": {
+    "uuid": null,
+    "edid": "equipment-wolfsspinne"
+  },
+  "Backpack": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.QnwTfYEKdMoro34H",
+    "edid": "equipment-backpack"
+  },
+  "Bedroll": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.RvmG3tzXYLjqh90s",
+    "edid": "equipment-bedroll"
+  },
+  "BedrollofComfort": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.hJtlzI0eYw1YEDGA",
+    "edid": "equipment-bedroll-of-comfort"
+  },
+  "Belt": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.Gphg6HG9iXAOBGee",
+    "edid": "equipment-belt"
+  },
+  "BeltPouch": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.4JaaWK6vpRz27B0h",
+    "edid": "equipment-belt-pouch"
+  },
+  "BestialZeal": {
+    "uuid": null,
+    "edid": "equipment-bestial-zeal"
+  },
+  "Blanket": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.WQFVxIKoeVD30LiO",
+    "edid": "equipment-blanket"
+  },
+  "BlisteringFlesh": {
+    "uuid": null,
+    "edid": "equipment-blistering-flesh"
+  },
+  "BloodMead": {
+    "uuid": null,
+    "edid": "equipment-blood-mead"
+  },
+  "BloodSurvival": {
+    "uuid": null,
+    "edid": "equipment-blood-survival"
+  },
+  "BloodThorns": {
+    "uuid": null,
+    "edid": "equipment-blood-thorns"
+  },
+  "BoneCharm": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.CvP6ZODAF3Nbghx5",
+    "edid": "equipment-bone-charm"
+  },
+  "BoosterPotion": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.ZdORTHwcLDlLWTP6",
+    "edid": "equipment-booster-potion"
+  },
+  "BootsDry": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.LWTDGvL6UBwKJC7u",
+    "edid": "equipment-boots-dry"
+  },
+  "BootsHuntsman": {
+    "uuid": null,
+    "edid": "equipment-boots-huntsman"
+  },
+  "BootsMountain": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.cdMGaWpT8Gv1SyJI",
+    "edid": "equipment-boots-mountain"
+  },
+  "BootsRiding": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.55NWWMH7TDccKnA8",
+    "edid": "equipment-boots-riding"
+  },
+  "BootsSoft": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.XjQ44qNhuJuAx1rX",
+    "edid": "equipment-boots-soft"
+  },
+  "BoundaryStones": {
+    "uuid": null,
+    "edid": "equipment-boundary-stones"
+  },
+  "BountifulBlessing": {
+    "uuid": null,
+    "edid": "equipment-bountiful-blessing"
+  },
+  "BreechesGuildMember": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.YWN2zKpDs0vjHX4z",
+    "edid": "equipment-breeches-guild-member"
+  },
+  "BreechesMerchant": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.3wkse7JqzzzOFAXp",
+    "edid": "equipment-breeches-merchant"
+  },
+  "BreechesPeasant": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.zxPF08RtL6w9B5KS",
+    "edid": "equipment-breeches-peasant"
+  },
+  "BroochGold": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.lixHDlK8j8eyZMtx",
+    "edid": "equipment-brooch-gold"
+  },
+  "BroochOrnamental": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.GxLPgWZdPKkoI9Oi",
+    "edid": "equipment-brooch-ornamental"
+  },
+  "BroochPlain": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.IZiZmWBnIo32Xsz8",
+    "edid": "equipment-brooch-plain"
+  },
+  "BroochSilver": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.sabaksLYx0QmrWzy",
+    "edid": "equipment-brooch-silver"
+  },
+  "Candle": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.IHJKI4n2Ws4B9DyS",
+    "edid": "equipment-candle"
+  },
+  "Canoe": {
+    "uuid": null,
+    "edid": "equipment-canoe"
+  },
+  "CartLarge": {
+    "uuid": null,
+    "edid": "equipment-cart-large"
+  },
+  "CartSmall": {
+    "uuid": null,
+    "edid": "equipment-cart-small"
+  },
+  "ChainHeavy": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.9gtKYLksGfkQIGyN",
+    "edid": "equipment-chain-heavy-10ft"
+  },
+  "ChainLight": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.dB6fxGWAUjYLLONy",
+    "edid": "equipment-chain-light-10ft"
+  },
+  "Chalk": {
+    "uuid": null,
+    "edid": "equipment-chalk-5-pieces"
+  },
+  "CheapInnPrivateRoom": {
+    "uuid": null,
+    "edid": "equipment-cheap-inn-private-room"
+  },
+  "CheapInnPublicRoom": {
+    "uuid": null,
+    "edid": "equipment-cheap-inn-public-room"
+  },
+  "CleaningBroom": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.BoN5a2j8eVIAn2q9",
+    "edid": "equipment-cleaning-broom"
+  },
+  "ClimbingKit": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.5eJqM6jmhppg9q2t",
+    "edid": "equipment-climbing-kit"
+  },
+  "CloakDwarfWinternight": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.PY7llNSXCoYxk2yV",
+    "edid": "equipment-cloak-dwarf-winternight"
+  },
+  "CloakEverclean": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.oVf2aHqngRJJDuIf",
+    "edid": "equipment-cloak-everclean"
+  },
+  "CloakFurtrimmed": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.AsrHpUZxA2lRbfWm",
+    "edid": "equipment-cloak-fur-trimmed"
+  },
+  "CloakSatinlined": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.ead3FXWn0A8amhIU",
+    "edid": "equipment-cloak-satin-lined"
+  },
+  "CloakTheran": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.qoGK00QktMtlDTli",
+    "edid": "equipment-cloak-theran"
+  },
+  "CloakTravelers": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.pLE0sEvXjfNfE3o2",
+    "edid": "equipment-cloak-travelers"
+  },
+  "CloakWarm": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.uwwPHKWaSTd8Pxfm",
+    "edid": "equipment-cloak-warm"
+  },
+  "CloakWool": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.dHLMbcwfSCkiO3KI",
+    "edid": "equipment-cloak-wool"
+  },
+  "Conflagration": {
+    "uuid": null,
+    "edid": "equipment-conflagration"
+  },
+  "Copper": {
+    "uuid": null,
+    "edid": "equipment-copper"
+  },
+  "CraftsmanTools": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.RVWIpkoOamIDVAfm",
+    "edid": "equipment-craftsman-tools"
+  },
+  "CragsMark": {
+    "uuid": null,
+    "edid": "equipment-crags-mark"
+  },
+  "CropDiver": {
+    "uuid": null,
+    "edid": "equipment-crop-diver"
+  },
+  "CropDiverBloodCharm": {
+    "uuid": null,
+    "edid": "equipment-crop-diver-blood-charm"
+  },
+  "Crystal Skin": {
+    "uuid": null,
+    "edid": "equipment-crystal-skin"
+  },
+  "CrystalSpearJ": {
+    "uuid": null,
+    "edid": "equipment-crystal-spear-journeyman"
+  },
+  "CrystalSpearW": {
+    "uuid": null,
+    "edid": "equipment-crystal-spear-warden"
+  },
+  "CureDiseasePotion": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.yjrDn0TeFuXkWuNn",
+    "edid": "equipment-cure-disease-potion"
+  },
+  "DarksightEye": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.KKtFkGRn7ahbiOLn",
+    "edid": "equipment-darksight-eye"
+  },
+  "DeathCheat": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.Le0nKEhoDiEsUdWO",
+    "edid": "equipment-death-cheat"
+  },
+  "DesperateBlow": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.KbvESD2ZRpbYvgNd",
+    "edid": "equipment-desperate-blow"
+  },
+  "DesperateSpell": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.gqEppH8wlwXwsEyC",
+    "edid": "equipment-desperate-spell"
+  },
+  "DestroyersMark": {
+    "uuid": null,
+    "edid": "equipment-destroyers-mark"
+  },
+  "DisguiseKit": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.MuzxWOEeicW5MUIu",
+    "edid": "equipment-disguise-kit"
+  },
+  "DiviningRod": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.877SZ6LwT5zLzLA4",
+    "edid": "equipment-divining-rod"
+  },
+  "DiviningRods": {
+    "uuid": null,
+    "edid": "equipment-divining-rods"
+  },
+  "DotFAnthousasWailingMask": {
+    "uuid": null,
+    "edid": "equipment-anthousas-wailing-mask"
+  },
+  "DotFEyeoftheFlameSerpent": {
+    "uuid": null,
+    "edid": "equipment-eye-of-the-flame-serpent"
+  },
+  "DotFFoebreaker": {
+    "uuid": null,
+    "edid": "equipment-foebreaker"
+  },
+  "DressBallroomGown": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.2XchkgaOpgvJYNHj",
+    "edid": "equipment-dress-ballroom-gown"
+  },
+  "DressEmbroidered": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.SjsGYtZXxSIF5ntb",
+    "edid": "equipment-dress-embroidered"
+  },
+  "DressPatterned": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.GRGUz8Vt755So0Hk",
+    "edid": "equipment-dress-patterned"
+  },
+  "DressPlain": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.oFiH5YGY8ufikWlf",
+    "edid": "equipment-dress-plain"
+  },
+  "DressSatin": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.omMIphiKt1ylbyT5",
+    "edid": "equipment-dress-satin"
+  },
+  "DressTheran": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.vspjl9O2XOR0Fkdw",
+    "edid": "equipment-dress-theran"
+  },
+  "Drum": {
+    "uuid": null,
+    "edid": "equipment-drum"
+  },
+  "Dyre": {
+    "uuid": null,
+    "edid": "equipment-dyre"
+  },
+  "ED2BlackBloodCharm": {
+    "uuid": null,
+    "edid": "equipment-black-blood-charm"
+  },
+  "ED2BloodPouchCharm": {
+    "uuid": null,
+    "edid": "equipment-blood-pouch-charm"
+  },
+  "ED2ChameleonCloak": {
+    "uuid": null,
+    "edid": "equipment-chameleon-cloak"
+  },
+  "ED2CrowsSight": {
+    "uuid": null,
+    "edid": "equipment-crows-sight"
+  },
+  "ED2CrystalLimb": {
+    "uuid": null,
+    "edid": "equipment-crystal-limbs"
+  },
+  "ED2DeathFeign": {
+    "uuid": null,
+    "edid": "equipment-death-feign"
+  },
+  "ED2FishBreathCharm": {
+    "uuid": null,
+    "edid": "equipment-fish-breath-charm"
+  },
+  "ED2FleetFootCharm": {
+    "uuid": null,
+    "edid": "equipment-fleet-foot-charm"
+  },
+  "ED2FoolsCharm": {
+    "uuid": null,
+    "edid": "equipment-fools-charm"
+  },
+  "ED2GiltTongue": {
+    "uuid": null,
+    "edid": "equipment-gilt-tongue"
+  },
+  "ED2HorrorSink": {
+    "uuid": null,
+    "edid": "equipment-horror-sink"
+  },
+  "ED2IndrisanBloodCobra": {
+    "uuid": null,
+    "edid": "equipment-indrisan-blood-cobra"
+  },
+  "ED2KildaresSkinMap": {
+    "uuid": null,
+    "edid": "equipment-kildares-skin-map"
+  },
+  "ED2KinesCharm": {
+    "uuid": null,
+    "edid": "equipment-kines-charm"
+  },
+  "ED2KoriganianArmband": {
+    "uuid": null,
+    "edid": "equipment-koriganian-armband"
+  },
+  "ED2LastingMemoryCharm": {
+    "uuid": null,
+    "edid": "equipment-lasting-memory-charm"
+  },
+  "ED2MarkBreakerCharm": {
+    "uuid": null,
+    "edid": "equipment-mark-breaker-charm"
+  },
+  "ED2SkasTear": {
+    "uuid": null,
+    "edid": "equipment-skastear"
+  },
+  "ED2SpiritInk": {
+    "uuid": null,
+    "edid": "equipment-spirit-ink"
+  },
+  "ED2SteppingDeadCharm": {
+    "uuid": null,
+    "edid": "equipment-stepping-dead-charm"
+  },
+  "ED2ThoughtWorm": {
+    "uuid": null,
+    "edid": "equipment-thought-worm"
+  },
+  "ED2WazzneersGem": {
+    "uuid": null,
+    "edid": "equipment-wazzneers-gem"
+  },
+  "ED2WoundStore": {
+    "uuid": null,
+    "edid": "equipment-wound-store"
+  },
+  "ED4 Template": {
+    "uuid": "Compendium.earthdawn-companion.companion-thread-items-en.Item.hO8aoAPMdkwlifYb",
+    "edid": "equipment-neverburn"
+  },
+  "ED4Aetrin": {
+    "uuid": null,
+    "edid": "equipment-aetrin"
+  },
+  "ED4AlarmStones": {
+    "uuid": null,
+    "edid": "equipment-alarm-stones"
+  },
+  "ED4AltarofAstendar": {
+    "uuid": null,
+    "edid": "equipment-altar-of-astendar"
+  },
+  "ED4AltarofAstendarPerformanceStone": {
+    "uuid": null,
+    "edid": "equipment-alarm-stones-performance-stone"
+  },
+  "ED4AmberAnnulet": {
+    "uuid": null,
+    "edid": "equipment-amber-annulet"
+  },
+  "ED4AmuletOfAgamon": {
+    "uuid": "Compendium.earthdawn-companion.companion-thread-items-en.Item.dMiLY3qy1EHDGN2u",
+    "edid": "matrix"
+  },
+  "ED4AmuletofDianuus": {
+    "uuid": null,
+    "edid": "equipment-amulet-of-dianuus"
+  },
+  "ED4ArmoredMatrixObject": {
+    "uuid": null,
+    "edid": "equipment-armored-matrix-object"
+  },
+  "ED4ArrowsoftheThundercloudJourneyman": {
+    "uuid": null,
+    "edid": "equipment-arrows-of-the-thundercloud-journeyman"
+  },
+  "ED4ArrowsoftheThundercloudWarden": {
+    "uuid": null,
+    "edid": "equipment-arrows-of-the-thundercloud-warden"
+  },
+  "ED4AstendarsTears": {
+    "uuid": null,
+    "edid": "equipment-astendars-tears"
+  },
+  "ED4AstralSextant": {
+    "uuid": "Compendium.earthdawn-companion.companion-thread-items-en.Item.MjTJw6cACIJDjZr2",
+    "edid": "equipment-astral-sextant"
+  },
+  "ED4Balaraw": {
+    "uuid": null,
+    "edid": "equipment-balaraw"
+  },
+  "ED4BandsOfFortune": {
+    "uuid": "Compendium.earthdawn-companion.companion-thread-items-en.Item.c0ypvDVC9iKNHDhd",
+    "edid": "equipment-bands-of-fortune"
+  },
+  "ED4BandsofTheElements": {
+    "uuid": null,
+    "edid": "equipment-bands-of-the-elements"
+  },
+  "ED4BearShirt": {
+    "uuid": null,
+    "edid": "equipment-bear-shirt"
+  },
+  "ED4BearsGift": {
+    "uuid": null,
+    "edid": "equipment-bears-gift"
+  },
+  "ED4BlackShard": {
+    "uuid": null,
+    "edid": "equipment-black-shard"
+  },
+  "ED4BladeOfAlemvor": {
+    "uuid": null,
+    "edid": "equipment-blade-of-alemvor"
+  },
+  "ED4BladesofMoralyalynnEfritti": {
+    "uuid": null,
+    "edid": "equipment-blades-of-moralyalynn-efritti"
+  },
+  "ED4BladesofMoralyalynnFuri": {
+    "uuid": null,
+    "edid": "equipment-blades-of-moralyalynn-furi"
+  },
+  "ED4BloodDagger": {
+    "uuid": null,
+    "edid": "equipment-blood-dagger"
+  },
+  "ED4BloodMatrix1": {
+    "uuid": null,
+    "edid": "equipment-blood-matrix-1"
+  },
+  "ED4BloodMatrix2": {
+    "uuid": null,
+    "edid": "equipment-blood-matrix-2"
+  },
+  "ED4BloodMatrix3": {
+    "uuid": null,
+    "edid": "equipment-blood-matrix-3"
+  },
+  "ED4BloodMatrix4": {
+    "uuid": null,
+    "edid": "equipment-blood-matrix-4"
+  },
+  "ED4BloodMatrix5": {
+    "uuid": null,
+    "edid": "equipment-blood-matrix-5"
+  },
+  "ED4BloodMatrix6": {
+    "uuid": null,
+    "edid": "equipment-blood-matrix-6"
+  },
+  "ED4BloodMatrix7": {
+    "uuid": null,
+    "edid": "equipment-blood-matrix-7"
+  },
+  "ED4BloodMatrix8": {
+    "uuid": null,
+    "edid": "equipment-blood-matrix-8"
+  },
+  "ED4BloodMatrixEnhanced1": {
+    "uuid": null,
+    "edid": "equipment-blood-matrix-enhanced-1"
+  },
+  "ED4BloodMatrixEnhanced2": {
+    "uuid": null,
+    "edid": "equipment-blood-matrix-enhanced-2"
+  },
+  "ED4BloodMatrixEnhanced3": {
+    "uuid": null,
+    "edid": "equipment-blood-matrix-enhanced-3"
+  },
+  "ED4BloodMatrixEnhanced4": {
+    "uuid": null,
+    "edid": "equipment-blood-matrix-enhanced-4"
+  },
+  "ED4BloodMatrixEnhanced5": {
+    "uuid": null,
+    "edid": "equipment-blood-matrix-enhanced-5"
+  },
+  "ED4BloodMatrixEnhanced6": {
+    "uuid": null,
+    "edid": "equipment-blood-matrix-enhanced-6"
+  },
+  "ED4BloodMatrixEnhanced7": {
+    "uuid": null,
+    "edid": "equipment-blood-matrix-enhanced-7"
+  },
+  "ED4BloodMatrixEnhanced8": {
+    "uuid": null,
+    "edid": "equipment-blood-matrix-enhanced-8"
+  },
+  "ED4BloodSwornLattice": {
+    "uuid": null,
+    "edid": "equipment-blood-sworn-lattice"
+  },
+  "ED4BloodthornShield": {
+    "uuid": null,
+    "edid": "equipment-bloodthorn-shield"
+  },
+  "ED4BloodyRibbons": {
+    "uuid": "Compendium.earthdawn-companion.companion-thread-items-en.Item.gDNSgIY7peR7VvHx",
+    "edid": "equipment-bloody-ribbons"
+  },
+  "ED4BoosterWand": {
+    "uuid": null,
+    "edid": "equipment-booster-wand"
+  },
+  "ED4BountifulBadge": {
+    "uuid": "Compendium.earthdawn-legends.legends-of-barsaive-1-goods-en.Item.MhL0urA9Y6EcAqr6",
+    "edid": "equipment-legends-bountiful-badge"
+  },
+  "ED4BracersOfAras": {
+    "uuid": "Compendium.earthdawn-gm-compendium.game-masters-guide-thread-items-en.Item.TOXLh8GsqonrNkvf",
+    "edid": "equipment-bracers-of-aras"
+  },
+  "ED4BracersOfObsidimanStrength": {
+    "uuid": "Compendium.earthdawn-gm-compendium.game-masters-guide-thread-items-en.Item.dmHbfcYgKaYHIB2x",
+    "edid": "equipment-bracers-of-obsidiman-strength"
+  },
+  "ED4Bramble": {
+    "uuid": null,
+    "edid": "equipment-bramble"
+  },
+  "ED4BrewoftheBerserkers": {
+    "uuid": null,
+    "edid": "equipment-brew-of-the-berserkers"
+  },
+  "ED4BroochofYieldingThreadVersion": {
+    "uuid": null,
+    "edid": "equipment-brooch-of-yielding-thread-item"
+  },
+  "ED4BugRepellent": {
+    "uuid": null,
+    "edid": "equipment-bug-repellent"
+  },
+  "ED4ButterspiderBoxJ": {
+    "uuid": "Compendium.earthdawn-legends.legends-of-barsaive-1-goods-en.Item.CkynXtarUmz4DVXD",
+    "edid": "equipment-legends-butterspider-box-journeyman"
+  },
+  "ED4ButterspiderBoxW": {
+    "uuid": "Compendium.earthdawn-legends.legends-of-barsaive-1-goods-en.Item.xl7nNYGcN9TAMUEY",
+    "edid": "equipment-legends-butterspider-box-warden"
+  },
+  "ED4CharmofSoftLanding": {
+    "uuid": null,
+    "edid": "equipment-charm-of-soft-landing"
+  },
+  "ED4CleaningStone": {
+    "uuid": null,
+    "edid": "equipment-cleaning-stone"
+  },
+  "ED4ConspicuousSmuggler": {
+    "uuid": null,
+    "edid": "equipment-conspicuous-smuggler"
+  },
+  "ED4CourtierBoots": {
+    "uuid": null,
+    "edid": "equipment-courtier-boots"
+  },
+  "ED4CrimsonMail": {
+    "uuid": null,
+    "edid": "equipment-crimson-mail"
+  },
+  "ED4CrystalArm": {
+    "uuid": null,
+    "edid": "equipment-crystal-arm"
+  },
+  "ED4CrystalBulwark": {
+    "uuid": null,
+    "edid": "equipment-crystal-bulwark"
+  },
+  "ED4DaggerofDianuus": {
+    "uuid": null,
+    "edid": "equipment-dagger-of-dianuus"
+  },
+  "ED4DaggeroftheThornedVine": {
+    "uuid": null,
+    "edid": "equipment-dagger-of-the-thorned-vine"
+  },
+  "ED4DarkHeart": {
+    "uuid": null,
+    "edid": "equipment-dark-heart"
+  },
+  "ED4DennasBrooch": {
+    "uuid": "Compendium.earthdawn-companion.companion-thread-items-en.Item.LkghiTHyo5W6qzpx",
+    "edid": "equipment-dennas-brooch"
+  },
+  "ED4DesperateAction": {
+    "uuid": null,
+    "edid": "equipment-desperate-action"
+  },
+  "ED4DevastatorSpear": {
+    "uuid": null,
+    "edid": "equipment-devastator-spear"
+  },
+  "ED4DiademOfOverlordship": {
+    "uuid": "Compendium.earthdawn-legends.legends-of-barsaive-1-goods-en.Item.j0Mno5H7AoyjdX59",
+    "edid": "equipment-legends-diadem-of-overlordship"
+  },
+  "ED4DragonMail": {
+    "uuid": null,
+    "edid": "equipment-dragon-mail"
+  },
+  "ED4Drakoniew": {
+    "uuid": null,
+    "edid": "equipment-drakoniew"
+  },
+  "ED4DryBag": {
+    "uuid": null,
+    "edid": "equipment-dry-bag"
+  },
+  "ED4DumorjensEmeraldBlade": {
+    "uuid": null,
+    "edid": "equipment-dumorjens-emerald-blade"
+  },
+  "ED4DumorjensRubyBlade": {
+    "uuid": null,
+    "edid": "equipment-dumorjens-ruby-blade"
+  },
+  "ED4EarthGates": {
+    "uuid": null,
+    "edid": "equipment-earth-gates"
+  },
+  "ED4EarthshatterHammer": {
+    "uuid": null,
+    "edid": "equipment-earthshatter-hammer"
+  },
+  "ED4Ebony": {
+    "uuid": null,
+    "edid": "equipment-gauntlets-of-graaneel-ebony"
+  },
+  "ED4ElementalLongSpear": {
+    "uuid": null,
+    "edid": "equipment-elemental-long-spear"
+  },
+  "ED4EnchantersTable": {
+    "uuid": "Compendium.earthdawn-companion.companion-thread-items-en.Item.eeQXk0Mdv9cw9y84",
+    "edid": "equipment-enchanters-table"
+  },
+  "ED4EnhancedMatrixObject": {
+    "uuid": null,
+    "edid": "equipment-enhanced-matrix-object"
+  },
+  "ED4Equilibria": {
+    "uuid": null,
+    "edid": "equipment-equilibria"
+  },
+  "ED4EspagraBoots": {
+    "uuid": "Compendium.earthdawn-gm-compendium.game-masters-guide-thread-items-en.Item.CtCWHsUOIFbOmTMo",
+    "edid": "equipment-espagra-boots"
+  },
+  "ED4EspagraSaddle": {
+    "uuid": "Compendium.earthdawn-gm-compendium.game-masters-guide-thread-items-en.Item.2fOAbm2YT2ER3kDL",
+    "edid": "equipment-espagra-saddle"
+  },
+  "ED4FaerieMail": {
+    "uuid": null,
+    "edid": "equipment-faerie-mail"
+  },
+  "ED4FarlisssDagger": {
+    "uuid": null,
+    "edid": "equipment-farlisss-dagger"
+  },
+  "ED4FashionableRobes": {
+    "uuid": null,
+    "edid": "equipment-fashionable-robes"
+  },
+  "ED4FastMendingKit": {
+    "uuid": null,
+    "edid": "equipment-fast-mending-kit"
+  },
+  "ED4FastoonsVeryImpressiveStaff": {
+    "uuid": "Compendium.earthdawn-gm-compendium.game-masters-guide-thread-items-en.Item.bIEhGpdJwq8gJUgp",
+    "edid": "matrix"
+  },
+  "ED4FeralBracers": {
+    "uuid": "Compendium.earthdawn-gm-compendium.game-masters-guide-thread-items-en.Item.LL3eDdpvoTVq2hnw",
+    "edid": "equipment-feral-bracers"
+  },
+  "ED4FireWater": {
+    "uuid": null,
+    "edid": "equipment-fire-water"
+  },
+  "ED4FirethornBoots": {
+    "uuid": null,
+    "edid": "equipment-firethorn-boots"
+  },
+  "ED4ForestRobes": {
+    "uuid": "Compendium.earthdawn-companion.companion-thread-items-en.Item.yWX0XFvjEpl0qpQG",
+    "edid": "equipment-forest-robes"
+  },
+  "ED4FormalWear": {
+    "uuid": null,
+    "edid": "equipment-formal-wear"
+  },
+  "ED4FrostPouch": {
+    "uuid": "Compendium.earthdawn-gm-compendium.game-masters-guide-thread-items-en.Item.wi6TtUTM8mx0goW5",
+    "edid": "equipment-frost-pouch"
+  },
+  "ED4GiftofJaspre": {
+    "uuid": null,
+    "edid": "equipment-gift-of-jaspree"
+  },
+  "ED4GlamourWear": {
+    "uuid": null,
+    "edid": "equipment-glamour-wear"
+  },
+  "ED4GrapplingVineHeavy": {
+    "uuid": null,
+    "edid": "equipment-grappling-vine-heavy"
+  },
+  "ED4GrapplingVineLight": {
+    "uuid": null,
+    "edid": "equipment-grappling-vine-light"
+  },
+  "ED4GroundingBoots": {
+    "uuid": null,
+    "edid": "equipment-grounding-boots"
+  },
+  "ED4HarlequinBow": {
+    "uuid": null,
+    "edid": "equipment-harlequin-bow"
+  },
+  "ED4HelmofSiri": {
+    "uuid": null,
+    "edid": "equipment-helm-of-siri"
+  },
+  "ED4HemelsHorn": {
+    "uuid": null,
+    "edid": "equipment-hemels-horn"
+  },
+  "ED4IceBladeOfOmifan": {
+    "uuid": null,
+    "edid": "equipment-ice-blade-of-omifan"
+  },
+  "ED4IceWater": {
+    "uuid": null,
+    "edid": "equipment-ice-water"
+  },
+  "ED4Ivory": {
+    "uuid": "Compendium.earthdawn-companion.companion-thread-items-en.Item.GrlFXENQcAun2ilb",
+    "edid": "equipment-gauntlets-of-graaneel-ivory"
+  },
+  "ED4JetofFire": {
+    "uuid": null,
+    "edid": "equipment-jet-of-fire"
+  },
+  "ED4Kapok": {
+    "uuid": null,
+    "edid": "equipment-kapok"
+  },
+  "ED4Kariraku": {
+    "uuid": null,
+    "edid": "equipment-kariraku"
+  },
+  "ED4KarmaBattery": {
+    "uuid": null,
+    "edid": "equipment-karma-battery"
+  },
+  "ED4KeeperSlateDictation": {
+    "uuid": null,
+    "edid": "equipment-keeper-slate-dictation"
+  },
+  "ED4KeeperSlateWritingOnly": {
+    "uuid": null,
+    "edid": "equipment-keeper-slate-writing-only"
+  },
+  "ED4KegelsSword": {
+    "uuid": null,
+    "edid": "equipment-kegels-sword"
+  },
+  "ED4KellimarsArmorOfRosePetals": {
+    "uuid": null,
+    "edid": "equipment-kellimars-armor-of-rose-petals"
+  },
+  "ED4KnowledgeWell": {
+    "uuid": null,
+    "edid": "equipment-knowledge-well"
+  },
+  "ED4KolldarsGlove": {
+    "uuid": null,
+    "edid": "equipment-kolldars-glove"
+  },
+  "ED4KranguksInterjection": {
+    "uuid": "Compendium.earthdawn-gm-compendium.game-masters-guide-thread-items-en.Item.bQUPfM4Z34oZXpDK",
+    "edid": "equipment-kranguks-interjection"
+  },
+  "ED4KwanDao": {
+    "uuid": null,
+    "edid": "equipment-kwan-dao"
+  },
+  "ED4LightBag": {
+    "uuid": null,
+    "edid": "equipment-light-bag"
+  },
+  "ED4LightningBoltEarring": {
+    "uuid": "Compendium.earthdawn-gm-compendium.game-masters-guide-thread-items-en.Item.WM5QyzSNWOROtfHW",
+    "edid": "equipment-lightning-bolt-earring"
+  },
+  "ED4LightningMaceJ": {
+    "uuid": null,
+    "edid": "equipment-lightning-mace-journeyman"
+  },
+  "ED4LightningMaceW": {
+    "uuid": null,
+    "edid": "equipment-lightning-mace-warden"
+  },
+  "ED4LittleTrollsHelm": {
+    "uuid": "Compendium.earthdawn-companion.companion-thread-items-en.Item.H4YZJRkcLh2fxVan",
+    "edid": "equipment-little-trolls-helm"
+  },
+  "ED4LormsAxe": {
+    "uuid": null,
+    "edid": "equipment-lorms-axe"
+  },
+  "ED4MetalInquisitor": {
+    "uuid": "Compendium.earthdawn-gm-compendium.game-masters-guide-thread-items-en.Item.JZCgH7gKf7kl0rhk",
+    "edid": "equipment-metal-inquisitor"
+  },
+  "ED4Mirror": {
+    "uuid": null,
+    "edid": "equipment-mirror"
+  },
+  "ED4MirrorOfTurnaround": {
+    "uuid": "Compendium.earthdawn-legends.legends-of-barsaive-1-goods-en.Item.DyBrgQPlCFuWGfjm",
+    "edid": "equipment-legends-mirror-of-turnaround"
+  },
+  "ED4NagaScaleBrooch": {
+    "uuid": "Compendium.earthdawn-gm-compendium.game-masters-guide-thread-items-en.Item.GdRpAOotHfQZPwJ3",
+    "edid": "equipment-naga-scale-brooch"
+  },
+  "ED4NeedleLance": {
+    "uuid": null,
+    "edid": "equipment-needle-lance"
+  },
+  "ED4NightScar": {
+    "uuid": null,
+    "edid": "equipment-nightscar"
+  },
+  "ED4NiokusBow": {
+    "uuid": null,
+    "edid": "equipment-niokus-bow"
+  },
+  "ED4Oratory Necklace": {
+    "uuid": "Compendium.earthdawn-gm-compendium.game-masters-guide-thread-items-en.Item.OMGVkK8wTccSLoN3",
+    "edid": "equipment-oratory-necklace"
+  },
+  "ED4OrichalcumShield": {
+    "uuid": null,
+    "edid": "equipment-orichalcum-shield"
+  },
+  "ED4Pathfinder": {
+    "uuid": null,
+    "edid": "equipment-pathfinder"
+  },
+  "ED4PatternSightEye": {
+    "uuid": null,
+    "edid": "equipment-pattern-sight-eye"
+  },
+  "ED4PoisonIvy": {
+    "uuid": null,
+    "edid": "equipment-poison-ivy"
+  },
+  "ED4Purifier": {
+    "uuid": null,
+    "edid": "equipment-purifier"
+  },
+  "ED4Quicksilver": {
+    "uuid": null,
+    "edid": "equipment-quicksilver"
+  },
+  "ED4RagOfVictory": {
+    "uuid": "Compendium.earthdawn-companion.companion-thread-items-en.Item.wgrfPiITzMF1myM3",
+    "edid": "equipment-rag-of-victory"
+  },
+  "ED4Rainclub": {
+    "uuid": null,
+    "edid": "equipment-rain-club"
+  },
+  "ED4RakesCape": {
+    "uuid": null,
+    "edid": "equipment-rakes-cape"
+  },
+  "ED4RalathornsHammer": {
+    "uuid": null,
+    "edid": "equipment-ralathorns-hammer"
+  },
+  "ED4RapierofWit": {
+    "uuid": null,
+    "edid": "equipment-rapier-of-wit"
+  },
+  "ED4ReaperBladeA": {
+    "uuid": null,
+    "edid": "equipment-reaper-blade-accord"
+  },
+  "ED4ReaperBladeC": {
+    "uuid": null,
+    "edid": "equipment-reaper-blade-contest"
+  },
+  "ED4RobeofDianuus": {
+    "uuid": null,
+    "edid": "equipment-robe-of-dianuus"
+  },
+  "ED4SavageHidesJ": {
+    "uuid": null,
+    "edid": "equipment-savage-hides-journeyman"
+  },
+  "ED4SavageHidesW": {
+    "uuid": null,
+    "edid": "equipment-savage-hides-warden"
+  },
+  "ED4ScarlessPiton": {
+    "uuid": null,
+    "edid": "equipment-scarless-piton"
+  },
+  "ED4ScythianRiverBear": {
+    "uuid": null,
+    "edid": "equipment-scythian-river-bear"
+  },
+  "ED4SeekerStoneAir": {
+    "uuid": null,
+    "edid": "equipment-seeker-stone-air"
+  },
+  "ED4SeekerStoneBaseMetals": {
+    "uuid": null,
+    "edid": "equipment-seeker-stone-base-metals"
+  },
+  "ED4SeekerStoneEarth": {
+    "uuid": null,
+    "edid": "equipment-seeker-stone-earth"
+  },
+  "ED4SeekerStoneFire": {
+    "uuid": null,
+    "edid": "equipment-seeker-stone-fire"
+  },
+  "ED4SeekerStoneGems": {
+    "uuid": null,
+    "edid": "equipment-seeker-stone-gems"
+  },
+  "ED4SeekerStonePreciousMetals": {
+    "uuid": null,
+    "edid": "equipment-seeker-stone-precious-metals"
+  },
+  "ED4SeekerStoneWater": {
+    "uuid": null,
+    "edid": "equipment-seeker-stone-water"
+  },
+  "ED4SeekerStoneWood": {
+    "uuid": null,
+    "edid": "equipment-seeker-stone-wood"
+  },
+  "ED4ServosBlowgunDarts": {
+    "uuid": null,
+    "edid": "equipment-servos-blowgun-darts"
+  },
+  "ED4SharedMatrixObject": {
+    "uuid": null,
+    "edid": "equipment-shared-matrix-object"
+  },
+  "ED4SilveredHorn": {
+    "uuid": null,
+    "edid": "equipment-silvered-horn"
+  },
+  "ED4SilveredShield": {
+    "uuid": null,
+    "edid": "equipment-silvered-shield"
+  },
+  "ED4Smoke": {
+    "uuid": null,
+    "edid": "equipment-smoke"
+  },
+  "ED4SockofGranak": {
+    "uuid": "Compendium.earthdawn-companion.companion-thread-items-en.Item.Zv0P8kPxPGgsRk7L",
+    "edid": "equipment-sock-of-granak"
+  },
+  "ED4Soulbinder": {
+    "uuid": null,
+    "edid": "equipment-soulbinder"
+  },
+  "ED4Soulsafe": {
+    "uuid": "Compendium.earthdawn-companion.companion-thread-items-en.Item.vv2EtKb4n0984xoJ",
+    "edid": "equipment-soulsafe"
+  },
+  "ED4SpellCutter": {
+    "uuid": null,
+    "edid": "equipment-spell-cutter"
+  },
+  "ED4SpellSwordJ": {
+    "uuid": null,
+    "edid": "equipment-spell-sword-journeyman"
+  },
+  "ED4SpellSwordW": {
+    "uuid": null,
+    "edid": "equipment-spell-sword-warden"
+  },
+  "ED4SpiderSlip": {
+    "uuid": "Compendium.earthdawn-companion.companion-thread-items-en.Item.k4h5KJ9bevO2yvVo",
+    "edid": "equipment-spider-slip"
+  },
+  "ED4SpikeBomb": {
+    "uuid": "Compendium.earthdawn-gm-compendium.game-masters-guide-thread-items-en.Item.fqsstBut2siohYg8",
+    "edid": "equipment-spike-bomb"
+  },
+  "ED4StaffofVylir": {
+    "uuid": null,
+    "edid": "equipment-staff-of-vylir"
+  },
+  "ED4StandardMatrixObject": {
+    "uuid": null,
+    "edid": "equipment-standard-matrix-object"
+  },
+  "ED4Stormfury": {
+    "uuid": null,
+    "edid": "equipment-stormfury"
+  },
+  "ED4StormfuryCorrupted": {
+    "uuid": null,
+    "edid": "equipment-stormfury-corrupted"
+  },
+  "ED4StormwardStaff": {
+    "uuid": null,
+    "edid": "equipment-stormward-staff"
+  },
+  "ED4Strikeback": {
+    "uuid": null,
+    "edid": "equipment-strikeback"
+  },
+  "ED4Sunder": {
+    "uuid": null,
+    "edid": "equipment-sunder"
+  },
+  "ED4TalismanStatue": {
+    "uuid": "Compendium.earthdawn-gm-compendium.game-masters-guide-thread-items-en.Item.rUpuGXtKnKjRq5GO",
+    "edid": "matrix"
+  },
+  "ED4TemperedDefense": {
+    "uuid": null,
+    "edid": "equipment-tempered-defense"
+  },
+  "ED4TheEdgeofTravar": {
+    "uuid": null,
+    "edid": "equipment-the-edge-of-travar"
+  },
+  "ED4TheMalachiteSeat": {
+    "uuid": null,
+    "edid": "equipment-the-malachete-seat"
+  },
+  "ED4TheftProofPouch": {
+    "uuid": null,
+    "edid": "equipment-theft-proof-pouch"
+  },
+  "ED4ThornBow": {
+    "uuid": null,
+    "edid": "equipment-thorn-bow"
+  },
+  "ED4ThornManSpear": {
+    "uuid": null,
+    "edid": "equipment-thorn-man-spear"
+  },
+  "ED4ThornSword": {
+    "uuid": null,
+    "edid": "equipment-thorn-sword"
+  },
+  "ED4ThornWand": {
+    "uuid": "Compendium.earthdawn-companion.companion-thread-items-en.Item.5ffNM2fHTK4ngUnQ",
+    "edid": "matrix"
+  },
+  "ED4Thornuklon": {
+    "uuid": null,
+    "edid": "equipment-thornuklon"
+  },
+  "ED4ThreadAxe": {
+    "uuid": null,
+    "edid": "equipment-thread-axe"
+  },
+  "ED4ThreadCrystalRinglet": {
+    "uuid": null,
+    "edid": "equipment-thread-crystal-ringlet"
+  },
+  "ED4ThreadSword": {
+    "uuid": null,
+    "edid": "equipment-thread-sword"
+  },
+  "ED4ThreadWand": {
+    "uuid": "Compendium.earthdawn-gm-compendium.game-masters-guide-thread-items-en.Item.aoPEmMsoFH3FsPua",
+    "edid": "equipment-thread-wand"
+  },
+  "ED4ThreadWarbow": {
+    "uuid": null,
+    "edid": "equipment-thread-warbow"
+  },
+  "ED4ThreadedInstruments": {
+    "uuid": "Compendium.earthdawn-gm-compendium.game-masters-guide-thread-items-en.Item.sS05OseAgttKK9M1",
+    "edid": "equipment-threaded-instruments"
+  },
+  "ED4ThreeAxe": {
+    "uuid": null,
+    "edid": "equipment-three-axe"
+  },
+  "ED4ThystoniusSpears": {
+    "uuid": null,
+    "edid": "equipment-thystoniuss-spears"
+  },
+  "ED4TomeofMemory": {
+    "uuid": "Compendium.earthdawn-companion.companion-thread-items-en.Item.QnuALrLhNs5PShep",
+    "edid": "equipment-tome-of-memory"
+  },
+  "ED4TrollslayerArmor": {
+    "uuid": null,
+    "edid": "equipment-trollslayer-armor"
+  },
+  "ED4Truefang": {
+    "uuid": null,
+    "edid": "equipment-truefang"
+  },
+  "ED4TwilightStaff": {
+    "uuid": null,
+    "edid": "equipment-twilight-staff"
+  },
+  "ED4Ulfvindr": {
+    "uuid": null,
+    "edid": "equipment-ulfvindr"
+  },
+  "ED4UnrequitedWave": {
+    "uuid": null,
+    "edid": "equipment-unrequited-wave"
+  },
+  "ED4VennasArmor": {
+    "uuid": null,
+    "edid": "equipment-vennas-armor"
+  },
+  "ED4Wallcrawler": {
+    "uuid": null,
+    "edid": "equipment-wallcrawler"
+  },
+  "ED4WarHelmofLandis": {
+    "uuid": "Compendium.earthdawn-gm-compendium.game-masters-guide-thread-items-en.Item.SechilFLYle3fpLw",
+    "edid": "equipment-war-helm-of-landis"
+  },
+  "ED4WeddingBandsofAstendar": {
+    "uuid": null,
+    "edid": "equipment-wedding-bands-of-astendar"
+  },
+  "ED4WyrmWoodBladeJ": {
+    "uuid": null,
+    "edid": "equipment-wyrm-wood-blade-journeyman"
+  },
+  "ED4WyrmWoodBladeWH": {
+    "uuid": null,
+    "edid": "equipment-wyrm-wood-blade-warden--heal"
+  },
+  "ED4WyrmWoodBladeWP": {
+    "uuid": null,
+    "edid": "equipment-wyrm-wood-blade-warden--protect"
+  },
+  "ED4WyvernskinRobe": {
+    "uuid": null,
+    "edid": "equipment-wyvernskin-robe"
+  },
+  "ED4Yanoth": {
+    "uuid": null,
+    "edid": "equipment-yanoth"
+  },
+  "ESFArchimedes": {
+    "uuid": null,
+    "edid": "equipment-archimedes"
+  },
+  "ESFBlackDragonArmor": {
+    "uuid": null,
+    "edid": "equipment-black-dragon-armor"
+  },
+  "ESFBlackPanther": {
+    "uuid": null,
+    "edid": "equipment-black-panther"
+  },
+  "ESFBulwarkofLandis": {
+    "uuid": null,
+    "edid": "equipment-bulwark-of-landis"
+  },
+  "ESFCorrsWandOfPower": {
+    "uuid": null,
+    "edid": "equipment-corrs-wand-of-power"
+  },
+  "ESFCrystalPlateOfHhuloon": {
+    "uuid": null,
+    "edid": "equipment-crystal-plate-of-hurloon"
+  },
+  "ESFCrystalSpearShort": {
+    "uuid": null,
+    "edid": "equipment-crystal-spear-short"
+  },
+  "ESFGirdleOfMelian": {
+    "uuid": null,
+    "edid": "equipment-girdle-of-melian"
+  },
+  "ESFLavenderDragon": {
+    "uuid": null,
+    "edid": "equipment-lavender-dragon"
+  },
+  "ESFPhedresHarlequinMask": {
+    "uuid": null,
+    "edid": "equipment-phedres-harlequin-mask"
+  },
+  "ESFPotionofEnvigoration": {
+    "uuid": null,
+    "edid": "equipment-potion-of-envigoration"
+  },
+  "ESFRathmarsChains": {
+    "uuid": null,
+    "edid": "equipment-rathmars-chains"
+  },
+  "ESFRobesOfNight": {
+    "uuid": null,
+    "edid": "equipment-robes-of-night"
+  },
+  "ESFShieldofFlame": {
+    "uuid": null,
+    "edid": "equipment-shield-of-flame"
+  },
+  "ESFShieldofZanjansSacrifice": {
+    "uuid": null,
+    "edid": "equipment-shield-of-zanjans-sacrifice"
+  },
+  "ESFSindreTattoos": {
+    "uuid": null,
+    "edid": "equipment-sindres-tattoos"
+  },
+  "ESFSkinshiftFend": {
+    "uuid": null,
+    "edid": "equipment-skinshift-fend"
+  },
+  "ESFSpecOpSpecs": {
+    "uuid": null,
+    "edid": "equipment-spec-op-specs"
+  },
+  "ESFTheAuthority": {
+    "uuid": null,
+    "edid": "equipment-the-authority"
+  },
+  "ESFWhiteHeron": {
+    "uuid": null,
+    "edid": "equipment-white-heron"
+  },
+  "Earth": {
+    "uuid": null,
+    "edid": "equipment-earth"
+  },
+  "Elephant": {
+    "uuid": null,
+    "edid": "equipment-elephant"
+  },
+  "ElfweaveRobe": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.XG86OwEhTr8xYJo5",
+    "edid": "equipment-elfweave-robe"
+  },
+  "Farrier": {
+    "uuid": null,
+    "edid": "equipment-farrier"
+  },
+  "Fire": {
+    "uuid": null,
+    "edid": "equipment-fire"
+  },
+  "FireBracer": {
+    "uuid": null,
+    "edid": "equipment-fire-bracer"
+  },
+  "FireHandler": {
+    "uuid": null,
+    "edid": "equipment-fire-handler"
+  },
+  "FireHandlerAdv": {
+    "uuid": null,
+    "edid": "equipment-fire-handler-advanced"
+  },
+  "FireStarter": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.fWf7NKLmnQXSYBSX",
+    "edid": "equipment-fire-starter"
+  },
+  "FireflyChalk": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.aHF1J6nDM2DMyJOH",
+    "edid": "equipment-firefly-chalk-per-stick"
+  },
+  "FishingKit": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.uksG0vnnDpZW5bgS",
+    "edid": "equipment-fishing-kit"
+  },
+  "FishingNet": {
+    "uuid": null,
+    "edid": "equipment-fishing-net-30-sq-ft"
+  },
+  "FlamingStride": {
+    "uuid": null,
+    "edid": "equipment-flaming-stride"
+  },
+  "FlintandSteel": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.QxH65504sgeEJEGB",
+    "edid": "equipment-flint-and-steel"
+  },
+  "Flophouse": {
+    "uuid": null,
+    "edid": "equipment-flophouse"
+  },
+  "Flute": {
+    "uuid": null,
+    "edid": "equipment-flute"
+  },
+  "FrostGuard": {
+    "uuid": null,
+    "edid": "equipment-frost-guard"
+  },
+  "Frostblood": {
+    "uuid": null,
+    "edid": "equipment-frostblood"
+  },
+  "GarlenStone": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.mwyYRS4V6fWIKPAT",
+    "edid": "equipment-garlen-stone"
+  },
+  "Gloves": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.UDUqMO2lcg4hJkvt",
+    "edid": "equipment-gloves"
+  },
+  "GoatRiding": {
+    "uuid": null,
+    "edid": "equipment-goat-riding"
+  },
+  "Gold": {
+    "uuid": null,
+    "edid": "equipment-gold"
+  },
+  "Granlain": {
+    "uuid": null,
+    "edid": "equipment-granlain"
+  },
+  "GrapplingHook": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.XNeNx0SDWfTy3VBM",
+    "edid": "equipment-grappling-hook"
+  },
+  "GraywulfeAzureWave": {
+    "uuid": null,
+    "edid": "equipment-azure-wave"
+  },
+  "GraywulfeBeltofIronhideMoot": {
+    "uuid": null,
+    "edid": "equipment-belt-of-ironhide-moot"
+  },
+  "GraywulfeEdgeoftheVeil": {
+    "uuid": null,
+    "edid": "equipment-edge-of-the-veil"
+  },
+  "GraywulfeExultantGrace": {
+    "uuid": null,
+    "edid": "equipment-exultant-grace"
+  },
+  "GraywulfeEyesoftheVoid": {
+    "uuid": null,
+    "edid": "equipment-eyes-of-the-void"
+  },
+  "GraywulfeHugr": {
+    "uuid": null,
+    "edid": "equipment-hugr"
+  },
+  "GraywulfeLeanansidhesLadiesFormalBoots": {
+    "uuid": null,
+    "edid": "equipment-leanansidhes-ladies-formal-boots"
+  },
+  "GraywulfeMunr": {
+    "uuid": null,
+    "edid": "equipment-munr"
+  },
+  "GraywulfeRenegade": {
+    "uuid": null,
+    "edid": "equipment-renegade"
+  },
+  "GraywulfeRiddleofEisenheim": {
+    "uuid": null,
+    "edid": "equipment-riddle-of-eisenheim"
+  },
+  "GraywulfeSophiesGambit": {
+    "uuid": null,
+    "edid": "equipment-sophies-gambit"
+  },
+  "GraywulfeTeschen’s Grace": {
+    "uuid": null,
+    "edid": "equipment-teschens-grace"
+  },
+  "GraywulfeWardenofEisenheim": {
+    "uuid": null,
+    "edid": "equipment-warden-of-eisenheim"
+  },
+  "GraywulfeWoodsmansBow": {
+    "uuid": null,
+    "edid": "equipment-woodsmans-bow"
+  },
+  "Griffin": {
+    "uuid": null,
+    "edid": "equipment-griffin"
+  },
+  "GuildInn": {
+    "uuid": null,
+    "edid": "equipment-guild-inn"
+  },
+  "Hacksilver": {
+    "uuid": null,
+    "edid": "equipment-hacksilver"
+  },
+  "HaltIllnessPotion": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.BJQXFYJ8UzWmZu1i",
+    "edid": "equipment-halt-illness-potion"
+  },
+  "HatCourtiers": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.7QWDycldwLHddZFN",
+    "edid": "equipment-hat-courtiers"
+  },
+  "HatFelt": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.Q3UgSTXd9b3VRgNO",
+    "edid": "equipment-hat-felt"
+  },
+  "HatFine": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.4fyxqUHAqTaMdCX0",
+    "edid": "equipment-hat-fine"
+  },
+  "HatWoolen": {
+    "uuid": null,
+    "edid": "equipment-hat-woolen"
+  },
+  "HealingKit": {
+    "uuid": null,
+    "edid": "equipment-healing-kit-basic-3-applications"
+  },
+  "HealingKitRefill": {
+    "uuid": null,
+    "edid": "equipment-healing-kit-refill-3-applications"
+  },
+  "HealingPotion": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.BwX8CkpvqhKg9ABr",
+    "edid": "equipment-healing-potion"
+  },
+  "HeatShield": {
+    "uuid": null,
+    "edid": "equipment-heat-shield"
+  },
+  "HeatStone": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.mg9Bd2RdJbhg1kEO",
+    "edid": "equipment-heat-stone"
+  },
+  "HomingCompass": {
+    "uuid": null,
+    "edid": "equipment-homing-compass"
+  },
+  "Hooded Mask": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.czOOYvzc5SlGPOXe",
+    "edid": "equipment-hooded-mask"
+  },
+  "Horn": {
+    "uuid": null,
+    "edid": "equipment-horn"
+  },
+  "HornNeedle": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.hF8JRnesWAYiZstI",
+    "edid": "equipment-horn-needle"
+  },
+  "HorrorFend": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.eTD0qaldw6H0YBIm",
+    "edid": "equipment-horror-fend"
+  },
+  "HorseDraft": {
+    "uuid": null,
+    "edid": "equipment-horse-draft"
+  },
+  "HorsePony": {
+    "uuid": null,
+    "edid": "equipment-horse-pony"
+  },
+  "HorseRiding": {
+    "uuid": null,
+    "edid": "equipment-horse-riding"
+  },
+  "HorseWar": {
+    "uuid": null,
+    "edid": "equipment-horse-war"
+  },
+  "HosePlain": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.9hMYpQfI90S14sbk",
+    "edid": "equipment-hose-plain"
+  },
+  "HoseSilk": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.acOkrNDopVQDrH7n",
+    "edid": "equipment-hose-silk"
+  },
+  "HotPot": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.rXVaIC2EkboYEbxD",
+    "edid": "equipment-hot-pot"
+  },
+  "Huttawa": {
+    "uuid": null,
+    "edid": "equipment-huttawa"
+  },
+  "InfectedDeritasSilkTailedWailer": {
+    "uuid": null,
+    "edid": "equipment-deritas-silk-tailed-wailer"
+  },
+  "InfectedSkullofMaarberg": {
+    "uuid": null,
+    "edid": "equipment-skull-of-maarberg-the"
+  },
+  "InitiativeBooster": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.YdvPdNkwfXyCjt4r",
+    "edid": "equipment-initiative-booster"
+  },
+  "IronPot": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.dGDU0z15XuSGfma6",
+    "edid": "equipment-iron-pot"
+  },
+  "JFAmberAnnulet": {
+    "uuid": null,
+    "edid": "equipment-amber-annulet"
+  },
+  "JFBattleCastersStaff": {
+    "uuid": null,
+    "edid": "equipment-battle-casters-staff"
+  },
+  "JFBroadswordofGrace": {
+    "uuid": null,
+    "edid": "equipment-broadsword-of-grace"
+  },
+  "JFCameoofEsteem": {
+    "uuid": null,
+    "edid": "equipment-cameo-of-esteem"
+  },
+  "JFChelonianPlate": {
+    "uuid": null,
+    "edid": "equipment-chelonian-plate"
+  },
+  "JFDancersBlade": {
+    "uuid": null,
+    "edid": "equipment-dancers-blade"
+  },
+  "JFDressRobes": {
+    "uuid": null,
+    "edid": "equipment-dress-robes"
+  },
+  "JFExolashersWarbow": {
+    "uuid": null,
+    "edid": "equipment-exolashers-warbow"
+  },
+  "JFFalconsTalon": {
+    "uuid": null,
+    "edid": "equipment-falcons-talon"
+  },
+  "JFHuntersWarbow": {
+    "uuid": null,
+    "edid": "equipment-hunters-warbow"
+  },
+  "JFMagesStaffElementalist": {
+    "uuid": null,
+    "edid": "equipment-mages-staff-elementalist"
+  },
+  "JFMagesStaffIllusionist": {
+    "uuid": null,
+    "edid": "equipment-mages-staff-illusionist"
+  },
+  "JFMagesStaffNethermancer": {
+    "uuid": null,
+    "edid": "equipment-mages-staff-nethermancer"
+  },
+  "JFMagesStaffShaman": {
+    "uuid": null,
+    "edid": "equipment-mages-staff-shaman"
+  },
+  "JFMagesStaffWizard": {
+    "uuid": null,
+    "edid": "equipment-mages-staff-wizard"
+  },
+  "JFNeedleLance": {
+    "uuid": null,
+    "edid": "equipment-needle-lance"
+  },
+  "JFRaidersSword": {
+    "uuid": null,
+    "edid": "equipment-raiders-sword"
+  },
+  "JFRakesCape": {
+    "uuid": null,
+    "edid": "equipment-rakes-cape"
+  },
+  "JFRangersGuard": {
+    "uuid": null,
+    "edid": "equipment-rangers-guard"
+  },
+  "JFRingofLight": {
+    "uuid": null,
+    "edid": "equipment-ring-of-light"
+  },
+  "JFRingofProtection": {
+    "uuid": null,
+    "edid": "equipment-ring-of-protection"
+  },
+  "JFSharpWit": {
+    "uuid": null,
+    "edid": "equipment-sharp-wit"
+  },
+  "JFSwordoftheFellWinter": {
+    "uuid": null,
+    "edid": "equipment-sword-of-the-fell-winter"
+  },
+  "JFThreadBloodPebble": {
+    "uuid": null,
+    "edid": "equipment-thread-blood-pebble"
+  },
+  "JFThreadBootsFancy": {
+    "uuid": null,
+    "edid": "equipment-fancy-boots"
+  },
+  "JFThreadBootsSneaky": {
+    "uuid": null,
+    "edid": "equipment-footpads-boots"
+  },
+  "JFThreadBootsTanky": {
+    "uuid": null,
+    "edid": "equipment-fighters-boots"
+  },
+  "JFThreadBracelet": {
+    "uuid": null,
+    "edid": "equipment-thread-bracelet"
+  },
+  "JFThreadChainmail": {
+    "uuid": null,
+    "edid": "equipment-thread-chainmail-joel-fowler"
+  },
+  "JFThreadCrystalRinglet": {
+    "uuid": null,
+    "edid": "equipment-thread-crystal-ringlet-joel-fowler"
+  },
+  "JFThreadEarrings": {
+    "uuid": null,
+    "edid": "equipment-thread-earrings"
+  },
+  "JFThreadHardenedLeatherArmor": {
+    "uuid": null,
+    "edid": "equipment-thread-hardened-leather-armor"
+  },
+  "JFThreadHarp": {
+    "uuid": null,
+    "edid": "equipment-thread-harp"
+  },
+  "JFThreadNecklaceCagedPearl": {
+    "uuid": null,
+    "edid": "equipment-caged-pearl"
+  },
+  "JFThreadNecklaceDef": {
+    "uuid": null,
+    "edid": "equipment-runic-charm"
+  },
+  "JFThreadNecklaceGilded": {
+    "uuid": null,
+    "edid": "equipment-gilded-medallion"
+  },
+  "JFThreadNecklaceSkull": {
+    "uuid": null,
+    "edid": "equipment-skull-pendant"
+  },
+  "JFThreadSaddle": {
+    "uuid": null,
+    "edid": "equipment-thread-saddle"
+  },
+  "JFThreadShortSword": {
+    "uuid": null,
+    "edid": "equipment-thread-short-sword"
+  },
+  "JFThreadWand": {
+    "uuid": null,
+    "edid": "equipment-thread-wand-joel-fowler"
+  },
+  "JFWizardsBracers": {
+    "uuid": null,
+    "edid": "equipment-wizards-bracers"
+  },
+  "JacketCourtiers": {
+    "uuid": null,
+    "edid": "equipment-jacket-courtiers"
+  },
+  "JacketSilk": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.H6vqDHiNDPpo9DI0",
+    "edid": "equipment-jacket-silk"
+  },
+  "JacketWool": {
+    "uuid": null,
+    "edid": "equipment-jacket-wool"
+  },
+  "KeliasAntidote": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.s7gcqdegKpIFF28B",
+    "edid": "equipment-kelias-antidote"
+  },
+  "KelixsPoultice": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.RgWy1K6TkdrUEs28",
+    "edid": "equipment-kelixs-poultice"
+  },
+  "Kue": {
+    "uuid": null,
+    "edid": "equipment-kue"
+  },
+  "LGConker": {
+    "uuid": null,
+    "edid": "equipment-conker"
+  },
+  "LGQuiverofBaistigh": {
+    "uuid": null,
+    "edid": "equipment-quiver-of-baistigh"
+  },
+  "LadysMark": {
+    "uuid": null,
+    "edid": "equipment-ladys-mark"
+  },
+  "LanternBullseye": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.CTpBXQvEG7zJdom6",
+    "edid": "equipment-lantern-bullseye"
+  },
+  "LanternHooded": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.KOZ74ClTUI2P3Mtb",
+    "edid": "equipment-lantern-hooded"
+  },
+  "LastChanceSalve": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.TTTHXx7Z0AtQmtbE",
+    "edid": "equipment-last-chance-salve"
+  },
+  "LastGrasp": {
+    "uuid": null,
+    "edid": "equipment-last-grasp"
+  },
+  "LibraryAccessMajorCity": {
+    "uuid": null,
+    "edid": "equipment-library-access-major-city"
+  },
+  "LibraryAccessThroal": {
+    "uuid": null,
+    "edid": "equipment-library-access-throal"
+  },
+  "Librarycard": {
+    "uuid": null,
+    "edid": "equipment-library-card"
+  },
+  "LightBolts": {
+    "uuid": null,
+    "edid": "equipment-light-bolts"
+  },
+  "LightQuartz": {
+    "uuid": null,
+    "edid": "equipment-light-quartz"
+  },
+  "LightQuartzLarge": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.PDOdDWH5ZC5ZE88r",
+    "edid": "equipment-light-quartz-large"
+  },
+  "LightQuartzMedium": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.vkRB7ntlGHrrutIo",
+    "edid": "equipment-light-quartz-medium"
+  },
+  "LightQuartzSmall": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.ea9QgbYi1ScmxnBx",
+    "edid": "equipment-light-quartz-small"
+  },
+  "LightQuartzWeapon": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.wmwYmQGRZEL9V3Rb",
+    "edid": "equipment-light-quartz-weapon"
+  },
+  "LimberLimbs": {
+    "uuid": null,
+    "edid": "equipment-limber-limbs"
+  },
+  "LongbowArrows": {
+    "uuid": null,
+    "edid": "equipment-longbow-arrows"
+  },
+  "Lute": {
+    "uuid": null,
+    "edid": "equipment-lute"
+  },
+  "LuxuryInn": {
+    "uuid": null,
+    "edid": "equipment-luxury-inn"
+  },
+  "LuxuryInnwithamenities": {
+    "uuid": null,
+    "edid": "equipment-luxury-inn-with-amenities"
+  },
+  "LuxuryInnwithvalet": {
+    "uuid": null,
+    "edid": "equipment-luxury-inn-with-valet"
+  },
+  "MHDeathsCheat": {
+    "uuid": null,
+    "edid": "equipment-deaths-cheat"
+  },
+  "MaleableBody": {
+    "uuid": null,
+    "edid": "equipment-maleable-body"
+  },
+  "ManuAmuletOfQuickterpillar": {
+    "uuid": null,
+    "edid": "equipment-amulet-of-quickterpillar"
+  },
+  "ManuBladeOfCaraFahdKater": {
+    "uuid": null,
+    "edid": "equipment-blade-of-cara-fahd-kater"
+  },
+  "ManuGlassesOfAmpwert": {
+    "uuid": null,
+    "edid": "equipment-glasses-of-ampwert"
+  },
+  "ManuGlovesOfPowerUshtug": {
+    "uuid": null,
+    "edid": "equipment-gloves-of-power-ushtug"
+  },
+  "ManuPelozorrDeRocheFelle": {
+    "uuid": null,
+    "edid": "equipment-pelozorr-de-roche-felle"
+  },
+  "ManuPikouzorrDeLHommeEnOrSachant": {
+    "uuid": null,
+    "edid": "equipment-pikouzorr-de-lhomme-en-or-sachant"
+  },
+  "ManuRingOfKatD": {
+    "uuid": null,
+    "edid": "equipment-ring-of-kat-d"
+  },
+  "MaporScrollCase": {
+    "uuid": null,
+    "edid": "equipment-map-or-scroll-case"
+  },
+  "MaskofAthabanCommon": {
+    "uuid": null,
+    "edid": "equipment-mask-of-athaban-common"
+  },
+  "MaskofAthabanExquisite": {
+    "uuid": null,
+    "edid": "equipment-mask-of-athaban-exquisite"
+  },
+  "MealAverage": {
+    "uuid": null,
+    "edid": "equipment-meal-average"
+  },
+  "MealGood": {
+    "uuid": null,
+    "edid": "equipment-meal-good"
+  },
+  "MealSimple": {
+    "uuid": null,
+    "edid": "equipment-meal-simple"
+  },
+  "MealSumptuous": {
+    "uuid": null,
+    "edid": "equipment-meal-sumptuous"
+  },
+  "MediumBolts": {
+    "uuid": null,
+    "edid": "equipment-medium-bolts"
+  },
+  "MerchantInn": {
+    "uuid": null,
+    "edid": "equipment-merchant-inn"
+  },
+  "MerchantInnwithbath": {
+    "uuid": null,
+    "edid": "equipment-merchant-inn-with-bath"
+  },
+  "MessageStone": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.j8X5wCLV0KjrLVgD",
+    "edid": "equipment-message-stone"
+  },
+  "MessageStoneWarded": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.8j0FN0YPzWuyqLGg",
+    "edid": "equipment-message-stone-warded"
+  },
+  "MessengerCitytoCity": {
+    "uuid": null,
+    "edid": "equipment-messenger-city-to-city"
+  },
+  "MessengerLocal": {
+    "uuid": null,
+    "edid": "equipment-messenger-local"
+  },
+  "MoBAmuletofDiracTolAmarra": {
+    "uuid": null,
+    "edid": "equipment-amulet-of-dirac-tol-amarra"
+  },
+  "MoBHeadbandofKedartheDark": {
+    "uuid": null,
+    "edid": "equipment-headband-of-kedar-the-dark"
+  },
+  "MoBStaffofAkaremtheMageBuilder": {
+    "uuid": null,
+    "edid": "equipment-staff-of-akarem-the-mage-builder"
+  },
+  "Monocculeeyelarge": {
+    "uuid": null,
+    "edid": "equipment-monocculeeye-large"
+  },
+  "Monocculeeyesmall": {
+    "uuid": null,
+    "edid": "equipment-monocculeeye-small"
+  },
+  "MulePack": {
+    "uuid": null,
+    "edid": "equipment-mule-pack"
+  },
+  "NHEloamsNøgle": {
+    "uuid": null,
+    "edid": "equipment-eloams-nogle"
+  },
+  "NHForkæmper": {
+    "uuid": null,
+    "edid": "equipment-forkaemper"
+  },
+  "NHGrusommeSkæbne": {
+    "uuid": null,
+    "edid": "equipment-grusomme-skaebne"
+  },
+  "NHJordvisKåben": {
+    "uuid": null,
+    "edid": "equipment-jordvis-kaben"
+  },
+  "NHLormyrsBigBookofAuthority": {
+    "uuid": null,
+    "edid": "equipment-lormyrs-big-book-of-authority"
+  },
+  "NHPsychopompSkarabæ": {
+    "uuid": null,
+    "edid": "equipment-psychopomp-skarabae"
+  },
+  "NHShieldofSleed": {
+    "uuid": null,
+    "edid": "equipment-shield-of-sleed"
+  },
+  "NHSpåkuglerne": {
+    "uuid": null,
+    "edid": "equipment-spakuglerne"
+  },
+  "NHThreadBodyShield": {
+    "uuid": null,
+    "edid": "equipment-thread-body-shield"
+  },
+  "NHThreadBuckler": {
+    "uuid": null,
+    "edid": "equipment-thread-buckler"
+  },
+  "NHThreadFootmansShield": {
+    "uuid": null,
+    "edid": "equipment-thread-footmans-shield"
+  },
+  "NavigationCharts": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.HnocAERfQUHyVa7F",
+    "edid": "equipment-navigation-charts"
+  },
+  "Nordaltres": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.dWrCHeNnUW7foZua",
+    "edid": "equipment-nordaltres"
+  },
+  "OilFlask": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.ZvmJIiwrT7GrodOx",
+    "edid": "equipment-oil-flask"
+  },
+  "OneSizeHat": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.3w0rpgWxRUN1zvdO",
+    "edid": "equipment-one-size-hat"
+  },
+  "Orichalcum": {
+    "uuid": null,
+    "edid": "equipment-orichalcum"
+  },
+  "OrichalcumContainer": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.7MqNLABVrHoVxZOF",
+    "edid": "equipment-orichalcum-container"
+  },
+  "PandaArcaneWeb": {
+    "uuid": null,
+    "edid": "equipment-arcane-web"
+  },
+  "PandaArmorOfRoheline": {
+    "uuid": null,
+    "edid": "equipment-armor-of-roheline"
+  },
+  "PandaBladeweaverGlyphBlade": {
+    "uuid": null,
+    "edid": "equipment-glyph-blade"
+  },
+  "PandaBloodDrenchedSun": {
+    "uuid": null,
+    "edid": "equipment-blood-drenched-sun"
+  },
+  "PandaEnforcerOfStandards": {
+    "uuid": null,
+    "edid": "equipment-enforcer-of-standards"
+  },
+  "PandaGoodBoy": {
+    "uuid": null,
+    "edid": "equipment-good-boy"
+  },
+  "PandaOtherworldlyInk": {
+    "uuid": null,
+    "edid": "equipment-otherworldly-ink"
+  },
+  "PandaRoots": {
+    "uuid": null,
+    "edid": "equipment-roots"
+  },
+  "PandaRuneCarvedCitadel": {
+    "uuid": null,
+    "edid": "equipment-the-rune-carved-citadel"
+  },
+  "PandaShieldBrother": {
+    "uuid": null,
+    "edid": "equipment-shield-brother"
+  },
+  "PandaSpectralLenses": {
+    "uuid": null,
+    "edid": "equipment-astrally-filtered-spectral-lenses"
+  },
+  "PandaSpiritofAdventureControl": {
+    "uuid": null,
+    "edid": "equipment-spirit-of-adventure-the-control"
+  },
+  "PandaSpiritofAdventurePeace": {
+    "uuid": null,
+    "edid": "equipment-spirit-of-adventure-the-peace"
+  },
+  "PandaStormSteppers": {
+    "uuid": null,
+    "edid": "equipment-storm-steppers"
+  },
+  "PandaTarrackTalons": {
+    "uuid": null,
+    "edid": "equipment-tarrack-talons"
+  },
+  "PandaTwilightEmbrace": {
+    "uuid": null,
+    "edid": "equipment-twilight-embrace"
+  },
+  "PandaWayfarerCloak": {
+    "uuid": null,
+    "edid": "equipment-wayfarer-cloak"
+  },
+  "PaperParchmentsheet": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.n3f6YoeYmt0AuPJL",
+    "edid": "equipment-paperparchment-sheet"
+  },
+  "PeasantsGarb": {
+    "uuid": null,
+    "edid": "equipment-peasants-garb"
+  },
+  "PeasantsGarbRobe": {
+    "uuid": null,
+    "edid": "equipment-peasants-garb-with-robe-or-dress"
+  },
+  "PhysiciansKit": {
+    "uuid": null,
+    "edid": "equipment-physicians-kit-basic-3-applications"
+  },
+  "PhysiciansKitRefill": {
+    "uuid": null,
+    "edid": "equipment-physicians-kit-refill-3-applications"
+  },
+  "PinorClasp": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.VrwD6NEcoXJpo52c",
+    "edid": "equipment-pin-or-clasp"
+  },
+  "PotofGrumbahLarge": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.gEHURK9t8TRImlRY",
+    "edid": "equipment-pot-of-grumbah-large"
+  },
+  "PotofGrumbahSmall": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.8lrlfXj6V8NcPhBa",
+    "edid": "equipment-pot-of-grumbah-small"
+  },
+  "PureWaterPot": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.cqHW2tiEaA6i75OL",
+    "edid": "equipment-pure-water-pot"
+  },
+  "QuietFingersGloves": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.GQunvJvnvzoBsXnV",
+    "edid": "equipment-quiet-fingers-gloves"
+  },
+  "QuietPouch": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.kw39g8zw17DqV9Nv",
+    "edid": "equipment-quiet-pouch"
+  },
+  "QuillPen": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.HGXVJHPcjhdze2c0",
+    "edid": "equipment-quill-pen"
+  },
+  "Quiver": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.ytnjc8AVuU15I6gT",
+    "edid": "equipment-quiver"
+  },
+  "RNBarudinsRelief": {
+    "uuid": null,
+    "edid": "equipment-barudins-relief"
+  },
+  "RNSaddleofDeathsSea": {
+    "uuid": null,
+    "edid": "equipment-saddle-of-deaths-sea"
+  },
+  "RNShadowofFlameBoots": {
+    "uuid": null,
+    "edid": "equipment-shadow-of-flame-boots"
+  },
+  "RNSharkskinArmor": {
+    "uuid": null,
+    "edid": "equipment-sharkskin-armor"
+  },
+  "RNSympatheticCollars": {
+    "uuid": null,
+    "edid": "equipment-sympathetic-collars"
+  },
+  "RNWovenFlameArmor": {
+    "uuid": null,
+    "edid": "equipment-woven-flame-armor"
+  },
+  "RationsMine1week": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.gd9jZXOOdWFnxQJp",
+    "edid": "equipment-rations-mine-1week"
+  },
+  "RationsTrail1week": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.uMxuy18BNz8q9mEg",
+    "edid": "equipment-rations-trail-1-week"
+  },
+  "RelentlessStorm": {
+    "uuid": null,
+    "edid": "equipment-relentless-storm"
+  },
+  "RnHopesEdge": {
+    "uuid": null,
+    "edid": "equipment-hopes-edge"
+  },
+  "RnLanceOfFieryRetort": {
+    "uuid": null,
+    "edid": "equipment-lance-of-fiery-retort"
+  },
+  "RnNecklaceoftheVipersTongue": {
+    "uuid": null,
+    "edid": "equipment-necklace-of-the-vipers-tongue"
+  },
+  "RnPhoenixRing": {
+    "uuid": null,
+    "edid": "equipment-phoenix-ring"
+  },
+  "RnTalkornReaver": {
+    "uuid": null,
+    "edid": "equipment-talkorn-reaver"
+  },
+  "RnWhiteThornStandard": {
+    "uuid": null,
+    "edid": "equipment-white-thorn-standard"
+  },
+  "RobeEmbroidered": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.f2H4JcwmqDh7q5VP",
+    "edid": "equipment-robe-embroidered"
+  },
+  "RobeLinen": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.lZIv9hn0tD2XArJI",
+    "edid": "equipment-robe-linen"
+  },
+  "Ropeyard": {
+    "uuid": null,
+    "edid": "equipment-rope-yard"
+  },
+  "Rowboat": {
+    "uuid": null,
+    "edid": "equipment-rowboat"
+  },
+  "SARing": {
+    "uuid": null,
+    "edid": "equipment-stephen-atkins-ring"
+  },
+  "SKAmuGranak": {
+    "uuid": null,
+    "edid": "equipment-amulett-der-absoluten-augewogenheit"
+  },
+  "SKBabaMarta": {
+    "uuid": null,
+    "edid": "equipment-baba-martas-eintopf"
+  },
+  "SKEiche": {
+    "uuid": null,
+    "edid": "equipment-rustung-der-steinernen-eiche"
+  },
+  "SKEisenklang": {
+    "uuid": null,
+    "edid": "equipment-eisenklang"
+  },
+  "SKFang": {
+    "uuid": null,
+    "edid": "equipment-fang"
+  },
+  "SKFurmor": {
+    "uuid": null,
+    "edid": "equipment-furmors-dritte-hand"
+  },
+  "SKGarpr": {
+    "uuid": null,
+    "edid": "equipment-garpr"
+  },
+  "SKGlutfang": {
+    "uuid": null,
+    "edid": "equipment-glutfang"
+  },
+  "SKGregsAugenklappe": {
+    "uuid": null,
+    "edid": "equipment-gregs-schnapsidee"
+  },
+  "SKGregsBein": {
+    "uuid": null,
+    "edid": "equipment-gregs-zweites-standbein"
+  },
+  "SKGregsFlasche": {
+    "uuid": null,
+    "edid": "equipment-gregs-flaschenpost"
+  },
+  "SKGregsHaken": {
+    "uuid": null,
+    "edid": "equipment-gregs-seelenreisser"
+  },
+  "SKHain": {
+    "uuid": null,
+    "edid": "equipment-bluthain"
+  },
+  "SKHofgarsKlaue": {
+    "uuid": null,
+    "edid": "equipment-hofgars-klaue"
+  },
+  "SKLonn": {
+    "uuid": null,
+    "edid": "equipment-lonn"
+  },
+  "SKLyken": {
+    "uuid": null,
+    "edid": "equipment-lyken"
+  },
+  "SKMagicAmu": {
+    "uuid": null,
+    "edid": "equipment-magisches-amulett"
+  },
+  "SKMagicBrac": {
+    "uuid": null,
+    "edid": "equipment-magischer-armreif"
+  },
+  "SKMagicBrooch": {
+    "uuid": null,
+    "edid": "equipment-magische-brosche"
+  },
+  "SKMagicCape": {
+    "uuid": null,
+    "edid": "equipment-magischer-umhang"
+  },
+  "SKMagicFocus": {
+    "uuid": null,
+    "edid": "equipment-magischer-fokus"
+  },
+  "SKMagicRing": {
+    "uuid": null,
+    "edid": "equipment-magischer-ring"
+  },
+  "SKMauerbrecher": {
+    "uuid": null,
+    "edid": "equipment-mauerbrecher"
+  },
+  "SKOraldsHut": {
+    "uuid": null,
+    "edid": "equipment-oralds-treuer-wegbegleiter"
+  },
+  "SKRazorWing": {
+    "uuid": null,
+    "edid": "equipment-razor-wing"
+  },
+  "SKRrubek": {
+    "uuid": null,
+    "edid": "equipment-rrubek"
+  },
+  "SKSchwarzeHand": {
+    "uuid": null,
+    "edid": "equipment-dolch-der-schwarzen-hand"
+  },
+  "SKShaaux": {
+    "uuid": null,
+    "edid": "equipment-shaaux-balg-krokodillederrustung"
+  },
+  "SKShandra": {
+    "uuid": null,
+    "edid": "equipment-shandras-erbstuck"
+  },
+  "SKTasche": {
+    "uuid": null,
+    "edid": "equipment-die-ungehaltene-tasche"
+  },
+  "SKTheArchiveJ": {
+    "uuid": null,
+    "edid": "equipment-the-archive-journeyman"
+  },
+  "SKTheArchiveN": {
+    "uuid": null,
+    "edid": "equipment-the-archive-novice"
+  },
+  "SKThreadedHawkHatchet": {
+    "uuid": null,
+    "edid": "equipment-threaded-hawk-hatchet"
+  },
+  "SKWaffenbart": {
+    "uuid": null,
+    "edid": "equipment-der-waffenbart"
+  },
+  "SKWinterpelz": {
+    "uuid": null,
+    "edid": "equipment-winterpelz"
+  },
+  "SKZelt": {
+    "uuid": null,
+    "edid": "equipment-das-verlorene-zelt"
+  },
+  "Sack": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.67HpFMFC8iOZudCF",
+    "edid": "equipment-sack"
+  },
+  "Sage": {
+    "uuid": null,
+    "edid": "equipment-sage"
+  },
+  "SalveofClosure": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.7bZHt8fo6tjBRZy6",
+    "edid": "equipment-salve-of-closure"
+  },
+  "Sandals": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.UelR6WtPN0ZvaCSM",
+    "edid": "equipment-sandals"
+  },
+  "Scabbard": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.oYijGsMpEE2lftF6",
+    "edid": "equipment-scabbard"
+  },
+  "Scarf": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.Mpk9hor6yNGG0c3R",
+    "edid": "equipment-scarf"
+  },
+  "ScavengedPower": {
+    "uuid": null,
+    "edid": "equipment-scavenged-power"
+  },
+  "Scribe": {
+    "uuid": null,
+    "edid": "equipment-scribe"
+  },
+  "SeasonLamp": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.1fATjyP9wbCWLhs0",
+    "edid": "equipment-season-lamp"
+  },
+  "SensitiveEars": {
+    "uuid": null,
+    "edid": "equipment-sensitive-ears"
+  },
+  "SensitiveEarsAdv": {
+    "uuid": null,
+    "edid": "equipment-sensitive-ears-advanced"
+  },
+  "SevenLeagueStridersJ": {
+    "uuid": "Compendium.earthdawn-gm-compendium.game-masters-guide-thread-items-en.Item.7WTksgqwfQSuCh8n",
+    "edid": "equipment-seven-league-striders"
+  },
+  "SevenLeagueStridersN": {
+    "uuid": null,
+    "edid": "equipment-seven-league-striders-novice"
+  },
+  "ShirtPatterned": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.336mUSBq1nx7Atyn",
+    "edid": "equipment-shirt-patterned"
+  },
+  "ShirtPlain": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.XKrVwsQlQHhnMTPm",
+    "edid": "equipment-shirt-plain"
+  },
+  "ShirtSilk": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.tPCpv5Zf5CePlrUy",
+    "edid": "equipment-shirt-silk"
+  },
+  "ShoesCourtier’s": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.CbIvYRDl1cTIq8Y7",
+    "edid": "equipment-shoes-courtiers"
+  },
+  "ShoesMerchant’s": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.ROPe1RBDjcYJmuRK",
+    "edid": "equipment-shoes-merchants"
+  },
+  "ShortbowArrows": {
+    "uuid": null,
+    "edid": "equipment-shortbow-arrows"
+  },
+  "Silver": {
+    "uuid": null,
+    "edid": "equipment-silver"
+  },
+  "SkDLizScaleBracer": {
+    "uuid": null,
+    "edid": "equipment-lizard-scale-bracer"
+  },
+  "SkDThacosBookOfSmithing": {
+    "uuid": null,
+    "edid": "equipment-thacos-book-of-smithing"
+  },
+  "SkDThreadDrinker": {
+    "uuid": null,
+    "edid": "equipment-thread-drinker"
+  },
+  "SkDWangFu": {
+    "uuid": null,
+    "edid": "equipment-girdle-of-wang-fu"
+  },
+  "Staijan": {
+    "uuid": null,
+    "edid": "equipment-staijan"
+  },
+  "StrengthBooster": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.wGzEhOf7r0XxbCHb",
+    "edid": "equipment-strenght-booster"
+  },
+  "SurvivorsMark": {
+    "uuid": null,
+    "edid": "equipment-survivors-mark"
+  },
+  "Swimming": {
+    "uuid": null,
+    "edid": "equipment-swimming"
+  },
+  "TKTwinBlades": {
+    "uuid": null,
+    "edid": "equipment-twin-blades"
+  },
+  "TargetingEye": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.y1KNLFLx5NzTnOXI",
+    "edid": "equipment-targeting-eye"
+  },
+  "Tent": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.P2m8C3DwLKPL2UjK",
+    "edid": "equipment-tent"
+  },
+  "TheranUyglar": {
+    "uuid": null,
+    "edid": "equipment-theran-uyglar"
+  },
+  "Thick Skin": {
+    "uuid": null,
+    "edid": "equipment-thick-skin"
+  },
+  "ThievesPicksandTools": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.9YQXJv7KTmOQ8baE",
+    "edid": "equipment-thieves-picks-and-tools"
+  },
+  "ThundraBeast": {
+    "uuid": null,
+    "edid": "equipment-thundra-beast"
+  },
+  "Toga": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.J4iN5zwCp6FwlBfS",
+    "edid": "equipment-toga"
+  },
+  "Torch": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.W5B4N9nQoi8kbn7q",
+    "edid": "equipment-torch"
+  },
+  "TravelersGarb": {
+    "uuid": null,
+    "edid": "equipment-travelers-garb"
+  },
+  "TravelersGarbrobedress": {
+    "uuid": null,
+    "edid": "equipment-travelers-garb-with-robe-or-dress"
+  },
+  "TravelersMug": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.auObzE3A1ycxNfdC",
+    "edid": "equipment-travelers-mug"
+  },
+  "TreadLightlyBoots": {
+    "uuid": null,
+    "edid": "equipment-tread-lightly-boots"
+  },
+  "Troajin": {
+    "uuid": null,
+    "edid": "equipment-troajin"
+  },
+  "TstSpikedArmor": {
+    "uuid": null,
+    "edid": "equipment-spiked-armor"
+  },
+  "Tunic": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.l9oav4RX6TwWvYD2",
+    "edid": "equipment-tunic"
+  },
+  "UpandalsBlessings": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.M6fySFrBAtnSC1uY",
+    "edid": "equipment-upandals-blessings"
+  },
+  "VariousGems": {
+    "uuid": null,
+    "edid": "equipment-variousgems"
+  },
+  "WarbowArrows": {
+    "uuid": null,
+    "edid": "equipment-warbow-arrows"
+  },
+  "Water": {
+    "uuid": null,
+    "edid": "equipment-water"
+  },
+  "WaterorWineSkin": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.27GldxzGGSvjoTLx",
+    "edid": "equipment-water-or-wine-skin"
+  },
+  "WealthyTravelersGarb": {
+    "uuid": null,
+    "edid": "equipment-wealthy-travelers-garb"
+  },
+  "WealthyTravelersGarbRobe": {
+    "uuid": null,
+    "edid": "equipment-wealthy-travelers-garb-with-embroidered-robe"
+  },
+  "WeaponsmithBasicDecoration": {
+    "uuid": null,
+    "edid": "equipment-weaponsmith-basic-decoration"
+  },
+  "WeaponsmithForgeArmor": {
+    "uuid": null,
+    "edid": "equipment-weaponsmith-forge-armor"
+  },
+  "WeaponsmithForgeWeapon": {
+    "uuid": null,
+    "edid": "equipment-weaponsmith-forge-weapon"
+  },
+  "WeaponsmithOrnateDecoration": {
+    "uuid": null,
+    "edid": "equipment-weaponsmith-ornate-decoration"
+  },
+  "WestMGoad": {
+    "uuid": null,
+    "edid": "equipment-goad"
+  },
+  "WestMGoadWarden": {
+    "uuid": null,
+    "edid": "equipment-goad-warden"
+  },
+  "WestMRagemantle": {
+    "uuid": null,
+    "edid": "equipment-ragemantle"
+  },
+  "WestMRagemantleWarden": {
+    "uuid": null,
+    "edid": "equipment-ragemantle-warden"
+  },
+  "WestMWickedGrin": {
+    "uuid": null,
+    "edid": "equipment-wicked-grin"
+  },
+  "WestMpSkarrotkCastellan": {
+    "uuid": null,
+    "edid": "equipment-pskarrot-kcastellan-honor-guard"
+  },
+  "Whetstone": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.cspztCmevoYGDKfU",
+    "edid": "equipment-whetstone"
+  },
+  "Whistle": {
+    "uuid": null,
+    "edid": "equipment-whistle"
+  },
+  "WindBracer": {
+    "uuid": null,
+    "edid": "equipment-wind-bracer"
+  },
+  "WindInstrument": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.C7PBUhpR8oGzM1qy",
+    "edid": "equipment-wind-instrument"
+  },
+  "WindlingArrows": {
+    "uuid": null,
+    "edid": "equipment-windling-arrows"
+  },
+  "WineAveragebottle": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.sA2FifR3FNHgSknh",
+    "edid": "equipment-wine-average-bottle"
+  },
+  "WineFinebottle": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.vAXI8EFEemgkoCPE",
+    "edid": "equipment-wine-fine-bottle"
+  },
+  "WoldridgeBurdenBorn": {
+    "uuid": null,
+    "edid": "equipment-burden-born"
+  },
+  "WoldridgeDarkDreams": {
+    "uuid": null,
+    "edid": "equipment-dark-dreams"
+  },
+  "WoldridgeForankrandAnchored": {
+    "uuid": null,
+    "edid": "equipment-forankrand-anchored"
+  },
+  "WoundBalance": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.3ISvCifu8zlfMx5A",
+    "edid": "equipment-wound-balance"
+  },
+  "WritingInkVial": {
+    "uuid": null,
+    "edid": "equipment-writing-ink-vial"
+  },
+  "WritingKit": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.TNAEFYQ40G9EILo0",
+    "edid": "equipment-writing-kit"
+  },
+  "ZirEyeofThandros": {
+    "uuid": null,
+    "edid": "equipment-eye-of-thandros"
+  },
+  "Zoak": {
+    "uuid": null,
+    "edid": "equipment-zoak"
+  },
+  "blowgunneedles": {
+    "uuid": null,
+    "edid": "equipment-blowgun-needles"
+  },
+  "iiiAmuletOfDirac": {
+    "uuid": null,
+    "edid": "equipment-amulet-of-dirac"
+  },
+  "iiiBladeOfCaraFahdAerithiel": {
+    "uuid": null,
+    "edid": "equipment-blade-of-cara-fahd-aerithiel"
+  },
+  "iiiBladeOfCaraFahdAlexsi": {
+    "uuid": null,
+    "edid": "equipment-blade-of-cara-fahd-alexsi"
+  },
+  "iiiBladeOfCaraFahdBrightgrin": {
+    "uuid": null,
+    "edid": "equipment-blade-of-cara-fahd-brightgrin"
+  },
+  "iiiBladeOfCaraFahdReilly": {
+    "uuid": null,
+    "edid": "equipment-blade-of-cara-fahd-reilly"
+  },
+  "iiiCustomBloodDamage": {
+    "uuid": null,
+    "edid": "equipment-custom-blood-damage"
+  },
+  "iiiCustomBloodWound": {
+    "uuid": null,
+    "edid": "equipment-custom-blood-wounds"
+  },
+  "iiiEnforcerOfStandards": {
+    "uuid": null,
+    "edid": "equipment-enforcer-of-standards-windling-sword"
+  },
+  "iiiRuneCarvedCitadel": {
+    "uuid": null,
+    "edid": "equipment-the-rune-carved-citadel-iii"
+  },
+  "iiiStoneOfWisdom": {
+    "uuid": null,
+    "edid": "equipment-the-stone-of-wisdom"
+  },
+  "iiiThagomizerN": {
+    "uuid": null,
+    "edid": "equipment-thagomizer"
+  },
+  "misc": {
+    "uuid": null,
+    "edid": "equipment-misc"
+  }
+}

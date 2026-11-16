@@ -1,1 +1,4390 @@
-{}
+{
+  "ED4AcrobaticDefenseAcrobaticFinesse": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.dwxp9MU4JVvdg9wg",
+    "edid": "knackability-acrobatic-finesse"
+  },
+  "ED4AcrobaticDefenseAcrobaticGrace": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.uR3clIeEdeDTYmxD",
+    "edid": "knackability-acrobatic-grace"
+  },
+  "ED4AcrobaticDefenseAcrobaticOffensive": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.tCG2T5P8U5l8I3Hh",
+    "edid": "knackability-acrobatic-offensive"
+  },
+  "ED4AcrobaticDefenseAcrobaticStrike": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.rTLH9XC2MuheSBMr",
+    "edid": "knackability-acrobatic-strike"
+  },
+  "ED4AcrobaticDefenseAcrobaticTumble": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.mFU1m67FyKUt1LGh",
+    "edid": "knackability-acrobatic-tumble"
+  },
+  "ED4AcrobaticDefenseControltheTempo": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.HfocKZAdyQfq8LYe",
+    "edid": "knackability-control-the-tempo"
+  },
+  "ED4AcrobaticDefenseWallofSteel": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.RCVORgM3Uf32tXBG",
+    "edid": "knackability-wall-of-steel"
+  },
+  "ED4AirDanceAirSkating": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Ag93dxoGUMkmy21f",
+    "edid": "knackability-air-skating"
+  },
+  "ED4AirDanceAirStrike": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.zv4pp6FgYab5PyMB",
+    "edid": "knackability-air-strike"
+  },
+  "ED4AirDanceImNotDonewithYouYet": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.dENRL2GDoREBeAtX",
+    "edid": "knackability-im-not-done-with-you-yet"
+  },
+  "ED4AirSailingSweepingCurrent": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.BUX6Mcsmc3azdQRC",
+    "edid": "knackability-sweeping-current"
+  },
+  "ED4AirSpeakingBirdSong": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.ydEAO4s77is4qdvv",
+    "edid": "knackability-bird-song"
+  },
+  "ED4AirSpeakingBroadcast": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.jvuuXGwDbckf0Yob",
+    "edid": "knackability-broadcast"
+  },
+  "ED4AirSpeakingConspiratorialWhispers": {
+    "uuid": null,
+    "edid": "knackability-conspiratorial-whispers"
+  },
+  "ED4AirSpeakingFarSpeaking": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.230povnBOSHbB03r",
+    "edid": "knackability-far-speaking"
+  },
+  "ED4AirSpeakingReadFlight": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.kMfCW10fRPeLnLNA",
+    "edid": "knackability-read-flight"
+  },
+  "ED4AirSpeakingWindDance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.fkgo7GbFFatg1rkX",
+    "edid": "knackability-wind-dance"
+  },
+  "ED4AlleyCatApproachWildcatApproach": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.wkEItTB20zfRwQCS",
+    "edid": "knackability-wildcat-approach"
+  },
+  "ED4AncientBondsAidSpirit": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.PFqDua7N1tp43fUZ",
+    "edid": "knackability-aid-spirit"
+  },
+  "ED4AnimalBondHealAnimalCompanion": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.beCmJHKm1qfRs7lt",
+    "edid": "knackability-heal-animal-companion"
+  },
+  "ED4AnimalBondPackMember": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.4muBGlNx7cD6a2DB",
+    "edid": "knackability-pack-member"
+  },
+  "ED4AnimalLeadershipCalmHerd": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.uQqiA5p9zEg06Pf7",
+    "edid": "knackability-calm-herd"
+  },
+  "ED4AnimalLeadershipInciteStampede": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.1dRZxSKlPwjt6Llc",
+    "edid": "knackability-incite-stampede"
+  },
+  "ED4AnimalPossessionAnimalRental": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.M2UcKm9HYq5LvR4N",
+    "edid": "knackability-animal-rental"
+  },
+  "ED4AnimalPossessionRideAlong": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.RO2f9BLA9aHTKJm0",
+    "edid": "knackability-ride-along"
+  },
+  "ED4AnimalTalkBloodAnimalTalk": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.JMQEIq7Fvg9l8g5H",
+    "edid": "knackability-blood-animal-talk"
+  },
+  "ED4AnimalTalkSocialCreature": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.qL6EN2rFog9gyh8O",
+    "edid": "knackability-social-creature"
+  },
+  "ED4AnimalTrainingAnimalHandling": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.MQ4FNyavLDobsXYQ",
+    "edid": "knackability-animal-handling"
+  },
+  "ED4AnticipateBAerialAce": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.f7C20FeIJfeAbHWL",
+    "edid": "knackability-aerial-ace"
+  },
+  "ED4AnticipateBlowAnticipateSpell": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.xN778yJtSgCiipf8",
+    "edid": "knackability-anticipate-spell"
+  },
+  "ED4AnticipateBlowCombatPrescience": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.f446bBiVPxBRbeJT",
+    "edid": "knackability-combat-prescience"
+  },
+  "ED4AnticipateBlowForeseeAggression": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.ODBL5JpgTDuyHJou",
+    "edid": "knackability-foresee-aggression"
+  },
+  "ED4AnticipateBlowPerfectAnticipation": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.vyFE1y1DIgOtqw3Y",
+    "edid": "knackability-perfect-anticipation"
+  },
+  "ED4AnticipateBlowTaketheHit": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.lWrthVdgfcOdbTCg",
+    "edid": "knackability-take-the-hit"
+  },
+  "ED4ArcaneMutteringsDirePortents": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.B0eZ6w182vvThSDC",
+    "edid": "knackability-dire-portents"
+  },
+  "ED4ArcaneMutteringsJinx": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.ChAT4p0NPTxbogt1",
+    "edid": "knackability-jinx"
+  },
+  "ED4ArmorMountBloodArmorMount": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.MLoY5JC0JvFrLODn",
+    "edid": "knackability-blood-armor-mount"
+  },
+  "ED4ArmorMountHardenedArmor": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.52kUuGZg1aR1Q9ro",
+    "edid": "knackability-hardened-armor"
+  },
+  "ED4AstralDomainAstralAttunement": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.kjFbkKsTOSWcyolp",
+    "edid": "knackability-astral-attunement"
+  },
+  "ED4AstralDomainAstralLaboratory": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.JQ83pOeMR2ANEjbR",
+    "edid": "knackability-astral-laboratory"
+  },
+  "ED4AstralDomainAstralStronghold": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.oY4LqLbJUr2s5gOt",
+    "edid": "knackability-astral-stronghold"
+  },
+  "ED4AstralDomainAstralWorkshop": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.rRmDl0bE9SetkFM5",
+    "edid": "knackability-astral-workshop"
+  },
+  "ED4AstralDomainHorrorAnchor": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.bv1dHbhZRQ631jRa",
+    "edid": "knackability-horror-anchor"
+  },
+  "ED4AstralDomainSpiritAnchor": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.q0jG1q5gcXiq5sCj",
+    "edid": "knackability-spirit-anchor"
+  },
+  "ED4AstralDomainSpiritDomain": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.fcK6Nw6B6OSPyRCa",
+    "edid": "knackability-spirit-domain"
+  },
+  "ED4AstralInterferenceEnlargedInterference": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.l2NnYa4c0MaHosFe",
+    "edid": "knackability-enlarged-interference"
+  },
+  "ED4AstralInterferenceLastingInterference": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.aNmOxONUKKNevOrZ",
+    "edid": "knackability-lasting-interference"
+  },
+  "ED4AstralInterferenceMobileInterference": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.GSz3FWgCi8lMk1PC",
+    "edid": "knackability-mobile-interference"
+  },
+  "ED4AstralInterferencePushAgainsttheHorror": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.ErC3p8FTrTjSGZle",
+    "edid": "knackability-push-against-the-horror"
+  },
+  "ED4AstralInterferenceRangedInterference": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.iHdOkXfo4ZHppZA9",
+    "edid": "knackability-ranged-interference"
+  },
+  "ED4AstralPocketAccessAstralPocket": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.ArpNsIz3whuS0B6r",
+    "edid": "knackability-access-astral-pocket"
+  },
+  "ED4AstralPocketAstralDrop": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.LCCoqqmzHhTaPhoo",
+    "edid": "knackability-astral-drop"
+  },
+  "ED4AstralPocketAstralPickpocket": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.JI6YkZHjbm0bnvkC",
+    "edid": "knackability-astral-pickpocket"
+  },
+  "ED4AstralPocketExtendedAstralPocket": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.25YPQtVsGoW7wxtS",
+    "edid": "knackability-extended-astral-pocket"
+  },
+  "ED4AstralPocketExtraAstralPocket": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Yb8Esi9MaRrSlNeO",
+    "edid": "knackability-extra-astral-pocket"
+  },
+  "ED4AstralPocketPerceiveAstralPocket": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.W2e5ylYSxHWMmrAZ",
+    "edid": "knackability-perceive-astral-pocket"
+  },
+  "ED4AstralPocketTrickPocket": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.6CefVfl6LpmSNVCH",
+    "edid": "knackability-trick-pocket"
+  },
+  "ED4AuraArmorAlacritousArmor": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.HymDAHW4Jjr0hR8W",
+    "edid": "knackability-alacritous-armor"
+  },
+  "ED4AuraArmorBloodAuraArmor": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.wmjQbDhCRLP3QuDj",
+    "edid": "knackability-blood-aura-armor"
+  },
+  "ED4AuraArmorExtendedAuraArmor": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.rOrGNsauqnHNtl69",
+    "edid": "knackability-extended-aura-armor"
+  },
+  "ED4AuraArmorHardenedAura": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.8v0Jvt46UYYb9eLa",
+    "edid": "knackability-hardened-aura"
+  },
+  "ED4AuraArmorHardenedBloodAura": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.7FYuLnm8huFtkyhZ",
+    "edid": "knackability-hardened-blood-aura"
+  },
+  "ED4AvoidBlowAdaptiveDodge": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.RbROC4I53HL8Z9HD",
+    "edid": "knackability-adaptive-dodge"
+  },
+  "ED4AvoidBlowEarthBulwark": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.eqY0rWzDLYFgxx00",
+    "edid": "knackability-earth-bulwark"
+  },
+  "ED4AvoidBlowFortifyDodge": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.TsfLTcklsP0MqHWb",
+    "edid": "knackability-fortify-dodge"
+  },
+  "ED4AvoidBlowRollWiththePunches": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.djFJfOkTBhLkijAz",
+    "edid": "knackability-roll-with-the-punches"
+  },
+  "ED4AvoidBlowRollWiththePunchesII": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.JDrxrtYJzIOjmegu",
+    "edid": "knackability-roll-with-the-punches-ii"
+  },
+  "ED4AvoidBlowRollWiththePunchesIII": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.ggLUS0TWIVqDGVgG",
+    "edid": "knackability-roll-with-the-punches-iii"
+  },
+  "ED4AvoidBlowSpiritDodge": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.c2IwQhf5SEhWiUm5",
+    "edid": "knackability-spirit-dodge"
+  },
+  "ED4AvoidBlowSpiritEvasion": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.VhZr5ByggQaRXp46",
+    "edid": "knackability-spirit-evasion"
+  },
+  "ED4AvoidBlowTrueDodge": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.1VfwBtLqCMatpmmU",
+    "edid": "knackability-true-dodge"
+  },
+  "ED4AwarenessClearView": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.kWrppTPbudAukpeq",
+    "edid": "knackability-clear-view"
+  },
+  "ED4AwarenessEavesdrop": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.lCfwR4hdNW8vpR1Z",
+    "edid": "knackability-eavesdrop"
+  },
+  "ED4AwarenessLipReading": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.bvtR2FQA63a12GZH",
+    "edid": "knackability-lip-reading"
+  },
+  "ED4AwarenessVoicesCarry": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.w0iwjDDQigxCgCNc",
+    "edid": "knackability-voices-carry"
+  },
+  "ED4BanishExpelHorror": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.DaiYCLo1hyTlTFxf",
+    "edid": "knackability-expel-horror"
+  },
+  "ED4BattleBellowEncouragingBellow": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.7aJF9zwn2RWrkHrJ",
+    "edid": "knackability-encouraging-bellow"
+  },
+  "ED4BattleBellowIntimidatingBellow": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.NaPLBrKsg4Nvu5J3",
+    "edid": "knackability-intimidating-bellow"
+  },
+  "ED4BattleShoutAngerOverFear": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.PqxojOvYjVRyAUK1",
+    "edid": "knackability-anger-over-fear"
+  },
+  "ED4BattleShoutCryHavoc": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.ZDq7Whg6exkR550N",
+    "edid": "knackability-cry-havoc"
+  },
+  "ED4BattleShoutDefiantShout": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.MqLwCLZA45KQMdgw",
+    "edid": "knackability-defiant-shout"
+  },
+  "ED4BattleShoutDestructiveShout": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.wE9OSM2ow0bmJrrk",
+    "edid": "knackability-destructive-shout"
+  },
+  "ED4BattleShoutFlamesofBattle": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.kEtyp0GLkktStpRF",
+    "edid": "knackability-flames-of-battle"
+  },
+  "ED4BattleShoutKatoshsChallenge": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.6G45JKwWYFeYnyOu",
+    "edid": "knackability-katoshs-challenge"
+  },
+  "ED4BattleShoutScorchingBreath": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.ldiHp3cH1WkIImpB",
+    "edid": "knackability-scorching-breath"
+  },
+  "ED4BearMarkBearCorruption": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.sZq05t287sQi54ux",
+    "edid": "knackability-bear-corruption"
+  },
+  "ED4BearMarkBitterTaste": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.p6GuzrPsJUtJx2yN",
+    "edid": "knackability-bitter-taste"
+  },
+  "ED4BearMarkDebilitatingHarvest": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.prhhGJGX6k7sXN3g",
+    "edid": "knackability-debilitating-harvest"
+  },
+  "ED4BearMarkPoisonedHarvest": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.GDylLV8rBhnE3Kdl",
+    "edid": "knackability-poisoned-harvest"
+  },
+  "ED4BearMarkTraceHorror": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.BcMBdWJhkQZWvem5",
+    "edid": "knackability-trace-horror"
+  },
+  "ED4BladeJuggleEncore": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.pJDCk6CT3cGVHLDZ",
+    "edid": "knackability-encore"
+  },
+  "ED4BladeJuggleJuggling": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.1Ms9QPpaOiUJurIE",
+    "edid": "knackability-juggling"
+  },
+  "ED4BladeJuggleRingofBlades": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.09YSD21dBhBovuiq",
+    "edid": "knackability-ring-of-blades"
+  },
+  "ED4BladeJuggleShadowJuggle": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.kYo59c8tKT0eGVUj",
+    "edid": "knackability-shadow-juggle"
+  },
+  "ED4BladeJuggleSplitRevenge": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.t7DvwgnrXrbIA1X7",
+    "edid": "knackability-split-revenge"
+  },
+  "ED4BlindFireExpandedBlindFire": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Ib64Lhm8NSNvacfh",
+    "edid": "knackability-expanded-blind-fire"
+  },
+  "ED4BloodInsightExtendedInsight": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.4yVgdrIOGIEfqdPa",
+    "edid": "knackability-extended-insight"
+  },
+  "ED4BloodShareCurseShare": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.m3r0YYB6zGCeWRTE",
+    "edid": "knackability-curse-share"
+  },
+  "ED4BloodShareDiseaseShare": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Y4MFwCQjrMx5iml1",
+    "edid": "knackability-disease-share"
+  },
+  "ED4BloodSharePoisonShare": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.TA96qAmkYIWubECc",
+    "edid": "knackability-poison-share"
+  },
+  "ED4BloodShareWoundShare": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.TROKErTHCz0WIBEL",
+    "edid": "knackability-wound-share"
+  },
+  "ED4BloodhoundFormScentIdentifier": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.1gmxt48hA8IGLFJi",
+    "edid": "knackability-scent-identifier"
+  },
+  "ED4BodyControlBodyArmor": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.k2QWQcMgorCjampR",
+    "edid": "knackability-body-armor"
+  },
+  "ED4BodyControlElementalBody": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.FJRBQagRhWY7qgwb",
+    "edid": "knackability-elemental-body"
+  },
+  "ED4BodyControlHibernation": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.yTiOOdUCozL24ap0",
+    "edid": "knackability-hibernation"
+  },
+  "ED4BookMemoryComprehendEnigma": {
+    "uuid": null,
+    "edid": "knackability-comprehend-enigma"
+  },
+  "ED4BookMemoryFontofKnowledge": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.3NzIKhJ5u0NgphqX",
+    "edid": "knackability-font-of-knowledge"
+  },
+  "ED4BookMemoryInformationRecall": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.mYqNlLVhvt9Q4UAH",
+    "edid": "knackability-information-recall"
+  },
+  "ED4BookMemoryMemorizeImage": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.NHUZI2yrZdZ5QbTU",
+    "edid": "knackability-memorize-image"
+  },
+  "ED4BookMemoryMemoryVault": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.bri5N7hNhvFPjLSS",
+    "edid": "knackability-memory-vault"
+  },
+  "ED4BookMemoryPhotographicMemory": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.sK5F9uDgYZMuTPNM",
+    "edid": "knackability-photographic-memory"
+  },
+  "ED4BookMemoryRememberConversation": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.iVSUtGIwiTOKtUDx",
+    "edid": "knackability-remember-conversation"
+  },
+  "ED4BookMemoryRestoreBook": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.v3CzCbyReSUr3SlM",
+    "edid": "knackability-restore-book"
+  },
+  "ED4BookMemoryTranscribeDocument": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.J51eJu9odINccMRF",
+    "edid": "knackability-transcribe-document"
+  },
+  "ED4BorrowSenseBorrowForm": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.ABwtpS6WiaHjJc3y",
+    "edid": "knackability-borrow-form"
+  },
+  "ED4BorrowSenseDevelopAnimalSense": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.WjF30WZzVLph2fC5",
+    "edid": "knackability-develop-animal-sense"
+  },
+  "ED4BorrowSenseDevelopOtherSense": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.K6YJjifF1NzEBLHX",
+    "edid": "knackability-develop-other-sense"
+  },
+  "ED4BorrowSenseExtendedSense": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.nj3MVVFqF4WEd4sU",
+    "edid": "knackability-extended-sense"
+  },
+  "ED4BorrowSenseOneEyeOpen": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.qkIRnz3uHb9Sj8Hq",
+    "edid": "knackability-one-eye-open"
+  },
+  "ED4BorrowSenseOtherSense": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.5yeVwJJnQTdRcVRO",
+    "edid": "knackability-other-sense"
+  },
+  "ED4BorrowSenseShareSense": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.UC1Dn5mRYxUwcQFX",
+    "edid": "knackability-share-sense"
+  },
+  "ED4BorrowSenseStealSense": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.45S2QDGfsDzKgD0U",
+    "edid": "knackability-steal-sense"
+  },
+  "ED4BorrowSenseSwapSense": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.DT8H9xw66jmb5BYs",
+    "edid": "knackability-swap-sense"
+  },
+  "ED4BurningVigoBurningStrength": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.AjPPH8XlyqKlNbPd",
+    "edid": "knackability-burning-strength"
+  },
+  "ED4BurningVigorWildfireStance": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.rWTyRvUlkUaCugQM",
+    "edid": "knackability-wildfire-stance"
+  },
+  "ED4CallAnimalCompanionBeastSummons": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.jtR4irP51cgp9L0T",
+    "edid": "knackability-beast-summons"
+  },
+  "ED4CallAnimalCompanionCompanionLink": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.5aiCvf7oiHLZuZhG",
+    "edid": "knackability-companion-link"
+  },
+  "ED4CallAnimalCompanionEmpathicCommand": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.0C5HB7ag62yeVBmI",
+    "edid": "knackability-empathic-command"
+  },
+  "ED4CallAnimalCompanionPackCall": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.E9a7my2TC9D9uSc4",
+    "edid": "knackability-pack-call"
+  },
+  "ED4CallAnimalCompanionSwiftCall": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.hMp6TXbgJmbBPUsa",
+    "edid": "knackability-swift-call"
+  },
+  "ED4CallMissileCallAnyMissile": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.vrHwBR7FGSu06NCk",
+    "edid": "knackability-call-any-missile"
+  },
+  "ED4CallMissileCatchMissile": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.7sV3R94wknVLF6Ok",
+    "edid": "knackability-catch-missile"
+  },
+  "ED4CallofHarrExploitCorruption": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.FAfzfdAKDFPYQ2Dv",
+    "edid": "knackability-exploit-corruption"
+  },
+  "ED4CallofHarrTrapHorror": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.6fXulHrJjzQAWVdi",
+    "edid": "knackability-trap-horror"
+  },
+  "ED4ChameleonGawk": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.XM07XzLu6Iq86Zj5",
+    "edid": "knackability-gawk"
+  },
+  "ED4ChameleonSoreThumb": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.4ygGNOAdHq2yoFEQ",
+    "edid": "knackability-sore-thumb"
+  },
+  "ED4ChampionChallengeYouandWhatArmy": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Ok1NIr6V4eblNPJk",
+    "edid": "knackability-you-and-what-army"
+  },
+  "ED4ChargeBullRush": {
+    "uuid": null,
+    "edid": "knackability-bull-rush"
+  },
+  "ED4ChargeLancer": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.YNtLzTcIRdZTZj4v",
+    "edid": "knackability-lancer"
+  },
+  "ED4ChillingStrikeChilltotheBone": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.VSem4as7DQQ5HLO2",
+    "edid": "knackability-chill-to-the-bone"
+  },
+  "ED4ChillingStrikeIcyCut": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.EpdaohrJ9zEcbDNa",
+    "edid": "knackability-icy-cut"
+  },
+  "ED4ChtardDancChtardSting": {
+    "uuid": null,
+    "edid": "knackability-chtard-sting"
+  },
+  "ED4ClawShapeClawTool": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.oAhuDS3wuRIExj8f",
+    "edid": "knackability-claw-tool"
+  },
+  "ED4ClawShapeClimbingClaws": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.jivOQAMwlMgNrwAZ",
+    "edid": "knackability-climbing-claws"
+  },
+  "ED4ClawShapeSavageLimbs": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.O0azCzwCbhyBr35Z",
+    "edid": "knackability-savage-limbs"
+  },
+  "ED4ClawShapeSpikes": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.BblFy0S7dWCwzIhZ",
+    "edid": "knackability-spikes"
+  },
+  "ED4ClawShapeViciousSpikes": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Cd9acWxKgDCVIQ83",
+    "edid": "knackability-vicious-spikes"
+  },
+  "ED4ClawShapeWreckingClaws": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.GuaFImwELihloDXg",
+    "edid": "knackability-wrecking-claws"
+  },
+  "ED4ClimbingClimbingTeam": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.MrmC2BN8kRJtA54b",
+    "edid": "knackability-climbing-team"
+  },
+  "ED4ClimbingLightasaLeaf": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.PN60N9xTSxu9h7dE",
+    "edid": "knackability-light-as-a-leaf"
+  },
+  "ED4ClimbingRaceThroughtheCanopy": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.jDhTMhUHFStag1uR",
+    "edid": "knackability-race-through-the-canopy"
+  },
+  "ED4CobraStrikeHydraStrikes": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.cGBl1vGtZON6x8NM",
+    "edid": "knackability-hydra-strikes"
+  },
+  "ED4ColdPurifyCleansingChill": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.hOrVaKipLpljMxhq",
+    "edid": "knackability-cleansing-chill"
+  },
+  "ED4ColdPurifyColdTonic": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.PB1W49jpfHUcJ5HW",
+    "edid": "knackability-cold-tonic"
+  },
+  "ED4ColdPurifyCounteract": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.z0HLeaMIHxeAQcKp",
+    "edid": "knackability-counteract"
+  },
+  "ED4ColdPurifyHaltDisease": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.tqognnG7GLAck9ly",
+    "edid": "knackability-halt-disease"
+  },
+  "ED4ColdPurifyMendingFrost": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.7mByLuen7klSOR8A",
+    "edid": "knackability-mending-frost"
+  },
+  "ED4ColdPurifyPurgePattern": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.rxZ5jlX6xyAxRGJe",
+    "edid": "knackability-purge-pattern"
+  },
+  "ED4CommandNightflyerCommandNightcrawler": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Qo3y4p3oOJTXqxD6",
+    "edid": "knackability-command-nightcrawler"
+  },
+  "ED4CommandNightflyerExtendedCommandNightflyer": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.YUp12KXpfhAYc7hm",
+    "edid": "knackability-extended-command-nightflyer"
+  },
+  "ED4ConcealObjeOnewiththeMessage": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.DVDTfrtexG44Eyi8",
+    "edid": "knackability-one-with-the-message"
+  },
+  "ED4ConcealObjectRevealObject": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.SWREZWf6DNIt7lsm",
+    "edid": "knackability-reveal-object"
+  },
+  "ED4ConcealObjectThatsInconceivable!": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.yMnxkZxi43fjXhus",
+    "edid": "knackability-thats-inconceivable"
+  },
+  "ED4ConcealObjectThatsaLotofStuff": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.uq5oAkInUYBArHTq",
+    "edid": "knackability-thats-a-lot-of-stuff"
+  },
+  "ED4ConcentratedAssaultBloodyAssault": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.FUSdprqkyD3sh7gL",
+    "edid": "knackability-bloody-assault"
+  },
+  "ED4ConcentratedAssaultIntheFray": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.7srknToQErqIzdOa",
+    "edid": "knackability-in-the-fray"
+  },
+  "ED4ContestofWillsEnforcementofWill": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.hZr60qyni6nOsb0u",
+    "edid": "knackability-enforcement-of-will"
+  },
+  "ED4ContestofWillsSpiritBondage": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.ENjgILkt2SxxBpI8",
+    "edid": "knackability-spirit-bondage"
+  },
+  "ED4ContestofWillsSpiritDurance": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.dYPUFbqWCNLJc1Eq",
+    "edid": "knackability-spirit-durance"
+  },
+  "ED4ContestofWillsSpiritServitude": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.7uIEPXvjYGOM6o7v",
+    "edid": "knackability-spirit-servitude"
+  },
+  "ED4ContestofWillsSpiritThralldom": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.zi2H9Que75iqrppV",
+    "edid": "knackability-spirit-thralldom"
+  },
+  "ED4ContestofWillsSpiritVassalage": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.tokEGYjeTfEr3jTd",
+    "edid": "knackability-spirit-vassalage"
+  },
+  "ED4ConversationAssessCommunity": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.LMV5Ukxe7tIHIoKg",
+    "edid": "knackability-assess-community"
+  },
+  "ED4ConversationAttitudeAdjustment": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.dmlWI3W4I9RAufVB",
+    "edid": "knackability-attitude-adjustment"
+  },
+  "ED4ConversationDisassociate": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.hTz4F4NHI7c03xl9",
+    "edid": "knackability-disassociate"
+  },
+  "ED4ConversationDiscernIntentions": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.eBW6QrlKZyS5YW86",
+    "edid": "knackability-discern-intentions"
+  },
+  "ED4ConversationReadingtheRoom": {
+    "uuid": null,
+    "edid": "knackability-reading-the-room"
+  },
+  "ED4CreatureAnalysisCreatureRemains": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.n8MYxHRDfvS8D936",
+    "edid": "knackability-creature-remains"
+  },
+  "ED4CriticalHitAggravateWound": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.kphnwkv3NCtSDCL8",
+    "edid": "knackability-aggravate-wound"
+  },
+  "ED4CriticalHitMightyHit": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.orEKN9nMwgV15bsd",
+    "edid": "knackability-mighty-hit"
+  },
+  "ED4CuttingWordsCuttingaSwath": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.TkCqgYog1fUf95o9",
+    "edid": "knackability-cutting-a-swath"
+  },
+  "ED4DangerSenseDetectObservation": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.LBixwDAteEnlWXL3",
+    "edid": "knackability-detect-observation"
+  },
+  "ED4DangerSenseDetectPoison": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.6ljL3pW2O2wJxPmN",
+    "edid": "knackability-detect-poison"
+  },
+  "ED4DangerSenseDetectWeapon": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.DNcXSscdzkgjE4Gg",
+    "edid": "knackability-detect-weapon"
+  },
+  "ED4DangerSensePeerlessVigilance": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.IkwgF6phPGuNaNoF",
+    "edid": "knackability-peerless-vigilance"
+  },
+  "ED4DangerSenseRevealObservation": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.A2OD0BSR4W8IsG9R",
+    "edid": "knackability-reveal-observation"
+  },
+  "ED4DangerSenseShieldMastery": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.2t0D9coiDDswwjzA",
+    "edid": "knackability-shield-mastery"
+  },
+  "ED4DangerSenseWhispersForest": {
+    "uuid": null,
+    "edid": "knackability-whispers-in-the-forest"
+  },
+  "ED4DeadFallDeadForaDay": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.X5qjNlGf89dirJC7",
+    "edid": "knackability-dead-for-a-day"
+  },
+  "ED4DeadFallDeathBecomesMe": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.mDzikDPZE7SoTOxv",
+    "edid": "knackability-death-becomes-me"
+  },
+  "ED4DeadFallDeathbed": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.8wwszfpwHlMAtT9U",
+    "edid": "knackability-deathbed"
+  },
+  "ED4DeadFallExtendedDeadFall": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.3zIwRbpfits8qW56",
+    "edid": "knackability-extended-dead-fall"
+  },
+  "ED4DefensivePostureAggressivePosture": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.lYQUSzAn3a3q6vPR",
+    "edid": "knackability-aggressive-posture"
+  },
+  "ED4DefensivePostureFlawlessDefense": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.E4fc3LgZjh5YrmKy",
+    "edid": "knackability-flawless-defense"
+  },
+  "ED4DeliberateADeliberateSpellcasting": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.rKZnKzwJxcejg3cr",
+    "edid": "spellcasting"
+  },
+  "ED4DeliberateAssaultDeliberateRecklessness": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.HKHDzbYe74S3Uat9",
+    "edid": "knackability-deliberate-recklessness"
+  },
+  "ED4DeliberateAssaultPatientAssault": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.FjD0SlyOAtYVyjb4",
+    "edid": "knackability-patient-assault"
+  },
+  "ED4DeliberateAssaultStalwartAssault": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.vwskZ1qPDZjWeTUl",
+    "edid": "knackability-stalwart-assault"
+  },
+  "ED4DiplomacyAssessIntentions": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.xtxyZexXdTMLQvuz",
+    "edid": "knackability-assess-intentions"
+  },
+  "ED4DiplomacyDisassociateOther": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.4rhgyRjeqe4h8zTv",
+    "edid": "knackability-disassociate-other"
+  },
+  "ED4DiplomacyPoisonedInfluence": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.TJcuo8PIqSe3Qlq4",
+    "edid": "knackability-poisoned-influence"
+  },
+  "ED4DisarmDislodge": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.0RASx4fZDhvAi9bB",
+    "edid": "knackability-dislodge"
+  },
+  "ED4DisarmTrapOneWrongMove": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.la2tc3k8MojmbVCC",
+    "edid": "knackability-one-wrong-move"
+  },
+  "ED4DisguiseSelfActing": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.KxxcfX17rmMZGgpv",
+    "edid": "knackability-acting"
+  },
+  "ED4DisguiseSelfBloodDisguiseSelf": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.1krBgmRbT1pkCTDT",
+    "edid": "knackability-blood-disguise-self"
+  },
+  "ED4DisguiseSelfDisguise": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.C9alIBIqlXoA7NU1",
+    "edid": "knackability-disguise"
+  },
+  "ED4DisguiseSelfIdealAppearance": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.j8AByitdc12lfcGA",
+    "edid": "knackability-ideal-appearance"
+  },
+  "ED4DispelMagicDismantleEnchantments": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Utiiw5LYlBnK1XMq",
+    "edid": "knackability-dismantle-enchantments"
+  },
+  "ED4DispelMagicDisruptHorrorPower": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.myUdqrTQGwilXGFj",
+    "edid": "knackability-disrupt-horror-power"
+  },
+  "ED4DispelMagicDisruptSpellcasting": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.tsglD4K16lOUA3uB",
+    "edid": "knackability-disrupt-spellcasting"
+  },
+  "ED4DispelMagicDisruptSpellweaving": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.qE2o1EFREj8LeBkK",
+    "edid": "knackability-disrupt-spellweaving"
+  },
+  "ED4DispelMagicDivestEnchantments": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.nyGT1JuVCxvwnJEQ",
+    "edid": "knackability-divest-enchantments"
+  },
+  "ED4DistractAggravatingAssault": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.lzt1hpwadmnGlEqf",
+    "edid": "knackability-aggravating-assault"
+  },
+  "ED4DistractBuzz": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.HRnMzKHPBboSKWhZ",
+    "edid": "knackability-buzz"
+  },
+  "ED4DistractDirtyTactics": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.bcCBE4Mow7ZG3u82",
+    "edid": "knackability-dirty-tactics"
+  },
+  "ED4DistractFireflyLure": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.AT5NQnsUWl6ijEXd",
+    "edid": "knackability-firefly-lure"
+  },
+  "ED4DistractMisdirection": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.DSz7SAIdHDRyOfyC",
+    "edid": "knackability-misdirection"
+  },
+  "ED4DistractMosquitoBite": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.sCHkZpp1pov8jL71",
+    "edid": "knackability-mosquito-bite"
+  },
+  "ED4DiveAttackBluffingDive": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.WwJRKEI7Ya3qyq0K",
+    "edid": "knackability-bluffing-dive"
+  },
+  "ED4DiveAttackFearsomeDive": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.NLOQy9CWYQTPl3Jl",
+    "edid": "knackability-fearsome-dive"
+  },
+  "ED4DominateBeastDominateMagicalBeast": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Za7jkWOmfHKbj8Op",
+    "edid": "knackability-dominate-magical-beast"
+  },
+  "ED4DominateBeastExtendedDominateBeast": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.IYKeeSmdzFnICvMo",
+    "edid": "knackability-extend-dominate-beast"
+  },
+  "ED4DominateBeastTameAnimal": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.HlYsXq9PHfoAkOii",
+    "edid": "knackability-tame-animal"
+  },
+  "ED4DownStrikeFallingStarAttack": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.wMJtlrYDYr9QXsNM",
+    "edid": "knackability-falling-star-attack"
+  },
+  "ED4DreamThiefBloodMemories": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.4tWviTkMuVBp2TUw",
+    "edid": "knackability-blood-memories"
+  },
+  "ED4DreamThiefCopyMemory": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.ar64dckQZCwszocE",
+    "edid": "knackability-copy-memory"
+  },
+  "ED4DreamThiefCrystallizeMemory": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.JtU9nuSUe49DoLh4",
+    "edid": "knackability-crystallize-memory"
+  },
+  "ED4DreamThiefExtendedTheft": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.uABOAgv5qvyRX3jP",
+    "edid": "knackability-extended-theft"
+  },
+  "ED4DreamThiefStolenMemories": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.1eMxODfoemjULHwk",
+    "edid": "knackability-stolen-memories"
+  },
+  "ED4EarthBondConnectwithEarthsPattern": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.7PcFggQXlUEfT4pv",
+    "edid": "knackability-connect-with-earths-pattern"
+  },
+  "ED4EarthBondEarthMending": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.9o4PDeW5QAy05dOF",
+    "edid": "knackability-earth-mending"
+  },
+  "ED4EarthBondEarthSlumber": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.JCqDLkQ0ja6GY52i",
+    "edid": "knackability-earth-slumber"
+  },
+  "ED4EarthBondEarthsAvenger": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.6AaQo12yisIPYiBK",
+    "edid": "knackability-earths-avenger"
+  },
+  "ED4EarthBondEarthsBounty": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.Saj5CcKBSH2Q85QX",
+    "edid": "knackability-earths-bounty"
+  },
+  "ED4EarthBondEmpowerPurify": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.eYwf7TunMtjKMH3j",
+    "edid": "knackability-empower-purify"
+  },
+  "ED4EarthBondSharedBondSharedBlood": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.UifzZHCQNssnID1d",
+    "edid": "knackability-shared-bond-shared-blood"
+  },
+  "ED4EarthBondWildGrowth": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.pNP5OtclwDFglBvo",
+    "edid": "knackability-wild-growth"
+  },
+  "ED4EarthSkinEarthArmor": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.9DzzSUA13GeCj6zE",
+    "edid": "knackability-earth-armor"
+  },
+  "ED4EarthSkinStillnessofStone": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.Nc0CZx12Igm65rrS",
+    "edid": "knackability-stillness-of-stone"
+  },
+  "ED4EarthWalkEarthAwareness": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.LvSluuNvMacwtr6L",
+    "edid": "knackability-earth-awareness"
+  },
+  "ED4EarthWalkEarthDash": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.6hsUbeqV40fWKt3P",
+    "edid": "knackability-earth-dash"
+  },
+  "ED4EarthWalkEarthExcursion": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.NpbahyObtX3YMrUe",
+    "edid": "knackability-earth-excursion"
+  },
+  "ED4EarthWalkStoneWalk": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.wD2lamjvLOFEToya",
+    "edid": "knackability-stone-walk"
+  },
+  "ED4EarthWalkTravelThroughtheEarth": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.LuExoEqeSyWPTkM7",
+    "edid": "knackability-travel-through-the-earth"
+  },
+  "ED4EarthWalkTremorsense": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.MtioyVwXUuJqiAm2",
+    "edid": "knackability-tremorsense"
+  },
+  "ED4EdoDancePrehensileTail": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.S1JOoMDO2bfdnvpD",
+    "edid": "knackability-prehensile-tail"
+  },
+  "ED4EdoDanceQuickStep": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.uAkUPQhgqjGfv8Ng",
+    "edid": "knackability-quick-step"
+  },
+  "ED4EdoDanceSlowDance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.DVR7O1hz0YI0QDHK",
+    "edid": "knackability-slow-dance"
+  },
+  "ED4EideticMemoryRapidRecall": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.G8aSHZGvezAcWDz0",
+    "edid": "knackability-rapid-recall"
+  },
+  "ED4ElementalHoldDistantElementalHold": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.MbC7LembaQPycWj7",
+    "edid": "knackability-distant-elemental-hold"
+  },
+  "ED4ElementalHoldEnhancedElementalHold": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.V2eOConu7Sv8sDqw",
+    "edid": "knackability-enhanced-elemental-hold"
+  },
+  "ED4ElementalHoldExtendedElementalHold": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.zfZC1fDlkstigOQC",
+    "edid": "knackability-extended-elemental-hold"
+  },
+  "ED4ElementalHoldRefinedElementalHold": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.rVS7yvFqeYF07G5B",
+    "edid": "knackability-refined-elemental-hold"
+  },
+  "ED4ElementalMasteryElementPotencyAir": {
+    "uuid": null,
+    "edid": "knackability-element-potency-air"
+  },
+  "ED4ElementalMasteryElementPotencyEarth": {
+    "uuid": null,
+    "edid": "knackability-element-potency-earth"
+  },
+  "ED4ElementalMasteryElementPotencyFire": {
+    "uuid": null,
+    "edid": "knackability-element-potency-fire"
+  },
+  "ED4ElementalMasteryElementPotencyWater": {
+    "uuid": null,
+    "edid": "knackability-element-potency-water"
+  },
+  "ED4ElementalMasteryElementPotencyWood": {
+    "uuid": null,
+    "edid": "knackability-element-potency-wood"
+  },
+  "ED4ElementalMasteryElementRitualismAir": {
+    "uuid": null,
+    "edid": "knackability-element-ritualism-air"
+  },
+  "ED4ElementalMasteryElementRitualismEarth": {
+    "uuid": null,
+    "edid": "knackability-element-ritualism-earth"
+  },
+  "ED4ElementalMasteryElementRitualismFire": {
+    "uuid": null,
+    "edid": "knackability-element-ritualism-fire"
+  },
+  "ED4ElementalMasteryElementRitualismWater": {
+    "uuid": null,
+    "edid": "knackability-element-ritualism-water"
+  },
+  "ED4ElementalMasteryElementRitualismWood": {
+    "uuid": null,
+    "edid": "knackability-element-ritualism-wood"
+  },
+  "ED4ElementalMasteryElementSkeinAir": {
+    "uuid": null,
+    "edid": "knackability-element-skein-air"
+  },
+  "ED4ElementalMasteryElementSkeinEarth": {
+    "uuid": null,
+    "edid": "knackability-element-skein-earth"
+  },
+  "ED4ElementalMasteryElementSkeinFire": {
+    "uuid": null,
+    "edid": "knackability-element-skein-fire"
+  },
+  "ED4ElementalMasteryElementSkeinWater": {
+    "uuid": null,
+    "edid": "knackability-element-skein-water"
+  },
+  "ED4ElementalMasteryElementSkeinWood": {
+    "uuid": null,
+    "edid": "knackability-element-skein-wood"
+  },
+  "ED4ElementalMasteryElementalInfusion": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.zZwWcDnEubBaP4uD",
+    "edid": "knackability-elemental-infusion"
+  },
+  "ED4ElementalMasteryElementalWorkshop": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.WuwONyUik7yOivOv",
+    "edid": "knackability-elemental-workshop"
+  },
+  "ED4ElementalMasteryImprovedElementalInfusion": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.EacvJ7j3jKi4pqj8",
+    "edid": "knackability-improved-elemental-infusion"
+  },
+  "ED4ElementalMasteryRitualInfusion": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.4EchPbytpUo6cBnY",
+    "edid": "knackability-ritual-infusion"
+  },
+  "ED4ElementalTonguesBargainWithEntity": {
+    "uuid": null,
+    "edid": "knackability-bargain-with-entity"
+  },
+  "ED4ElementalTonguesNegotiateforaFriend": {
+    "uuid": null,
+    "edid": "knackability-negotiate-for-a-friend"
+  },
+  "ED4ElementalWalkEndureElementAir": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Tp5TcWLTtrpmzg8q",
+    "edid": "knackability-endure-air"
+  },
+  "ED4ElementalWalkEndureElementEarth": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.HPCkONXeptseMgv6",
+    "edid": "knackability-endure-earth"
+  },
+  "ED4ElementalWalkEndureElementFire": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.GabbP2bCUxuTT4td",
+    "edid": "knackability-endure-fire"
+  },
+  "ED4ElementalWalkEndureElementWater": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.lIPFXEWFwyYitDaG",
+    "edid": "knackability-endure-water"
+  },
+  "ED4ElementalWalkEndureElementWood": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.KnEfGy1BW96PVDYY",
+    "edid": "knackability-endure-wood"
+  },
+  "ED4ElementalWalkRapidAdaptation": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Ln5hzdaUheC5SUDf",
+    "edid": "knackability-rapid-adaptation"
+  },
+  "ED4ElementalismDetectSpirit": {
+    "uuid": null,
+    "edid": "knackability-detect-spirit"
+  },
+  "ED4ElementalismDetectTrueElement": {
+    "uuid": null,
+    "edid": "knackability-detect-true-element"
+  },
+  "ED4ElementalismHarvestTrueElement": {
+    "uuid": null,
+    "edid": "knackability-harvest-true-element"
+  },
+  "ED4EmotionSongAccompaniment": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.ud0MusgBMb8RvepX",
+    "edid": "knackability-accompaniment"
+  },
+  "ED4EmotionSongCheer": {
+    "uuid": null,
+    "edid": "knackability-cheer"
+  },
+  "ED4EmotionSongConcert": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.xVYAshrOUdcxJfR8",
+    "edid": "knackability-concert"
+  },
+  "ED4EmotionSongEpic": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.efNYMgETLBMiYCsV",
+    "edid": "knackability-epic"
+  },
+  "ED4EmotionSongFestival": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.dyb0QHjD5SuhmBYX",
+    "edid": "knackability-festival"
+  },
+  "ED4EmotionSongInflamePassion": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.6VAnNR90Cr5dZ7wS",
+    "edid": "knackability-inflame-passion"
+  },
+  "ED4EmotionSongTellingtheTale": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.1SfWHgmzgpuRaUsD",
+    "edid": "knackability-telling-the-tale"
+  },
+  "ED4EmpathicSenCaptivitysMark": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.jYl8foBAorrsXVez",
+    "edid": "knackability-captivitys-mark"
+  },
+  "ED4EmpathicSenSenseAllegiance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.Ovq5HbvDaNQbs9Ks",
+    "edid": "knackability-sense-allegiance"
+  },
+  "ED4EmpathicSenSenseManipulation": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.dmjUvTSK1EaMF11n",
+    "edid": "knackability-sense-manipulation"
+  },
+  "ED4EmpathicSenSensePassion": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.AnoXpfGcUJJg5ruw",
+    "edid": "knackability-sense-passion"
+  },
+  "ED4EmpathicSenSetAsideYourBias": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.iz3qVP4H3tglb3aB",
+    "edid": "knackability-set-aside-your-bias"
+  },
+  "ED4EmpathicSenSlaverysMark": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.PA8z2NwUhO5o9aq6",
+    "edid": "knackability-slaverys-mark"
+  },
+  "ED4EmpathicSenseReadingtheRoom": {
+    "uuid": null,
+    "edid": "knackability-reading-the-room"
+  },
+  "ED4EngagingBanterBribery": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.sWR84ZHnGgYaGXUR",
+    "edid": "knackability-bribery"
+  },
+  "ED4EngagingBanterDistractingBanter": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.pT6bFKhJPFoQ3vel",
+    "edid": "knackability-distracting-banter"
+  },
+  "ED4EngagingBanterGroupBanter": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.pVEEZ9eEYgdTTxiB",
+    "edid": "knackability-group-banter"
+  },
+  "ED4EngagingBanterInciteMonologue": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.a8lEwA81WFKTFSmi",
+    "edid": "knackability-incite-monolog"
+  },
+  "ED4EnhanceAnimalCompanionAugmentAllysForm": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.aPsQz3IkWDA8QMOQ",
+    "edid": "knackability-augment-allys-form"
+  },
+  "ED4EnhanceAnimalCompanionMoldAllysForm": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.jnBsHCgkcAcs3GbX",
+    "edid": "knackability-mold-allys-form"
+  },
+  "ED4EnhanceAnimalCompanionSculptAllysForm": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.N6x6NOgTXvPr9QwB",
+    "edid": "knackability-sculpt-allys-form"
+  },
+  "ED4EnthrallingVisionsSkewedPerceptions": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.UQRUSp82Dfi1Vi4H",
+    "edid": "knackability-skewed-perceptions"
+  },
+  "ED4EnthrallingVisionsSocialDelusions": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.2HZFdrzRVIxNN1zE",
+    "edid": "knackability-social-delusions"
+  },
+  "ED4EscapePlanEconomyinPlanning": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.ERqGUNtezHEKxMlG",
+    "edid": "knackability-economy-in-planning"
+  },
+  "ED4EscapePlanPerfectedPlans": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.irvBhurmN1dSDCn7",
+    "edid": "knackability-perfected-plans"
+  },
+  "ED4EscapePlanQuickThinking": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.carQQspD2GtQb12g",
+    "edid": "knackability-quick-thinking"
+  },
+  "ED4EtiquetteBehave": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.0pGCYpKmhDzQBakA",
+    "edid": "knackability-behave"
+  },
+  "ED4EtiquetteCourtesyLessons": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.FwrHZSHoQd3COJM9",
+    "edid": "knackability-courtesy-lessons"
+  },
+  "ED4EtiquetteDecorum": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.a2VmqtKPVilxSZJ4",
+    "edid": "knackability-decorum"
+  },
+  "ED4EtiquetteGroupAlibi": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.5wlGO7c3NC30cyvW",
+    "edid": "knackability-group-alibi"
+  },
+  "ED4EtiquetteImprovisedAlibi": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.1QnOgjc1kijGRPFP",
+    "edid": "knackability-improvised-alibi"
+  },
+  "ED4EtiquetteOfficialBusiness": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.b0msxecbDPB7iGmj",
+    "edid": "knackability-official-business"
+  },
+  "ED4EtiquetteReadingtheRoom": {
+    "uuid": null,
+    "edid": "knackability-reading-the-room"
+  },
+  "ED4EtiquetteSincerity": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.yRe3f8Qi73ybaH5a",
+    "edid": "knackability-sincerity"
+  },
+  "ED4EtiquetteWellConnected": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.dlFt8NZVl221mRyb",
+    "edid": "knackability-well-connected"
+  },
+  "ED4EvidenceAnaInvestigativeExpertise": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.908wgZmGcMntPkiB",
+    "edid": "knackability-investigative-expertise"
+  },
+  "ED4EvidenceAnaPeerReview": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.9pzgwl6fqMa9CbW9",
+    "edid": "knackability-peer-review"
+  },
+  "ED4EvidenceAnalysisAstralSurvey": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.R9B7B17y6AvqgVFq",
+    "edid": "knackability-astral-survey"
+  },
+  "ED4EvidenceAnalysisColdCase": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.jJVaO3VbAtw9K66K",
+    "edid": "knackability-cold-case"
+  },
+  "ED4EvidenceAnalysisExtendedTellTale": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.TlgBlppMddYJqwKr",
+    "edid": "knackability-extended-tell-tale"
+  },
+  "ED4EvidenceAnalysisProlongedTellTale": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.ewQJlmjxfSfukMR8",
+    "edid": "knackability-prolonged-tell-tale"
+  },
+  "ED4EvidenceAnalysisTellTale": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.VzZ10kRvWHaPqvkh",
+    "edid": "knackability-tell-tale"
+  },
+  "ED4FalseSightEnhancedIllusion": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.KFxeOQ47aZXLRvCw",
+    "edid": "knackability-enhanced-illusion"
+  },
+  "ED4FalseSightLastingDeceit": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.m6J2t91qGxcA3K8m",
+    "edid": "knackability-lasting-deceit"
+  },
+  "ED4FastHandAmpleGrip": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.TEXlfMgULUSewAvK",
+    "edid": "knackability-ample-grip"
+  },
+  "ED4FastHandFastSleight": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Ea67zL2SUIo5SgSs",
+    "edid": "knackability-fast-sleight"
+  },
+  "ED4FastHandRapidConcealment": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.sohfzqBiRDuLjECW",
+    "edid": "knackability-rapid-concealment"
+  },
+  "ED4FastHandSuddenSleight": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Po8RMu9n0SyQiN98",
+    "edid": "knackability-sudden-sleight"
+  },
+  "ED4FastHandSwiftHand": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.sdwbqIdNoFWOC1YQ",
+    "edid": "knackability-swift-hand"
+  },
+  "ED4FastHandVoluminousGrip": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.6CYWgxchu885KWPJ",
+    "edid": "knackability-voluminous-grip"
+  },
+  "ED4FirebloodBurningAggression": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.E2qyWYzinbR1fi4D",
+    "edid": "knackability-burning-aggression"
+  },
+  "ED4FirebloodBurningArmor": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.QTysQ6I3u2rlnNT2",
+    "edid": "knackability-burning-armor"
+  },
+  "ED4FirebloodBurningDefense": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.i54YAgjkUYDMxBJR",
+    "edid": "knackability-burning-defense"
+  },
+  "ED4FirebloodBurningIntimidation": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.JibPEYZIPaM8p1FK",
+    "edid": "knackability-burning-intimidation"
+  },
+  "ED4FirebloodBurningViolence": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.3smiNhPuQjWmJWFe",
+    "edid": "knackability-burning-violence"
+  },
+  "ED4FirebloodFlamingBastion": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.PFdYgZhs95Q6bHIs",
+    "edid": "knackability-flaming-bastion"
+  },
+  "ED4FirebloodFlamingRampage": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.vL3bZxjPycU5Yei3",
+    "edid": "knackability-flaming-rampage"
+  },
+  "ED4FirebloodFlamingWounds": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.0HBKdEJ6tloKWiIY",
+    "edid": "knackability-flaming-wounds"
+  },
+  "ED4FirebloodHeartBurn": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.LH4J2QHPO2xQqkr4",
+    "edid": "knackability-heart-burn"
+  },
+  "ED4FirebloodRelentlessFires": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.vh8V0paZRmWv9lO1",
+    "edid": "knackability-relentless-fires"
+  },
+  "ED4FiresofGahBlazingGahad": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.sQa8j1b62ssxWqDN",
+    "edid": "knackability-blazing-gahad"
+  },
+  "ED4FiresofGahBurningforYou": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.tml0CloGx1eDsKyM",
+    "edid": "knackability-burning-for-you"
+  },
+  "ED4FiresofGahImAlwaysAngry": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.WQQ3wfZpLYGc1nEP",
+    "edid": "knackability-im-always-angry"
+  },
+  "ED4FiresofGahSensePassion": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.LWITPfYHnseY1c1p",
+    "edid": "knackability-sense-passion"
+  },
+  "ED4FiresofGahShareGahad": {
+    "uuid": null,
+    "edid": "knackability-share-gahad"
+  },
+  "ED4FiresofGahSlowBurn": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.TDMfJujjcrT7nOlW",
+    "edid": "knackability-slow-burn"
+  },
+  "ED4FiresofGahStokingtheFlames": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.Pa2MtVYwZGAc5d43",
+    "edid": "knackability-stoking-the-flames"
+  },
+  "ED4FiresofGahToweringInferno": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.9SPJ7IzMJS5I2nzV",
+    "edid": "knackability-towering-inferno"
+  },
+  "ED4FirstImpressionFastTalk": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.vDGTPVarGf4PhFRu",
+    "edid": "knackability-fast-talk"
+  },
+  "ED4FirstImpressionGrandEntrance": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.6WZQw8NuM6A4oNnv",
+    "edid": "knackability-grand-entrance"
+  },
+  "ED4FlameArrowBurningArrow": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.prPZLORO2dX80ZXc",
+    "edid": "knackability-burning-arrow"
+  },
+  "ED4FlameArrowExplosiveArrow": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.vT1U5IubKKM7bLYO",
+    "edid": "knackability-explosive-arrow"
+  },
+  "ED4FlameArrowFlareArrow": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.26RFEoZNhdFjh8qu",
+    "edid": "knackability-flare-arrow"
+  },
+  "ED4FocusedStrikeCracktheWorld": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.GCJCgwvSH7sfK8C7",
+    "edid": "knackability-crack-the-world"
+  },
+  "ED4ForestSenseTheForestisMySense": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.VlI8M05xjhTPvePI",
+    "edid": "knackability-the-forest-is-my-sense"
+  },
+  "ED4ForgeArmorEfficientArmorForging": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.VcVd8TzQyqH94EBi",
+    "edid": "knackability-efficient-armor-forging"
+  },
+  "ED4ForgeArmorSmoothArmor": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.XOUI4mVRzYO4D0lS",
+    "edid": "knackability-smooth-armor"
+  },
+  "ED4ForgeFleshInfuseArmor": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.54INJpcOJiMOVk9z",
+    "edid": "knackability-infuse-armor"
+  },
+  "ED4ForgeFleshRuneofFortification": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.vcJ1nQ1NXCacPGlx",
+    "edid": "knackability-rune-of-fortification"
+  },
+  "ED4ForgeWeaponEfficientWeaponForging": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.ZbpGaYlLZ5UHXiOl",
+    "edid": "knackability-efficient-weapon-forging"
+  },
+  "ED4ForgeWeaponForgeArrow": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.TatcITRSAW43xiga",
+    "edid": "knackability-forge-arrow"
+  },
+  "ED4ForgeWeaponImprovedBalance": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.KwOdOWMQ0lMOMOr5",
+    "edid": "knackability-improved-balance"
+  },
+  "ED4ForgeWeaponIncreasedRange": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.gnlNTwgt5ic6tusP",
+    "edid": "knackability-increased-range"
+  },
+  "ED4FrightenCurse": {
+    "uuid": null,
+    "edid": "knackability-curse"
+  },
+  "ED4FrightenFearItself": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.NjNB8brTO5A6jcNR",
+    "edid": "knackability-fear-itself"
+  },
+  "ED4GazeintothAbyssGazesBack": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.a6dfgGSvMeB3aCmJ",
+    "edid": "knackability-abyss-gazes-back"
+  },
+  "ED4GlidingStrideExtendedGlidingStride": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.YaP8t67lOybrCKuB",
+    "edid": "knackability-extended-gliding-stride"
+  },
+  "ED4GlidingStrideFeatherLight": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.szipGmrIWs9yGNq5",
+    "edid": "knackability-feather-light"
+  },
+  "ED4GlidingStrideTotheLimit": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.hzWdibp0m66pYqws",
+    "edid": "knackability-to-the-limit"
+  },
+  "ED4GracefulExitExcuseMe": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.KSrZrKvrbgb0MHpb",
+    "edid": "knackability-excuse-me"
+  },
+  "ED4GreatLeapLizardLeap": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.lVEgEet7pO2R3rdh",
+    "edid": "knackability-lizard-leap"
+  },
+  "ED4HaggleEvaluate": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.8TBDIiLIS0pCQ1Wj",
+    "edid": "knackability-evaluate"
+  },
+  "ED4HaggleFence": {
+    "uuid": null,
+    "edid": "knackability-fence"
+  },
+  "ED4HaggleGoldSense": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.acaMsuVhFhYkPinc",
+    "edid": "knackability-gold-sense"
+  },
+  "ED4HaggleRuralOutfitter": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.H7qcwti9OupZy10C",
+    "edid": "knackability-rural-outfitter"
+  },
+  "ED4HearteningLSharedAnger": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.Gx34JGib5W8aKdTP",
+    "edid": "knackability-shared-anger"
+  },
+  "ED4HearteningLWarmingLaughter": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.9QdjCPGppc2zOAeK",
+    "edid": "knackability-warming-laughter"
+  },
+  "ED4HearteningLaughCheer": {
+    "uuid": null,
+    "edid": "knackability-cheer"
+  },
+  "ED4HearteningLaughEnhancedInspireCourage": {
+    "uuid": null,
+    "edid": "knackability-enhanced-inspire-courage"
+  },
+  "ED4HearteningLaughInspireCourage": {
+    "uuid": null,
+    "edid": "knackability-inspire-courage"
+  },
+  "ED4HearteningLaughMusterCourage": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.hBWnmn1Mol4spCsu",
+    "edid": "knackability-muster-courage"
+  },
+  "ED4HearteningLaughRightBesideYou": {
+    "uuid": null,
+    "edid": "knackability-right-beside-you"
+  },
+  "ED4HoldThreadAFewThreadsMore": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.G1KhFYi5xjmGwse3",
+    "edid": "knackability-a-few-threads-more"
+  },
+  "ED4HoldThreadCarriedThread": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.3qdWwzzdcRitWB8w",
+    "edid": "knackability-carried-thread"
+  },
+  "ED4HoldThreadCarriedThreads": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.TlDL3hNQPYNlvJDZ",
+    "edid": "knackability-carried-threads"
+  },
+  "ED4HoldThreadFistfulofThreads": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.USW3zMTL2iK3hJRj",
+    "edid": "knackability-fistful-of-threads"
+  },
+  "ED4HoldThreadSpellCrystalLock": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.NDSapn3oxlz0aFGS",
+    "edid": "knackability-spell-crystal-lock"
+  },
+  "ED4HoldThreadStashedThreads": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.IcYwbCPCbWIYujj0",
+    "edid": "knackability-stashed-threads"
+  },
+  "ED4HoldThreadStitchMatrix": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.bAYLaptkdZGRK8Gu",
+    "edid": "knackability-stitch-matrix"
+  },
+  "ED4HoldThreadSutureThread": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Et9OiRzTr7sx8LWb",
+    "edid": "knackability-suture-thread"
+  },
+  "ED4HoldThreadThreadInsurance": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.ulJe9ZAI0tVWhFtK",
+    "edid": "knackability-thread-insurance"
+  },
+  "ED4HorrorStalkTheirWeaknessisMyStrength": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.aOwLxhdmYew1PIzm",
+    "edid": "knackability-their-weakness-is-my-strength"
+  },
+  "ED4HowlAttunedBark": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.ivHAh0jorwwOtCAf",
+    "edid": "knackability-attuned-bark"
+  },
+  "ED4HowlTwilightBark": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.2DQgqsdSaMPBL8mL",
+    "edid": "knackability-twilight-bark"
+  },
+  "ED4HowlUnnervingEcho": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.vyTfid33OY07r1Fy",
+    "edid": "knackability-unnerving-echo"
+  },
+  "ED4HypnotizeEntrancement": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.tNnzIkQsBbWXGV0l",
+    "edid": "knackability-entrancement"
+  },
+  "ED4ImpressiveDFieryDisplay": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.omDLOMZZJytJgSNr",
+    "edid": "knackability-fiery-display"
+  },
+  "ED4ImpressiveDisplayBedazzle": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.1B6K2GfDMYhenuJD",
+    "edid": "knackability-bedazzle"
+  },
+  "ED4ImpressiveDisplayBedazzleOther": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.zjxLv4cJ8wfTGx64",
+    "edid": "knackability-bedazzle-other"
+  },
+  "ED4ImpressiveDisplayTheirImpressiveDisplay": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.yEp2GSZyEUU2PjJY",
+    "edid": "knackability-their-impressive-display"
+  },
+  "ED4InfuseMemoryBurnMemory": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.rbJkktSQNeG1fP1I",
+    "edid": "knackability-burn-memory"
+  },
+  "ED4InfuseMemoryMemoryStorage": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.bCn5vptZpRjhplyv",
+    "edid": "knackability-memory-storage"
+  },
+  "ED4InfuseMemoryTransferMemory": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.U2EVoePLD09yED36",
+    "edid": "knackability-transfer-memory"
+  },
+  "ED4IronConstitAltitudeInclined": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.zpiFuPTq8UKOBHVi",
+    "edid": "knackability-altitude-inclined"
+  },
+  "ED4IronConstitEnergyReserves": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.2o0FIlcGAaF5vqV7",
+    "edid": "knackability-energy-reserves"
+  },
+  "ED4IronConstitExposureResistance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.6u7eDcl4DnOxXDE0",
+    "edid": "knackability-exposure-resistance"
+  },
+  "ED4IronConstitIronFortitude": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.2gUA9mKOFbfqfPij",
+    "edid": "knackability-iron-fortitude"
+  },
+  "ED4IronConstitIronPerseverance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.dFVOSG8GfOBTrAeg",
+    "edid": "knackability-iron-perseverance"
+  },
+  "ED4IronConstitTirelessSpirit": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.lJljKeoyQFPQbr1k",
+    "edid": "knackability-tireless-spirit"
+  },
+  "ED4IronConstitUnflaggingEndurance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.oBht4bpVRgc2Gulj",
+    "edid": "knackability-unflagging-endurance"
+  },
+  "ED4IronConstitutionDiligent": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.n0L7zBQ9VxBr8wOV",
+    "edid": "knackability-diligent"
+  },
+  "ED4IronConstitutionInexhaustible": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.pPe98hUk7ChCTWgc",
+    "edid": "knackability-inexhaustible"
+  },
+  "ED4IronConstitutionIronVitality": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.ODK626pOH8FXOzh3",
+    "edid": "knackability-iron-vitality"
+  },
+  "ED4IronConstitutionLingeringVenom": {
+    "uuid": null,
+    "edid": "knackability-lingering-venom"
+  },
+  "ED4IronConstitutionMarathon": {
+    "uuid": null,
+    "edid": "knackability-marathon"
+  },
+  "ED4IronConstitutionPoisonMemory": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.2dQdd8A8LYHGFa1M",
+    "edid": "knackability-poison-memory"
+  },
+  "ED4IronConstitutionPoisonResistance": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.M2496e5h9TLrmcqi",
+    "edid": "knackability-poison-resistance"
+  },
+  "ED4IronConstitutionStaunch": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.2G5HJreIax7I7IAx",
+    "edid": "knackability-staunch"
+  },
+  "ED4IronConstitutionSteady": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.mg8IxTjQQqJTan2H",
+    "edid": "knackability-steady"
+  },
+  "ED4ItemHistoryPsychometry": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.KrfFzwpT7C499dAd",
+    "edid": "knackability-psychometry"
+  },
+  "ED4ItemHistoryPuzzlePiece": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.2AWCtp4U4fIkMInr",
+    "edid": "knackability-puzzle-piece"
+  },
+  "ED4ItemHistoryTouchingthePast": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.E49X1ogrcURJAqNd",
+    "edid": "knackability-touching-the-past"
+  },
+  "ED4LastingImpressionWhileImGone…": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.t9MWx3sSav3wllj1",
+    "edid": "knackability-while-im-gone"
+  },
+  "ED4LeadershipAdmiral": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.WmkZwlDKTFIsfXUT",
+    "edid": "knackability-admiral"
+  },
+  "ED4LeadershipCaptain": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Z3Ji5C6KuCIyTNc2",
+    "edid": "knackability-captain"
+  },
+  "ED4LeadershipCaravaneer": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.hWmGyrqR4z3czzAy",
+    "edid": "knackability-caravaneer"
+  },
+  "ED4LeadershipCommodore": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.awMZalrukZD5d591",
+    "edid": "knackability-commodore"
+  },
+  "ED4LeadershipDefuseMob": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.fHkQg8PA6n1SEzvg",
+    "edid": "knackability-defuse-mob"
+  },
+  "ED4LeadershipEnhancedInspireCourage": {
+    "uuid": null,
+    "edid": "knackability-enhanced-inspire-courage"
+  },
+  "ED4LeadershipEscort": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.cAVqpG7z4GfKkUEe",
+    "edid": "knackability-escort"
+  },
+  "ED4LeadershipFreeMind": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.1wt2tigUhvJDiKfz",
+    "edid": "knackability-free-mind"
+  },
+  "ED4LeadershipGrandAdmiral": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.H53dulQJjYO0A0DM",
+    "edid": "knackability-grand-admiral"
+  },
+  "ED4LeadershipGroupSession": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.rZ0QSgK91Hql6tvs",
+    "edid": "knackability-group-session"
+  },
+  "ED4LeadershipImprovedGroupSession": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.LigVBDaTVNtG7lTL",
+    "edid": "knackability-improved-group-session"
+  },
+  "ED4LeadershipInciteMob": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.7YikpY1GG4b2A6dG",
+    "edid": "knackability-incite-mob"
+  },
+  "ED4LeadershipInspireCourage": {
+    "uuid": null,
+    "edid": "knackability-inspire-courage"
+  },
+  "ED4LeadershipInstructor": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.LDj29TsdamL9Hzc7",
+    "edid": "knackability-instructor"
+  },
+  "ED4LeadershipItStartswithaSpark": {
+    "uuid": null,
+    "edid": "knackability-it-starts-with-a-spark"
+  },
+  "ED4LeadershipMasterCaravaneer": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.JnkIeBAKu9sNq3yy",
+    "edid": "knackability-master-caravaneer"
+  },
+  "ED4LeadershipRightBesideYou": {
+    "uuid": null,
+    "edid": "knackability-right-beside-you"
+  },
+  "ED4LeadershipTeacheroftheYear": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.XPVjDqmrYID6gu30",
+    "edid": "knackability-teacher-of-the-year"
+  },
+  "ED4LifeCheckRelentlessLifeCheck": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.HGHf6akHjZ6eqnte",
+    "edid": "knackability-relentless-life-check"
+  },
+  "ED4LifeCheckStillStandingI": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.tUpDkCMkeNWSnE2v",
+    "edid": "knackability-still-standing-i"
+  },
+  "ED4LifeCheckStillStandingII": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.95NAv6bGfjZL4cwP",
+    "edid": "knackability-still-standing-ii"
+  },
+  "ED4LifeCheckStillStandingIII": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.qAy0BCITH5dxfsFC",
+    "edid": "knackability-still-standing-iii"
+  },
+  "ED4LifesightAssessLivingPattern": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.URK7HNEYrh2RxaCj",
+    "edid": "knackability-assess-living-pattern"
+  },
+  "ED4LifesightDiagnose": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.VDSZn8oPKp3rD9mY",
+    "edid": "knackability-diagnose"
+  },
+  "ED4LifesightDreadsight": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.pmemxivvWgiwQ85Y",
+    "edid": "knackability-dreadsight"
+  },
+  "ED4LifesightLayoftheLand": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.eEZ8xdrQGBlxkykH",
+    "edid": "knackability-lay-of-the-land"
+  },
+  "ED4LifesightMysticSurgery": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.5aj34Q4FrLGqqDfi",
+    "edid": "knackability-mystic-surgery"
+  },
+  "ED4LifesightPatternExamination": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.kYQow0fn6S6AYp5t",
+    "edid": "knackability-pattern-examination"
+  },
+  "ED4LifesightSpiritSight": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.s8ucy2SXFQRo4RqE",
+    "edid": "knackability-spirit-sight"
+  },
+  "ED4LionHeartBoldDefiance": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.oOd8tzW7p86GSwyw",
+    "edid": "knackability-bold-defiance"
+  },
+  "ED4LionHeartCrewmatesCourage": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.hLZTSv17YnSkIL2R",
+    "edid": "knackability-crewmates-courage"
+  },
+  "ED4LionHeartOutcastStoicism": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.uXOw3ua0zx8l2gGL",
+    "edid": "knackability-outcast-stoicism"
+  },
+  "ED4LivingWeaponInfuseWeapon": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.T3AoMaCc5AyMOTzH",
+    "edid": "knackability-infuse-weapon"
+  },
+  "ED4LivingWeaponRuneofDestruction": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.rdbh80yw4ZBtezEn",
+    "edid": "knackability-rune-of-destruction"
+  },
+  "ED4LockPickingFalseShackles": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.4Loi7HTYWayaVxWQ",
+    "edid": "knackability-false-shackles"
+  },
+  "ED4LockPickingHiddenUprising": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.d9dY7j5NruaET9wK",
+    "edid": "knackability-hidden-uprising"
+  },
+  "ED4LockPickingRemoteLockPicking": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.6TytwSKhElBr5ATa",
+    "edid": "knackability-remote-lock-picking"
+  },
+  "ED4LockPickingTrickyFingers": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.C9A5AfaOELsgfqok",
+    "edid": "knackability-tricky-fingers"
+  },
+  "ED4LockPickingUnchainedGang": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.Ke2HUjfCsqKc1CTv",
+    "edid": "knackability-unchained-gang"
+  },
+  "ED4LongShotExtendRange": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.nLxeLFcQXVIRsI4W",
+    "edid": "knackability-extend-range"
+  },
+  "ED4LongShotExtremeShot": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.3RwkwJyiLMAeEZ9N",
+    "edid": "knackability-extreme-shot"
+  },
+  "ED4ManeuverAerialManeuver": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.pQtUJdhofXa1GSYk",
+    "edid": "knackability-aerial-maneuver"
+  },
+  "ED4ManeuverBeat": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.myOBzCjHELprvCs1",
+    "edid": "knackability-beat"
+  },
+  "ED4ManeuverBlindFighting": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.DZ9Q4Zg39OSCOvQg",
+    "edid": "knackability-blind-fighting"
+  },
+  "ED4ManeuverCloseIn": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Gx09vezE9UQygdAl",
+    "edid": "knackability-close-in"
+  },
+  "ED4ManeuverDeadlyManeuver": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.YLSYpGLf3Xx0OWjn",
+    "edid": "knackability-deadly-maneuver"
+  },
+  "ED4ManeuverEmergencyManeuvers": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.vyuWpXdnQ1fplo6C",
+    "edid": "knackability-emergency-maneuvers"
+  },
+  "ED4ManeuverExtendedManeuver": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.JKS9qXcOl8sk1QOM",
+    "edid": "knackability-extended-maneuver"
+  },
+  "ED4ManeuverFeint": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.6PhVCdOSHwK7VN7C",
+    "edid": "knackability-feint"
+  },
+  "ED4ManeuverFlourish": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Euuqp9ujLBoIjtmU",
+    "edid": "knackability-flourish"
+  },
+  "ED4ManeuverInterceptAttacks": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.d5ks5JfNeXpbriH9",
+    "edid": "knackability-intercept-attacks"
+  },
+  "ED4ManeuverOffensiveManeuver": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.b5m0oxslrn846fkz",
+    "edid": "knackability-offensive-maneuver"
+  },
+  "ED4ManeuverOutmaneuvered": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.MqOunp3XR9dZB6pl",
+    "edid": "knackability-outmaneuvered"
+  },
+  "ED4ManeuverPress": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.DUFBf8H8CTY00ja0",
+    "edid": "knackability-press"
+  },
+  "ED4ManeuverSlipperyLittleDevil": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.s4hX7jSneabiPBqs",
+    "edid": "knackability-slippery-little-devil"
+  },
+  "ED4ManeuverWhirlofBlades": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.6Soz6hRUkXTn4jCe",
+    "edid": "knackability-whirl-of-blades"
+  },
+  "ED4ManeuverWindDodge": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.l3MlZd0vDeCsizGe",
+    "edid": "knackability-wind-dodge"
+  },
+  "ED4MatrixSightAuraAnalysis": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.jp75E4pmHHXWPWa0",
+    "edid": "knackability-aura-analysis"
+  },
+  "ED4MatrixSightSpellSight": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.ZdKgadDAMzzkVwdF",
+    "edid": "knackability-spell-sight"
+  },
+  "ED4MeleeWeaponWindSlash": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.FVB0nUqOLL1WXYAA",
+    "edid": "knackability-wind-slash"
+  },
+  "ED4MeleeWeaponsCounterSkirmish": {
+    "uuid": null,
+    "edid": "knackability-counter-skirmish"
+  },
+  "ED4MeleeWeaponsGrabandStrike": {
+    "uuid": null,
+    "edid": "knackability-grab-and-strike"
+  },
+  "ED4MeleeWeaponsImprovedImprovisedWeapon": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.zOdwhhblRWK9k99u",
+    "edid": "knackability-improved-improvised-weapon"
+  },
+  "ED4MeleeWeaponsImprovisedWeapon": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.NPRvZbbnj8SB6NTn",
+    "edid": "knackability-improvised-weapon"
+  },
+  "ED4MeleeWeaponsMindBlade": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.DRSpcxzbC07j0SDs",
+    "edid": "knackability-mind-blade"
+  },
+  "ED4MeleeWeaponsOverpoweringAggression": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Mctqm1VPTte8ivmT",
+    "edid": "knackability-overpowering-aggression"
+  },
+  "ED4MeleeWeaponsStormRush": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.VuKOBqvjGg1pH4ZQ",
+    "edid": "knackability-storm-rush"
+  },
+  "ED4MeleeWeaponsTailWeapon": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.vmI6IGLlT9xOysOP",
+    "edid": "knackability-tail-weapon"
+  },
+  "ED4MeleeWeaponsTrip": {
+    "uuid": null,
+    "edid": "knackability-trip"
+  },
+  "ED4MimicVoiceBloodMimicVoice": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.i1AhS7kEcrDD9G24",
+    "edid": "knackability-blood-mimic-voice"
+  },
+  "ED4MimicVoiceMimicMusic": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.QEUKR9zdzOrg4Cel",
+    "edid": "knackability-mimic-music"
+  },
+  "ED4MissileLockMissileTrace": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.sP1uFK1Ukx7unBQz",
+    "edid": "knackability-missile-trace"
+  },
+  "ED4MissileLockTracerMissile": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.ljOEKdf0xMgKDR3p",
+    "edid": "knackability-tracer-missile"
+  },
+  "ED4MissileWeaponsFlare": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.z3gKskvCgEZT65iq",
+    "edid": "knackability-flare"
+  },
+  "ED4MissileWeaponsPointBlankShot": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.VCcmrHtRLaBMkr0X",
+    "edid": "knackability-point-blank-shot"
+  },
+  "ED4MissileWeaponsWindBow": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.76HnK5dbufmzjTI1",
+    "edid": "knackability-wind-bow"
+  },
+  "ED4MomentumAttackPowerAttack": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.srw6Ui7ACDwuO3uO",
+    "edid": "knackability-power-attack"
+  },
+  "ED4MomentumAttackRushingAttackCharge": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Vf2abPIGydUXKKnl",
+    "edid": "knackability-rushing-attack"
+  },
+  "ED4MomentumAttackRushingAttackSprint": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Vf2abPIGydUXKKnl",
+    "edid": "knackability-rushing-attack"
+  },
+  "ED4MomentumAttackStormMomentum": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.TK4w8ATnt0oe3ZPh",
+    "edid": "knackability-storm-momentum"
+  },
+  "ED4MorphismDivergentForm": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.Sl0NlZr4V39DS0Vc",
+    "edid": "knackability-divergent-form"
+  },
+  "ED4MorphismMetamorphosis": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.XgVJm4YjaPZXjaFo",
+    "edid": "knackability-metamorphosis"
+  },
+  "ED4MorphismQuickShift": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.I4Zt2iGoxxPSBaoJ",
+    "edid": "knackability-quick-shift"
+  },
+  "ED4MorphismVersatileForm": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.mxzxDGJ7m6vElSxF",
+    "edid": "knackability-versatile-form"
+  },
+  "ED4MountAttackItsaBiter": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.9Clxxj0vRSAFZAlQ",
+    "edid": "knackability-its-a-biter"
+  },
+  "ED4MountAttackTrampledUnderfoot": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.63C0P59iu3tKPPab",
+    "edid": "knackability-trampled-underfoot"
+  },
+  "ED4MysticAimCarefulAim": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.9oxLjYRvpC9KlQIP",
+    "edid": "knackability-careful-aim"
+  },
+  "ED4MysticAimMissilePath": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.GDTIJ2eKklYluBpA",
+    "edid": "knackability-missile-path"
+  },
+  "ED4MysticAimMulti-Aim": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.NufOeCf1DSLn4gxE",
+    "edid": "knackability-multi-aim"
+  },
+  "ED4MysticAimPreciseShot": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.u9urQsxrrES4AMnR",
+    "edid": "knackability-precise-shot"
+  },
+  "ED4MysticPursuTrailBlaze": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.S6aGLeL8YaGdGOmu",
+    "edid": "knackability-trail-blaze"
+  },
+  "ED4MysticPursuitConnectedbyVengeance": {
+    "uuid": null,
+    "edid": "knackability-connected-by-vengeance"
+  },
+  "ED4MysticPursuitDarkConnection": {
+    "uuid": null,
+    "edid": "knackability-dark-connection"
+  },
+  "ED4MysticPursuitEnhancedMysticTracking": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.O63qx0wrPV6ACR1s",
+    "edid": "knackability-enhanced-mystic-tracking"
+  },
+  "ED4MysticPursuitMessageArrow": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.hvAYx4o2HHe5bx5B",
+    "edid": "knackability-message-arrow"
+  },
+  "ED4MysticPursuitMysticConnection": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.8a5C7BjB2vlPntST",
+    "edid": "knackability-mystic-connection"
+  },
+  "ED4MysticPursuitMysticTracking": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.0Gzi6eEgDK3tjcxn",
+    "edid": "knackability-mystic-tracking"
+  },
+  "ED4NavigationConcealedNavigation": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.itpCHbFH538LVR4D",
+    "edid": "knackability-concealed-navigation"
+  },
+  "ED4NavigationEnhancedConcealment": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.YZU703JnD426HLxo",
+    "edid": "knackability-enhanced-concealment"
+  },
+  "ED4NavigationExpeditioner": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.1DOYGGgPRSbwvtXj",
+    "edid": "knackability-expeditioner"
+  },
+  "ED4NavigationMapmaking": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.oCXYMOlEkHXGbMI8",
+    "edid": "knackability-mapmaking"
+  },
+  "ED4NavigationMasterExpeditioner": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.ivwDls9Q6euuaRwJ",
+    "edid": "knackability-master-expeditioner"
+  },
+  "ED4NavigationNavigateThroughtheEarth": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.6e1Jjrvf5ijo3sbU",
+    "edid": "knackability-navigate-through-the-earth"
+  },
+  "ED4NavigationNavigator": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.JuXWAhFjtsPhqkDl",
+    "edid": "knackability-navigator"
+  },
+  "ED4NavigationPathfinder": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.cPje5EfplVQLvfn1",
+    "edid": "knackability-pathfinder"
+  },
+  "ED4NavigationReadRiver": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.WrOgiN8jAcqyV0h8",
+    "edid": "knackability-read-river"
+  },
+  "ED4NavigationSeasonalWeather": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.RvYWp0rKTUWLqpEJ",
+    "edid": "knackability-seasonal-weather"
+  },
+  "ED4NavigationWeatherPrediction": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.sJz7OmCYrKn5zQwA",
+    "edid": "knackability-weather-prediction"
+  },
+  "ED4NethermancyDetectSpirit": {
+    "uuid": null,
+    "edid": "knackability-detect-spirit"
+  },
+  "ED4NetherwalkAstralProjection": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.zRBw74QDh9rVGyuh",
+    "edid": "knackability-astral-projection"
+  },
+  "ED4NetherwalkBloodedNetherspirit": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.W04dvr3MYeCCFe3n",
+    "edid": "knackability-blooded-netherspirit"
+  },
+  "ED4NetherwalkProtectedNetherspirit": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.KOw01FemAUxNuoc9",
+    "edid": "knackability-protected-netherspirit"
+  },
+  "ED4OrbitingSpyAstralSpy": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.xlXtRkGrjNlRzknM",
+    "edid": "knackability-astral-spy"
+  },
+  "ED4OrbitingSpyBloodOrbitingSpy": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.dHjC3wM7tRp5brj1",
+    "edid": "knackability-blood-orbiting-spy"
+  },
+  "ED4OrbitingSpyExpandedOrbitingSpy": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.EBsMUoFeaHz9xC9a",
+    "edid": "knackability-expanded-orbiting-spy"
+  },
+  "ED4OrbitingSpyExtendedOrbitingSpy": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.YDggLPU6sJIFUKl2",
+    "edid": "knackability-extended-orbiting-spy"
+  },
+  "ED4OrbitingSpyHorrorSeeker": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.7N6Qxu16p26jmcZY",
+    "edid": "knackability-horror-seeker"
+  },
+  "ED4OrbitingSpyOrbitingWatcher": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.Dh4bJvw3M1EaiHMo",
+    "edid": "knackability-orbiting-watcher"
+  },
+  "ED4PAvowedDeepYearning": {
+    "uuid": null,
+    "edid": "knackability-deep-yearning"
+  },
+  "ED4PMessengerMessengersVow": {
+    "uuid": null,
+    "edid": "knackability-messengers-vow"
+  },
+  "ED4PScholarCriticalThinking": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.thdUcNwS75BDOQAc",
+    "edid": "knackability-critical-thinking"
+  },
+  "ED4PTailDancerTailDefense": {
+    "uuid": null,
+    "edid": "knackability-tail-defense"
+  },
+  "ED4PatterncraftBloodandBoneMatrix": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.HlmKE6xrHrpJALXs",
+    "edid": "knackability-blood-and-bone-matrix"
+  },
+  "ED4PatterncraftBrotherofStoneSpells": {
+    "uuid": null,
+    "edid": "knackability-brother-of-stone-spells"
+  },
+  "ED4PatterncraftChannelFire": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.f4JcSy1716l8adlW",
+    "edid": "knackability-channel-fire"
+  },
+  "ED4PatterncraftCraftBloodCharm": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.JjjYYsVSB9z0gME5",
+    "edid": "knackability-craft-blood-charm"
+  },
+  "ED4PatterncraftCraftCommonMagicItem": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.p2RLPqD7jvVLfvAE",
+    "edid": "knackability-craft-common-magic-item"
+  },
+  "ED4PatterncraftCraftRuneTattoo": {
+    "uuid": null,
+    "edid": "knackability-craft-rune-tattoo"
+  },
+  "ED4PatterncraftCraftTruePattern": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.WShuKlBkOa7I6c05",
+    "edid": "knackability-craft-true-pattern"
+  },
+  "ED4PatterncraftCreateFetish": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.T9Czay2nCpcZARPt",
+    "edid": "knackability-create-fetish"
+  },
+  "ED4PatterncraftCreateOrichalcum": {
+    "uuid": null,
+    "edid": "knackability-create-orichalcum"
+  },
+  "ED4PatterncraftDesignEnchantingPattern": {
+    "uuid": null,
+    "edid": "knackability-design-enchanting-pattern"
+  },
+  "ED4PatterncraftED4AlterLife[Fauna]": {
+    "uuid": null,
+    "edid": "knackability-alter-life-fauna"
+  },
+  "ED4PatterncraftED4AlterLife[Flora]": {
+    "uuid": null,
+    "edid": "knackability-alter-life-flora"
+  },
+  "ED4PatterncraftElementalMatrix": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.snytCaoNqBS9z89X",
+    "edid": "knackability-elemental-matrix"
+  },
+  "ED4PatterncraftEnhancedBloodandBoneMatrix": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Wjaavzr6Nuk6IMnv",
+    "edid": "knackability-enhanced-blood-and-bone-matrix"
+  },
+  "ED4PatterncraftEnhancedElementalMatrix": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.fmBsAPFMHZbVoCJG",
+    "edid": "knackability-enhanced-elemental-matrix"
+  },
+  "ED4PatterncraftEnhancedIllusoryMatrix": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.QeNnwWEsFrxHcMdU",
+    "edid": "knackability-enhanced-illusory-matrix"
+  },
+  "ED4PatterncraftEnhancedSpiritMatrix": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.yHZgjxkyEjwhRtUl",
+    "edid": "knackability-enhanced-spirit-matrix"
+  },
+  "ED4PatterncraftFetishCollector": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.xGwW0vshkItmEUf4",
+    "edid": "knackability-fetish-collector"
+  },
+  "ED4PatterncraftHandleElements": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.qHFH1ZZFGOlXbhUn",
+    "edid": "knackability-handle-elements"
+  },
+  "ED4PatterncraftIdentifySpell": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.0cEhc6QelXBdP0sG",
+    "edid": "knackability-identify-spell"
+  },
+  "ED4PatterncraftIllusoryMatrix": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.PTUBV8mM0B0uXJcX",
+    "edid": "knackability-illusory-matrix"
+  },
+  "ED4PatterncraftImprovedSignatureSpell": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.INtTxyieK0jeOMML",
+    "edid": "knackability-improved-signature-spell"
+  },
+  "ED4PatterncraftImprovisedPattern": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.BF1fvwPBqEAKKN3N",
+    "edid": "knackability-improvised-pattern"
+  },
+  "ED4PatterncraftIncorporateBoundSpirit": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.GS7KNjn2dwClRGcN",
+    "edid": "knackability-incorporate-bound-spirit"
+  },
+  "ED4PatterncraftIncorporateGlyph": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.Y69hrYFNrYX4Fro0",
+    "edid": "knackability-incorporate-glyph"
+  },
+  "ED4PatterncraftInscribeWard": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.aDmSD8UtFvWhJIi7",
+    "edid": "knackability-inscribe-ward"
+  },
+  "ED4PatterncraftLearnImprovedSpells": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.BXISKZ2guR2SHnLc",
+    "edid": "knackability-learn-improved-spells"
+  },
+  "ED4PatterncraftLiberatorSpells": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.QKwh46oHW6gp3AZR",
+    "edid": "knackability-liberator-spells"
+  },
+  "ED4PatterncraftMasteredSignatureSpell": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.DkB8Hn0P89Anhpzo",
+    "edid": "knackability-mastered-signature-spell"
+  },
+  "ED4PatterncraftMessengerSpells": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.XonVJiJCW5ZvFDkW",
+    "edid": "knackability-messenger-spells"
+  },
+  "ED4PatterncraftNameSpell": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.I3SstKUe5xgwa8Ya",
+    "edid": "knackability-name-spell"
+  },
+  "ED4PatterncraftPurifierSpells": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.38EsDjAayWIzXB8Y",
+    "edid": "knackability-purifier-spells"
+  },
+  "ED4PatterncraftScholarSpells": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.cJvnZW0pn842j3Ta",
+    "edid": "knackability-scholar-spells"
+  },
+  "ED4PatterncraftSignatureSpell": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.1n08gIf7Kqabmrvh",
+    "edid": "knackability-signature-spell"
+  },
+  "ED4PatterncraftSpiritMatrix": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.bXvUktaXZRdss8Ah",
+    "edid": "knackability-spirit-matrix"
+  },
+  "ED4PatterncraftWarpingShield": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.NzolVYdtFD1uqiZ2",
+    "edid": "knackability-warping-shield"
+  },
+  "ED4PatterncraftWoodsmanSpells": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.KxB1r6YIH8GtSIFp",
+    "edid": "knackability-woodsman-spells"
+  },
+  "ED4PickingPocketsFence": {
+    "uuid": null,
+    "edid": "knackability-fence"
+  },
+  "ED4PickingPocketsPickingAstralPockets": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.tGu7HUJB4CVWgH3m",
+    "edid": "knackability-picking-astral-pockets"
+  },
+  "ED4PickingPocketsStreetwise": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.XmyhTX92e96jJALG",
+    "edid": "knackability-streetwise"
+  },
+  "ED4PickingPocketsStreetwiseMessenger": {
+    "uuid": null,
+    "edid": "knackability-streetwise"
+  },
+  "ED4PickingPocketsUnsuspectingMark": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.AspkLoOVnprX56Mj",
+    "edid": "knackability-unsuspecting-mark"
+  },
+  "ED4PilotBoatAirSailing": {
+    "uuid": null,
+    "edid": "knackability-air-sailing"
+  },
+  "ED4PilotBoatRiverLegs": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.filxx1kM6oke4RAa",
+    "edid": "knackability-river-legs"
+  },
+  "ED4PilotBoatSailing": {
+    "uuid": null,
+    "edid": "knackability-sailing"
+  },
+  "ED4PilotBoatSweepingCurrent": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.zZ6OoRixRiC90dxf",
+    "edid": "knackability-sweeping-current"
+  },
+  "ED4PlantTalkBloodPlantTalk": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.lgq300XYi8lf0SiE",
+    "edid": "knackability-blood-plant-talk"
+  },
+  "ED4PlantTalkPlantShelter": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.TokWkepkGnwTiO9u",
+    "edid": "knackability-plant-shelter"
+  },
+  "ED4PowerMaskBloodPowerMask": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.51EDP3kofdSGHHZn",
+    "edid": "knackability-blood-power-mask"
+  },
+  "ED4PowerMaskExaggeratePower": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.DS7nbGjWCKD1Izt4",
+    "edid": "knackability-exaggerate-power"
+  },
+  "ED4PowerMaskFabricatePower": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.pVDZe3LxFDKfWns0",
+    "edid": "knackability-fabricate-power"
+  },
+  "ED4PurificationFocusedPurification": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.ZquysVRdE7AXk2Ca",
+    "edid": "knackability-focused-purification"
+  },
+  "ED4PurificationPurifyingTouch": {
+    "uuid": null,
+    "edid": "knackability-purifying-touch"
+  },
+  "ED4RallyEmpoweringSurge": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.mv7Tn0BB6Sf4YpSF",
+    "edid": "knackability-empowering-surge"
+  },
+  "ED4RallyEnhancedEmpoweringSurge": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.U9wZqNGw2iIOiWOu",
+    "edid": "knackability-enhanced-empowering-surge"
+  },
+  "ED4RallyExpandedEmpoweringSurge": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.thzU8Jw9mKroZRx9",
+    "edid": "knackability-expanded-empowering-surge"
+  },
+  "ED4RallyImprovedInspiringRecovery": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.h3Waj52laEKB59L7",
+    "edid": "knackability-improved-inspiring-recovery"
+  },
+  "ED4RallyInspiringRecovery": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.0DAOVigbHnT0gcr3",
+    "edid": "knackability-inspiring-recovery"
+  },
+  "ED4ReadRiverNavigation": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.HBwBOhqmyUgqRC4K",
+    "edid": "knackability-navigation"
+  },
+  "ED4ReadRiverPilot": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.47tLVRNo1kKOjZ1E",
+    "edid": "knackability-pilot"
+  },
+  "ED4ReadandWriteLanguageComprehendEnigma": {
+    "uuid": null,
+    "edid": "knackability-comprehend-enigma"
+  },
+  "ED4ReadandWriteLanguageCrypticCipher": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.KXrlACXyDMsmUCPM",
+    "edid": "knackability-cryptic-cipher"
+  },
+  "ED4ReadandWriteLanguageDecipherMessage": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.0F4EXLdqw1iyoDJn",
+    "edid": "knackability-decipher-message"
+  },
+  "ED4ReadandWriteLanguageEmpowerEncrypt": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.6KzadO0vl1UQDky5",
+    "edid": "knackability-empower-encrypt"
+  },
+  "ED4ReadandWriteLanguageEvocativeMessage": {
+    "uuid": null,
+    "edid": "knackability-evocative-message"
+  },
+  "ED4ReadandWriteLanguageHiddenMessage": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.YvvchEUZ2WyGE8qs",
+    "edid": "knackability-hidden-message"
+  },
+  "ED4ReadandWriteLanguageMulti-Script": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.9k9H768rvyRMr24l",
+    "edid": "knackability-multi-script"
+  },
+  "ED4ReadandWriteLanguageUnbreakableCipher": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.1fA0zJN4BWOQL2dT",
+    "edid": "knackability-unbreakable-cipher"
+  },
+  "ED4ReadandWriteLanguageUndetectableCipher": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.Ueji8TYLnUVvST5T",
+    "edid": "knackability-undetectable-cipher"
+  },
+  "ED4ReadandWriteLanguageVeiledCipher": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.TDXw6HKM2lq4SH7P",
+    "edid": "knackability-veiled-cipher"
+  },
+  "ED4ResearchConsultwithColleagues": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.wfyKOEhygJDbgtgg",
+    "edid": "knackability-consult-with-colleagues"
+  },
+  "ED4ResearchPrincipalInvestigator": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Ykg6bZDt5D1xwMTm",
+    "edid": "knackability-principle-investigator"
+  },
+  "ED4ResearchResearchExpertise": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.WhBbtPMvcSVSIzOA",
+    "edid": "knackability-research-expertise"
+  },
+  "ED4ResistPainFury": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.9FdWdxyB3QC0UV3z",
+    "edid": "knackability-fury"
+  },
+  "ED4ResistTauntMakeConcession": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.KGw8PJ0fWaIptnAi",
+    "edid": "knackability-make-concession"
+  },
+  "ED4ResistTauntMakeConcessionII": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.88llwmmBIJKHpk8r",
+    "edid": "knackability-make-concession-ii"
+  },
+  "ED4ResistTauntMakeConcessionIII": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.ql9SMwGdQazKe7QA",
+    "edid": "knackability-make-concession-iii"
+  },
+  "ED4ResistTauntTrueComposure": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.rD92P23zzjv8hFwf",
+    "edid": "knackability-true-composure"
+  },
+  "ED4ResistTauntVerbalParry": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.A7FtRgxZNMDa1N2G",
+    "edid": "knackability-verbal-parry"
+  },
+  "ED4RiposteClawRiposte": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.6Gv2kuiNJv25Zt8c",
+    "edid": "knackability-claw-riposte"
+  },
+  "ED4RiposteRippleStep": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.CIhImCG8Sc20YLMW",
+    "edid": "knackability-ripple-step"
+  },
+  "ED4RiposteSteelResponseStance": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.YDdCLq4hmSFa3HMn",
+    "edid": "knackability-steel-response-stance"
+  },
+  "ED4RiteofKhoEmbodyKatosh": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.UzVo5xn7WMdupdhE",
+    "edid": "knackability-embody-katosh"
+  },
+  "ED4RiteofKhoEmbracingKatosh": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.k4KxFdQ9i65ynjJr",
+    "edid": "knackability-embracing-katosh"
+  },
+  "ED4RiteofKhoKatoshsRebuke": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.ozSUQImcwKDze56l",
+    "edid": "knackability-katoshs-rebuke"
+  },
+  "ED4RiteofKhoTenacityofKatosh": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.tVCoSNwm0Sk6RaVk",
+    "edid": "knackability-tenacity-of-katosh"
+  },
+  "ED4RiteofKhoWhatKatoshDemands": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.cdbOiZxN7CnTlWiY",
+    "edid": "knackability-what-katosh-demands"
+  },
+  "ED4SafePathConsultAir": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.TRmb2bqJoFc9nrUX",
+    "edid": "knackability-consult-air"
+  },
+  "ED4SafePathConsultEarth": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.u4D5OHusXsjd5Gz7",
+    "edid": "knackability-consult-earth"
+  },
+  "ED4SafePathConsultFire": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.wFvXoVAFSDqCzkSB",
+    "edid": "knackability-consult-fire"
+  },
+  "ED4SafePathConsultWater": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.g7QLzqDfLofVDugm",
+    "edid": "knackability-consult-water"
+  },
+  "ED4SafePathConsultWood": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.4zQQfLYmpHverxza",
+    "edid": "knackability-consult-wood"
+  },
+  "ED4SafePathEnhancedSafePath": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.gYb9Ke9LFBFxgYqK",
+    "edid": "knackability-enhanced-safe-path"
+  },
+  "ED4SafePathImprovedAirSigns": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.9JogTt67xYwnDlB0",
+    "edid": "knackability-improved-air-signs"
+  },
+  "ED4SafePathImprovedEarthSigns": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.189EU6yAW1AEc66z",
+    "edid": "knackability-improved-earth-signs"
+  },
+  "ED4SafePathImprovedFireSigns": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.MeQ6nbZtQL6uNLp8",
+    "edid": "knackability-improved-fire-signs"
+  },
+  "ED4SafePathImprovedWaterSigns": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.I74Dq0jwoiG5yJiG",
+    "edid": "knackability-improved-water-signs"
+  },
+  "ED4SafePathImprovedWoodSigns": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.PChsCffXejmgQVTy",
+    "edid": "knackability-improved-wood-signs"
+  },
+  "ED4SafePathMasterWayfarer": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.6oXUcoOFjM9MtEIA",
+    "edid": "knackability-master-wayfarer"
+  },
+  "ED4SafePathPathtoSurvival": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.bTjEuubo2LzbTJlW",
+    "edid": "knackability-path-to-survival"
+  },
+  "ED4SafePathPredictablePath": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.ap8Zvuvvkjfrsyg0",
+    "edid": "knackability-predictable-path"
+  },
+  "ED4SafePathSeasonedWayfarer": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.ID9e8QoIBpJWkivH",
+    "edid": "knackability-seasoned-wayfarer"
+  },
+  "ED4SafePathWayfarer": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.jOi0Oc1qZVH6e4If",
+    "edid": "knackability-wayfarer"
+  },
+  "ED4SafeThoughtEscapeDivination": {
+    "uuid": null,
+    "edid": "knackability-escape-divination"
+  },
+  "ED4SafeThoughtFakeThought": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.g6lsV9CbbeZDLxpj",
+    "edid": "knackability-fake-thought"
+  },
+  "ED4SafeThoughtGroupThinkDefense": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.1NH4H2CiNpA9csjQ",
+    "edid": "knackability-group-think-defense"
+  },
+  "ED4SailingAirSailing": {
+    "uuid": null,
+    "edid": "knackability-air-sailing"
+  },
+  "ED4SailingSeaLegs": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.xdcHOUqUvWymMTar",
+    "edid": "knackability-sea-legs"
+  },
+  "ED4SailingSweepingCurrent": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.yaZ4mzppXwJeeUqI",
+    "edid": "knackability-sweeping-current"
+  },
+  "ED4ScoutWeavingCraftPoison": {
+    "uuid": null,
+    "edid": "knackability-craft-poison"
+  },
+  "ED4ScoutWeavingDetectSpirit": {
+    "uuid": null,
+    "edid": "knackability-detect-spirit"
+  },
+  "ED4ScoutWeavingDetectTrueElement": {
+    "uuid": null,
+    "edid": "knackability-detect-true-element"
+  },
+  "ED4SecondAttackImprovedParry": {
+    "uuid": null,
+    "edid": "knackability-improved-parry"
+  },
+  "ED4SecondAttackParry": {
+    "uuid": null,
+    "edid": "knackability-parry"
+  },
+  "ED4SecondAttackWhirlwindAttack": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.LKjy5GcDjIV6e3o4",
+    "edid": "knackability-whirlwind-attack"
+  },
+  "ED4SecondAttackWindstormAttack": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.X5Qz9TnVHXSMyDpg",
+    "edid": "knackability-windstorm-attack"
+  },
+  "ED4SecondChanceTweakFate": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.XnRZ7hiOVrAhjmS6",
+    "edid": "knackability-tweak-fate"
+  },
+  "ED4SecondChanceYouOweMe": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.f44NOoPIewLdeKVe",
+    "edid": "knackability-you-owe-me"
+  },
+  "ED4SecondShotBlackenedSky": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.3TzqiR3WGbqU35AV",
+    "edid": "knackability-blackened-sky"
+  },
+  "ED4SecondShotSplinterVolley": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.5oHNV2f2ZIWPxE6q",
+    "edid": "knackability-splinter-volley"
+  },
+  "ED4SecondShotSwarm": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.oaLfc0HiNJO1ljTx",
+    "edid": "knackability-swarm"
+  },
+  "ED4SecondWeapoCastNet": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.sdzw2bqx3oBcIXZj",
+    "edid": "knackability-cast-net"
+  },
+  "ED4SecondWeaponDoubleStrike": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.K4cUHvSvCD22W3oR",
+    "edid": "knackability-double-strike"
+  },
+  "ED4SecondWeaponDraggingParry": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.6RLo0eczi462KOb1",
+    "edid": "knackability-dragging-parry"
+  },
+  "ED4SecondWeaponEntanglingCloak": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.WEHXa8RPCzH4NMwT",
+    "edid": "knackability-entangling-cloak"
+  },
+  "ED4SecondWeaponImprovedParry": {
+    "uuid": null,
+    "edid": "knackability-improved-parry"
+  },
+  "ED4SecondWeaponOff-HandThrow": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.RqDbChXBW4oITMVV",
+    "edid": "knackability-off-hand-throw"
+  },
+  "ED4SecondWeaponParry": {
+    "uuid": null,
+    "edid": "knackability-parry"
+  },
+  "ED4SecondWeaponTailAttack": {
+    "uuid": null,
+    "edid": "knackability-tail-attack"
+  },
+  "ED4SenseCaptivCaptivitysMark": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.XtsuWJZf0BVGhiBk",
+    "edid": "knackability-captivitys-mark"
+  },
+  "ED4SenseCaptivSenseAllegiance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.hm2Ih9FaQCDUUEh6",
+    "edid": "knackability-sense-allegiance"
+  },
+  "ED4SenseCaptivSenseChattel": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.bn3kXkeyXEfmgMPT",
+    "edid": "knackability-sense-chattel"
+  },
+  "ED4SenseCaptivSenseManipulation": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.IYyto4mKk47KkUbS",
+    "edid": "knackability-sense-manipulation"
+  },
+  "ED4SenseCaptivSlaverysMark": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.1DghMZ7C9c8TwfFT",
+    "edid": "knackability-slaverys-mark"
+  },
+  "ED4SenseHorrorSenseCorruption": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.MQ1FBg64JTkqtLGL",
+    "edid": "knackability-sense-corruption"
+  },
+  "ED4ShamanismCraftPoison": {
+    "uuid": null,
+    "edid": "knackability-craft-poison"
+  },
+  "ED4ShamanismDetectSpirit": {
+    "uuid": null,
+    "edid": "knackability-detect-spirit"
+  },
+  "ED4ShieldBashShieldCharge": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.vWkFUzZANHSEjDP6",
+    "edid": "knackability-shield-charge"
+  },
+  "ED4ShieldBashShieldDrive": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.EJAJoIo4DfmEAzgg",
+    "edid": "knackability-shield-drive"
+  },
+  "ED4ShieldBashShieldFortress": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.yHVDeKatvNCKwOKs",
+    "edid": "knackability-shield-fortress"
+  },
+  "ED4ShieldBashShieldWall": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.SBWtmizckHSjArAA",
+    "edid": "knackability-shield-wall"
+  },
+  "ED4ShockTreatmentSystemShock": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.uRsAN2UgNqItRpD2",
+    "edid": "knackability-system-shock"
+  },
+  "ED4SkoraDanceCuttingIn": {
+    "uuid": null,
+    "edid": "knackability-cutting-in"
+  },
+  "ED4SkoraDanceIronTail": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.4PSM5OZXZoXldPgX",
+    "edid": "knackability-iron-tail"
+  },
+  "ED4SkoraDanceSteelDance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.nS2PT1Se0SVb4eBL",
+    "edid": "knackability-steel-dance"
+  },
+  "ED4SloughBlameForgery": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.nzk1cT6wKvkSMT5Q",
+    "edid": "knackability-forgery"
+  },
+  "ED4SoulAegisBloodAegis": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.3A5UTFshoFJvAUzC",
+    "edid": "knackability-blood-aegis"
+  },
+  "ED4SoulAegisExtendedAegis": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Z3dpxUBkVndasZ8v",
+    "edid": "knackability-extended-aegis"
+  },
+  "ED4SoulAegisSwiftAegis": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.cLit450C7wsuUEAy",
+    "edid": "knackability-swift-aegis"
+  },
+  "ED4SpeakLanguaDoublespeak": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.2bztqcdtHE16OUQI",
+    "edid": "knackability-doublespeak"
+  },
+  "ED4SpeakLanguaDoublethink": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.h27zISIB9VaRs2j0",
+    "edid": "knackability-doublethink"
+  },
+  "ED4SpeakLanguageMulti-Tongue": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.n4CPubgIubHQKBCx",
+    "edid": "knackability-multi-tongue"
+  },
+  "ED4SpellcastingAcidSplash": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.33FISOTbDU3PAQZL",
+    "edid": "knackability-acid-splash"
+  },
+  "ED4SpellcastingArcaneAccuracy": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.4OsUFJK0yafE68bc",
+    "edid": "knackability-arcane-accuracy"
+  },
+  "ED4SpellcastingArcaneEdge": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.MNOtCKbjKWgSEg2L",
+    "edid": "knackability-arcane-edge"
+  },
+  "ED4SpellcastingAstralStrain": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.AAcTNGbswBMrA9ee",
+    "edid": "knackability-astral-strain"
+  },
+  "ED4SpellcastingAstralWard": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.uVtGbN9mnymc0IIG",
+    "edid": "knackability-astral-ward"
+  },
+  "ED4SpellcastingBefuddle": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.8U7DFLUNhFt7Ol6c",
+    "edid": "knackability-befuddle"
+  },
+  "ED4SpellcastingBleed": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.fOMytsm2HYrOO2Qm",
+    "edid": "knackability-bleed"
+  },
+  "ED4SpellcastingBurstofSpeed": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.263jalIJ3eK6ifkW",
+    "edid": "knackability-burst-of-speed"
+  },
+  "ED4SpellcastingCourage": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.6EdmQxG95rkMpsef",
+    "edid": "knackability-courage"
+  },
+  "ED4SpellcastingDeflection": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.z5mqJylT4Hr3AO7f",
+    "edid": "knackability-deflection"
+  },
+  "ED4SpellcastingDoubt": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.lz4wobiaskv9oRzY",
+    "edid": "knackability-doubt"
+  },
+  "ED4SpellcastingFireAttunement": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.IZ5vA96uYRGO5jXK",
+    "edid": "knackability-fire-attunement"
+  },
+  "ED4SpellcastingFluster": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.a1iE9uvGDverCcXj",
+    "edid": "knackability-fluster"
+  },
+  "ED4SpellcastingFortifyArmor": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.RTYNNHWztPdZKqTs",
+    "edid": "knackability-fortify-armor"
+  },
+  "ED4SpellcastingFortifyPattern": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.SgoA0p6sxYbGfyif",
+    "edid": "knackability-fortify-pattern"
+  },
+  "ED4SpellcastingGraspingVines": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.OiaxllKksMTdHXrH",
+    "edid": "knackability-grasping-vines"
+  },
+  "ED4SpellcastingLickWounds": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.V8TEwof4ks0zGNRZ",
+    "edid": "knackability-lick-wounds"
+  },
+  "ED4SpellcastingPackCover": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.pabPZTiLW3DdGsjC",
+    "edid": "knackability-pack-cover"
+  },
+  "ED4SpellcastingPackStrike": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.jRjSXPc9wOxgKSia",
+    "edid": "knackability-pack-strike"
+  },
+  "ED4SpellcastingPatternStress": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.0JSMtX23A6uFeOiV",
+    "edid": "knackability-pattern-stress"
+  },
+  "ED4SpellcastingSootheVenom": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.2zuS0OidBFlvtnQj",
+    "edid": "knackability-soothe-venom"
+  },
+  "ED4SpellcastingSprain": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.IeJdEJWr9nSb7Ccb",
+    "edid": "knackability-sprain"
+  },
+  "ED4SpellcastingStutter": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.qDieTdWUmdz81SOH",
+    "edid": "knackability-stutter"
+  },
+  "ED4SpellcastingSure-Footed": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.5Shu2GCvhOFf6jFg",
+    "edid": "knackability-sure-footed"
+  },
+  "ED4SpellcastingUnsettle": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.HNk46Ko94nGJcSg7",
+    "edid": "knackability-unsettle"
+  },
+  "ED4SpellcastingWriggle": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.tl52oWaNEjxsoXh9",
+    "edid": "knackability-wriggle"
+  },
+  "ED4SpiritCovenantArmorSpiritMatrix": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.B3OhdqOsfAA9qhXv",
+    "edid": "knackability-armor-spirit-matrix"
+  },
+  "ED4SpiritCovenantSplitSpiritMatrix": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.2O9VctcOZ0SD6g2V",
+    "edid": "knackability-split-spirit-matrix"
+  },
+  "ED4SpiritHoldDistantSpiritHold": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.n0e861qwYK6ZAZr1",
+    "edid": "knackability-distant-spirit-hold"
+  },
+  "ED4SpiritHoldEnhancedSpiritHold": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.i8yk84O5NEhP2Ykm",
+    "edid": "knackability-enhanced-spirit-hold"
+  },
+  "ED4SpiritHoldExtendedSpiritHold": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.d5fNrYDlFnHl5qTP",
+    "edid": "knackability-extended-spirit-hold"
+  },
+  "ED4SpiritHoldRefinedSpiritHold": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Z1UyQyEFvLjCWWlV",
+    "edid": "knackability-refined-spirit-hold"
+  },
+  "ED4SpiritMountAirMount": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.WOmwrKiG29ASr6Nx",
+    "edid": "knackability-air-mount"
+  },
+  "ED4SpiritMountExtendedSpiritMount": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.xinkM9xZXILTaHZf",
+    "edid": "knackability-extended-spirit-mount"
+  },
+  "ED4SpiritMountSpiritTeam": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.dR1hvQFPvslMWZD5",
+    "edid": "knackability-spirit-team"
+  },
+  "ED4SpiritMountWaterMount": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.nSLGxD2tpcQ4vfap",
+    "edid": "knackability-water-mount"
+  },
+  "ED4SpiritTalkBargainWithEntity": {
+    "uuid": null,
+    "edid": "knackability-bargain-with-entity"
+  },
+  "ED4SpiritTalkHorrorTongue": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.U6IWOtIcYYlqPHaE",
+    "edid": "knackability-horror-tongue"
+  },
+  "ED4SpiritTalkNegotiateforaFriend": {
+    "uuid": null,
+    "edid": "knackability-negotiate-for-a-friend"
+  },
+  "ED4SpotArmorFlawSpotPatternFlaw": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.LTWCGh69ngkOFXXa",
+    "edid": "knackability-spot-pattern-flaw"
+  },
+  "ED4SprintBullRush": {
+    "uuid": null,
+    "edid": "knackability-bull-rush"
+  },
+  "ED4SprintMarathon": {
+    "uuid": null,
+    "edid": "knackability-marathon"
+  },
+  "ED4StealthyStrideAmbushTactics": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.knVXPYplAlk9MjAC",
+    "edid": "knackability-ambush-tactics"
+  },
+  "ED4StealthyStrideAstralStealth": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.pNyImY2DN0Ze6yy3",
+    "edid": "knackability-astral-stealth"
+  },
+  "ED4StealthyStrideBlandCloak": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.DuY5p24fwSO0zIzS",
+    "edid": "knackability-bland-cloak"
+  },
+  "ED4StealthyStrideBlandStride": {
+    "uuid": null,
+    "edid": "knackability-bland-stride"
+  },
+  "ED4StealthyStrideCatsPaw": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.pTkrVLUDmuMwDbxB",
+    "edid": "knackability-cats-paw"
+  },
+  "ED4StealthyStrideEscapeDivination": {
+    "uuid": null,
+    "edid": "knackability-escape-divination"
+  },
+  "ED4StealthyStrideHiddenAllies": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.fESlR2XogIMBHmkR",
+    "edid": "knackability-hidden-allies"
+  },
+  "ED4StealthyStrideSubtleCasting": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.M1bRHsKpNe36ZNtI",
+    "edid": "knackability-subtle-casting"
+  },
+  "ED4StealthyStrideTracelessStride": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.gAd4ArftVujNC3ay",
+    "edid": "knackability-traceless-stride"
+  },
+  "ED4SteelThoughHardenHeart": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.yiRmjd0zC6JunRWK",
+    "edid": "knackability-harden-heart"
+  },
+  "ED4SteelThoughtAbsorbSpell": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.dRY6xHCuVUBVaQaD",
+    "edid": "knackability-absorb-spell"
+  },
+  "ED4SteelThoughtTrueResolve": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.SLDM9T6YTH5CPX30",
+    "edid": "knackability-true-resolve"
+  },
+  "ED4SteelyStareHardGlare": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.N5574GS22ucwXw3R",
+    "edid": "knackability-hard-glare"
+  },
+  "ED4SteelyStareWillofSteel": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.y6Lehu4iz0TZZBWX",
+    "edid": "knackability-will-of-steel"
+  },
+  "ED4StoppingAimWarningShot": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.YFoqbCupcjcnJkWG",
+    "edid": "knackability-warning-shot"
+  },
+  "ED4StudiedCounterArmoredCounter": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.IWTUp04QUKICp1LP",
+    "edid": "knackability-armored-counter"
+  },
+  "ED4StudiedCounterCalculatedCounter": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.9tiS6bfjXbjRoop5",
+    "edid": "knackability-calculated-counter"
+  },
+  "ED4StudiedCounterDeadlyCounter": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.M2eozmfB8xfwGqV2",
+    "edid": "knackability-deadly-counter"
+  },
+  "ED4StudiedCounterDefensiveCounter": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.zTqSk0cV38dlnKdl",
+    "edid": "knackability-defensive-counter"
+  },
+  "ED4StudiedCounterMomentumReversal": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.xLHUtVyEE5bgAoJL",
+    "edid": "knackability-momentum-reversal"
+  },
+  "ED4StudiedCounterMysticArmoredCounter": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.uSa3LO2ksHES0PCg",
+    "edid": "knackability-mystic-armored-counter"
+  },
+  "ED4StudiedCounterMysticCounter": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.usHlc5Ynpbs1jR15",
+    "edid": "knackability-mystic-counter"
+  },
+  "ED4StudiedCounterPreparedCounter": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.DEqbpJRYDUWSUheQ",
+    "edid": "knackability-prepared-counter"
+  },
+  "ED4StudiedCounterSuddenCounter": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.og1qymBMd0dV8Dl7",
+    "edid": "knackability-sudden-counter"
+  },
+  "ED4SummonBindingSecrets": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.qKKLnwKWNRvk04U3",
+    "edid": "knackability-binding-secrets"
+  },
+  "ED4SummonEnhancedProtectedSummon": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.3feSr6DHnVvQoQCA",
+    "edid": "knackability-enhanced-protected-summon"
+  },
+  "ED4SummonProtectedSummon": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.8lwQmHBgtuE76wAR",
+    "edid": "knackability-protected-summon"
+  },
+  "ED4SummonQuickSummon": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.CKrPXdHkhFKjaDYZ",
+    "edid": "knackability-quick-summon"
+  },
+  "ED4SummoningCircleImprovedSummoningGlyph": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.KMmxOZtYyCn8BPKG",
+    "edid": "knackability-improved-summoning-glyph"
+  },
+  "ED4SummoningCircleSummoningGlyph": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.6npd45SgKLs5Vh32",
+    "edid": "knackability-summoning-glyph"
+  },
+  "ED4SuppressCurseAbateCurse": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.fIR36ymmwO2OoAr0",
+    "edid": "knackability-abate-curse"
+  },
+  "ED4SuppressCurseExpandedSuppressCurse": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.sFQeZpnrhrSLBSGX",
+    "edid": "knackability-expand-suppress-curse"
+  },
+  "ED4SuppressCurseExtendedSuppressCurse": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.uXKkXIoc9iZDSQW5",
+    "edid": "knackability-extend-suppress-curse"
+  },
+  "ED4SuppressCurseProlongSuppressCurse": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.W2DfZZRshwGfxaoS",
+    "edid": "knackability-prolong-suppress-curse"
+  },
+  "ED4SureMountEmergencyDismount": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.CPE5E73aYdMpiXX7",
+    "edid": "knackability-emergency-dismount"
+  },
+  "ED4SurpriseStrikeQuickstrike": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.M1Fd3KFWygfPw85o",
+    "edid": "knackability-quickstrike"
+  },
+  "ED4SwiftKickQuickTail": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.ah6HMUIxt0moBmji",
+    "edid": "knackability-quick-tail"
+  },
+  "ED4SwiftKickSweep": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.BP7lWwWaBB2yZRbl",
+    "edid": "knackability-sweep"
+  },
+  "ED4SwiftKickTrip": {
+    "uuid": null,
+    "edid": "knackability-trip"
+  },
+  "ED4SwimmingDeepDiver": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.vK2FjzjfM1sCBSeQ",
+    "edid": "knackability-deep-diver"
+  },
+  "ED4SwimmingImprovedGills": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.HH8hn3rplMhPoybF",
+    "edid": "knackability-improved-gills"
+  },
+  "ED4SwimmingRescueSwimming": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.aEiy9W338ZX3KZAK",
+    "edid": "knackability-rescue-swimming"
+  },
+  "ED4TacticsAdaptivePlans": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.H4zol8pWHynu9mnu",
+    "edid": "knackability-adaptive-plans"
+  },
+  "ED4TacticsDivertAttention": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.hXeJskwV7W0lgeIX",
+    "edid": "knackability-divert-attention"
+  },
+  "ED4TacticsHarryingTactics": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.vHR11mGL2KMihDyP",
+    "edid": "knackability-harrying-tactics"
+  },
+  "ED4TacticsTeamwork": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.qRXUt9eQ2V9oUw5z",
+    "edid": "knackability-teamwork"
+  },
+  "ED4TauntCurse": {
+    "uuid": null,
+    "edid": "knackability-curse"
+  },
+  "ED4TemperFleshTemperOther": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.DpumEMXcPWP04vXR",
+    "edid": "knackability-temper-other"
+  },
+  "ED4TemperFleshTemperSpirit": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.6I6EeBFBh8liZQy1",
+    "edid": "knackability-temper-spirit"
+  },
+  "ED4TenaciousWeaveEnhancedTenacity": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.kkDUsBCrUOnxHlBQ",
+    "edid": "knackability-enhanced-tenacity"
+  },
+  "ED4TenaciousWeaveRetroactiveTenacity": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.k88DCYZUhP2a8QTd",
+    "edid": "knackability-retroactive-tenacity"
+  },
+  "ED4TenaciousWeaveTenaciousTalent": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.iGQIyS4oQpHkY9JU",
+    "edid": "knackability-tenacious-talent"
+  },
+  "ED4ThiefWeavingCraftPoison": {
+    "uuid": null,
+    "edid": "knackability-craft-poison"
+  },
+  "ED4ThoughtLinkCommune": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.tagwBuyJF02TnOLV",
+    "edid": "knackability-commune"
+  },
+  "ED4ThoughtLinkEmpathicLink": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.FMDNUh7JJj5q5DfI",
+    "edid": "knackability-empathic-link"
+  },
+  "ED4ThoughtLinkExtendedLink": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.UomDzQv8KU2eNdLS",
+    "edid": "knackability-extended-link"
+  },
+  "ED4ThoughtLinkSwiftLink": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.8PBt73U5wHZoM7Fm",
+    "edid": "knackability-swift-link"
+  },
+  "ED4ThreadSmithingCraftTruePattern": {
+    "uuid": null,
+    "edid": "knackability-craft-true-pattern"
+  },
+  "ED4ThreadSmithingCreateOrichalcum": {
+    "uuid": null,
+    "edid": "knackability-create-orichalcum"
+  },
+  "ED4ThreadSmithingDesignEnchantingPattern": {
+    "uuid": null,
+    "edid": "knackability-design-enchanting-pattern"
+  },
+  "ED4ThreadSmithingDetectTrueElement": {
+    "uuid": null,
+    "edid": "knackability-detect-true-element"
+  },
+  "ED4ThreadSmithingHandleElements": {
+    "uuid": null,
+    "edid": "knackability-handle-elements"
+  },
+  "ED4ThreadWeaviDiveMastery": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.0pAOIa8LzAMPGmY8",
+    "edid": "knackability-dive-mastery"
+  },
+  "ED4ThreadWeaviTailDefense": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.t9Y7LA4law1vkCSn",
+    "edid": "knackability-tail-defense"
+  },
+  "ED4ThreadWeaviWindMastery": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.EtuTumkBw2kZSMxX",
+    "edid": "knackability-wind-mastery"
+  },
+  "ED4ThreadWeaviWingMastery": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.kRTlk1dMQIuWx2XW",
+    "edid": "knackability-wing-mastery"
+  },
+  "ED4ThreadWeavingArmorBond": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.0eE4glCVEkzleaM2",
+    "edid": "knackability-armor-bond"
+  },
+  "ED4ThreadWeavingAuraEvaluation": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.JIKSzsV43OtMeHHp",
+    "edid": "knackability-aura-evaluation"
+  },
+  "ED4ThreadWeavingAvowedBeast": {
+    "uuid": null,
+    "edid": "knackability-avowed-maw-of-the-beast-path"
+  },
+  "ED4ThreadWeavingAvowedNettle": {
+    "uuid": null,
+    "edid": "knackability-avowed-nettle-of-the-dark-path"
+  },
+  "ED4ThreadWeavingAvowedSleeper": {
+    "uuid": null,
+    "edid": "knackability-avowed-heart-of-the-sleeper-path"
+  },
+  "ED4ThreadWeavingBanishInsectSpirit": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Ky9y9NTG6dCc6h8P",
+    "edid": "knackability-banish-insect-spirit"
+  },
+  "ED4ThreadWeavingBribery": {
+    "uuid": null,
+    "edid": "knackability-bribery"
+  },
+  "ED4ThreadWeavingBrotherofStone": {
+    "uuid": null,
+    "edid": "knackability-brother-of-stone-path"
+  },
+  "ED4ThreadWeavingCraftPoison": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.OndMbMook4lydbIw",
+    "edid": "knackability-craft-poison"
+  },
+  "ED4ThreadWeavingCurrentUnderstanding": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.pTUcDLocvSRcxQ75",
+    "edid": "knackability-current-understanding"
+  },
+  "ED4ThreadWeavingDivination": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.tmooenUCStfndtUc",
+    "edid": "knackability-divination"
+  },
+  "ED4ThreadWeavingEnduringArt": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.H1sEglt5XK44coIG",
+    "edid": "knackability-enduring-art"
+  },
+  "ED4ThreadWeavingFireEater": {
+    "uuid": null,
+    "edid": "knackability-fire-eater-path"
+  },
+  "ED4ThreadWeavingGhostMasterRitual": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.j9FRkTVfqBGoBkl1",
+    "edid": "knackability-ghost-master-ritual"
+  },
+  "ED4ThreadWeavingGuide": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.2TCOKbglzNqqRSPy",
+    "edid": "knackability-guide"
+  },
+  "ED4ThreadWeavingHorrorStalker": {
+    "uuid": null,
+    "edid": "knackability-horror-stalker-path"
+  },
+  "ED4ThreadWeavingImprovedThreadbareWeave": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.2KqO4Baf1NYCW3GE",
+    "edid": "knackability-improved-threadbare-weave"
+  },
+  "ED4ThreadWeavingJourneyman": {
+    "uuid": null,
+    "edid": "knackability-journeyman-path"
+  },
+  "ED4ThreadWeavingKaerKnocking": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.eOrUMhCA1iyov5XR",
+    "edid": "knackability-kaer-knocking"
+  },
+  "ED4ThreadWeavingKaerPictographs": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.k2jtabHNaH65xytU",
+    "edid": "knackability-kaer-pictographs"
+  },
+  "ED4ThreadWeavingLiberator": {
+    "uuid": null,
+    "edid": "knackability-liberator-path"
+  },
+  "ED4ThreadWeavingMeshWeave": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.qJl3jH39c3wc6sI6",
+    "edid": "knackability-mesh-weave"
+  },
+  "ED4ThreadWeavingMessenger": {
+    "uuid": null,
+    "edid": "knackability-messenger-path"
+  },
+  "ED4ThreadWeavingMindArmor": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.9d9KJCnQ79SwX4gj",
+    "edid": "knackability-mind-armor"
+  },
+  "ED4ThreadWeavingOutcast": {
+    "uuid": null,
+    "edid": "knackability-outcast-path"
+  },
+  "ED4ThreadWeavingPurifier": {
+    "uuid": null,
+    "edid": "knackability-purifier-path"
+  },
+  "ED4ThreadWeavingScholar": {
+    "uuid": null,
+    "edid": "knackability-scholar-path"
+  },
+  "ED4ThreadWeavingStrengthofBronze": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.qG5Mb7SSX5XQCUSX",
+    "edid": "knackability-strength-of-bronze"
+  },
+  "ED4ThreadWeavingStrengthofIron": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.8bv9vQHse15miHU3",
+    "edid": "knackability-strength-of-iron"
+  },
+  "ED4ThreadWeavingStrengthofSteel": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.M2ONlV06ZFURMURe",
+    "edid": "knackability-strength-of-steel"
+  },
+  "ED4ThreadWeavingTailDancerChtard": {
+    "uuid": null,
+    "edid": "knackability-tail-dancer-chtard-path"
+  },
+  "ED4ThreadWeavingTailDancerEdo": {
+    "uuid": null,
+    "edid": "knackability-tail-dancer-edo-path"
+  },
+  "ED4ThreadWeavingTailDancerShivoavara": {
+    "uuid": null,
+    "edid": "knackability-tail-dancer-shivoavara-path"
+  },
+  "ED4ThreadWeavingTailDancerSkora": {
+    "uuid": null,
+    "edid": "knackability-tail-dancer-skora-path"
+  },
+  "ED4ThreadWeavingTalentLinking": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.f8IAFt1F1kZZjQy8",
+    "edid": "knackability-talent-linking"
+  },
+  "ED4ThreadWeavingTalentPattern": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.0q1wdAZHGlVKVGZ2",
+    "edid": "knackability-talent-pattern"
+  },
+  "ED4ThreadWeavingThreadMasking": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.XWUAVmhX8OzGGryt",
+    "edid": "knackability-thread-masking"
+  },
+  "ED4ThreadWeavingThreadbareWeave": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.2sKi95wHnZzlGdOP",
+    "edid": "knackability-threadbare-weave"
+  },
+  "ED4ThreadWeavingUnravelThread": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.7ghqGgWCFdT3yZuS",
+    "edid": "knackability-unravel-thread"
+  },
+  "ED4ThreadWeavingWindmaster": {
+    "uuid": null,
+    "edid": "knackability-windmaster-path"
+  },
+  "ED4ThreadWeavingWoodsman": {
+    "uuid": null,
+    "edid": "knackability-woodsman-path"
+  },
+  "ED4ThrowingWeaponsFlare": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.GrLRZLzjdKuJZ1nQ",
+    "edid": "knackability-flare"
+  },
+  "ED4ThrowingWeaponsPointBlankShot": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.wimNkEfWooZdQASR",
+    "edid": "knackability-point-blank-shot"
+  },
+  "ED4ThrowingWeaponsReturning": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.JBzyNuVItwacKD0O",
+    "edid": "knackability-returning"
+  },
+  "ED4ThrowingWeaponsThrowAnything": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.EfGwhFGJOXrcsz8A",
+    "edid": "knackability-throw-anything"
+  },
+  "ED4ThunderousResolveIntheFaceofHorrorThereIsOnlyThunder": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.BWniQ4zgJ3wLktPa",
+    "edid": "knackability-in-the-face-of-horror-there-is-only-thunder"
+  },
+  "ED4ThunderousResolveThunderOverFear": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.MnplapaIRlJVUM6g",
+    "edid": "knackability-thunder-over-fear"
+  },
+  "ED4ThunderousResolveThunderinSpiritThunderinReality": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.GeOJlzmrEIWoegbg",
+    "edid": "knackability-thunder-in-spirit-thunder-in-reality"
+  },
+  "ED4ThunderstruckThunderAx": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.X3a317crqoJV65NE",
+    "edid": "knackability-thunder-ax"
+  },
+  "ED4TrackingAdeptsBestFriend": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.fkLIaij5vmFURqFR",
+    "edid": "knackability-adepts-best-friend"
+  },
+  "ED4TrackingAnimalsBestFriend": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.vjrBkCrg2MvTw6Mw",
+    "edid": "knackability-animals-best-friend"
+  },
+  "ED4TrackingAstralTracking": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.umCR56kNDvilNJ0e",
+    "edid": "knackability-astral-tracking"
+  },
+  "ED4TrackingEphemeralTracking": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.JwskmFtr3rsOn6Gw",
+    "edid": "knackability-ephemeral-tracking"
+  },
+  "ED4TrackingHuntersStrike": {
+    "uuid": null,
+    "edid": "knackability-hunters-strike"
+  },
+  "ED4TrackingIdentifyTracks": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.h8RqGTCWK2YxO9NN",
+    "edid": "knackability-identify-tracks"
+  },
+  "ED4TrackingPredatoroftheForest": {
+    "uuid": null,
+    "edid": "knackability-predator-of-the-forest"
+  },
+  "ED4TrackingTrackAstralForm": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.pvhrHRYv23Y7ealH",
+    "edid": "knackability-track-astral-form"
+  },
+  "ED4TrackingTrailBlaze": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.zU9AkiaUkBfgQqvd",
+    "edid": "knackability-trail-blaze"
+  },
+  "ED4TrackingUnderstandingtheForest": {
+    "uuid": null,
+    "edid": "knackability-understanding-the-forest"
+  },
+  "ED4TrickRidingChasingtheWind": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.IvKeinM4ZHoEEbLf",
+    "edid": "knackability-chasing-the-wind"
+  },
+  "ED4TrickRidingRidethePony": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.FA3OiG1sOp3ohTlb",
+    "edid": "knackability-ride-the-pony"
+  },
+  "ED4TrickRidingRushedCharge": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.hQdGU8f96TPM4kx8",
+    "edid": "knackability-rushed-charge"
+  },
+  "ED4TrueShotKillShot": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.IGYikdJMxOpiS2RF",
+    "edid": "knackability-kill-shot"
+  },
+  "ED4TrueSightTrueAwareness": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.ZWG7ngpdCI1nqL0W",
+    "edid": "knackability-true-awareness"
+  },
+  "ED4TrueSightTrueInsight": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.uGCGjJd0RzKe9bHW",
+    "edid": "knackability-true-insight"
+  },
+  "ED4TrueSightTrueLies": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.xLepXZWYruc9OlJb",
+    "edid": "knackability-true-lies"
+  },
+  "ED4TyrannysRuHoardBlows": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.7HWdPS3j4AHu4gBT",
+    "edid": "knackability-hoard-blows"
+  },
+  "ED4TyrannysRuSharedPain": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.rcikCHcralNE2gZH",
+    "edid": "knackability-shared-pain"
+  },
+  "ED4UnarmedCombBackslash": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.9D4EzE4jMYqlok9h",
+    "edid": "knackability-backslash"
+  },
+  "ED4UnarmedCombatBodyBlade": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.CFBIpeLmeJ8ovb9K",
+    "edid": "knackability-body-blade"
+  },
+  "ED4UnarmedCombatCounterSkirmish": {
+    "uuid": null,
+    "edid": "knackability-counter-skirmish"
+  },
+  "ED4UnarmedCombatGrabandStrike": {
+    "uuid": null,
+    "edid": "knackability-grab-and-strike"
+  },
+  "ED4UnarmedCombatHammerPunch": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.9CNfspLh9c2vGn3W",
+    "edid": "knackability-hammer-punch"
+  },
+  "ED4UnarmedCombatPhantomStrike": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.cLOabqb24O1NbOJ3",
+    "edid": "knackability-phantom-strike"
+  },
+  "ED4UnarmedCombatTrip": {
+    "uuid": null,
+    "edid": "knackability-trip"
+  },
+  "ED4UndermineShockandAwe": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.cdMwUW5QWkO91LAC",
+    "edid": "knackability-shock-and-awe"
+  },
+  "ED4ViciousWoundFeastofSuffering": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.QxwY83fL1SWbYPOU",
+    "edid": "knackability-feast-of-suffering"
+  },
+  "ED4VitalStrikeVitalWound": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.opTSPG8ZrmpNZilD",
+    "edid": "knackability-vital-wound"
+  },
+  "ED4VitalWardProtectedVitals": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.kLoIsHvg76hqygyN",
+    "edid": "knackability-protected-vitals"
+  },
+  "ED4VitalWardVitalArmor": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.otV8PYjjfkQLOxq4",
+    "edid": "knackability-vital-armor"
+  },
+  "ED4VowoftheBeastBloodyExhileration": {
+    "uuid": null,
+    "edid": "knackability-bloody-exhileration"
+  },
+  "ED4VowoftheBeastBloodyExultation": {
+    "uuid": null,
+    "edid": "knackability-bloody-exultation"
+  },
+  "ED4VowoftheBeastClawsoftheBeast": {
+    "uuid": null,
+    "edid": "knackability-claws-of-the-beast"
+  },
+  "ED4VowoftheBeastDelightinViolence": {
+    "uuid": null,
+    "edid": "knackability-delight-in-violence"
+  },
+  "ED4VowoftheBeastFangsoftheBeast": {
+    "uuid": null,
+    "edid": "knackability-fangs-of-the-beast"
+  },
+  "ED4VowoftheBeastFrenzyoftheBeast": {
+    "uuid": null,
+    "edid": "knackability-frenzy-of-the-beast"
+  },
+  "ED4VowoftheBeastGiftoftheBeast": {
+    "uuid": null,
+    "edid": "knackability-gift-of-the-beast"
+  },
+  "ED4VowoftheBeastHungeroftheBeast": {
+    "uuid": null,
+    "edid": "knackability-hunger-of-the-beast"
+  },
+  "ED4VowoftheBeastInstinctoftheBeast": {
+    "uuid": null,
+    "edid": "knackability-instinct-of-the-beast"
+  },
+  "ED4VowoftheBeastMassacreoftheBeast": {
+    "uuid": null,
+    "edid": "knackability-massacre-of-the-beast"
+  },
+  "ED4VowoftheBeastMaulingoftheBeast": {
+    "uuid": null,
+    "edid": "knackability-mauling-of-the-beast"
+  },
+  "ED4VowoftheBeastOnslaughtoftheBeast": {
+    "uuid": null,
+    "edid": "knackability-onslaught-of-the-beast"
+  },
+  "ED4VowoftheBeastPassiontoDestroy": {
+    "uuid": null,
+    "edid": "knackability-passion-to-destroy"
+  },
+  "ED4VowoftheBeastPostureoftheBeast": {
+    "uuid": null,
+    "edid": "knackability-posture-of-the-beast"
+  },
+  "ED4VowoftheBeastPoweroftheBeast": {
+    "uuid": null,
+    "edid": "knackability-power-of-the-beast"
+  },
+  "ED4VowoftheBeastRageoftheBeast": {
+    "uuid": null,
+    "edid": "knackability-rage-of-the-beast"
+  },
+  "ED4VowoftheBeastRetributionoftheBeast": {
+    "uuid": null,
+    "edid": "knackability-retribution-of-the-beast"
+  },
+  "ED4VowoftheBeastSpeedoftheBeast": {
+    "uuid": null,
+    "edid": "knackability-speed-of-the-beast"
+  },
+  "ED4VowoftheDarkBarbsCaofVengeance": {
+    "uuid": null,
+    "edid": "knackability-barbs-of-vengeance"
+  },
+  "ED4VowoftheDarkBarbsofWrath": {
+    "uuid": null,
+    "edid": "knackability-barbs-of-wrath"
+  },
+  "ED4VowoftheDarkBiteoftheDark": {
+    "uuid": null,
+    "edid": "knackability-bite-of-the-dark"
+  },
+  "ED4VowoftheDarkCupofNettleTea": {
+    "uuid": null,
+    "edid": "knackability-cup-of-nettle-tea"
+  },
+  "ED4VowoftheDarkEyefortheDark": {
+    "uuid": null,
+    "edid": "knackability-eye-for-the-dark"
+  },
+  "ED4VowoftheDarkGiftoftheDark": {
+    "uuid": null,
+    "edid": "knackability-gift-of-the-dark"
+  },
+  "ED4VowoftheDarkLacerationoftheDark": {
+    "uuid": null,
+    "edid": "knackability-laceration-of-the-dark"
+  },
+  "ED4VowoftheDarkMiasmaofSuffering": {
+    "uuid": null,
+    "edid": "knackability-miasma-of-suffering"
+  },
+  "ED4VowoftheDarkPaintoPower": {
+    "uuid": null,
+    "edid": "knackability-pain-to-power"
+  },
+  "ED4VowoftheDarkPotofNettleTea": {
+    "uuid": null,
+    "edid": "knackability-pot-of-nettle-tea"
+  },
+  "ED4VowoftheDarkPoweroftheDark": {
+    "uuid": null,
+    "edid": "knackability-power-of-the-dark"
+  },
+  "ED4VowoftheDarkServiceinScars": {
+    "uuid": null,
+    "edid": "knackability-service-in-scars"
+  },
+  "ED4VowoftheDarkStingingNettles": {
+    "uuid": null,
+    "edid": "knackability-stinging-nettles"
+  },
+  "ED4VowoftheDarkStrengthThroughPain": {
+    "uuid": null,
+    "edid": "knackability-strength-through-pain"
+  },
+  "ED4VowoftheDarkThornsoftheDark": {
+    "uuid": null,
+    "edid": "knackability-thorns-of-the-dark"
+  },
+  "ED4VowoftheDarkVeilofThorns": {
+    "uuid": null,
+    "edid": "knackability-veil-of-thorns"
+  },
+  "ED4VowoftheDarkVenomousGift": {
+    "uuid": null,
+    "edid": "knackability-venomous-gift"
+  },
+  "ED4VowoftheDarkVindicationoftheDark": {
+    "uuid": null,
+    "edid": "knackability-vindication-of-the-dark"
+  },
+  "ED4VowoftheSleeperBastionoftheSleeper": {
+    "uuid": null,
+    "edid": "knackability-bastion-of-the-sleeper"
+  },
+  "ED4VowoftheSleeperBestowaloftheSleeper": {
+    "uuid": null,
+    "edid": "knackability-bestowal-of-the-sleeper"
+  },
+  "ED4VowoftheSleeperBoundThroughBlood": {
+    "uuid": null,
+    "edid": "knackability-bound-through-blood"
+  },
+  "ED4VowoftheSleeperCitadeloftheSleeper": {
+    "uuid": null,
+    "edid": "knackability-citadel-of-the-sleeper"
+  },
+  "ED4VowoftheSleeperEmpoweringtheRefuge": {
+    "uuid": null,
+    "edid": "knackability-empowering-the-refuge"
+  },
+  "ED4VowoftheSleeperFamilyoftheSleeper": {
+    "uuid": null,
+    "edid": "knackability-family-of-the-sleeper"
+  },
+  "ED4VowoftheSleeperFavoroftheSleeper": {
+    "uuid": null,
+    "edid": "knackability-favor-of-the-sleeper"
+  },
+  "ED4VowoftheSleeperFormationoftheSleeper": {
+    "uuid": null,
+    "edid": "knackability-formation-of-the-sleeper"
+  },
+  "ED4VowoftheSleeperGiftoftheSleeper": {
+    "uuid": null,
+    "edid": "knackability-gift-of-the-sleeper"
+  },
+  "ED4VowoftheSleeperGraceoftheSleeper": {
+    "uuid": null,
+    "edid": "knackability-grace-of-the-sleeper"
+  },
+  "ED4VowoftheSleeperMartyroftheSleeper": {
+    "uuid": null,
+    "edid": "knackability-martyr-of-the-sleeper"
+  },
+  "ED4VowoftheSleeperOfferinginBlood": {
+    "uuid": null,
+    "edid": "knackability-offering-in-blood"
+  },
+  "ED4VowoftheSleeperPostureoftheSleeper": {
+    "uuid": null,
+    "edid": "knackability-posture-of-the-sleeper"
+  },
+  "ED4VowoftheSleeperPoweroftheSleeper": {
+    "uuid": null,
+    "edid": "knackability-power-of-the-sleeper"
+  },
+  "ED4VowoftheSleeperRefugeoftheSleeper": {
+    "uuid": null,
+    "edid": "knackability-refuge-of-the-sleeper"
+  },
+  "ED4VowoftheSleeperSanctuaryoftheSleeper": {
+    "uuid": null,
+    "edid": "knackability-sanctuary-of-the-sleeper"
+  },
+  "ED4VowoftheSleeperWilloftheSleeper": {
+    "uuid": null,
+    "edid": "knackability-will-of-the-sleeper"
+  },
+  "ED4WaterfallSlamRiptideAssault": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.xW8BxkKtKX1SUsbf",
+    "edid": "knackability-riptide-assault"
+  },
+  "ED4WeaponBreakerClawBreaker": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Okzm7EkwsyFJ5JQL",
+    "edid": "knackability-claw-breaker"
+  },
+  "ED4WeaponBreakerEnkindletheWanting": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.WGUlgmXgEZABlhY6",
+    "edid": "knackability-enkindle-the-wanting"
+  },
+  "ED4WeaponBreakerShatterShield": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.9ptBW7PBKqNPjpoM",
+    "edid": "knackability-shatter-shield"
+  },
+  "ED4WildernessSWastelander": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.WXncYcKniiuz5jVX",
+    "edid": "knackability-wastelander"
+  },
+  "ED4WildernessSurvivalKnowingtheForest": {
+    "uuid": null,
+    "edid": "knackability-knowing-the-forest"
+  },
+  "ED4WildernessSurvivalSeasonedSurvivalist": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.s2upM86TdRUNssBb",
+    "edid": "knackability-seasoned-survivalist"
+  },
+  "ED4WildernessSurvivalTheForestProvides": {
+    "uuid": null,
+    "edid": "knackability-the-forest-provides"
+  },
+  "ED4WildernessSurvivalUrbanSurvival": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.oMCH9e70tAqoY4YV",
+    "edid": "knackability-urban-survival"
+  },
+  "ED4WindCatcherAerialist": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.hrv2t3J6Fy8GNSQE",
+    "edid": "knackability-aerialist"
+  },
+  "ED4WindCatcherWindRider": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.jNagOLKwPgI1KWrR",
+    "edid": "knackability-wind-rider"
+  },
+  "ED4WinningSmileCruelSmile": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.GzKIcXuaPqb0yZLJ",
+    "edid": "knackability-cruel-smile"
+  },
+  "ED4WinningSmileFlirting": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.KqmBFhCJiciylIG1",
+    "edid": "knackability-flirting"
+  },
+  "ED4WinningSmileSeduction": {
+    "uuid": "Compendium.earthdawn-companion.companion-knacks-en.Item.AvratEWCAtG4X1fQ",
+    "edid": "knackability-seduction"
+  },
+  "ED4WoodSkinShareWoodSkin": {
+    "uuid": null,
+    "edid": "knackability-share-wood-skin"
+  },
+  "ED4WoodSkinWoodBlend": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.tAwXPtedNZd9SyFE",
+    "edid": "knackability-wood-blend"
+  },
+  "ED4WoodSkinWoodWings": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.mQhekiwNWvDPaOKl",
+    "edid": "knackability-wood-wings"
+  },
+  "ED4WoodWalkEnemyoftheCourt": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.BXRugCizyRxR5efY",
+    "edid": "knackability-enemy-of-the-court"
+  },
+  "ED4WoodWalkLeafontheWind": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.hJhF424FYSjBWdVd",
+    "edid": "knackability-leaf-on-the-wind"
+  },
+  "ED4WoodWalkLightasaLeaf": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.YQ7HUFxuEXFiyfZe",
+    "edid": "knackability-light-as-a-leaf"
+  },
+  "ED4WoodWalkRaceThroughtheCanopy": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.GuufGyFb0tSKEJRi",
+    "edid": "knackability-race-through-the-canopy"
+  },
+  "ED4WoodWalkTheForestKnowsMyFeet": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.aglzHWRnWGTjqNJU",
+    "edid": "knackability-the-forest-knows-my-feet"
+  },
+  "ED4WoodWalkTheForestKnowsMyFriends": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.LSbvnfi5JZkXRkRO",
+    "edid": "knackability-the-forest-knows-my-friends"
+  },
+  "ED4WoodWalkTraverseForest": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.nVyo5vDmIAkaRBY6",
+    "edid": "knackability-traverse-forest"
+  },
+  "ED4WoodWalkWoodDash": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.QoK0eGjbQpz9aoJm",
+    "edid": "knackability-wood-dash"
+  },
+  "ED4WoodWalkWoodExcursion": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.r4qe1imIv841udMp",
+    "edid": "knackability-wood-excursion"
+  },
+  "ED4WorldPulseEnlargedPulse": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.0Uhy5EnrcIrDZVMe",
+    "edid": "knackability-enlarged-pulse"
+  },
+  "ED4WorldPulseExpandedPulse": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.Y5cwshF6gFKmsckh",
+    "edid": "knackability-expanded-pulse"
+  },
+  "ED4WorldPulseLivingPulse": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.4o7X2DnxKCiaIjgN",
+    "edid": "knackability-living-pulse"
+  },
+  "ED4WorldPulseSwiftPulse": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.2V8aUReaSEp983Dq",
+    "edid": "knackability-swift-pulse"
+  },
+  "ED4WoundBalancEarthRise": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-knacks-en.Item.vaAQ56gUubBCvw5O",
+    "edid": "knackability-earth-rise"
+  },
+  "ED4WoundBalanceRisingHandspring": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.RW9NwZlDLuT8bu72",
+    "edid": "knackability-rising-handspring"
+  },
+  "ED4WoundBalanceTookaKnee": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.aeRFoWgdGVMrd3t7",
+    "edid": "knackability-took-a-knee"
+  },
+  "ED4WoundBalanceUnshakableEarth": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-knacks-en.Item.QzGFK7ZP205nNqHk",
+    "edid": "knackability-unshakable-earth"
+  },
+  "PandaAnimalBondBindAnimalCompanion": {
+    "uuid": null,
+    "edid": "knackability-bind-animal-companion"
+  },
+  "PandaAnimalBondMenagerie": {
+    "uuid": null,
+    "edid": "knackability-menagerie"
+  },
+  "PandaAnimalBondPerfectUnderstanding": {
+    "uuid": null,
+    "edid": "knackability-perfect-understanding"
+  },
+  "PandaAnimalBondTransferBond": {
+    "uuid": null,
+    "edid": "knackability-transfer-bond"
+  },
+  "PandaAnimalTrainingEncouragement": {
+    "uuid": null,
+    "edid": "knackability-encouragement"
+  },
+  "PandaAnimalTrainingFasterPussycatKK": {
+    "uuid": null,
+    "edid": "knackability-faster-pussycat-kill-kill"
+  },
+  "PandaAnimalTrainingSmarterAverageBear": {
+    "uuid": null,
+    "edid": "knackability-smarter-than-the-average-bear"
+  },
+  "PandaAnticipateBlowBloodedDefender": {
+    "uuid": null,
+    "edid": "knackability-blooded-defender"
+  },
+  "PandaAnticipateBlowTaketheHit": {
+    "uuid": null,
+    "edid": "knackability-take-the-hit"
+  },
+  "PandaBattleCryCryHavoc": {
+    "uuid": null,
+    "edid": "knackability-cry-havoc"
+  },
+  "PandaBladeJuggleEncore": {
+    "uuid": null,
+    "edid": "knackability-encore"
+  },
+  "PandaBladeJuggleShadowJuggle": {
+    "uuid": null,
+    "edid": "knackability-shadow-juggle"
+  },
+  "PandaBladeJuggleSplitRevenge": {
+    "uuid": null,
+    "edid": "knackability-split-revenge"
+  },
+  "PandaBloodedRedoubtShieldedRedoubt": {
+    "uuid": null,
+    "edid": "knackability-shielded-redoubt"
+  },
+  "PandaBloodedRedoubtSteadfast Vanguard": {
+    "uuid": null,
+    "edid": "knackability-steadfast-vanguard"
+  },
+  "PandaCavalryChargeBeastRider": {
+    "uuid": null,
+    "edid": "knackability-beast-rider"
+  },
+  "PandaCavalryChargeLancer": {
+    "uuid": null,
+    "edid": "knackability-lancer-charge"
+  },
+  "PandaDeliberateAssaultClarityPatience": {
+    "uuid": null,
+    "edid": "knackability-clarity-in-patience"
+  },
+  "PandaDevelopSpiritSmarterThantheAverageBearSpirit": {
+    "uuid": null,
+    "edid": "knackability-smarter-than-the-average-bear-spirit"
+  },
+  "PandaEnhanceAnimalCompanionAmplifyACForm": {
+    "uuid": null,
+    "edid": "knackability-amplify-animal-companions-form"
+  },
+  "PandaEnhanceAnimalCompanionAmplifyACSense": {
+    "uuid": null,
+    "edid": "knackability-amplify-animal-companions-sense"
+  },
+  "PandaEnhanceAnimalCompanionAugmentAllysForm": {
+    "uuid": null,
+    "edid": "knackability-augment-allys-form"
+  },
+  "PandaEnhanceAnimalCompanionBoostACForm": {
+    "uuid": null,
+    "edid": "knackability-boost-animal-companions-form"
+  },
+  "PandaEnhanceAnimalCompanionBoostACSense": {
+    "uuid": null,
+    "edid": "knackability-boost-animal-companions-sense"
+  },
+  "PandaEnhanceAnimalCompanionHeightenACForm": {
+    "uuid": null,
+    "edid": "knackability-heighten-animal-companions-form"
+  },
+  "PandaEnhanceAnimalCompanionHeightenACSense": {
+    "uuid": null,
+    "edid": "knackability-heighten-animal-companions-sense"
+  },
+  "PandaEnhanceAnimalCompanionMoldAllysForm": {
+    "uuid": null,
+    "edid": "knackability-mold-allys-form"
+  },
+  "PandaEnhanceAnimalCompanionSculptAllysForm": {
+    "uuid": null,
+    "edid": "knackability-sculpt-allys-form"
+  },
+  "PandaEnhanceBoundSpiritAmplifyBoundSpiritsForm": {
+    "uuid": null,
+    "edid": "knackability-amplify-bound-spirits-form"
+  },
+  "PandaEnhanceBoundSpiritBoostBoundSpiritsForm": {
+    "uuid": null,
+    "edid": "knackability-boost-bound-spirits-form"
+  },
+  "PandaEnhanceBoundSpiritHeightenBoundSpiritsForm": {
+    "uuid": null,
+    "edid": "knackability-heighten-bound-spirits-form"
+  },
+  "PandaGoSGlyphofAlacrity": {
+    "uuid": null,
+    "edid": "knackability-glyph-of-alacrity"
+  },
+  "PandaGotBGlyphBladeI": {
+    "uuid": null,
+    "edid": "knackability-glyph-blade-i"
+  },
+  "PandaGotBGlyphBladeII": {
+    "uuid": null,
+    "edid": "knackability-glyph-blade-ii"
+  },
+  "PandaGotBGlyphBladeIII": {
+    "uuid": null,
+    "edid": "knackability-glyph-blade-iii"
+  },
+  "PandaGotBGlyphBladeIV": {
+    "uuid": null,
+    "edid": "knackability-glyph-blade-iv"
+  },
+  "PandaGotBGlyphBladeIX": {
+    "uuid": null,
+    "edid": "knackability-glyph-blade-ix"
+  },
+  "PandaGotBGlyphBladeV": {
+    "uuid": null,
+    "edid": "knackability-glyph-blade-v"
+  },
+  "PandaGotBGlyphBladeVI": {
+    "uuid": null,
+    "edid": "knackability-glyph-blade-vi"
+  },
+  "PandaGotBGlyphBladeVII": {
+    "uuid": null,
+    "edid": "knackability-glyph-blade-vii"
+  },
+  "PandaGotBGlyphBladeVIII": {
+    "uuid": null,
+    "edid": "knackability-glyph-blade-viii"
+  },
+  "PandaGotBGlyphBladeX": {
+    "uuid": null,
+    "edid": "knackability-glyph-blade-x"
+  },
+  "PandaGotBGlyphBladeXI": {
+    "uuid": null,
+    "edid": "knackability-glyph-blade-xi"
+  },
+  "PandaGotBGlyphBladeXII": {
+    "uuid": null,
+    "edid": "knackability-glyph-blade-xii"
+  },
+  "PandaImpressiveDisplayIntimidatingDisplay": {
+    "uuid": null,
+    "edid": "knackability-intimidating-display"
+  },
+  "PandaMomentumAttackRideByMomentumCavalier": {
+    "uuid": null,
+    "edid": "knackability-ride-by-momentum"
+  },
+  "PandaMomentumAttackRideByMomentumLancer": {
+    "uuid": null,
+    "edid": "knackability-ride-by-momentum"
+  },
+  "PandaMomentumAttackRideByMomentumSPCavalier": {
+    "uuid": null,
+    "edid": "knackability-ride-by-momentum"
+  },
+  "PandaMountAttackItsaBiter": {
+    "uuid": null,
+    "edid": "knackability-its-a-biter"
+  },
+  "PandaMountAttackTrampleUnderfoot": {
+    "uuid": null,
+    "edid": "knackability-trampled-underfoot"
+  },
+  "PandaRidingChasingTheWind": {
+    "uuid": null,
+    "edid": "knackability-chasing-the-wind"
+  },
+  "PandaRidingEmergencyDismount": {
+    "uuid": null,
+    "edid": "knackability-emergency-dismount"
+  },
+  "PandaRidingNimbleRider": {
+    "uuid": null,
+    "edid": "knackability-nimble-rider"
+  },
+  "PandaRidingRideThePony": {
+    "uuid": null,
+    "edid": "knackability-ride-the-pony"
+  },
+  "PandaRidingSureMount": {
+    "uuid": null,
+    "edid": "knackability-sure-mount"
+  },
+  "PandaSecondAttackRideByAttackCavalier": {
+    "uuid": null,
+    "edid": "knackability-ride-by-attack"
+  },
+  "PandaSecondAttackRideByAttackLancer": {
+    "uuid": null,
+    "edid": "knackability-ride-by-skirmish"
+  },
+  "PandaSecondAttackRideByAttackSPCavalier": {
+    "uuid": null,
+    "edid": "knackability-ride-by-attack"
+  },
+  "PandaShieldBashCrushingShieldBash": {
+    "uuid": null,
+    "edid": "knackability-crushing-shield-bash"
+  },
+  "PandaShieldBashSentinelsShield": {
+    "uuid": null,
+    "edid": "knackability-sentinels-sheild-bash"
+  },
+  "PandaShieldBashThunderingShieldBash": {
+    "uuid": null,
+    "edid": "knackability-thundering-shield-bbash"
+  },
+  "PandaSpellcastingChaos": {
+    "uuid": null,
+    "edid": "knackability-chaos"
+  },
+  "PandaSpellcastingDiscord": {
+    "uuid": null,
+    "edid": "knackability-discord"
+  },
+  "PandaSpellcastingEntropy": {
+    "uuid": null,
+    "edid": "knackability-entropy"
+  },
+  "PandaSpellcastingOrder": {
+    "uuid": null,
+    "edid": "knackability-order"
+  },
+  "PandaSpellcastingPrescience": {
+    "uuid": null,
+    "edid": "knackability-prescience"
+  },
+  "PandaSpiritMountBindSpirit": {
+    "uuid": null,
+    "edid": "knackability-bind-spirit"
+  },
+  "PandaSpiritMountSeveredChains": {
+    "uuid": null,
+    "edid": "knackability-severed-chains"
+  },
+  "PandaSprintMountedSprint": {
+    "uuid": null,
+    "edid": "knackability-mounted-sprint"
+  },
+  "PandaStealthyStrideMounted": {
+    "uuid": null,
+    "edid": "knackability-mounted-stealth"
+  },
+  "PandaThreadWeavingSentryWeavingBastionStace": {
+    "uuid": null,
+    "edid": "knackability-bastion-stance"
+  },
+  "PandaThreadWeavingThreadSmithingEnchJouHrtbld": {
+    "uuid": null,
+    "edid": "knackability-enchant-journeyman-heartblade"
+  },
+  "PandaThreadWeavingThreadSmithingEnchMasHrtbld": {
+    "uuid": null,
+    "edid": "knackability-enchant-master-heartblade"
+  },
+  "PandaThreadWeavingThreadSmithingEnchNovHrtbld": {
+    "uuid": null,
+    "edid": "knackability-enchant-novice-heartblade"
+  },
+  "PandaThreadWeavingThreadSmithingEnchWarHrtbld": {
+    "uuid": null,
+    "edid": "knackability-enchant-warden-heartblade"
+  },
+  "PandaThreadWeavingThreadSmithingForgeHeartblade": {
+    "uuid": null,
+    "edid": "knackability-forge-heartblade"
+  },
+  "PandaTigerSpringTiggerSpring": {
+    "uuid": null,
+    "edid": "knackability-tigger-spring"
+  },
+  "PandaWheelingAttackLancerSkirmish": {
+    "uuid": null,
+    "edid": "knackability-lancer-skirmish"
+  },
+  "SKAnticipateBackstab": {
+    "uuid": null,
+    "edid": "knackability-toter-winkel"
+  },
+  "SKBladeJuggleAncestralBarrier": {
+    "uuid": null,
+    "edid": "knackability-ancestral-barrier"
+  },
+  "SKBladeJuggleCheapShot": {
+    "uuid": null,
+    "edid": "knackability-cheap-shot"
+  },
+  "SKBladeJuggleFlurry": {
+    "uuid": null,
+    "edid": "knackability-ancestral-flurry"
+  },
+  "SKBladeJuggleOneBlade": {
+    "uuid": null,
+    "edid": "knackability-weapon-of-choice"
+  },
+  "SKDangerSenseSentrySwarm": {
+    "uuid": null,
+    "edid": "knackability-sentry-swarm"
+  },
+  "SKDangerSenseSwarmSense": {
+    "uuid": null,
+    "edid": "knackability-swarm-sense"
+  },
+  "SKDistractBewilderingSwarm": {
+    "uuid": null,
+    "edid": "knackability-bewildering-swarm"
+  },
+  "SKDistractHinderingSwarm": {
+    "uuid": null,
+    "edid": "knackability-hindering-swarm"
+  },
+  "SKDistractPerplex": {
+    "uuid": null,
+    "edid": "knackability-perplex"
+  },
+  "SKDistractingSwarm": {
+    "uuid": null,
+    "edid": "knackability-distracting-swarm"
+  },
+  "SKEmotionSongDyingCreed": {
+    "uuid": null,
+    "edid": "knackability-dying-creed"
+  },
+  "SKEmotionSongToTheLast": {
+    "uuid": null,
+    "edid": "knackability-to-the-last"
+  },
+  "SKEmpathicSenseDwellsWithin": {
+    "uuid": null,
+    "edid": "knackability-what-dwells-within"
+  },
+  "SKGuardiansServiceGuardianSwarm": {
+    "uuid": null,
+    "edid": "knackability-guardian-swarm"
+  },
+  "SKGuardiansServiceSwarmSplit": {
+    "uuid": null,
+    "edid": "knackability-swarm-split"
+  },
+  "SKImbueAncestralArmament": {
+    "uuid": null,
+    "edid": "knackability-ancestral-armament"
+  },
+  "SKImbueAncestralWeaponBulwark": {
+    "uuid": null,
+    "edid": "knackability-ancestral-bulwark"
+  },
+  "SKInspireOthersAtFirstLight": {
+    "uuid": null,
+    "edid": "knackability-at-first-light"
+  },
+  "SKInspireOthersInspireLegion": {
+    "uuid": null,
+    "edid": "knackability-inspire-legion"
+  },
+  "SKMomentumAttackAssault": {
+    "uuid": null,
+    "edid": "knackability-momentum-assault"
+  },
+  "SKMultiStrikeUnrelentingAssault": {
+    "uuid": null,
+    "edid": "knackability-unrelenting-assault"
+  },
+  "SKSecondAttackSecondAssault": {
+    "uuid": null,
+    "edid": "knackability-second-assault"
+  },
+  "SKSecondWeaponEmptyHand": {
+    "uuid": null,
+    "edid": "knackability-empty-handed-throw"
+  },
+  "SKSecondWeaponShieldThrow": {
+    "uuid": null,
+    "edid": "knackability-shield-throw"
+  },
+  "SKSoslvuulAccepting": {
+    "uuid": null,
+    "edid": "knackability-accepting-the-swarm"
+  },
+  "SKSoslvuulBecoming": {
+    "uuid": null,
+    "edid": "knackability-becoming-the-swarm"
+  },
+  "SKSoslvuulEmbracing": {
+    "uuid": null,
+    "edid": "knackability-embracing-the-swarm"
+  },
+  "SKSoslvuulPacifySwarm": {
+    "uuid": null,
+    "edid": "knackability-pacify-swarm"
+  },
+  "SKSoslvuulSymbioticHeart": {
+    "uuid": null,
+    "edid": "knackability-symbiotic-heart"
+  },
+  "SKStealthyStrideAmbushTactics": {
+    "uuid": null,
+    "edid": "knackability-ambush-tactics"
+  },
+  "SKStealthyStrideHiddenAllies": {
+    "uuid": null,
+    "edid": "knackability-hidden-allies"
+  },
+  "SKTacticsBideTime": {
+    "uuid": null,
+    "edid": "knackability-bide-time"
+  },
+  "SKThreadWeavingAncestralArsenal": {
+    "uuid": null,
+    "edid": "knackability-ancestral-arsenal"
+  },
+  "SKThreadWeavingBattleBrother": {
+    "uuid": null,
+    "edid": "knackability-greppr-path"
+  },
+  "SKThreadWeavingSoslvuul": {
+    "uuid": null,
+    "edid": "knackability-soslvuul-path"
+  },
+  "SKThrowingWeaponsMindBlade": {
+    "uuid": null,
+    "edid": "knackability-mind-blade-throwing-weapons"
+  },
+  "SKUnarmedCombatStranglevinReach": {
+    "uuid": null,
+    "edid": "knackability-stranglevine-reach"
+  },
+  "SKUnarmedCombatStranglevineGrasp": {
+    "uuid": null,
+    "edid": "knackability-stranglevine-grasp"
+  },
+  "SKUnarmedCombatSwallowwort": {
+    "uuid": null,
+    "edid": "knackability-swallowwort-embrace"
+  },
+  "SKWildernessSurvivalForagingSwarm": {
+    "uuid": null,
+    "edid": "knackability-foraging-swarm"
+  },
+  "SKWildernessSurvivalSurveyingSwarm": {
+    "uuid": null,
+    "edid": "knackability-surveying-swarm"
+  },
+  "SKWoodSkinBriarSkin": {
+    "uuid": null,
+    "edid": "knackability-briar-skin"
+  },
+  "SKWoodSkinGloamoakSkin": {
+    "uuid": null,
+    "edid": "knackability-gloamoak-skin"
+  }
+}
