@@ -202,7 +202,7 @@ export const NORMALIZED_SECOND_STEP_SKILL_CATEGORIES = Object.freeze( {
 /**
  * The fields that can be filled out in the Second Step sheet at the top, describing the character.
  * Except "Description".
- * @type {Readonly<{Record<string,string>}>}
+ * @type {Readonly<Record<string,string>>}
  */
 export const NORMALIZED_SECOND_STEP_BASICS_DESCRIPTOR_FIELDS = Object.freeze( {
   gender:  "gender",
