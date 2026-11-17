@@ -17,12 +17,59 @@
     },
     "Error":       {
       "importFailed":        "Der Import des Charakters ist fehlgeschlagen.",
+      "invalidFile":         "Die Datei ist kein gültiger SecondStep-Export.",
       "noActorPermission":   "Du hast keine Berechtigung, Akteure zu erstellen.",
-      "noJournalPermission": "Du hast keine Berechtigung, Journaleinträge zu erstellen."
+      "noJournalPermission": "Du hast keine Berechtigung, Journaleinträge zu erstellen.",
+      "unexpected":          "Ein unerwarteter Fehler ist aufgetreten."
+    },
+    "Import":      {
+      "alreadyRunning": "Ein Import läuft bereits.",
+      "chooseFiles":    "Wähle eine oder mehrere SecondStep-Dateien (*.json)",
+      "dialogTitle":    "Import aus SecondStep",
+      "import":         "Importieren",
+      "imported":       "{count} von {total} Dateien importiert.",
+      "macroName":      "Import aus SecondStep"
     },
     "Journal":     {
+      "attemptSummary": "{user} hat {total} Datei(en) importiert: {succeeded} erfolgreich, {failed} fehlgeschlagen.",
+      "attemptTitle":   "Import {time} UTC",
+      "fileTitle":      "{fileName}: {characterName}",
+      "fileTitleFailed": "{fileName} (fehlgeschlagen)",
+      "importLogName":  "Steps2Foundry-Importe ({userName})",
       "logJournalName": "Log von {characterName}",
       "logPageName":    "Log"
+    },
+    "Report":      {
+      "deferred":    {
+        "effects":         "Effekte: {count}",
+        "homebrewEffects": "Homebrew-Effekte: {count}",
+        "knacks":          "Kniffe: {count}",
+        "legendPoints":    "Legendenpunkte: {count}",
+        "magic":           "Magie: {count}",
+        "matrixGrants":    "Matrix-Zuweisungen: {count}",
+        "threadItems":     "Fadengegenstände: {count}"
+      },
+      "heading":     {
+        "deferred":    "Nicht importiert",
+        "resolutions": "Aufgelöste Items",
+        "unresolved":  "Unaufgelöste Items"
+      },
+      "kind":        {
+        "discipline":      "Disziplinen ({count})",
+        "equipment":       "Ausrüstung ({count})",
+        "namegiver":       "Namensgeber ({count})",
+        "path":            "Pfade ({count})",
+        "questor":         "Questoren ({count})",
+        "questorDevotion": "Questor-Hingabe ({count})",
+        "skill":           "Fertigkeiten ({count})",
+        "spell":           "Zauber ({count})",
+        "talent":          "Talente ({count})"
+      },
+      "resolutions": {
+        "edid":        "Über EDID gefunden: {count}",
+        "synthesized": "Synthetisiert: {count}",
+        "uuid":        "Über UUID gefunden: {count}"
+      }
     },
     "Synthesized": {
       "Name": {

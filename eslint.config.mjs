@@ -68,6 +68,7 @@ const foundryGlobals = {
   Journal:                false,
   JournalEntry:           false,
   JournalSheet:           false,
+  Macro:                  false,
   Roll:                   false,
   SchemaField:            false,
   Settings:               false,

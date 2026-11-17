@@ -235,6 +235,22 @@ export const SECOND_STEP_COINAGE_IDS = Object.freeze( {
 
 // endregion
 
+/**
+ * The canonical order of the item entry kinds, for example in reports.
+ * @type {readonly ItemEntryKind[]}
+ */
+export const ITEM_ENTRY_KIND_ORDER = Object.freeze( [
+  "namegiver",
+  "discipline",
+  "path",
+  "questor",
+  "questorDevotion",
+  "talent",
+  "skill",
+  "spell",
+  "equipment",
+] );
+
 // region Mappings
 
 /**

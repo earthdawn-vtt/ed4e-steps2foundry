@@ -26,6 +26,23 @@ _(yes, I promise I will change the background color some day)_
 5. Done!
  
 
+## Import Macro
+On startup, the module creates a script macro "Import from SecondStep" in your world if it does not exist yet (done by the active GM). Drag it to your hotbar to start an import. You can select several files at once; every import is logged in a journal of the importing user ("Steps2Foundry Imports"). The macro is just this:
+
+```js
+const importer = game.modules.get( "ed4e-steps2foundry" );
+if ( !importer?.active ) return ui.notifications.error( "Steps2Foundry is not active." );
+await importer.api.runImport();
+```
+
+### Permissions
+- `MACRO_SCRIPT` (default: Player): everyone may run script macros.
+- `ACTOR_CREATE` (default: Assistant GM): needed to create characters. Players cannot import by default, unless the GM grants this permission.
+- `JOURNAL_CREATE` (default: Trusted Player): needed additionally for characters with a log.
+
+Without these permissions, the import reports a clear error before anything is created.
+
+
 ## Tips & Tricks
 - The module receives items in Foundry VTT from the [Earthdawn 4th Edition Player's Guide](https://foundryvtt.com/packages/earthdawn-pg-compendium) and the [Earthdawn 4th Edition Gamemaster's Guide](https://foundryvtt.com/packages/earthdawn-gm-compendium) (for Thread Items). Since there are no fixed naming conventions for these items (especially when it comes to things like Knowledge/Artisan Skills and the such), the importer might not find all listed items in the file. To check and edit these items, a log file is created as a Journal Entry in the folder _Steps2Foundry_. After importing, control this log to edit and finalize your character creation and add all missing items.
 - The "Log" field from SecondStep is imported as the character's personal Journal Entry. This is found in the folder _Steps2Foundry_ as well.

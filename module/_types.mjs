@@ -789,6 +789,36 @@
  * a count above 0.
  */
 
+/**
+ * @typedef {object} ImportErrorDescription
+ * @property {string} message - The localized message for the user.
+ * @property {string|null} cause - The message of what caused the error, if there is anything to tell.
+ */
+
+/**
+ * @typedef {object} ImportFileResult
+ * @property {string} fileName - The name of the imported file.
+ * @property {"success"|"failed"} status - Whether the file was imported.
+ * @property {ImportReport} [report] - The report of the import. Only if `status` is `success`.
+ * @property {ImportErrorDescription} [error] - What went wrong. Only if `status` is `failed`.
+ */
+
+/**
+ * @typedef {object} ImportAttempt
+ * @property {number} startedAt - When the attempt started, in milliseconds since the epoch.
+ * @property {string} userName - The name of the user who imported.
+ * @property {ImportFileResult[]} results - One result per selected file, in the order of the files.
+ */
+
+/**
+ * @typedef {object} JournalPageData
+ * @property {string} name - The title of the page. Plain text, not HTML.
+ * @property {"text"} type - The page type.
+ * @property {{ show: boolean, level: number }} title - Whether and on which heading level the title is shown.
+ * @property {{ content: string, format: number }} text - The HTML content. `format` is 1 for HTML.
+ * @property {number} sort - The position of the page in the journal.
+ */
+
 // endregion
 
 // endregion

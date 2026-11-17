@@ -17,12 +17,59 @@
     },
     "Error":       {
       "importFailed":        "Importing the character failed.",
+      "invalidFile":         "The file is not a valid SecondStep export.",
       "noActorPermission":   "You do not have permission to create actors.",
-      "noJournalPermission": "You do not have permission to create journal entries."
+      "noJournalPermission": "You do not have permission to create journal entries.",
+      "unexpected":          "An unexpected error occurred."
+    },
+    "Import":      {
+      "alreadyRunning": "An import is already running.",
+      "chooseFiles":    "Select one or more SecondStep files (*.json)",
+      "dialogTitle":    "Import from SecondStep",
+      "import":         "Import",
+      "imported":       "Imported {count} of {total} files.",
+      "macroName":      "Import from SecondStep"
     },
     "Journal":     {
+      "attemptSummary": "{user} imported {total} file(s): {succeeded} succeeded, {failed} failed.",
+      "attemptTitle":   "Import {time} UTC",
+      "fileTitle":      "{fileName}: {characterName}",
+      "fileTitleFailed": "{fileName} (failed)",
+      "importLogName":  "Steps2Foundry Imports ({userName})",
       "logJournalName": "Log: {characterName}",
       "logPageName":    "Log"
+    },
+    "Report":      {
+      "deferred":    {
+        "effects":         "Effects: {count}",
+        "homebrewEffects": "Homebrew effects: {count}",
+        "knacks":          "Knacks: {count}",
+        "legendPoints":    "Legend Points: {count}",
+        "magic":           "Magic: {count}",
+        "matrixGrants":    "Matrix grants: {count}",
+        "threadItems":     "Thread items: {count}"
+      },
+      "heading":     {
+        "deferred":    "Not imported",
+        "resolutions": "Resolved items",
+        "unresolved":  "Unresolved items"
+      },
+      "kind":        {
+        "discipline":      "Disciplines ({count})",
+        "equipment":       "Equipment ({count})",
+        "namegiver":       "Namegivers ({count})",
+        "path":            "Paths ({count})",
+        "questor":         "Questors ({count})",
+        "questorDevotion": "Questor devotions ({count})",
+        "skill":           "Skills ({count})",
+        "spell":           "Spells ({count})",
+        "talent":          "Talents ({count})"
+      },
+      "resolutions": {
+        "edid":        "Found by EDID: {count}",
+        "synthesized": "Synthesized: {count}",
+        "uuid":        "Found by UUID: {count}"
+      }
     },
     "Synthesized": {
       "Name": {
