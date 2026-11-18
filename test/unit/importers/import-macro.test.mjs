@@ -9,6 +9,9 @@ describe( "ensureImportMacro", () => {
   beforeEach( () => {
     create = vi.fn( async data => data );
     vi.stubGlobal( "Macro", { create } );
+    vi.stubGlobal( "CONST", { DOCUMENT_OWNERSHIP_LEVELS: { OBSERVER: 2 } } );
+    game.settings.get.mockReturnValue( false );
+    game.settings.set = vi.fn( async () => {} );
     game.user.isGM = true;
     game.user.isSelf = true;
     game.users = { activeGM: game.user };
@@ -24,6 +27,7 @@ describe( "ensureImportMacro", () => {
     expect( data.command ).toBe( IMPORT_MACRO_COMMAND );
     expect( data.command ).toContain( "api.runImport()" );
     expect( data.flags[ MODULE_ID ].importMacro ).toBe( true );
+    expect( data.ownership ).toEqual( { default: 2 } );
   } );
 
   it( "does not create it again if it exists", async () => {
@@ -31,6 +35,40 @@ describe( "ensureImportMacro", () => {
 
     expect( await ensureImportMacro() ).toBeNull();
     expect( create ).not.toHaveBeenCalled();
+  } );
+
+  it( "only writes the setting for an existing macro if it is still false", async () => {
+    game.macros = [ { getFlag: ( scope, key ) => scope === MODULE_ID && key === "importMacro" } ];
+
+    await ensureImportMacro();
+    expect( game.settings.set ).toHaveBeenCalledWith( MODULE_ID, "importMacroCreated", true );
+
+    game.settings.set.mockClear();
+    game.settings.get.mockReturnValue( true );
+    await ensureImportMacro();
+    expect( game.settings.set ).not.toHaveBeenCalled();
+  } );
+
+  it( "does not create it again after it was created once and deleted", async () => {
+    game.settings.get.mockReturnValue( true );
+
+    expect( await ensureImportMacro() ).toBeNull();
+    expect( create ).not.toHaveBeenCalled();
+  } );
+
+  it( "remembers that it was created", async () => {
+    await ensureImportMacro();
+
+    expect( game.settings.set ).toHaveBeenCalledWith( MODULE_ID, "importMacroCreated", true );
+  } );
+
+  it( "does not remember it if the creation failed", async () => {
+    create.mockRejectedValue( new Error( "denied" ) );
+    vi.spyOn( console, "warn" ).mockImplementation( () => {} );
+
+    await ensureImportMacro();
+
+    expect( game.settings.set ).not.toHaveBeenCalled();
   } );
 
   it( "does nothing for a user who is not a GM", async () => {

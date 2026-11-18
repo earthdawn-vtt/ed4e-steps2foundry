@@ -11,25 +11,33 @@ await importer.api.runImport();`;
 
 /**
  * Creates the macro that starts the import in the world, if it does not exist yet. Only the active GM does this, so
- * that several GMs do not create it twice, and a user who deleted the macro on purpose gets a new one on the next
- * start only if no macro with the flag remains.
+ * that several GMs do not create it twice. The world setting `importMacroCreated` remembers that the macro was
+ * created once, so a macro that was deleted on purpose does not come back.
  * @returns {Promise<Macro|null>} The created macro, or `null` if nothing was created.
  */
 export async function ensureImportMacro() {
   if ( !game.user.isGM ) return null;
   if ( game.users.activeGM && !game.users.activeGM.isSelf ) return null;
 
+  const created = game.settings.get( MODULE_ID, "importMacroCreated" ) === true;
   const exists = game.macros.some( macro => macro.getFlag( MODULE_ID, "importMacro" ) === true );
-  if ( exists ) return null;
+  if ( exists ) {
+    if ( !created ) await game.settings.set( MODULE_ID, "importMacroCreated", true );
+    return null;
+  }
+  if ( created ) return null;
 
   try {
-    return await Macro.create( {
-      name:    _loc( "S2F.Import.macroName" ),
-      type:    "script",
-      img:     "icons/svg/wall-direction.svg",
-      command: IMPORT_MACRO_COMMAND,
-      flags:   { [ MODULE_ID ]: { importMacro: true } },
+    const macro = await Macro.create( {
+      name:      _loc( "S2F.Import.macroName" ),
+      type:      "script", 
+      img:       "icons/svg/wall-direction.svg",
+      command:   IMPORT_MACRO_COMMAND,
+      ownership: { default: CONST.DOCUMENT_OWNERSHIP_LEVELS.OBSERVER },
+      flags:     { [ MODULE_ID ]: { importMacro: true } },
     } );
+    await game.settings.set( MODULE_ID, "importMacroCreated", true );
+    return macro;
   } catch ( cause ) {
     warn( "Could not create the import macro.", cause );
     return null;

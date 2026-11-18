@@ -1,7 +1,5 @@
 import { MODULE_ID } from "../constants/constants.mjs";
-import { importSecondStepCharacter } from "../importers/import-character.mjs";
 import { ensureImportMacro } from "../importers/import-macro.mjs";
-import { runImport } from "../importers/run-import.mjs";
 import * as logging from "../logging/logging.mjs";
 
 /**
@@ -21,7 +19,6 @@ import * as logging from "../logging/logging.mjs";
  */
 export function ready() {
   Hooks.once( "ready", async () => {
-    game.modules.get( MODULE_ID ).api = { importSecondStepCharacter, runImport, };
     await ensureImportMacro();
     logging.log( `Module "${ MODULE_ID }" ready` );
   } );
