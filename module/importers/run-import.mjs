@@ -24,6 +24,7 @@ async function writeImportLog( attempt ) {
     return { journal, pageId };
   } catch ( cause ) {
     logWarn( "Could not write the import log.", cause );
+    ui.notifications.warn( _loc( "S2F.Import.logFailed" ) );
     return null;
   }
 }
@@ -42,7 +43,11 @@ export async function runImport() {
 
   try {
     const files = await promptForSecondStepFiles();
-    if ( !files?.length ) return;
+    if ( files === null ) return;
+    if ( !files?.length ) {
+      ui.notifications.warn( _loc( "S2F.Import.noFile" ) );
+      return;
+    }
 
     const startedAt = Date.now();
     const results = [];
