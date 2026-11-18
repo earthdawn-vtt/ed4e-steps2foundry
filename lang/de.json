@@ -28,6 +28,8 @@
       "dialogTitle":    "Import aus SecondStep",
       "import":         "Importieren",
       "imported":       "{count} von {total} Dateien importiert.",
+      "logFailed":      "Das Import-Protokoll konnte nicht geschrieben werden. Eventuell fehlt die Berechtigung, Journaleinträge zu erstellen.",
+      "noFile":         "Keine Datei ausgewählt.",
       "macroName":      "Import aus SecondStep"
     },
     "Journal":     {

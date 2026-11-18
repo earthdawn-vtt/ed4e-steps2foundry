@@ -28,6 +28,8 @@
       "dialogTitle":    "Import from SecondStep",
       "import":         "Import",
       "imported":       "Imported {count} of {total} files.",
+      "logFailed":      "The import log could not be written. You may lack the permission to create journal entries.",
+      "noFile":         "No file selected.",
       "macroName":      "Import from SecondStep"
     },
     "Journal":     {
