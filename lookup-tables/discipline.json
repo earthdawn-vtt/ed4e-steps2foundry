@@ -1,1 +1,154 @@
-{}
+{
+  "ED4AirSailor": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-disciplines-en.Item.xMHiUt7MOM5jTjP5",
+    "edid": "discipline-air-sailor"
+  },
+  "ED4Archer": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-disciplines-en.Item.szG9oMvEbKEbY3GL",
+    "edid": "discipline-archer"
+  },
+  "ED4Beastmaster": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-disciplines-en.Item.Y8M6pzrU237C4DWg",
+    "edid": "discipline-beastmaster"
+  },
+  "ED4Boatman": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-disciplines-en.Item.e034F6NBbPgoZqY5",
+    "edid": "discipline-boatman"
+  },
+  "ED4Cavalryman": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-disciplines-en.Item.BlFs9xz5qUVx3HhA",
+    "edid": "discipline-cavalryman"
+  },
+  "ED4Elementalist": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-disciplines-en.Item.xSzvCW1FMO7lDpEH",
+    "edid": "discipline-elementalist"
+  },
+  "ED4Gauntlet": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-disciplines-en.Item.VF3j3ZsI7IblilY9",
+    "edid": "discipline-gauntlet"
+  },
+  "ED4Illusionist": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-disciplines-en.Item.aKoJqSwOtlV9eih0",
+    "edid": "discipline-illusionist"
+  },
+  "ED4Marauder": {
+    "uuid": null,
+    "edid": "discipline-marauder"
+  },
+  "ED4Nethermancer": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-disciplines-en.Item.5WZgYL3mOZm4PWrM",
+    "edid": "discipline-nethermancer"
+  },
+  "ED4Sailor": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-disciplines-en.Item.xMHiUt7MOM5jTjP5",
+    "edid": "discipline-sailor"
+  },
+  "ED4Scout": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-disciplines-en.Item.OdgC4FuSd1O5jn8Y",
+    "edid": "discipline-scout"
+  },
+  "ED4Shaman": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-disciplines-en.Item.VPRaqqB25lKxBGWg",
+    "edid": "discipline-shaman"
+  },
+  "ED4SkyRaider": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-disciplines-en.Item.Y8o5Zxj8GjSbAkhz",
+    "edid": "discipline-sky-raider"
+  },
+  "ED4Swordmaster": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-disciplines-en.Item.21SNoQy9JDhkyUJ3",
+    "edid": "discipline-swordmaster"
+  },
+  "ED4Thief": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-disciplines-en.Item.uvzMXTYYnYsouf4S",
+    "edid": "discipline-thief"
+  },
+  "ED4Troubadour": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-disciplines-en.Item.WGFfUVqWBFkIS7Zc",
+    "edid": "discipline-troubadour"
+  },
+  "ED4Warrior": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-disciplines-en.Item.mwqgejhiA5NWuYG1",
+    "edid": "discipline-warrior"
+  },
+  "ED4Weaponsmith": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-disciplines-en.Item.Ho2Ph75FItE0gk7M",
+    "edid": "discipline-weaponsmith"
+  },
+  "ED4Wizard": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-disciplines-en.Item.QF3bSadX4mUkSI4a",
+    "edid": "discipline-wizard"
+  },
+  "ESFBeastmaster": {
+    "uuid": null,
+    "edid": "discipline-beastmaster"
+  },
+  "FableThief": {
+    "uuid": null,
+    "edid": "discipline-thief-variant"
+  },
+  "PandaBladeweaver": {
+    "uuid": null,
+    "edid": "discipline-bladeweaver"
+  },
+  "PandaCavalier": {
+    "uuid": null,
+    "edid": "discipline-cavalier"
+  },
+  "PandaLancer": {
+    "uuid": null,
+    "edid": "discipline-lancer"
+  },
+  "PandaMasterOfTheHunt": {
+    "uuid": null,
+    "edid": "discipline-master-of-the-hunt"
+  },
+  "PandaMonk": {
+    "uuid": null,
+    "edid": "discipline-seeker"
+  },
+  "PandaRaider": {
+    "uuid": null,
+    "edid": "discipline-raider"
+  },
+  "PandaRiverRaider": {
+    "uuid": null,
+    "edid": "discipline-river-raider"
+  },
+  "PandaSeaRaider": {
+    "uuid": null,
+    "edid": "discipline-sea-raider"
+  },
+  "PandaSentinel": {
+    "uuid": null,
+    "edid": "discipline-sentinel"
+  },
+  "PandaShadow": {
+    "uuid": null,
+    "edid": "discipline-shadow"
+  },
+  "PandaSpiritRider": {
+    "uuid": null,
+    "edid": "discipline-spirit-rider"
+  },
+  "PandaSpiritRiderCavalier": {
+    "uuid": null,
+    "edid": "discipline-spirit-rider-cavalier"
+  },
+  "PandaVenturer": {
+    "uuid": null,
+    "edid": "discipline-venturer"
+  },
+  "SKDelver": {
+    "uuid": null,
+    "edid": "discipline-delver-thief-variant"
+  },
+  "SKRaeuber": {
+    "uuid": null,
+    "edid": "discipline-rauber-thief-variant"
+  },
+  "WoldridgeBeastmaster": {
+    "uuid": null,
+    "edid": "discipline-animal-friend"
+  }
+}

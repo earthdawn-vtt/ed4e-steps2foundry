@@ -1,1 +1,130 @@
-{}
+{
+  "BarkArmor": {
+    "uuid": null,
+    "edid": "armor-bark-armor"
+  },
+  "BloodPebble": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.Sq3q7WQiZ1xDmazY",
+    "edid": "armor-blood-pebble"
+  },
+  "ChainMail": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.M6WS7TiOHrXJlNt5",
+    "edid": "armor-chain-mail"
+  },
+  "CrystalPlate": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.otDBCzpenRL575tc",
+    "edid": "armor-crystal-plate"
+  },
+  "CrystalRinglet": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.XDawa1NXtdHfMk25",
+    "edid": "armor-crystal-ringlet"
+  },
+  "CrystalWeave": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.D5sYwChh49EhEi16",
+    "edid": "armor-crystalweave"
+  },
+  "ED4Bone Mail": {
+    "uuid": null,
+    "edid": "armor-bone-mail"
+  },
+  "ED4Skeleton": {
+    "uuid": null,
+    "edid": "armor-skeleton"
+  },
+  "ED4ThundraSkin": {
+    "uuid": null,
+    "edid": "armor-thundra-skin"
+  },
+  "EspagraCloak": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.Wj5K9fRaYoBaPcyl",
+    "edid": "armor-espagra-cloak"
+  },
+  "Fernweave": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.9PDZoRgHbFDlfi3J",
+    "edid": "armor-fernweave"
+  },
+  "HardenedLeather": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.zdSCAVoSHDN6KEmK",
+    "edid": "armor-hardened-leather"
+  },
+  "HeavyLeather": {
+    "uuid": null,
+    "edid": "armor-heavy-leather"
+  },
+  "HideArmor": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.gyzamSRsoqe5tna1",
+    "edid": "armor-hide-armor"
+  },
+  "Leather": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.4xpiVnJuWWBQZzWc",
+    "edid": "armor-leather"
+  },
+  "LivingCrystal": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.Qk3ytsPaDD4kPXvJ",
+    "edid": "armor-living-crystal"
+  },
+  "LivingMetal": {
+    "uuid": null,
+    "edid": "armor-living-metal"
+  },
+  "Oathstar": {
+    "uuid": null,
+    "edid": "armor-oathstar"
+  },
+  "ObsidimanSkin": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.3EzSXPVYN6pvyn1q",
+    "edid": "armor-obsidiman-skin"
+  },
+  "PaddedCloth": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.LpisyZPiAPSTvpAh",
+    "edid": "armor-padded-cloth"
+  },
+  "PaddedLeather": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.e7nxIGz18CKEQTwt",
+    "edid": "armor-padded-leather"
+  },
+  "PandaWholenessOfBodyArm": {
+    "uuid": null,
+    "edid": "armor-protection-of-truth-seeker"
+  },
+  "PlateArmor": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.ZXA3WGnou0dB7Syi",
+    "edid": "armor-plate-armor"
+  },
+  "RingMail": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.WiYqsfMRrlTQRBvu",
+    "edid": "armor-ring-mail"
+  },
+  "SkoraMail": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.jyafLHklzWfsJEJd",
+    "edid": "armor-skora-mail"
+  },
+  "StoneDisk": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.Ab88C40rdPBlQZqt",
+    "edid": "armor-stone-disk"
+  },
+  "StoneNet": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.TeTHubPGAGa2KUTI",
+    "edid": "armor-stone-net"
+  },
+  "TrimWood": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.VpLClLEvvtjBfBe7",
+    "edid": "armor-trim-wood"
+  },
+  "TrimWoodGloamoak)": {
+    "uuid": null,
+    "edid": "armor-trim-wood-gloamoak"
+  },
+  "WoodTile": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.KDICWjprfyzWQXMO",
+    "edid": "armor-wood-tile"
+  },
+  "WoodTileGloamoak": {
+    "uuid": null,
+    "edid": "armor-wood-tile-gloamoak"
+  },
+  "WyvernSkin": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.J8NOfmT2lBujQ14R",
+    "edid": "armor-wyvern-skin"
+  }
+}

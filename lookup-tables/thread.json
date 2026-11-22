@@ -1,1 +1,70 @@
-{}
+{
+  "ED4BloodPeace": {
+    "uuid": null,
+    "edid": "thread-blood-peace"
+  },
+  "ED4BloodPeaceBroken": {
+    "uuid": null,
+    "edid": "thread-blood-peace-broken"
+  },
+  "ED4BloodPeaceBrokenHealed": {
+    "uuid": null,
+    "edid": "thread-blood-peace-broken-healed"
+  },
+  "ED4BloodPeaceKept": {
+    "uuid": null,
+    "edid": "thread-blood-peace-kept"
+  },
+  "ED4BloodPromise": {
+    "uuid": null,
+    "edid": "thread-blood-promise"
+  },
+  "ED4BloodPromiseFulfilled": {
+    "uuid": null,
+    "edid": "thread-blood-promise-fulfilled"
+  },
+  "ED4BloodPromiseViolated": {
+    "uuid": null,
+    "edid": "thread-blood-promise-violated"
+  },
+  "ED4BloodPromiseViolatedHealed": {
+    "uuid": null,
+    "edid": "thread-blood-promise-violated-healed"
+  },
+  "ED4BloodSworn": {
+    "uuid": null,
+    "edid": "thread-blood-sworn"
+  },
+  "ED4BloodSwornViolated": {
+    "uuid": null,
+    "edid": "thread-blood-sworn-violated"
+  },
+  "ED4BloodSwornViolatedhealed": {
+    "uuid": null,
+    "edid": "thread-blood-sworn-violated-healed"
+  },
+  "ED4CorePatternItem": {
+    "uuid": null,
+    "edid": "thread-core-pattern-item"
+  },
+  "ED4GroupTruePattern": {
+    "uuid": null,
+    "edid": "thread-group-true-pattern"
+  },
+  "ED4MajorPatternItem": {
+    "uuid": null,
+    "edid": "thread-major-pattern-item"
+  },
+  "ED4MinorPatternItem": {
+    "uuid": null,
+    "edid": "thread-minor-pattern-item"
+  },
+  "SKBloodWound": {
+    "uuid": null,
+    "edid": "thread-blutwunde"
+  },
+  "SKGroupTruePattern": {
+    "uuid": null,
+    "edid": "thread-sebastian-group-pattern"
+  }
+}

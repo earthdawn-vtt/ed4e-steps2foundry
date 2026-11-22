@@ -1,1 +1,394 @@
-{}
+{
+  "BarbedNet": {
+    "uuid": null,
+    "edid": "weapon-barbed-net"
+  },
+  "BarbedThrowingNet": {
+    "uuid": null,
+    "edid": "weapon-barbed-throwing-net"
+  },
+  "BattleAxe": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.NQaukZkPwMMBhvpy",
+    "edid": "weapon-battle-axe"
+  },
+  "BeardedAx": {
+    "uuid": null,
+    "edid": "weapon-bearded-ax"
+  },
+  "BeardedAxTroll": {
+    "uuid": null,
+    "edid": "weapon-bearded-ax-troll"
+  },
+  "Blowgun": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.bkYvyqCQlzD50Bbu",
+    "edid": "weapon-blowgun"
+  },
+  "Bola": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.0QryKHM7XH0MS2o2",
+    "edid": "weapon-bola"
+  },
+  "Broadsword": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.KLjr568plTJnS8oC",
+    "edid": "weapon-broadsword"
+  },
+  "CastingNet": {
+    "uuid": null,
+    "edid": "weapon-casting-net"
+  },
+  "ChtardThorn": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.psCrzyWdVzA6hg8i",
+    "edid": "weapon-chtard-thorn"
+  },
+  "Club": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.Q5Zm6sCt07qYA0c5",
+    "edid": "weapon-club"
+  },
+  "Dagger": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.5g0tF58LIUtoTdIJ",
+    "edid": "weapon-dagger"
+  },
+  "Dart": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.HwTwSQ4Vi1NUZrB3",
+    "edid": "weapon-dart"
+  },
+  "DwarfSword": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.dY0VxLn5GMHbuWnL",
+    "edid": "weapon-dwarf-sword"
+  },
+  "ED4Charge Sword": {
+    "uuid": null,
+    "edid": "weapon-charge-sword"
+  },
+  "ED4DinganniTalons": {
+    "uuid": null,
+    "edid": "weapon-dinganni-talons"
+  },
+  "ED4FlowingBlade": {
+    "uuid": null,
+    "edid": "weapon-flowing-blade"
+  },
+  "ED4Nailboots": {
+    "uuid": null,
+    "edid": "weapon-nailboots"
+  },
+  "ED4OrnamentalDagger": {
+    "uuid": null,
+    "edid": "weapon-ornamental-dagger"
+  },
+  "ED4OspreyBlade": {
+    "uuid": null,
+    "edid": "weapon-osprey-blade"
+  },
+  "ED4ServosBlowgun": {
+    "uuid": null,
+    "edid": "weapon-servos-blowgun"
+  },
+  "ED4WarriorsScarf": {
+    "uuid": null,
+    "edid": "weapon-warriors-scarf"
+  },
+  "ED4WristBlade": {
+    "uuid": null,
+    "edid": "weapon-wrist-blade"
+  },
+  "ElvenWarbow": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.HhYkuuRaXAakuLvl",
+    "edid": "weapon-elven-warbow"
+  },
+  "Flail": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.4Z6NxfB9LukT7Noh",
+    "edid": "weapon-flail"
+  },
+  "FlightDagger": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.6v6YPKGUq8MZGmcW",
+    "edid": "weapon-flight-dagger"
+  },
+  "GreatAx": {
+    "uuid": null,
+    "edid": "weapon-great-ax"
+  },
+  "GreatAxTroll": {
+    "uuid": null,
+    "edid": "weapon-great-ax-troll"
+  },
+  "HandAxe": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.dHcU9ewK0wRKwMt5",
+    "edid": "weapon-hand-axe"
+  },
+  "HawkHatchet": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.vYj0mYoCp7XZYgB4",
+    "edid": "weapon-hawk-hatchet"
+  },
+  "Javelin": {
+    "uuid": null,
+    "edid": "weapon-javelin"
+  },
+  "JavelinTroll": {
+    "uuid": null,
+    "edid": "weapon-javelin-troll"
+  },
+  "Knife": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.o61OEYWHewJY9kBi",
+    "edid": "weapon-knife"
+  },
+  "Lance": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.TTpUqyZHGnMql3XW",
+    "edid": "weapon-lance"
+  },
+  "LightCrossbow": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.9v0qVOJUVP8vW3iW",
+    "edid": "weapon-light-crossbow"
+  },
+  "LongSpear": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.NDUAMBwjLMHdJnA5",
+    "edid": "weapon-long-spear"
+  },
+  "Longbow": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.s6XvujBTHiCKPX0p",
+    "edid": "weapon-longbow"
+  },
+  "Mace": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.am2tT8Omwco0n7rU",
+    "edid": "weapon-mace"
+  },
+  "MediumCrossbow": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.7Fi1IQlmxpJw4etU",
+    "edid": "weapon-medium-crossbow"
+  },
+  "Net": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.kVhzTkUgZQV4VY3I",
+    "edid": "weapon-net"
+  },
+  "PoleArm": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.BmfSF2K5v8sP6zJJ",
+    "edid": "weapon-pole-arm"
+  },
+  "PoleAxe": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.jPI2eTC1Jqnti1dp",
+    "edid": "weapon-pole-axe"
+  },
+  "Quarterstaff": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.5t0U4oxBc6C2u9UY",
+    "edid": "weapon-quarterstaff"
+  },
+  "RaidSpear": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.ce7UleyXwucVXecV",
+    "edid": "weapon-raid-spear"
+  },
+  "Sap": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.rATaSTzEIgKPjdi8",
+    "edid": "weapon-sap"
+  },
+  "ScythanAxe": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.6z623bi8axmNzBmj",
+    "edid": "weapon-scythan-axe"
+  },
+  "ShortSword": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.MNp2XjZznIZ2kiTP",
+    "edid": "weapon-short-sword"
+  },
+  "Shortbow": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.3LQ2r3wVbKVxtFHS",
+    "edid": "weapon-shortbow"
+  },
+  "Sling": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.04c1FaFfBlOznsan",
+    "edid": "weapon-sling"
+  },
+  "Spear": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.LsXPiMI1i9GTefDz",
+    "edid": "weapon-spear"
+  },
+  "SpikedMace": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.8WE22ZyVndlTRVUr",
+    "edid": "weapon-spiked-mace"
+  },
+  "StoneMaul": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.UPL765MYD1knKHtR",
+    "edid": "weapon-stone-maul"
+  },
+  "TailDancerBlade": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.3MgJsSvwT3v91bIU",
+    "edid": "weapon-tail-dancer-blade"
+  },
+  "ThrowingAxe": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.aba39puPZF855X2u",
+    "edid": "weapon-throwing-axe"
+  },
+  "ThrowingClub": {
+    "uuid": null,
+    "edid": "weapon-throwing-club"
+  },
+  "ThrowingClubGloamoak": {
+    "uuid": null,
+    "edid": "weapon-throwing-club-gloamoak"
+  },
+  "ThrowingDagger": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.mb36cGtXWqdUjnRA",
+    "edid": "weapon-throwing-dagger"
+  },
+  "ThrowingNet": {
+    "uuid": null,
+    "edid": "weapon-throwing-net"
+  },
+  "ThrowingSpear": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.LsXPiMI1i9GTefDz",
+    "edid": "weapon-spear"
+  },
+  "Trispear": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.cmFb50AF1tTUizoY",
+    "edid": "weapon-trispear"
+  },
+  "TrollAxe": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.XzCESPpDvmL5bk2F",
+    "edid": "weapon-troll-axe"
+  },
+  "TrollBattleAxe": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.QbjNNkn5MUhuwPtq",
+    "edid": "weapon-troll-battle-axe"
+  },
+  "TrollBola": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.LqeutJQ5FCqLKUZh",
+    "edid": "weapon-troll-bola"
+  },
+  "TrollDagger": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.1xp2skKaoaXs0IfZ",
+    "edid": "weapon-troll-dagger"
+  },
+  "TrollFlail": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.cXOrTkaSDWICt7ye",
+    "edid": "weapon-troll-flail"
+  },
+  "TrollMace": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.1JAeL2qWYqYRgw79",
+    "edid": "weapon-troll-mace"
+  },
+  "TrollPoleAxe": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.QpIhVVhtTxyKumIq",
+    "edid": "weapon-troll-pole-axe"
+  },
+  "TrollQuarterStaff": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.6CPSJx3NBLYG1Vos",
+    "edid": "weapon-troll-quarterstaff"
+  },
+  "TrollSling": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.fRkU4ozUJhctVuO3",
+    "edid": "weapon-troll-sling"
+  },
+  "TrollSpear": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.bXDzWOWExVoPLMEJ",
+    "edid": "weapon-troll-spear"
+  },
+  "TrollSword": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.Gb2sQ7lSlb0p6sSk",
+    "edid": "weapon-troll-sword"
+  },
+  "TrollThrowingAxe": {
+    "uuid": null,
+    "edid": "weapon-troll-throwing-axe"
+  },
+  "TrollTwoHandedSword": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.oyPrwiFKAasvYBJ9",
+    "edid": "weapon-troll-two-handed-sword"
+  },
+  "TrollWarhammer": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.0XdKytQWXPVObwyw",
+    "edid": "weapon-troll-warhammer"
+  },
+  "TwoHandedSword": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.oFQ1iXacVgdwjiKW",
+    "edid": "weapon-two-handed-sword"
+  },
+  "WarClub": {
+    "uuid": null,
+    "edid": "weapon-war-club"
+  },
+  "WarClubGloamoak": {
+    "uuid": null,
+    "edid": "weapon-war-club-gloamoak"
+  },
+  "WarClubTroll": {
+    "uuid": null,
+    "edid": "weapon-war-club-troll"
+  },
+  "WarClubTrollGloamoak": {
+    "uuid": null,
+    "edid": "weapon-war-club-troll-gloamoak"
+  },
+  "WarMaul": {
+    "uuid": null,
+    "edid": "weapon-war-maul"
+  },
+  "WarMaulGloamoak": {
+    "uuid": null,
+    "edid": "weapon-war-maul-gloamoak"
+  },
+  "WarMaulTroll": {
+    "uuid": null,
+    "edid": "weapon-war-maul-troll"
+  },
+  "WarMaulTrollGloamoak": {
+    "uuid": null,
+    "edid": "weapon-war-maul-troll-gloamoak"
+  },
+  "WarSpear": {
+    "uuid": null,
+    "edid": "weapon-war-spear"
+  },
+  "WarSpearTroll": {
+    "uuid": null,
+    "edid": "weapon-war-spear-troll"
+  },
+  "Warhammer": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.87YzQwZmRlpRCBu9",
+    "edid": "weapon-warhammer"
+  },
+  "Whip": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.31EIvajq5rrbTzHp",
+    "edid": "weapon-whip"
+  },
+  "WindlingBows": {
+    "uuid": null,
+    "edid": "weapon-windling-bows"
+  },
+  "WindlingDagger": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.MYHRUUcbnaax6DPL",
+    "edid": "weapon-windling-dagger"
+  },
+  "WindlingNet": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.MhYXJB09AvC6Lyod",
+    "edid": "weapon-windling-net"
+  },
+  "WindlingPoleArm": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.WITjybgDSeJnorg1",
+    "edid": "weapon-windling-pole-arm"
+  },
+  "WindlingQuarterstaff": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.gq4y8vOGK7Dj2KFV",
+    "edid": "weapon-windling-quarterstaff"
+  },
+  "WindlingShortSword": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.8Eo3dODs6EEtnNFo",
+    "edid": "weapon-windling-short-sword"
+  },
+  "WindlingSpear": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.BL3U90qmX9NV2oVf",
+    "edid": "weapon-windling-spear"
+  },
+  "WindlingSword": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-goods-en.Item.0081qXChqwEbW6Xr",
+    "edid": "weapon-windling-sword"
+  },
+  "WindlingTwoHandedSword": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-goods-en.Item.2AENWRRSARI1W3Iv",
+    "edid": "weapon-windling-two-handed-sword"
+  },
+  "WingedLance": {
+    "uuid": null,
+    "edid": "weapon-winged-lance"
+  },
+  "WingedLanceW": {
+    "uuid": null,
+    "edid": "weapon-winged-lance-windling"
+  }
+}

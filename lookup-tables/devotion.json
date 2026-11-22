@@ -1,1 +1,610 @@
-{}
+{
+  "ED4AcrobaticDefense": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.3XBT1t3AP448cg60",
+    "edid": "devotion-acrobatic-defense"
+  },
+  "ED4Acting": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.SjKZ37SF5K0taekv",
+    "edid": "devotion-acting"
+  },
+  "ED4AirSpeaking": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.1qbY6L1OwZl8w6QQ",
+    "edid": "devotion-air-speaking"
+  },
+  "ED4Alchemy": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.7ouz2YcCi5ybKyjD",
+    "edid": "devotion-alchemy"
+  },
+  "ED4AnimalBond": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.RgMjA8DzkH3rDhSJ",
+    "edid": "devotion-animal-bond"
+  },
+  "ED4AnimalLeadership": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.lrwIUB2Ph20V8oaJ",
+    "edid": "devotion-animal-leadership"
+  },
+  "ED4AnimalTalk": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.SnwXIyi4xfGRL2OS",
+    "edid": "devotion-animal-talk"
+  },
+  "ED4ArmorofThystonius": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.uatyelDemlyH5v3E",
+    "edid": "devotion-armor-of-thystonius"
+  },
+  "ED4Artisan": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.vqJAFgNXNdXNEAlv",
+    "edid": "devotion-artisan"
+  },
+  "ED4Artist": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.vumUMtb0lnxk17tW",
+    "edid": "devotion-artist"
+  },
+  "ED4AssessIntentions": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.K4JtqPzb1bJvEYU6",
+    "edid": "devotion-assess-intentions"
+  },
+  "ED4AstendarsMuse": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.q4ZfzWEeT67NaQLB",
+    "edid": "devotion-astendars-muse"
+  },
+  "ED4AstendarsVoice": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.yoU1y5fh7lAvHEw9",
+    "edid": "devotion-astendars-voice"
+  },
+  "ED4AstralSight": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.vPsBw0CbsoSwAVov",
+    "edid": "devotion-astral-sight"
+  },
+  "ED4AvoidBlow": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.MJlP0d4qx8qgzvqY",
+    "edid": "devotion-avoid-blow"
+  },
+  "ED4AwakentheWood": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.yHsqrf5bxPhHrneU",
+    "edid": "devotion-awaken-the-wood"
+  },
+  "ED4Awareness": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.CIrHvi33XFWWCbTA",
+    "edid": "devotion-awareness"
+  },
+  "ED4BardicVoice": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.nSbWiz22WddASWxo",
+    "edid": "devotion-bardic-voice"
+  },
+  "ED4BattleBellow": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.tEZEhRi41lF3Llgy",
+    "edid": "devotion-battle-bellow"
+  },
+  "ED4BattleShout": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.y6hxWpK2KEeHNfec",
+    "edid": "devotion-battle-shout"
+  },
+  "ED4BeastSummons": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.3tPKQFjJkeRqdD3p",
+    "edid": "devotion-beast-summons"
+  },
+  "ED4BloomandFlourish": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.oBEpMeBtKIiUc8no",
+    "edid": "devotion-bloom-and-flourish"
+  },
+  "ED4BookMemory": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.yZdfbrJGtYmpNguV",
+    "edid": "devotion-book-memory"
+  },
+  "ED4BreakShackles": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.qDQ1aOATiEIzsuxO",
+    "edid": "devotion-break-shackles"
+  },
+  "ED4Bribery": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.6MhCX4iPf1Ch9TjF",
+    "edid": "devotion-bribery"
+  },
+  "ED4ButtressArmor": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.W3DtRm2pCuhDh4Vk",
+    "edid": "devotion-buttress-armor"
+  },
+  "ED4CallAnimalCompanion": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.OrWLpHOVSmZDiTku",
+    "edid": "devotion-call-animal-companion"
+  },
+  "ED4ChainsofObedience": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.ga9qUBQUD5unOsk8",
+    "edid": "devotion-chains-of-obedience"
+  },
+  "ED4ChallengeofDis": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.sK8bJ6NN3Mh8TVQL",
+    "edid": "devotion-challenge-of-dis"
+  },
+  "ED4ColdReminder": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.shwSwhliInBnnCjE",
+    "edid": "devotion-cold-reminder"
+  },
+  "ED4Compel": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.bPTrRciu63zYBMsO",
+    "edid": "devotion-compel"
+  },
+  "ED4ConcealObject": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.zwcgUtTgka8tQP16",
+    "edid": "devotion-conceal-object"
+  },
+  "ED4Conversation": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.hHu2bElp7AQ1A1lH",
+    "edid": "devotion-conversation"
+  },
+  "ED4Craftsman": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.DkNCxNn8TQbwApP2",
+    "edid": "devotion-craftsman"
+  },
+  "ED4CreatureAnalysis": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.vFpAVUxtWfUkU9Xk",
+    "edid": "devotion-creature-analysis"
+  },
+  "ED4DangerSense": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.3PSr5pOSnegRhJIb",
+    "edid": "devotion-danger-sense"
+  },
+  "ED4DefiantShout": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.OZ7mqvAj9eZl3Kt8",
+    "edid": "devotion-defiant-shout"
+  },
+  "ED4Desolate": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.jiSULXAa17jFR5xf",
+    "edid": "devotion-desolate"
+  },
+  "ED4DetailOriented": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.M6vR6FlUpZWPSLwZ",
+    "edid": "devotion-detail-oriented"
+  },
+  "ED4Diplomacy": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.2iulbLHV2VnUZ0WV",
+    "edid": "devotion-diplomacy"
+  },
+  "ED4DisarmingSmile": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.WOWaAtmcPN1fEgzF",
+    "edid": "devotion-disarming-smile"
+  },
+  "ED4DisguiseSelf": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.DtVrikXP72KTc4w5",
+    "edid": "devotion-disguise-self"
+  },
+  "ED4DominateBeast": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.tOKuGKMp6ttEJ36t",
+    "edid": "devotion-dominate-beast"
+  },
+  "ED4Durability5": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.nzrSKrxFNsoOJqKP",
+    "edid": "devotion-durability-5"
+  },
+  "ED4EideticMemory": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.vDGDuGEJgc9WkTj7",
+    "edid": "devotion-eidetic-memory"
+  },
+  "ED4EmotionSong": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.RTK9DyRXj8D7Lgy7",
+    "edid": "devotion-emotion-song"
+  },
+  "ED4EmpathicCommand": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.mV73y2g07qYg0Hjb",
+    "edid": "devotion-empathic-command"
+  },
+  "ED4EmpathicSense": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.mpZtQN1kGBbnltMZ",
+    "edid": "devotion-empathic-sense"
+  },
+  "ED4EnchantedGift": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.tmDyK3E9Ay7a8DWa",
+    "edid": "devotion-enchanted-gift"
+  },
+  "ED4EncouragingOratory": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.HF3JAsvVACoOi9u9",
+    "edid": "devotion-encouraging-oratory"
+  },
+  "ED4EnergyinMotion": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.M9hyGH67eg7yWzsh",
+    "edid": "devotion-energy-in-motion"
+  },
+  "ED4Entertainer": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.BszUx0f9d2Q1uYVw",
+    "edid": "devotion-entertainer"
+  },
+  "ED4Etiquette": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.vxPFgMgZrz0ftPzP",
+    "edid": "devotion-etiquette"
+  },
+  "ED4Evaluate": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.D5XakQAD1d7QXdsq",
+    "edid": "devotion-evaluate"
+  },
+  "ED4EvidenceAnalysis": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.0lDMCVNnvZDn7clt",
+    "edid": "devotion-evidence-analysis"
+  },
+  "ED4FastHand": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.osXqOElD43kFIHir",
+    "edid": "devotion-fast-hand"
+  },
+  "ED4FertilitysSeason": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.Fho12DqcPxsA5X84",
+    "edid": "devotion-fertilitys-season"
+  },
+  "ED4FirstImpression": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.SUFE0wKxQgAsRIbi",
+    "edid": "devotion-first-impression"
+  },
+  "ED4Forgery": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.FB9iIxqvoPSkYy7Q",
+    "edid": "devotion-forgery"
+  },
+  "ED4Fortify": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.9MxceFIO8smXrxLH",
+    "edid": "devotion-fortify"
+  },
+  "ED4FriendoftheLand": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.RQRDtwFgFox0qIHV",
+    "edid": "devotion-friend-of-the-land"
+  },
+  "ED4Frighten": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.Z7fqwhg3IBaxOiDm",
+    "edid": "devotion-frighten"
+  },
+  "ED4GarlensRelief": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.XPRER9Ir84TGF4ra",
+    "edid": "devotion-garlens-relief"
+  },
+  "ED4GarlensSolace": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.Y0XLUCQQG6bdiWjS",
+    "edid": "devotion-garlens-solace"
+  },
+  "ED4GarlensTouch": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.9QY9jSlVlIVMScql",
+    "edid": "devotion-garlens-touch"
+  },
+  "ED4GiftofLife": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.zJiUCEi9onPdZ8Ls",
+    "edid": "devotion-gift-of-life"
+  },
+  "ED4GlidingStride": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.bFAQWqmzY6GyrMjG",
+    "edid": "devotion-gliding-stride"
+  },
+  "ED4GracefulExit": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.Rb4sf4YvDL0Bsae4",
+    "edid": "devotion-graceful-exit"
+  },
+  "ED4GraveCommands": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.ckAANFanthFqcVaD",
+    "edid": "devotion-grave-commands"
+  },
+  "ED4GraveEmpowerment": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.4B9VSneUOfiZWIdb",
+    "edid": "devotion-grave-empowerment"
+  },
+  "ED4GreatLeap": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.j5kQLmihECyMFgba",
+    "edid": "devotion-great-leap"
+  },
+  "ED4GripofChorrolis": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.RI5KAhJMrT4tXpJH",
+    "edid": "devotion-grip-of-chorrolis"
+  },
+  "ED4Haggle": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.8HowHGs0pH4yr8d3",
+    "edid": "devotion-haggle"
+  },
+  "ED4HealAnimalCompanion": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.ld7yhYmuMOa0KNpS",
+    "edid": "devotion-heal-animal-companion"
+  },
+  "ED4HearteningLaugh": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.Jd3Opx92FKMZsMck",
+    "edid": "devotion-heartening-laugh"
+  },
+  "ED4HeartsWish": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.f3062GXKqo0Sl39h",
+    "edid": "devotion-hearts-wish"
+  },
+  "ED4HoneWeapon": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.kCAEsdSm0FwzzlSF",
+    "edid": "devotion-hone-weapon"
+  },
+  "ED4ImpossibleHide": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.pgiiNEKgII6wFVGO",
+    "edid": "devotion-impossible-hide"
+  },
+  "ED4ImpressiveDisplay": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.C5RW08jXEK0irnLO",
+    "edid": "devotion-impressive-display"
+  },
+  "ED4InciteObsession": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.t1QgEvZdIFYL4eRE",
+    "edid": "devotion-incite-obsession"
+  },
+  "ED4InciteRage": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.5v6677jmqCMfVINE",
+    "edid": "devotion-incite-rage"
+  },
+  "ED4InciteRebellion": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.sFgfLngELGmFIPQn",
+    "edid": "devotion-incite-rebellion"
+  },
+  "ED4InspiredEndurance": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.NCuxGnobvbbGz6Lx",
+    "edid": "devotion-inspired-endurance"
+  },
+  "ED4InspiredMight": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.GpAf85lmDaHYgwua",
+    "edid": "devotion-inspired-might"
+  },
+  "ED4InspiredTenacity": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.uN1XWp9wxEFOUyc4",
+    "edid": "devotion-inspired-tenacity"
+  },
+  "ED4IntimidatingBellow": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.WnhfitPljmUADnul",
+    "edid": "devotion-intimidating-bellow"
+  },
+  "ED4Invigorate": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.8XLvret5oPTNF9k7",
+    "edid": "devotion-invigorate"
+  },
+  "ED4JaspreesSolace": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.aRt0eFuxqSfsEkn3",
+    "edid": "devotion-jasprees-solace"
+  },
+  "ED4JuryRig": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.kkCPl45XuxO5GzLm",
+    "edid": "devotion-jury-rig"
+  },
+  "ED4LastingImpression": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.tfhEgJBzqvkiPMHW",
+    "edid": "devotion-lasting-impression"
+  },
+  "ED4Leadership": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.gMjnp8yWNRwkOgWI",
+    "edid": "devotion-leadership"
+  },
+  "ED4LetsMakeaDeal": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.ltz7ViDSjHC6Gi4o",
+    "edid": "devotion-lets-make-a-deal"
+  },
+  "ED4Lifesight": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.GQA4W1NkQfU0zdBX",
+    "edid": "devotion-lifesight"
+  },
+  "ED4LionHeart": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.2IGS3sVazKxC7QON",
+    "edid": "devotion-lion-heart"
+  },
+  "ED4LipReading": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.H7FsgF1Lm56xfYWW",
+    "edid": "devotion-lip-reading"
+  },
+  "ED4LivingDeath": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.0pDjHJJSf2Rk3Hbe",
+    "edid": "devotion-living-death"
+  },
+  "ED4LoveinBloom": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.2KHP4uqLoRxm0x7s",
+    "edid": "devotion-love-in-bloom"
+  },
+  "ED4MeleeWeapons": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.YIGITK4MG5giFp70",
+    "edid": "devotion-melee-weapons"
+  },
+  "ED4MimicVoice": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.dtUQUDlASMP0uTKV",
+    "edid": "devotion-mimic-voice"
+  },
+  "ED4MynbrujesEye": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.B9Ds1jzUPaRqoqZs",
+    "edid": "devotion-mynbrujes-eye"
+  },
+  "ED4OpenMind": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.YVG6i41lrnnCUBZH",
+    "edid": "devotion-open-mind"
+  },
+  "ED4PassionsComfort": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.CvTCHZxvuwrtwcPp",
+    "edid": "devotion-passions-comfort"
+  },
+  "ED4PassionsEmpowerment": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.ecfKzL6ps6U4MOOV",
+    "edid": "devotion-passions-empowerment"
+  },
+  "ED4PassionsInsight": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.lO0mo4YHKBua7LuV",
+    "edid": "devotion-passions-insight"
+  },
+  "ED4PassionsInspiration": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.JQTn07XFv5SBEMNX",
+    "edid": "devotion-passions-inspiration"
+  },
+  "ED4PerfectFocus": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.yHDIhGjhcqlyLAKL",
+    "edid": "devotion-perfect-focus"
+  },
+  "ED4PhotographicMemory": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.arAGUKOH3dCdTbdC",
+    "edid": "devotion-photographic-memory"
+  },
+  "ED4Physician": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.tIE9iQ55qb8B721t",
+    "edid": "devotion-physician"
+  },
+  "ED4Pidgin": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.GCcKL2ghM444euMn",
+    "edid": "devotion-pidgin"
+  },
+  "ED4PlantTalk": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.jS0SuqFHgMstrpwl",
+    "edid": "devotion-plant-talk"
+  },
+  "ED4PoisonedInfluence": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.M41DSZUh5tAD2nX1",
+    "edid": "devotion-poisoned-influence"
+  },
+  "ED4ProjectManagement": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.CfjmrCZINsX57OJb",
+    "edid": "devotion-project-management"
+  },
+  "ED4Psychometry": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.ZFVtz5B5i0sr2cl9",
+    "edid": "devotion-psychometry"
+  },
+  "ED4Questor": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.8jFrlbPVGbZEjR8c",
+    "edid": "devotion-questor"
+  },
+  "ED4Rally": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.V2fLdP3Rd3M2RpKt",
+    "edid": "devotion-rally"
+  },
+  "ED4RememberConversation": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.9yzlRnK0MYTQAXQU",
+    "edid": "devotion-remember-conversation"
+  },
+  "ED4Research": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.v8YmlMXjiQTHBdh1",
+    "edid": "devotion-research"
+  },
+  "ED4ResistInfluence": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.2HhFk5b5GLy5IXNv",
+    "edid": "devotion-resist-influence"
+  },
+  "ED4ResistPain": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.ejkRubzUfg3RMtW3",
+    "edid": "devotion-resist-pain"
+  },
+  "ED4ResistTaunt": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.qVGcn6MNfaY6UdHt",
+    "edid": "devotion-resist-taunt"
+  },
+  "ED4SafePath": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.aJ2TtXhCPChn45W6",
+    "edid": "devotion-safe-path"
+  },
+  "ED4SafeThought": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.AbEmIt3IdjOGL3vz",
+    "edid": "devotion-safe-thought"
+  },
+  "ED4SealHome": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.BLg72zuzK8aJh3tf",
+    "edid": "devotion-seal-home"
+  },
+  "ED4ShieldtheInnocent": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.fiFxRDZQm0D3R5xc",
+    "edid": "devotion-shield-the-innocent"
+  },
+  "ED4SilenceInfluence": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.7ctVaj7r9L9RODkw",
+    "edid": "devotion-silence-influence"
+  },
+  "ED4SloughBlame": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.mOO7NyMHBUYXn3qE",
+    "edid": "devotion-slough-blame"
+  },
+  "ED4Sprint": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.Xhh2fDiryTcT1b08",
+    "edid": "devotion-sprint"
+  },
+  "ED4StealthyStride": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.mljFLRcHDWl8bXm8",
+    "edid": "devotion-stealthy-stride"
+  },
+  "ED4SteelThought": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.DXjC8Ntuj0duZtOs",
+    "edid": "devotion-steel-thought"
+  },
+  "ED4SteelyStare": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.Iz1zmkEhijto9GzR",
+    "edid": "devotion-steely-stare"
+  },
+  "ED4Streetwise": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.Z8B5eoWTMUGRF5Sl",
+    "edid": "devotion-streetwise"
+  },
+  "ED4StrideofFloranuus": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.76VpNF4yRLw3bwgc",
+    "edid": "devotion-stride-of-floranuus"
+  },
+  "ED4Submit": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.8tIKg5KJfzt5jfQC",
+    "edid": "devotion-submit"
+  },
+  "ED4SurpriseStrike": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.FA7km8ClXjK4Q9Ba",
+    "edid": "devotion-surprise-strike"
+  },
+  "ED4Tactics": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.ifscagXtOjjiDrG6",
+    "edid": "devotion-tactics"
+  },
+  "ED4TasteofPower": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.e8T3Yrtl5xy3T4zP",
+    "edid": "devotion-taste-of-power"
+  },
+  "ED4TellingtheTale": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.1wF62a8psoV5aZc9",
+    "edid": "devotion-telling-the-tale"
+  },
+  "ED4ThoughtLink": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.uLVFIMPsthZYGzGV",
+    "edid": "devotion-thought-link"
+  },
+  "ED4Torment": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.ZHBfh7yEWSJOK6bK",
+    "edid": "devotion-torment"
+  },
+  "ED4TouchingthePast": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.bHbCUbCmeoSKyXNK",
+    "edid": "devotion-touching-the-past"
+  },
+  "ED4Tracking": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.NHqlKw5kOy6LtuoH",
+    "edid": "devotion-tracking"
+  },
+  "ED4TrueSight": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.dUthhR4WeuE0qNT7",
+    "edid": "devotion-true-sight"
+  },
+  "ED4Undermine": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.2SfqSAnYmK2B4eB7",
+    "edid": "devotion-undermine"
+  },
+  "ED4UpandalsArmory": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.TNOuDTTiXLdyojQu",
+    "edid": "devotion-upandals-armory"
+  },
+  "ED4UpandalsPalisade": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.tOYiNPbBaFeKU5mZ",
+    "edid": "devotion-upandals-palisade"
+  },
+  "ED4VestrialsTongue": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.n5omFfatzuC0THVY",
+    "edid": "devotion-vestrials-tongue"
+  },
+  "ED4ViciousWound": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.nADzz9vjtuZgkMmf",
+    "edid": "devotion-vicious-wound"
+  },
+  "ED4VitalStrike": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.ITj9YaUUddDTStIL",
+    "edid": "devotion-vital-strike"
+  },
+  "ED4WildernessSurvival": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.5ggzQasoISinq0CI",
+    "edid": "devotion-wilderness-survival"
+  },
+  "ED4WindCatcher": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.UucpcXGgFaP2vFE7",
+    "edid": "devotion-wind-catcher"
+  },
+  "ED4WinningSmile": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.BzHfVCYTD77431eq",
+    "edid": "devotion-winning-smile"
+  },
+  "ED4WoundBalance": {
+    "uuid": "Compendium.earthdawn-questors.questors-devotions-en.Item.tWBYeeEvfXOhISBz",
+    "edid": "devotion-wound-balance"
+  }
+}

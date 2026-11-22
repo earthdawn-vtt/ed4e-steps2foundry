@@ -1,10 +1,1522 @@
 {
+  "ED4AcrobaticDefense": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.DOVonsl7jWdHly1K",
+    "edid": "talent-acrobatic-defense"
+  },
+  "ED4AirDance": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.Z1VI9HTeUGvzxapP",
+    "edid": "talent-air-dance"
+  },
+  "ED4AirSailing": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.29tZP9wGutB1QpVu",
+    "edid": "talent-air-sailing"
+  },
+  "ED4AirSpeaking": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.1LEeljkHeSJmnX9P",
+    "edid": "talent-air-speaking"
+  },
+  "ED4AlleyCatApproach": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.Kiwzi6hONbB7ayBH",
+    "edid": "talent-alley-cat-approach"
+  },
+  "ED4AncientBonds": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.i0oC2PGklM7OcGbN",
+    "edid": "talent-ancient-bonds"
+  },
+  "ED4AnimalBond": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.W0OAdbcjj9NdbjjT",
+    "edid": "talent-animal-bond"
+  },
+  "ED4AnimalCompanionDurability": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.6K0D7Y6XsaYW1uh7",
+    "edid": "animal-companion-durability"
+  },
+  "ED4AnimalLeadership": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.eQhqkyrZa6rdWkoX",
+    "edid": "talent-animal-leadership"
+  },
+  "ED4AnimalPossession": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.k4RbMLJgsY8v5sHi",
+    "edid": "talent-animal-possession"
+  },
+  "ED4AnimalTalk": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.EYTcmJZCZosYBcnV",
+    "edid": "talent-animal-talk"
+  },
+  "ED4AnimalTraining": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.TVIJIxalH6FFBFne",
+    "edid": "talent-animal-training"
+  },
+  "ED4AnticipateBlow": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.esUypSDHePSVRYl5",
+    "edid": "talent-anticipate-blow"
+  },
+  "ED4AppliedKnowledge": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.UCRn0ROIukLKxKer",
+    "edid": "talent-applied-knowledge"
+  },
+  "ED4ArcaneMutterings": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.h9ktWtKE9XtDp5TG",
+    "edid": "talent-arcane-mutterings"
+  },
+  "ED4ArmorMount": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.NMqaxgM6cK4xXxC0",
+    "edid": "talent-armor-mount"
+  },
+  "ED4ArmoredMatrix": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.0V9ntveB61o3S3Yd",
+    "edid": "matrix"
+  },
+  "ED4AstralDomain": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.hPYO2kxkdymwssn7",
+    "edid": "talent-astral-domain"
+  },
+  "ED4AstralInterference": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.HTVu9ca8blDgVAN2",
+    "edid": "talent-astral-interference"
+  },
+  "ED4AstralPocket": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.UpnTcFFrzrWWSMKD",
+    "edid": "talent-astral-pocket"
+  },
   "ED4AstralSight": {
     "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.YXl3sKauOLypPtmH",
     "edid": "talent-astral-sight"
   },
+  "ED4AuraArmor": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.QWSgcvqhdJuWYo8q",
+    "edid": "talent-aura-armor"
+  },
+  "ED4AvoidBlow": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.HSK8zCAnbn3Dthje",
+    "edid": "talent-avoid-blow"
+  },
+  "ED4Awareness": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.sptuOFdEWGQ4oKxg",
+    "edid": "talent-awareness"
+  },
+  "ED4BaneStrike": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.bsHJRxJ8SvISvwBa",
+    "edid": "talent-bane-strike"
+  },
+  "ED4Banish": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.LlqFXudVkp9wBU7x",
+    "edid": "talent-banish"
+  },
+  "ED4BankShot": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.O4jKe2V0hxFfkLnZ",
+    "edid": "talent-bank-shot"
+  },
+  "ED4BardicVoice": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.PtjqoQfgan3VsQTx",
+    "edid": "talent-bardic-voice"
+  },
+  "ED4BattleBellow": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.tOUNEzPjsZSahPrT",
+    "edid": "talent-battle-bellow"
+  },
+  "ED4BattleShout": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.Gi0FTPSDwL73HE7g",
+    "edid": "talent-battle-shout"
+  },
+  "ED4BearMark": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.3DqouqZ4MXLCNkHa",
+    "edid": "talent-bear-mark"
+  },
+  "ED4BeguilingBlade": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.GhuG83gfzSMOGdSI",
+    "edid": "talent-beguiling-blade"
+  },
+  "ED4BladeJuggle": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.vGTVC85LU0C1vOjL",
+    "edid": "talent-blade-juggle"
+  },
+  "ED4BlindFire": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.nH57Y5jpfZk58RDe",
+    "edid": "talent-blind-fire"
+  },
+  "ED4BloodInsight": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.UAOdmTOt2bDnOSg4",
+    "edid": "talent-blood-insight"
+  },
+  "ED4BloodShare": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.zydVmhq6k1pZwE1M",
+    "edid": "talent-blood-share"
+  },
+  "ED4BloodSwornTalent": {
+    "uuid": null,
+    "edid": "talent-blood-sworn"
+  },
+  "ED4BloodhoundForm": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.KHgzQuKT7jSa1JTv",
+    "edid": "talent-bloodhound-form"
+  },
+  "ED4BloodofDeathsSea": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.WXGwFl24sEoGLIzp",
+    "edid": "talent-blood-of-deaths-sea"
+  },
+  "ED4BodyControl": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.K1PPmyjX6G9Pd5Wg",
+    "edid": "talent-body-control"
+  },
+  "ED4BookMemory": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.y6o3F2LYHaiIcVGz",
+    "edid": "talent-book-memory"
+  },
+  "ED4BorrowSense": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.5vhSDWLL4onXaZMK",
+    "edid": "talent-borrow-sense"
+  },
+  "ED4BurningVigor": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.9WLiVMUtEkP5umHV",
+    "edid": "talent-burning-vigor"
+  },
+  "ED4CallAnimalCompanion": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.m0vPiLjtKXGiSP7s",
+    "edid": "talent-call-animal-companion"
+  },
+  "ED4CallMissile": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.IbDBLwibvMxC7VEF",
+    "edid": "talent-call-missile"
+  },
+  "ED4CallofHarrow": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.z5yMLQzfzYXP4zjA",
+    "edid": "talent-call-of-harrow"
+  },
+  "ED4CastingPattern": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.oJtHLsgI44gOFmyT",
+    "edid": "talent-casting-pattern"
+  },
+  "ED4Chameleon": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.0tg8o40mBwPaN4Fv",
+    "edid": "talent-chameleon"
+  },
+  "ED4ChampionChallenge": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.mE3CgrlNAw67MZKp",
+    "edid": "talent-champion-challenge"
+  },
+  "ED4Charge": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.YELnxfKzb01Szj4f",
+    "edid": "talent-charge"
+  },
+  "ED4ChillingStrike": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.MIOAu6ZxKzrVaide",
+    "edid": "talent-chilling-strike"
+  },
+  "ED4ChtardDance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.r24KZLB5tF39bKzw",
+    "edid": "talent-chtard-dance"
+  },
+  "ED4ChtardPierce": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.ujO8sBdf74rCZe3y",
+    "edid": "talent-chtard-pierce"
+  },
+  "ED4ClawFrenzy": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.ellL8pN5WJ8EBQJQ",
+    "edid": "talent-claw-frenzy"
+  },
+  "ED4ClawShape": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.oDWyipxtUn9hAx7y",
+    "edid": "talent-claw-shape"
+  },
+  "ED4Climbing": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.gSSSvg13gD00d630",
+    "edid": "talent-climbing"
+  },
+  "ED4CobraStrike": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.OKoDEudnHCpsG3Kt",
+    "edid": "talent-cobra-strike"
+  },
+  "ED4ColdPurify": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.WLAEu1ski8u56ivF",
+    "edid": "talent-cold-purify"
+  },
+  "ED4CommandNightflyer": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.XvKrioutUQCiU1v5",
+    "edid": "talent-command-nightflyer"
+  },
+  "ED4ConcealObject": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.oppkv42lJKBsH1iX",
+    "edid": "talent-conceal-object"
+  },
+  "ED4ConcentratedAssault": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.ijNwJk6aG3vCTCTh",
+    "edid": "talent-concentrated-assault"
+  },
+  "ED4ConciseCasting": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.PL4dANCX0jbLGkGi",
+    "edid": "talent-concise-casting"
+  },
+  "ED4ConfrontHorror": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.WwjmHnVRaJqqGWTr",
+    "edid": "talent-confront-horror"
+  },
+  "ED4ContestofWills": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.QPgZUpuv3QVCHT5n",
+    "edid": "talent-contest-of-wills"
+  },
+  "ED4Conversation": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.erUWo7FUmERhN5UD",
+    "edid": "talent-conversation"
+  },
+  "ED4Craftsman": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.85dfGdjqV7ByjudV",
+    "edid": "talent-craftsman"
+  },
+  "ED4CreatureAnalysis": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.T3KEqKjE55ud4bww",
+    "edid": "talent-creature-analysis"
+  },
+  "ED4CriticalHit": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.VCZA0McUDYAyChaL",
+    "edid": "talent-critical-hit"
+  },
+  "ED4CrushingBlow": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.QGkAkWMQnot9ruFJ",
+    "edid": "talent-crushing-blow"
+  },
+  "ED4CuttingWords": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.hquRl1szwrcpghyH",
+    "edid": "talent-cutting-words"
+  },
+  "ED4DancePartner": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.ScEiCKz2tuLsl6qU",
+    "edid": "talent-dance-partner"
+  },
+  "ED4DangerSense": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.l4QLpxsdmbzsragH",
+    "edid": "talent-danger-sense"
+  },
+  "ED4DeadFall": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.8XC4NbjaRZQEZak6",
+    "edid": "talent-dead-fall"
+  },
+  "ED4DefensivePosture": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.m2Tc6GZMCKCtfKEh",
+    "edid": "talent-defensive-posture"
+  },
+  "ED4DeliberateAssault": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.jS7BSGmMD7H1S7pi",
+    "edid": "talent-deliberate-assault"
+  },
+  "ED4Diplomacy": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.wZAoOvXk3dFXGo30",
+    "edid": "talent-diplomacy"
+  },
+  "ED4Disarm": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.INjxZRcVdTcDbemj",
+    "edid": "talent-disarm"
+  },
+  "ED4DisarmTrap": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.p5SOkZh3t2Q8MIt2",
+    "edid": "talent-disarm-trap"
+  },
+  "ED4DisarmingSmile": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.bnNo75u6AY9iSlt6",
+    "edid": "talent-disarming-smile"
+  },
+  "ED4DisguiseSelf": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.lKV8dslWLqWAOMkq",
+    "edid": "talent-disguise-self"
+  },
+  "ED4DispelMagic": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.tupJ6pKbcrWFKESm",
+    "edid": "talent-dispel-magic"
+  },
+  "ED4Distract": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.H3H9F9K37f0ssWBK",
+    "edid": "talent-distract"
+  },
+  "ED4DiveAttack": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.UaY7vb1UOEeRutYC",
+    "edid": "talent-dive-attack"
+  },
+  "ED4DominateBeast": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.c0AsIjjdSCuYYHe3",
+    "edid": "talent-dominate-beast"
+  },
+  "ED4DoubleCharge": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.iEeavLlztcb9rDMf",
+    "edid": "talent-double-charge"
+  },
+  "ED4DownStrike": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.rPqDVBBijuYx9zqe",
+    "edid": "talent-down-strike"
+  },
+  "ED4DreamThief": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.O0SgJzM03wHuuSjx",
+    "edid": "talent-dream-thief"
+  },
+  "ED4EagleEye": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.GFsjFIrYUSW33xcm",
+    "edid": "talent-eagle-eye"
+  },
+  "ED4EarthBond": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.xlF1P4TeqrbuHjU8",
+    "edid": "talent-earth-bond"
+  },
+  "ED4EarthSkin": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.yj85JhixDNABEv3f",
+    "edid": "talent-earth-skin"
+  },
+  "ED4EarthSpeak": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.cdABPrQJcbL8XCQr",
+    "edid": "talent-earth-speak"
+  },
+  "ED4EarthWalk": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.QaEDzOZ5SnBlGMt2",
+    "edid": "talent-earth-walk"
+  },
+  "ED4Echolocation": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.glpkAKJ4sKTudTM1",
+    "edid": "talent-echolocation"
+  },
+  "ED4EdoDance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.3F24FKWN97b6auvH",
+    "edid": "talent-edo-dance"
+  },
+  "ED4EdoSweep": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.mlIBixucGyV3lfLR",
+    "edid": "talent-edo-sweep"
+  },
+  "ED4EffectPattern": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.6ACSFMjYK1T02gXF",
+    "edid": "talent-effect-pattern"
+  },
+  "ED4EideticMemory": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.Lcywq9geKe8Mj4iW",
+    "edid": "talent-eidetic-memory"
+  },
+  "ED4ElementalHold": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.b7Ni2wihVwM3eS1Q",
+    "edid": "talent-elemental-hold"
+  },
+  "ED4ElementalMastery": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.ImHBRM0pxvx3L5aS",
+    "edid": "talent-elemental-mastery"
+  },
+  "ED4ElementalTongues": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.hKwWgGXJausYj3zF",
+    "edid": "talent-elemental-tongues"
+  },
+  "ED4ElementalWalk": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.c70CSuVGMY3dOPXy",
+    "edid": "talent-elemental-walk"
+  },
+  "ED4EmotionSong": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.8Ae6QnHRAMtkhze4",
+    "edid": "talent-emotion-song"
+  },
+  "ED4EmpathicSense": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.CgInquDXCJm9sACN",
+    "edid": "talent-empathic-sense"
+  },
+  "ED4EngagingBanter": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.M4ev8o2zWZCZge8h",
+    "edid": "talent-engaging-banter"
+  },
+  "ED4EngagingDance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.gNinC9Twk83A4qbO",
+    "edid": "talent-engaging-dance"
+  },
+  "ED4EnhanceAnimalCompanion": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.6B2ExeSR1Rg9JZSd",
+    "edid": "talent-enhance-animal-companion"
+  },
+  "ED4EnhancedMatrix": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.XCdfnWi72puuGmTp",
+    "edid": "matrix"
+  },
+  "ED4Entertainer": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.TI3WcpNIIZccvFgg",
+    "edid": "talent-entertainer"
+  },
+  "ED4EnthrallingVisions": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.xxoETaaSvr5v8AyJ",
+    "edid": "talent-enthralling-visions"
+  },
+  "ED4EscapePlan": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.MNluKJlvGNim0nDv",
+    "edid": "talent-escape-plan"
+  },
+  "ED4EtherealWeapon": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.FZilCmAQi9LzgNu2",
+    "edid": "talent-ethereal-weapon"
+  },
+  "ED4Etiquette": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.q3sb7Fch0bOGDOEh",
+    "edid": "talent-etiquette"
+  },
+  "ED4EvidenceAnalysis": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.INvIqwMDSJvber3O",
+    "edid": "talent-evidence-analysis"
+  },
+  "ED4ExpansiveExpertise": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.lTYBQODztEXwdhPY",
+    "edid": "talent-expansive-expertise"
+  },
+  "ED4FalseSight": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.f34Nc0CMvvym0e0S",
+    "edid": "talent-false-sight"
+  },
+  "ED4FastHand": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.p9KASTnvCVu0iT7u",
+    "edid": "talent-fast-hand"
+  },
+  "ED4FearsomeCharge": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.gb2Kc9Ycz3w0cehY",
+    "edid": "talent-fearsome-charge"
+  },
+  "ED4FireHeal": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.0VYGi9TXLLMyjarU",
+    "edid": "talent-fire-heal"
+  },
+  "ED4Fireblood": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.qCynNa61ifJk890k",
+    "edid": "talent-fireblood"
+  },
+  "ED4FiresofGahad": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.QDjuTVNX1PAEG7Zu",
+    "edid": "talent-fires-of-gahad"
+  },
+  "ED4FirstImpression": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.n0nMw03yeUwxok7o",
+    "edid": "talent-first-impression"
+  },
+  "ED4FlameArrow": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.2Bxd5QuFk7yXZsB1",
+    "edid": "talent-flame-arrow"
+  },
+  "ED4FluidMovement": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.a51gdw7AZjo85q8G",
+    "edid": "talent-fluid-movement"
+  },
+  "ED4FocusedStrike": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.2Es025XSdy6HXsNA",
+    "edid": "talent-focused-strike"
+  },
+  "ED4ForestSense": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.ySSJ5LEWgigCgrHm",
+    "edid": "talent-forest-sense"
+  },
+  "ED4ForgeArmor": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.4NKKrzIJFG9oLJs6",
+    "edid": "talent-forge-armor"
+  },
+  "ED4ForgeFlesh": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.FbOCGyZ92rU6U4sA",
+    "edid": "talent-forge-flesh"
+  },
+  "ED4ForgeWeapon": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.VskvOA5TeGsX1cxl",
+    "edid": "talent-forge-weapon"
+  },
+  "ED4Frighten": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.oduocXjkOz3aYv9F",
+    "edid": "talent-frighten"
+  },
+  "ED4GazeintotheAbyss": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.AIfL49TEDImBqwcz",
+    "edid": "talent-gaze-into-the-abyss"
+  },
+  "ED4GlidingStride": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.si2RwU9dnZuWcOJz",
+    "edid": "talent-gliding-stride"
+  },
+  "ED4GlyphofAttunement": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.QxCY8nDT3THNiBnB",
+    "edid": "talent-glyph-of-attunement"
+  },
+  "ED4GlyphofReversal": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.PFoW7QYOX6svEMvF",
+    "edid": "talent-glyph-of-reversal"
+  },
+  "ED4GlyphofShielding": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.YpqaE7T2MePYCw8P",
+    "edid": "talent-glyph-of-shielding"
+  },
+  "ED4GlyphofUnweaving": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.2HdGlyykHlyWvxO1",
+    "edid": "talent-glyph-of-unweaving"
+  },
+  "ED4GoringAttack": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.aLYXRtiLNesKqTtG",
+    "edid": "talent-goring-attack"
+  },
+  "ED4GracefulExit": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.ySbQmh5JukA8ILYt",
+    "edid": "talent-graceful-exit"
+  },
+  "ED4GreatLeap": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.hKLkBA2kDfKltTOS",
+    "edid": "talent-great-leap"
+  },
+  "ED4GuardiansService": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.3SPem4TH6FtKpMZk",
+    "edid": "talent-guardians-service"
+  },
+  "ED4Haggle": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.6KnVJrUy1NLoABXj",
+    "edid": "talent-haggle"
+  },
+  "ED4HearteningLaugh": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.nnUEcBbpdFqLfho5",
+    "edid": "talent-heartening-laugh"
+  },
+  "ED4HoldThread": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.HpbmvQr2jKhbczoN",
+    "edid": "talent-hold-thread"
+  },
+  "ED4Howl": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.HRUAAMwtfrHqoqJt",
+    "edid": "talent-howl"
+  },
+  "ED4Hypnotize": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.5TpuesjBogvbXt3Q",
+    "edid": "talent-hypnotize"
+  },
+  "ED4ImpossibleHide": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.uUsNjeRGLRxAa4tK",
+    "edid": "talent-impossible-hide"
+  },
+  "ED4ImpressiveDisplay": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.UbJzjiQNBbVRvxbD",
+    "edid": "talent-impressive-display"
+  },
+  "ED4InfluenceMissile": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.2VwilGj2HEVvjgoP",
+    "edid": "talent-influence-missile"
+  },
+  "ED4InfuseMemory": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.sO4lKtbomI27NfHn",
+    "edid": "talent-infuse-memory"
+  },
+  "ED4InspireOthers": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.Ij7xAe1otdtYdFZM",
+    "edid": "talent-inspire-others"
+  },
+  "ED4IronConstitution": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.RWxuDjc8kMrVIfNP",
+    "edid": "talent-iron-constitution"
+  },
+  "ED4ItemHistory": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.Z1puzaE8WGvvl7ZV",
+    "edid": "item-history"
+  },
+  "ED4LastingImpression": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.7uJxjfMoVfTniTcH",
+    "edid": "talent-lasting-impression"
+  },
+  "ED4Leadership": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.LBzx9LOOJk5Y9osp",
+    "edid": "talent-leadership"
+  },
+  "ED4Liberation": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.cgajOFDP1gbTXCe1",
+    "edid": "talent-liberation"
+  },
+  "ED4LifeCheck": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.RQt0swy4iMEwZhUl",
+    "edid": "talent-life-check"
+  },
+  "ED4Lifesight": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.EHpxVsq9wfO0vrkn",
+    "edid": "talent-lifesight"
+  },
+  "ED4LionHeart": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.ICSzk2O1fYiZsfqQ",
+    "edid": "talent-lion-heart"
+  },
+  "ED4LionSpirit": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.Tdoj09wH1UFvKq8Q",
+    "edid": "talent-lion-spirit"
+  },
+  "ED4LivingWeapon": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.7QwrCdOEP2qEDo2y",
+    "edid": "talent-living-weapon"
+  },
+  "ED4LockPicking": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.w8o6Wfe001w0rlgz",
+    "edid": "talent-lock-picking"
+  },
+  "ED4LongShot": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.pfxsVAqCvJQovH8L",
+    "edid": "talent-long-shot"
+  },
+  "ED4Maneuver": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.sOkNJkzHfJ39Krqe",
+    "edid": "talent-maneuver"
+  },
+  "ED4MatrixSight": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.SmPZ1WJR5tCve0GR",
+    "edid": "talent-matrix-sight"
+  },
+  "ED4MeleeWeapons": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.8Yiew4rM6hJSdBjG",
+    "edid": "talent-melee-weapons"
+  },
+  "ED4MemoryProbe": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.beIt2RkaW5VONK8y",
+    "edid": "talent-memory-probe"
+  },
+  "ED4MimicVoice": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.9G0XuS2zv7ZbXIUK",
+    "edid": "talent-mimic-voice"
+  },
+  "ED4MissileLock": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.TQy2qp3BIzQdO6K2",
+    "edid": "talent-missile-lock"
+  },
+  "ED4MissileWeapons": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.iH7ZCarFtn1TorQ2",
+    "edid": "talent-missile-weapons"
+  },
+  "ED4MomentumAttack": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.5GVqO17dJ81SQmEl",
+    "edid": "talent-momentum-attack"
+  },
+  "ED4Morphism": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.HzjrsyauEJDuOMWr",
+    "edid": "talent-morphism"
+  },
+  "ED4MountAttack": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.6RFkf9gJRSJsBBrm",
+    "edid": "talent-mount-attack"
+  },
+  "ED4MultiCharge": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.18TpQkUDx2JWNeXS",
+    "edid": "talent-multi-charge"
+  },
+  "ED4MultiShot": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.uI6QIkZ4XdAdGU5F",
+    "edid": "talent-multi-shot"
+  },
+  "ED4MultiStrike": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.0HVRzH1dGc5VYBde",
+    "edid": "talent-multi-strike"
+  },
+  "ED4MysticAim": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.DUifaRDX7wxNHNlB",
+    "edid": "talent-mystic-aim"
+  },
+  "ED4MysticPursuit": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.lshg0g2z1dGIG1Yk",
+    "edid": "talent-mystic-pursuit"
+  },
+  "ED4Navigation": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.gwk9A75Y2oVmiuHr",
+    "edid": "talent-navigation"
+  },
+  "ED4Nethersoul": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.lIPiEzz9RtsqjF5S",
+    "edid": "talent-nethersoul"
+  },
+  "ED4Netherwalk": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.scUsg8gCWaXguK2R",
+    "edid": "talent-netherwalk"
+  },
+  "ED4OrbitingSpy": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.y4oFR2v9Mr2ZXHtB",
+    "edid": "talent-orbiting-spy"
+  },
+  "ED4PAvowedBeast": {
+    "uuid": null,
+    "edid": "talent-avowed-maw-of-the-beast"
+  },
+  "ED4PAvowedNettle": {
+    "uuid": null,
+    "edid": "talent-avowed-nettle-of-the-dark"
+  },
+  "ED4PAvowedSleeper": {
+    "uuid": null,
+    "edid": "talent-avowed-heart-of-the-sleeper"
+  },
+  "ED4PBrotherofStone": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.Kcs0harfkpKIYrnw",
+    "edid": "brother-of-stone"
+  },
+  "ED4PFireEater": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.p0d2L2wm4caYgJzI",
+    "edid": "fire-eater"
+  },
+  "ED4PHorrorStalker": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.1dltbLcPut6E3cFZ",
+    "edid": "horror-stalker"
+  },
+  "ED4PJourneyman": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.Bys2DAH7g8J1uLpg",
+    "edid": "journeyman"
+  },
+  "ED4PLiberator": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.Am6ZIAoe6Jwc78Yn",
+    "edid": "liberator"
+  },
+  "ED4PMessenger": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.0m9tN3ymp5K7SDve",
+    "edid": "messenger"
+  },
+  "ED4POutcast": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.rkF0gw41d8G16Smw",
+    "edid": "outcast"
+  },
+  "ED4PPurifier": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.h0aDl9QYHnwsJoYY",
+    "edid": "purifier"
+  },
+  "ED4PScholar": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.J74dzX7UM2JsXpx7",
+    "edid": "scholar"
+  },
+  "ED4PTailDancerChtard": {
+    "uuid": null,
+    "edid": "talent-tail-dancer-chtard"
+  },
+  "ED4PTailDancerEdo": {
+    "uuid": null,
+    "edid": "talent-tail-dancer-edo"
+  },
+  "ED4PTailDancerShivaovara": {
+    "uuid": null,
+    "edid": "talent-tail-dancer-shivoavara"
+  },
+  "ED4PTailDancerSkora": {
+    "uuid": null,
+    "edid": "talent-tail-dancer-skora"
+  },
+  "ED4PWindmaster": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.lL43MBZfZ822bOSq",
+    "edid": "windmaster"
+  },
+  "ED4PWoodsman": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.mvwl3iqmKtLA87iR",
+    "edid": "woodsman"
+  },
+  "ED4PatientResilience": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.MhIHWJZMcv6FuNOz",
+    "edid": "talent-patient-resilience"
+  },
+  "ED4Patterncraft": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.qO3xK1X3xb5gMzzq",
+    "edid": "patterncraft"
+  },
+  "ED4PerfectFocus": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.liIdfTtqX3gykaql",
+    "edid": "talent-perfect-focus"
+  },
+  "ED4PickingPockets": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.OmY4X4e88Bhhpv8a",
+    "edid": "talent-picking-pockets"
+  },
+  "ED4PilotBoat": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.E01LXC3IVTwE1tmE",
+    "edid": "talent-pilot-boat"
+  },
+  "ED4PlantTalk": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.UWReIRtLVkYgWHEp",
+    "edid": "talent-plant-talk"
+  },
+  "ED4PowerMask": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.PpTTLE70Gl0cZKhL",
+    "edid": "talent-power-mask"
+  },
+  "ED4PurgeKarma": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.jxktqJmzOXHHBY0Z",
+    "edid": "talent-purge-karma"
+  },
+  "ED4Purification": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.01ymnf9TL2Ten1D9",
+    "edid": "talent-purification"
+  },
+  "ED4Rally": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.GNtbWq12vCFvS8wo",
+    "edid": "talent-rally"
+  },
+  "ED4RangePattern": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.RfX3xdS7OqogYx2p",
+    "edid": "talent-range-pattern"
+  },
+  "ED4ReadRiver": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.pNUzWyNOMZufSE99",
+    "edid": "talent-read-river"
+  },
+  "ED4ReadandWriteLanguage": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.6xRPM93wGJbf83gV",
+    "edid": "talent-read-and-write-language"
+  },
+  "ED4RelentlessRecovery": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.Y67u2GzRl7AzImkN",
+    "edid": "talent-relentless-recovery"
+  },
+  "ED4Research": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.j6ingmVrYZpCQLKt",
+    "edid": "talent-research"
+  },
+  "ED4ResistPain": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.v9msdFZo13q8oqqX",
+    "edid": "talent-resist-pain"
+  },
+  "ED4ResistTaunt": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.Df4yZ6gR6wRzKT07",
+    "edid": "talent-resist-taunt"
+  },
+  "ED4Riposte": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.HLpiLJQBPk9tDFO4",
+    "edid": "talent-riposte"
+  },
+  "ED4RiteofKhopesh": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.di5BWalv5v5qsyyn",
+    "edid": "talent-rite-of-khopesh"
+  },
+  "ED4SafePath": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.gQfNH6qUISQZJUfu",
+    "edid": "talent-safe-path"
+  },
+  "ED4SafeThought": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.mKGXxGHkOGusa7Qv",
+    "edid": "talent-safe-thought"
+  },
+  "ED4Sailing": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.1Df8y7ge0yH0w3fJ",
+    "edid": "talent-sailing"
+  },
+  "ED4SecondAttack": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.Y4li5iffeBTWsAuh",
+    "edid": "talent-second-attack"
+  },
+  "ED4SecondChance": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.EyNaRJusQa9HfBSd",
+    "edid": "talent-second-chance"
+  },
+  "ED4SecondShot": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.C2RxgPsqCq604kNq",
+    "edid": "talent-second-shot"
+  },
+  "ED4SecondWeapon": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.ifodovuvQ3ahojNy",
+    "edid": "talent-second-weapon"
+  },
+  "ED4SenseCaptive": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.bNnJ7qySc34QMpaq",
+    "edid": "talent-sense-captive"
+  },
+  "ED4SenseHorrorspawn": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.1u2TpoeKdUSlUbmI",
+    "edid": "talent-sense-horrorspawn"
+  },
+  "ED4SharedMatrix": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.jZ68Owzry7hd96Q2",
+    "edid": "matrix"
+  },
+  "ED4ShatterWill": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.voIEaZcHj5iJwbt6",
+    "edid": "talent-shatter-will"
+  },
+  "ED4ShieldBash": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.cS8GArKuNFTPpDRh",
+    "edid": "talent-shield-bash"
+  },
+  "ED4ShivoavaraDance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.ZGMUJcukhsXXS4CZ",
+    "edid": "talent-shivoavara-dance"
+  },
+  "ED4ShivoavaraEscalation": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.GF2vPDnzZWvdPDPp",
+    "edid": "talent-shivoavara-escalation"
+  },
+  "ED4ShockTreatment": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.8NWTmcBoQFVnHSkL",
+    "edid": "talent-shock-treatment"
+  },
+  "ED4ShoutofJustice": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.iLSvpUt5IgT4Kefj",
+    "edid": "talent-shout-of-justice"
+  },
+  "ED4SkoraDance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.ZQuunluXrYQHLf1S",
+    "edid": "talent-skora-dance"
+  },
+  "ED4SkoraSlam": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.ibPHeNzzu2M6txKW",
+    "edid": "talent-skora-slam"
+  },
+  "ED4SloughBlame": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.f3sviXqU9nEeEQUn",
+    "edid": "talent-slough-blame"
+  },
+  "ED4Snapshot": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.yFXK03ld0YzzBUGC",
+    "edid": "talent-snapshot"
+  },
+  "ED4SnatchTalent": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.HOaNkTnL86J7GgNA",
+    "edid": "talent-snatch-talent"
+  },
+  "ED4SongofBattle": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.Q1QALpo9atXKoDmc",
+    "edid": "talent-song-of-battle"
+  },
+  "ED4SongofDeflection": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.J1TycNYHcX80XREc",
+    "edid": "talent-song-of-deflection"
+  },
+  "ED4SoulAegis": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.Z1pLnDL7vEuCpKo6",
+    "edid": "talent-soul-aegis"
+  },
+  "ED4SpeakLanguage": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.WVEul0amvBjboqZy",
+    "edid": "talent-speak-language"
+  },
+  "ED4Spellcasting": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.PZvHBvrLQXMOQSCi",
+    "edid": "spellcasting"
+  },
+  "ED4SpiritCovenant": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.AEXJoABM4f3Powac",
+    "edid": "talent-spirit-covenant"
+  },
+  "ED4SpiritHold": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.KZJkt5KakySLNYpQ",
+    "edid": "talent-spirit-hold"
+  },
+  "ED4SpiritMount": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.Hq4FvkLTEqAwfLsY",
+    "edid": "talent-spirit-mount"
+  },
+  "ED4SpiritStrike": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.nu5c9oD9NHCrWMe2",
+    "edid": "talent-spirit-strike"
+  },
+  "ED4SpiritTalk": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.Okx80EztwZkLmW27",
+    "edid": "talent-spirit-talk"
+  },
+  "ED4SplicedWeave": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.J4krh3UtyPvMmiIH",
+    "edid": "talent-spliced-weave"
+  },
+  "ED4SpotArmorFlaw": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.y0SRU3AfwWANeaCg",
+    "edid": "talent-spot-armor-flaw"
+  },
+  "ED4Sprint": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.NtTK17NAlwHKhOm8",
+    "edid": "talent-sprint"
+  },
   "ED4StandardMatrix": {
     "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.v2WN9hMqP8up5gNK",
     "edid": "matrix"
+  },
+  "ED4StealthyStride": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.58W0T1KYJd2mW6Qm",
+    "edid": "talent-stealthy-stride"
+  },
+  "ED4SteelThought": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.aLH6y8vKanrWvlbs",
+    "edid": "talent-steel-thought"
+  },
+  "ED4SteelyStare": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.5JdmFNxIY2uE6Jsx",
+    "edid": "talent-steely-stare"
+  },
+  "ED4StoneSkin": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.cB6sZSJ5Q0QVwiJz",
+    "edid": "talent-stone-skin"
+  },
+  "ED4StoppingAim": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.EgOI5Nyru24Ir46S",
+    "edid": "talent-stopping-aim"
+  },
+  "ED4StormShield": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.ub5HmMfJXECJrC5Y",
+    "edid": "talent-storm-shield"
+  },
+  "ED4StudiedCounter": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.XhGmpKp78LQyCJZl",
+    "edid": "talent-studied-counter"
+  },
+  "ED4Summon": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.pybSUxTVxOVPNLT5",
+    "edid": "talent-summon"
+  },
+  "ED4SummonAllySpirits": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.987T2UKqyj13GJZb",
+    "edid": "talent-summon-ally-spirits"
+  },
+  "ED4SummonBeastSpirits": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.L5JaA6hbfuKc2GoL",
+    "edid": "talent-summon-beast-spirits"
+  },
+  "ED4SummonElementalSpirits": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.zB7uNFU8NpL9VxVt",
+    "edid": "talent-summon-elemental-spirits"
+  },
+  "ED4SummoningCircle": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.SV6c0rwtzU41VGt2",
+    "edid": "talent-summoning-circle"
+  },
+  "ED4SuppressCurse": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.bgR1EnQYe1r6ap4i",
+    "edid": "talent-suppress-curse"
+  },
+  "ED4SureMount": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.eqJhU2BogYte13Zq",
+    "edid": "talent-sure-mount"
+  },
+  "ED4SurpriseStrike": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.siGhLIfkpth5moKM",
+    "edid": "talent-surprise-strike"
+  },
+  "ED4SwiftKick": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.au79nH6ltM1C8q3E",
+    "edid": "talent-swift-kick"
+  },
+  "ED4Swimming": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.SYZHMx0AjIj0FoTi",
+    "edid": "talent-swimming"
+  },
+  "ED4Tactics": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.SbnCxANW6pXNSYEj",
+    "edid": "talent-tactics"
+  },
+  "ED4TailDance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.6JPYFtX8v1aGepry",
+    "edid": "talent-tail-dance"
+  },
+  "ED4TailSpike": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.nEeGZw4Hyi8AEMbE",
+    "edid": "talent-tail-spike"
+  },
+  "ED4Taunt": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.nX7pElv3Qb5eV563",
+    "edid": "talent-taunt"
+  },
+  "ED4TemperFlesh": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.n9EiyapIKOaUPOvs",
+    "edid": "talent-temper-flesh"
+  },
+  "ED4TenaciousWeave": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.HkbWpLa9Q7Oecdhp",
+    "edid": "talent-tenacious-weave"
+  },
+  "ED4ThoughtLink": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.CiTPBSgmWeWv4v9e",
+    "edid": "talent-thought-link"
+  },
+  "ED4ThreadWeavingAirWeaving": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.zKvkqSvn5pnscp6C",
+    "edid": "thread-weaving"
+  },
+  "ED4ThreadWeavingArrowWeaving": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.GQitHmYj7iXsPjZO",
+    "edid": "thread-weaving"
+  },
+  "ED4ThreadWeavingBeastWeaving": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.WhJkL7nqtT60DkhS",
+    "edid": "thread-weaving"
+  },
+  "ED4ThreadWeavingElementalism": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.EmZeCDUgwqlaSY1S",
+    "edid": "thread-weaving"
+  },
+  "ED4ThreadWeavingGauntletWeaving": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.p5zI95BDWbRcK5MU",
+    "edid": "thread-weaving"
+  },
+  "ED4ThreadWeavingIllusionism": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.c2MRnK4D53NavdGg",
+    "edid": "thread-weaving"
+  },
+  "ED4ThreadWeavingNethermancy": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.1cdbpxkMULxU5w64",
+    "edid": "thread-weaving"
+  },
+  "ED4ThreadWeavingRiderWeaving": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.3NcYKzgqC6F0b9WU",
+    "edid": "thread-weaving"
+  },
+  "ED4ThreadWeavingRiverWeaving": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.NSv7XZHHasT0VXht",
+    "edid": "thread-weaving"
+  },
+  "ED4ThreadWeavingScoutWeaving": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.exAi5ov4BMKgl5mO",
+    "edid": "thread-weaving"
+  },
+  "ED4ThreadWeavingSeaWeaving": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.PwO1I7PlYHIXEnGA",
+    "edid": "thread-weaving"
+  },
+  "ED4ThreadWeavingShamanism": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.RiWv8kBCeSWkSFLN",
+    "edid": "thread-weaving"
+  },
+  "ED4ThreadWeavingSkyWeaving": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.02N5aD6AP3kDo2qF",
+    "edid": "thread-weaving"
+  },
+  "ED4ThreadWeavingStoryWeaving": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.0zJmaj0qR6HGuxTI",
+    "edid": "thread-weaving"
+  },
+  "ED4ThreadWeavingThiefWeaving": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.L6xKuFsnMTiqqDQf",
+    "edid": "thread-weaving"
+  },
+  "ED4ThreadWeavingThreadSmithing": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.lB9ZsrqeIAbhZHz2",
+    "edid": "thread-weaving"
+  },
+  "ED4ThreadWeavingWarWeaving": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.G99jowSrK1aHdDUr",
+    "edid": "thread-weaving"
+  },
+  "ED4ThreadWeavingWeaponWeaving": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.CSGJNStOsnN9mFLe",
+    "edid": "thread-weaving"
+  },
+  "ED4ThreadWeavingWizardry": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.qIjCJK74ydXpDx3P",
+    "edid": "thread-weaving"
+  },
+  "ED4ThrowingWeapons": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.UTUnwQXrMr5Egm9T",
+    "edid": "talent-throwing-weapons"
+  },
+  "ED4ThunderousResolve": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.wbWGsVwvL0BsCFDk",
+    "edid": "talent-thunderous-resolve"
+  },
+  "ED4Thunderstruck": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.FrRQ14BY6A8WVNFF",
+    "edid": "talent-thunderstruck"
+  },
+  "ED4TigerSpring": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.2UP0HHacue1AqqRN",
+    "edid": "talent-tiger-spring"
+  },
+  "ED4Tracking": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.Qnt1WYRSeiWOodSC",
+    "edid": "talent-tracking"
+  },
+  "ED4TrickRiding": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.4A6WZmgzclq3WloS",
+    "edid": "talent-trick-riding"
+  },
+  "ED4TrueShot": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.8hMZAiqHq7txV0Lu",
+    "edid": "talent-true-shot"
+  },
+  "ED4TrueSight": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.IVkhYU0buOQ84myP",
+    "edid": "talent-true-sight"
+  },
+  "ED4TruthThroughLies": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.gpn4RV5KB5XzhIHJ",
+    "edid": "talent-truth-through-lies"
+  },
+  "ED4TyrannysRuin": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.YdtUH49XNhpy2Nmf",
+    "edid": "talent-tyrannys-ruin"
+  },
+  "ED4UnarmedCombat": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.UdSQxhazZtQfLwkK",
+    "edid": "unarmed-combat"
+  },
+  "ED4Undermine": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.4727XoOpSALbCfI2",
+    "edid": "talent-undermine"
+  },
+  "ED4UnflinchingFortitude": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.WhS6NWDd58AXyTam",
+    "edid": "talent-unflinching-fortitude"
+  },
+  "ED4Venom": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.T0law9WIETstqlr7",
+    "edid": "talent-venom"
+  },
+  "ED4Versatility": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.oxVUlzkjmmMiqbAv",
+    "edid": "versatility"
+  },
+  "ED4ViciousWound": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.UKzHuHyMS1eHPVEK",
+    "edid": "talent-vicious-wound"
+  },
+  "ED4VineArmor": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.smJjnQplu3Qvg157",
+    "edid": "talent-vine-armor"
+  },
+  "ED4VitalStrike": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.NQmukzCq7wJTVz4i",
+    "edid": "talent-vital-strike"
+  },
+  "ED4VitalWard": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.zyTF6KkXFTv9GUdd",
+    "edid": "talent-vital-ward"
+  },
+  "ED4VowoftheBeast": {
+    "uuid": null,
+    "edid": "talent-vow-of-the-beast"
+  },
+  "ED4VowoftheDark": {
+    "uuid": null,
+    "edid": "talent-vow-of-the-dark"
+  },
+  "ED4VowoftheSleeper": {
+    "uuid": null,
+    "edid": "talent-vow-of-the-sleeper"
+  },
+  "ED4WaterfallSlam": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.Qjs7fPWDXDW9LQ8u",
+    "edid": "talent-waterfall-slam"
+  },
+  "ED4WeaponBreaker": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.7mkqnUQaPNag4W0O",
+    "edid": "talent-weapon-breaker"
+  },
+  "ED4WheelingAttack": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.jchgpA6DKtCcnT8m",
+    "edid": "talent-wheeling-attack"
+  },
+  "ED4WheelingDefense": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.50isu0JIwI81Al6I",
+    "edid": "talent-wheeling-defense"
+  },
+  "ED4WildernessSurvival": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.jtmem3QGxanPKBcc",
+    "edid": "talent-wilderness-survival"
+  },
+  "ED4Willforce": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.9K1jrIgtMZ7IY6QX",
+    "edid": "willforce"
+  },
+  "ED4WindCatcher": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.LD0NQYUaZRIt4R0W",
+    "edid": "talent-wind-catcher"
+  },
+  "ED4WingBlitz": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.SBY4emIZdNXwU6PP",
+    "edid": "talent-wing-blitz"
+  },
+  "ED4WinningSmile": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.dmTi469okAXTcM7p",
+    "edid": "talent-winning-smile"
+  },
+  "ED4WisdomofAges": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.A051aNbJJyYBdWvB",
+    "edid": "talent-wisdom-of-ages"
+  },
+  "ED4WittyRepartee": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.hbhLwHcGX5GwKZDG",
+    "edid": "talent-witty-repartee"
+  },
+  "ED4WoodSkin": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.dXjW9S8HXBwoXO7y",
+    "edid": "talent-wood-skin"
+  },
+  "ED4WoodSpeak": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.6nXJd4I1e0Xl0p5i",
+    "edid": "talent-wood-speak"
+  },
+  "ED4WoodWalk": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-talents-en.Item.QIkPOqLImDG8yOpC",
+    "edid": "talent-wood-walk"
+  },
+  "ED4WorldPulse": {
+    "uuid": "Compendium.earthdawn-companion.companion-talents-en.Item.HUJI5xGAuvq2vZ2E",
+    "edid": "talent-world-pulse"
+  },
+  "ED4WoundBalance": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-talents-en.Item.PESglDpTLVbvDbkm",
+    "edid": "talent-wound-balance"
+  },
+  "PandaAnimateDead": {
+    "uuid": null,
+    "edid": "talent-animate-dead"
+  },
+  "PandaBattleCry": {
+    "uuid": null,
+    "edid": "talent-battle-cry"
+  },
+  "PandaBloodedRedoubt": {
+    "uuid": null,
+    "edid": "talent-blooded-redoubt"
+  },
+  "PandaCavalryCharge": {
+    "uuid": null,
+    "edid": "talent-cavalry-charge"
+  },
+  "PandaCorruptKarma": {
+    "uuid": null,
+    "edid": "talent-corrupt-karma"
+  },
+  "PandaCursedLuck": {
+    "uuid": null,
+    "edid": "talent-cursed-luck"
+  },
+  "PandaEnhanceBoundSpirit": {
+    "uuid": null,
+    "edid": "talent-enhance-bound-spirit"
+  },
+  "PandaEyeOfTheStorm": {
+    "uuid": null,
+    "edid": "talent-eye-of-the-storm"
+  },
+  "PandaFearsomeAssault": {
+    "uuid": null,
+    "edid": "talent-fearsome-assault"
+  },
+  "PandaGlyphofSpeed": {
+    "uuid": null,
+    "edid": "talent-glyph-of-speed"
+  },
+  "PandaGlyphofViolence": {
+    "uuid": null,
+    "edid": "talent-glyph-of-violence"
+  },
+  "PandaGlyphoftheBlade": {
+    "uuid": null,
+    "edid": "talent-glyph-of-the-blade"
+  },
+  "PandaGrislyStrike": {
+    "uuid": null,
+    "edid": "talent-grisly-strike"
+  },
+  "PandaLightningCharge": {
+    "uuid": null,
+    "edid": "talent-lightning-charge"
+  },
+  "PandaLightningCommand": {
+    "uuid": null,
+    "edid": "talent-lightning-command"
+  },
+  "PandaMountAttack": {
+    "uuid": null,
+    "edid": "talent-mount-attack-cavalier"
+  },
+  "PandaMultiCommand": {
+    "uuid": null,
+    "edid": "talent-multi-command"
+  },
+  "PandaNoShadowThrow": {
+    "uuid": null,
+    "edid": "talent-no-shadow-throw"
+  },
+  "PandaPreysWeakness": {
+    "uuid": null,
+    "edid": "talent-preys-weakness"
+  },
+  "PandaProtectionOfTruth": {
+    "uuid": null,
+    "edid": "talent-protection-of-truth"
+  },
+  "PandaProtectorsReflexes": {
+    "uuid": null,
+    "edid": "talent-protectors-reflexes"
+  },
+  "PandaRiding": {
+    "uuid": null,
+    "edid": "talent-riding"
+  },
+  "PandaRollingThunder": {
+    "uuid": null,
+    "edid": "talent-rolling-thunder"
+  },
+  "PandaSecondCommand": {
+    "uuid": null,
+    "edid": "talent-second-command"
+  },
+  "PandaShadowBlades": {
+    "uuid": null,
+    "edid": "talent-shadow-blades"
+  },
+  "PandaSnapKick": {
+    "uuid": null,
+    "edid": "talent-snap-kick"
+  },
+  "PandaSpiritDevelopment": {
+    "uuid": null,
+    "edid": "talent-spirit-development"
+  },
+  "PandaSpiritDurability": {
+    "uuid": null,
+    "edid": "talent-spirit-durability"
+  },
+  "PandaTempestShield": {
+    "uuid": null,
+    "edid": "talent-tempest-shield"
+  },
+  "PandaTerror": {
+    "uuid": null,
+    "edid": "talent-terror"
+  },
+  "PandaThreadWeavingAnimalWeaving": {
+    "uuid": null,
+    "edid": "talent-thread-weaving-animal-weaving"
+  },
+  "PandaThreadWeavingBladeWeaving": {
+    "uuid": null,
+    "edid": "talent-thread-weaving-blade-weaving"
+  },
+  "PandaThreadWeavingLanceWeaving": {
+    "uuid": null,
+    "edid": "talent-thread-weaving-lance-weaving"
+  },
+  "PandaThreadWeavingMeditationWeaving": {
+    "uuid": null,
+    "edid": "talent-thread-weaving-meditation-weaving"
+  },
+  "PandaThreadWeavingMountWeaving": {
+    "uuid": null,
+    "edid": "talent-thread-weaving-mount-weaving"
+  },
+  "PandaThreadWeavingRaidWeaving": {
+    "uuid": null,
+    "edid": "talent-thread-weaving-raid-weaving"
+  },
+  "PandaThreadWeavingSentryWeaving": {
+    "uuid": null,
+    "edid": "talent-thread-weaving-sentry-weaving"
+  },
+  "PandaThreadWeavingShadowWeaving": {
+    "uuid": null,
+    "edid": "talent-thread-weaving-shadow-weaving"
+  },
+  "PandaThreadWeavingSpiritWeaving": {
+    "uuid": null,
+    "edid": "talent-thread-weaving-spirit-weaving"
+  },
+  "PandaThreadWeavingVentureWeaving": {
+    "uuid": null,
+    "edid": "talent-thread-weaving-venture-weaving"
+  },
+  "PandaWheelingAttack": {
+    "uuid": null,
+    "edid": "talent-wheeling-attack-cavalier"
+  },
+  "SKGliding": {
+    "uuid": null,
+    "edid": "talent-gliding"
+  },
+  "SKHeroicForce": {
+    "uuid": null,
+    "edid": "talent-heroic-force"
+  },
+  "SKImbueAncestralWeapon": {
+    "uuid": null,
+    "edid": "talent-imbue-ancestral-weapon"
+  },
+  "SKInsectCommunication": {
+    "uuid": null,
+    "edid": "talent-insect-communication"
+  },
+  "SKPBattleBrother": {
+    "uuid": null,
+    "edid": "talent-greppr"
+  },
+  "SKPSoslvuul": {
+    "uuid": null,
+    "edid": "talent-soslvuul"
   }
 }

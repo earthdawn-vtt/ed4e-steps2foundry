@@ -1,1 +1,2754 @@
-{}
+{
+  "ED4PatterncraftAbsentMindedJuggler": {
+    "uuid": null,
+    "edid": "spellknack-absent-minded-juggler"
+  },
+  "ED4PatterncraftAbstruseScytheWard": {
+    "uuid": null,
+    "edid": "spellknack-abstruse-scythe-ward"
+  },
+  "ED4PatterncraftAdderFangs": {
+    "uuid": null,
+    "edid": "spellknack-adder-fangs"
+  },
+  "ED4PatterncraftAgitatingAtmosphere": {
+    "uuid": null,
+    "edid": "spellknack-agitating-atmosphere"
+  },
+  "ED4PatterncraftAirRedoubt": {
+    "uuid": null,
+    "edid": "spellknack-air-redoubt"
+  },
+  "ED4PatterncraftAirSentinel": {
+    "uuid": null,
+    "edid": "spellknack-air-sentinel"
+  },
+  "ED4PatterncraftAllTurntoDustAgain": {
+    "uuid": null,
+    "edid": "spellknack-all-turn-to-dust-again"
+  },
+  "ED4PatterncraftAndThenYouWokeUp": {
+    "uuid": null,
+    "edid": "spellknack-and-then-you-woke-up"
+  },
+  "ED4PatterncraftAnotherSoar": {
+    "uuid": null,
+    "edid": "spellknack-another-soar"
+  },
+  "ED4PatterncraftArdentBolt": {
+    "uuid": null,
+    "edid": "spellknack-ardent-bolt"
+  },
+  "ED4PatterncraftArmorofBoneandFear": {
+    "uuid": null,
+    "edid": "spellknack-armor-of-bone-and-fear"
+  },
+  "ED4PatterncraftAssuredEcho": {
+    "uuid": null,
+    "edid": "spellknack-assured-echo"
+  },
+  "ED4PatterncraftAssuringWords": {
+    "uuid": null,
+    "edid": "spellknack-assuring-words"
+  },
+  "ED4PatterncraftAstralBedlam": {
+    "uuid": null,
+    "edid": "spellknack-astral-bedlam"
+  },
+  "ED4PatterncraftAstralBlade": {
+    "uuid": null,
+    "edid": "spellknack-astral-blade"
+  },
+  "ED4PatterncraftAstralBonfire": {
+    "uuid": null,
+    "edid": "spellknack-astral-bonfire"
+  },
+  "ED4PatterncraftAstralEntryLog": {
+    "uuid": null,
+    "edid": "spellknack-astral-entry-log"
+  },
+  "ED4PatterncraftAstralLance": {
+    "uuid": null,
+    "edid": "spellknack-astral-lance"
+  },
+  "ED4PatterncraftAstralMaelstrom": {
+    "uuid": null,
+    "edid": "spellknack-astral-maelstrom"
+  },
+  "ED4PatterncraftAstralMageArmor": {
+    "uuid": null,
+    "edid": "spellknack-astral-mage-armor"
+  },
+  "ED4PatterncraftAstralMiasma": {
+    "uuid": null,
+    "edid": "spellknack-astral-miasma"
+  },
+  "ED4PatterncraftAstralRazors": {
+    "uuid": null,
+    "edid": "spellknack-astral-razors"
+  },
+  "ED4PatterncraftAstralSwarm": {
+    "uuid": null,
+    "edid": "spellknack-astral-swarm"
+  },
+  "ED4PatterncraftAstralWallNotification": {
+    "uuid": null,
+    "edid": "spellknack-astral-wall-notification"
+  },
+  "ED4PatterncraftAtrophyLimb": {
+    "uuid": null,
+    "edid": "spellknack-atrophy-limb"
+  },
+  "ED4PatterncraftAutumnalHegy": {
+    "uuid": null,
+    "edid": "spellknack-autumnal-hegy"
+  },
+  "ED4PatterncraftAutumnalLittleSister": {
+    "uuid": null,
+    "edid": "spellknack-autumnal-little-sister"
+  },
+  "ED4PatterncraftAutumnalPapaBear": {
+    "uuid": null,
+    "edid": "spellknack-autumnal-papa-bear"
+  },
+  "ED4PatterncraftBarbedOrb": {
+    "uuid": null,
+    "edid": "spellknack-barbed-orb"
+  },
+  "ED4PatterncraftBearHands": {
+    "uuid": null,
+    "edid": "spellknack-bear-hands"
+  },
+  "ED4PatterncraftBellowoftheBehemoths": {
+    "uuid": null,
+    "edid": "spellknack-bellow-of-the-behemoths"
+  },
+  "ED4PatterncraftBlackMissile": {
+    "uuid": null,
+    "edid": "spellknack-black-missile"
+  },
+  "ED4PatterncraftBlindingStarShower": {
+    "uuid": null,
+    "edid": "spellknack-blinding-star-shower"
+  },
+  "ED4PatterncraftBloodEncryption": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.y2HuNxeGfvJhDJdu",
+    "edid": "spellknack-blood-encryption"
+  },
+  "ED4PatterncraftBloodFound": {
+    "uuid": null,
+    "edid": "spellknack-blood-found"
+  },
+  "ED4PatterncraftBloodyRampage": {
+    "uuid": null,
+    "edid": "spellknack-bloody-rampage"
+  },
+  "ED4PatterncraftBonePuppet": {
+    "uuid": null,
+    "edid": "spellknack-bone-puppet"
+  },
+  "ED4PatterncraftBookList": {
+    "uuid": null,
+    "edid": "spellknack-book-list"
+  },
+  "ED4PatterncraftBorrowFace": {
+    "uuid": null,
+    "edid": "spellknack-borrow-face"
+  },
+  "ED4PatterncraftBountifulHarvest": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.iqJFTN4c1vH2gngO",
+    "edid": "spellknack-bountiful-harvest"
+  },
+  "ED4PatterncraftBreathlesslyIntotheVoid": {
+    "uuid": null,
+    "edid": "spellknack-breathlessly-into-the-void"
+  },
+  "ED4PatterncraftBrighthewn": {
+    "uuid": null,
+    "edid": "spellknack-brighthewn"
+  },
+  "ED4PatterncraftBrutalRampage": {
+    "uuid": null,
+    "edid": "spellknack-brutal-rampage"
+  },
+  "ED4PatterncraftBulwarkofWarping": {
+    "uuid": null,
+    "edid": "spellknack-bulwark-of-warping"
+  },
+  "ED4PatterncraftBurningDragonsBreath": {
+    "uuid": null,
+    "edid": "spellknack-burning-dragons-breath"
+  },
+  "ED4PatterncraftBurningFlameStrike": {
+    "uuid": null,
+    "edid": "spellknack-burning-flame-strike"
+  },
+  "ED4PatterncraftCallousedRampage": {
+    "uuid": null,
+    "edid": "spellknack-calloused-rampage"
+  },
+  "ED4PatterncraftCancelHorrorKarma": {
+    "uuid": null,
+    "edid": "spellknack-cancel-horror-karma"
+  },
+  "ED4PatterncraftCaricatureShow": {
+    "uuid": null,
+    "edid": "spellknack-caricature-show"
+  },
+  "ED4PatterncraftCatchAreaSpell": {
+    "uuid": null,
+    "edid": "spellknack-catch-area-spell"
+  },
+  "ED4PatterncraftChaacheesVitality": {
+    "uuid": null,
+    "edid": "spellknack-chaachees-vitality"
+  },
+  "ED4PatterncraftChaintheAstralGates": {
+    "uuid": null,
+    "edid": "spellknack-chain-the-astral-gates"
+  },
+  "ED4PatterncraftChango!": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.FzMvhSBPDOoDiZN4",
+    "edid": "spellknack-chango"
+  },
+  "ED4PatterncraftChillingRing": {
+    "uuid": null,
+    "edid": "spellknack-chilling-ring"
+  },
+  "ED4PatterncraftChilsBearing": {
+    "uuid": null,
+    "edid": "spellknack-chils-bearing"
+  },
+  "ED4PatterncraftCleansingForce": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.RN0NvgxrV7f6U9QV",
+    "edid": "spellknack-cleansing-force"
+  },
+  "ED4PatterncraftCleartheFloor": {
+    "uuid": null,
+    "edid": "spellknack-clear-the-floor"
+  },
+  "ED4PatterncraftCloudLabyrinth": {
+    "uuid": null,
+    "edid": "spellknack-cloud-labyrinth"
+  },
+  "ED4PatterncraftColdEmbers": {
+    "uuid": null,
+    "edid": "spellknack-cold-embers"
+  },
+  "ED4PatterncraftComfortableReception": {
+    "uuid": null,
+    "edid": "spellknack-comfortable-reception"
+  },
+  "ED4PatterncraftCompactLevitate": {
+    "uuid": null,
+    "edid": "spellknack-compact-levitate"
+  },
+  "ED4PatterncraftConcealedEntryLog": {
+    "uuid": null,
+    "edid": "spellknack-concealed-entry-log"
+  },
+  "ED4PatterncraftConcealedScytheWard": {
+    "uuid": null,
+    "edid": "spellknack-concealed-scythe-ward"
+  },
+  "ED4PatterncraftConfoundingBolt": {
+    "uuid": null,
+    "edid": "spellknack-confounding-bolt"
+  },
+  "ED4PatterncraftContainedBlast": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.UrcUi4BW4SYMVefV",
+    "edid": "spellknack-contained-blast"
+  },
+  "ED4PatterncraftContinuousWinds": {
+    "uuid": null,
+    "edid": "spellknack-continuous-winds"
+  },
+  "ED4PatterncraftControlBuoyancy": {
+    "uuid": null,
+    "edid": "spellknack-control-buoyancy"
+  },
+  "ED4PatterncraftConvincingDisplacement": {
+    "uuid": null,
+    "edid": "spellknack-convincing-displacement"
+  },
+  "ED4PatterncraftCramSession": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.KGKtorMVNPaqfKD8",
+    "edid": "spellknack-cram-session"
+  },
+  "ED4PatterncraftCreepingAdder": {
+    "uuid": null,
+    "edid": "spellknack-creeping-adder"
+  },
+  "ED4PatterncraftCreepingKrait": {
+    "uuid": null,
+    "edid": "spellknack-creeping-krait"
+  },
+  "ED4PatterncraftCripplingGloom": {
+    "uuid": null,
+    "edid": "spellknack-crippling-gloom"
+  },
+  "ED4PatterncraftCrowdedCrowd": {
+    "uuid": null,
+    "edid": "spellknack-crowded-crowd"
+  },
+  "ED4PatterncraftCruelEyes": {
+    "uuid": null,
+    "edid": "spellknack-cruel-eyes"
+  },
+  "ED4PatterncraftCrumbleWill": {
+    "uuid": null,
+    "edid": "spellknack-crumble-will"
+  },
+  "ED4PatterncraftCrushinator": {
+    "uuid": null,
+    "edid": "spellknack-crushinator"
+  },
+  "ED4PatterncraftCrushingHandofStone": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.7soekkMF8kqKAn9j",
+    "edid": "spellknack-crushing-hand-of-stone"
+  },
+  "ED4PatterncraftCrushingSkull": {
+    "uuid": null,
+    "edid": "spellknack-crushing-skull"
+  },
+  "ED4PatterncraftCrystalDarts": {
+    "uuid": null,
+    "edid": "spellknack-crystal-darts"
+  },
+  "ED4PatterncraftCultivatedRenewal": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.b3VV6zSK7PeSdCeg",
+    "edid": "spellknack-cultivated-renewal"
+  },
+  "ED4PatterncraftCursedPath": {
+    "uuid": null,
+    "edid": "spellknack-cursed-path"
+  },
+  "ED4PatterncraftDashingMongoose": {
+    "uuid": null,
+    "edid": "spellknack-dashing-mongoose"
+  },
+  "ED4PatterncraftDaysofSilence": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.n7xAXvs22R2Khq7i",
+    "edid": "spellknack-days-of-silence"
+  },
+  "ED4PatterncraftDeadlyVenom": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.bwAg1yMF7cfk8PiF",
+    "edid": "spellknack-deadly-venom"
+  },
+  "ED4PatterncraftDebilitatingFood": {
+    "uuid": null,
+    "edid": "spellknack-debilitating-food"
+  },
+  "ED4PatterncraftDebilitatingScytheWard": {
+    "uuid": null,
+    "edid": "spellknack-debilitating-scythe-ward"
+  },
+  "ED4PatterncraftDelayedCetaceanBreathing": {
+    "uuid": null,
+    "edid": "spellknack-delayed-cetacean-breathing"
+  },
+  "ED4PatterncraftDetailedEntryLog": {
+    "uuid": null,
+    "edid": "spellknack-detailed-entry-log"
+  },
+  "ED4PatterncraftDeteriorate": {
+    "uuid": null,
+    "edid": "spellknack-deteriorate"
+  },
+  "ED4PatterncraftDisasterSequel,FoolYouTwice": {
+    "uuid": null,
+    "edid": "spellknack-disaster-sequel-fool-you-twice"
+  },
+  "ED4PatterncraftDiscretionaryUndeadStruggle": {
+    "uuid": null,
+    "edid": "spellknack-discretionary-undead-struggle"
+  },
+  "ED4PatterncraftDisorientingVoidWave": {
+    "uuid": null,
+    "edid": "spellknack-disorienting-void-wave"
+  },
+  "ED4PatterncraftDispersingGlyph": {
+    "uuid": null,
+    "edid": "spellknack-dispersing-glyph"
+  },
+  "ED4PatterncraftDisplaceMind": {
+    "uuid": null,
+    "edid": "spellknack-displace-mind"
+  },
+  "ED4PatterncraftDisruptMatrix": {
+    "uuid": null,
+    "edid": "spellknack-disrupt-matrix"
+  },
+  "ED4PatterncraftDistantShadows": {
+    "uuid": null,
+    "edid": "spellknack-distant-shadows"
+  },
+  "ED4PatterncraftDistantSilentDarkness": {
+    "uuid": null,
+    "edid": "spellknack-distant-silent-darkness"
+  },
+  "ED4PatterncraftDoesntJustAttracttheEyes": {
+    "uuid": null,
+    "edid": "spellknack-doesnt-just-attract-the-eyes"
+  },
+  "ED4PatterncraftDontTouchThat": {
+    "uuid": null,
+    "edid": "spellknack-dont-touch-that"
+  },
+  "ED4PatterncraftDoomDoubled": {
+    "uuid": null,
+    "edid": "spellknack-doom-doubled"
+  },
+  "ED4PatterncraftDoubleIceLance": {
+    "uuid": null,
+    "edid": "spellknack-double-ice-lance"
+  },
+  "ED4PatterncraftDoubleIceMaceandChain": {
+    "uuid": null,
+    "edid": "spellknack-double-ice-mace-and-chain"
+  },
+  "ED4PatterncraftDoublePatternSpike": {
+    "uuid": null,
+    "edid": "spellknack-double-pattern-spike"
+  },
+  "ED4PatterncraftDoubleReinforcedIceMaceandChain": {
+    "uuid": null,
+    "edid": "spellknack-double-reinforced-ice-mace-and-chain"
+  },
+  "ED4PatterncraftDreadfulVolume": {
+    "uuid": null,
+    "edid": "spellknack-dreadful-volume"
+  },
+  "ED4PatterncraftDressedfortheOccasion": {
+    "uuid": null,
+    "edid": "spellknack-dressed-for-the-occasion"
+  },
+  "ED4PatterncraftDurableDisplacement": {
+    "uuid": null,
+    "edid": "spellknack-durable-displacement"
+  },
+  "ED4PatterncraftEarthRedoubt": {
+    "uuid": null,
+    "edid": "spellknack-earth-redoubt"
+  },
+  "ED4PatterncraftEarthVoyaging": {
+    "uuid": null,
+    "edid": "spellknack-earth-voyaging"
+  },
+  "ED4PatterncraftEarthsPassage": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.mJHeWy6G6NkpBoxB",
+    "edid": "spellknack-earths-passage"
+  },
+  "ED4PatterncraftEarthsRenewal": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.6TH3d2oG81vBQhCU",
+    "edid": "spellknack-earths-renewal"
+  },
+  "ED4PatterncraftEchoingScytheWard": {
+    "uuid": null,
+    "edid": "spellknack-echoing-scythe-ward"
+  },
+  "ED4PatterncraftEmpoweredFireweave": {
+    "uuid": null,
+    "edid": "spellknack-empowered-fireweave"
+  },
+  "ED4PatterncraftEncodedCommunique": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.dxZPDfgNSSq9fNNv",
+    "edid": "spellknack-encoded-communique"
+  },
+  "ED4PatterncraftEnergyBracer": {
+    "uuid": null,
+    "edid": "spellknack-energy-bracer"
+  },
+  "ED4PatterncraftEnervatingMockery": {
+    "uuid": null,
+    "edid": "spellknack-enervating-mockery"
+  },
+  "ED4PatterncraftEnervatingWave": {
+    "uuid": null,
+    "edid": "spellknack-enervating-wave"
+  },
+  "ED4PatterncraftEnhancedArcaneGuard": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-arcane-guard"
+  },
+  "ED4PatterncraftEnhancedAstralWall": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-astral-wall"
+  },
+  "ED4PatterncraftEnhancedBallofString": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-ball-of-string"
+  },
+  "ED4PatterncraftEnhancedBanquetofDis": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-banquet-of-dis"
+  },
+  "ED4PatterncraftEnhancedBaselineSubtraction": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-baseline-subtraction"
+  },
+  "ED4PatterncraftEnhancedBoneWalkerAncient": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-bone-walker-ancient"
+  },
+  "ED4PatterncraftEnhancedBoneWalkerAstral": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-bone-walker-astral"
+  },
+  "ED4PatterncraftEnhancedBoneWalkerFast": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-bone-walker-fast"
+  },
+  "ED4PatterncraftEnhancedBoneWalkerFlying": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-bone-walker-flying"
+  },
+  "ED4PatterncraftEnhancedBoneWalkerJuggernaut": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-bone-walker-juggernaut"
+  },
+  "ED4PatterncraftEnhancedBoneWalkerLarge": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-bone-walker-large"
+  },
+  "ED4PatterncraftEnhancedBoneWalkerSpellDraining": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-bone-walker-spell-draining"
+  },
+  "ED4PatterncraftEnhancedDisplaceSelf": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-displace-self"
+  },
+  "ED4PatterncraftEnhancedForceBarrier": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-force-barrier"
+  },
+  "ED4PatterncraftEnhancedFriendlyDarkness": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-friendly-darkness"
+  },
+  "ED4PatterncraftEnhancedIcySurface": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-icy-surface"
+  },
+  "ED4PatterncraftEnhancedKarmicConnection": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-karmic-connection"
+  },
+  "ED4PatterncraftEnhancedLifelight": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-lifelight"
+  },
+  "ED4PatterncraftEnhancedNetherlight": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-netherlight"
+  },
+  "ED4PatterncraftEnhancedPersonalSpace": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-personal-space"
+  },
+  "ED4PatterncraftEnhancedPorcupineQuills": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-porcupine-quills"
+  },
+  "ED4PatterncraftEnhancedSanctuary": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-sanctuary"
+  },
+  "ED4PatterncraftEnhancedSoothetheSavageBeast": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-soothe-the-savage-beast"
+  },
+  "ED4PatterncraftEnhancedSpellCage": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-spell-cage"
+  },
+  "ED4PatterncraftEnhancedWeatherChange": {
+    "uuid": null,
+    "edid": "spellknack-enhanced-weather-change"
+  },
+  "ED4PatterncraftEnlargedForceBarrier": {
+    "uuid": null,
+    "edid": "spellknack-enlarged-force-barrier"
+  },
+  "ED4PatterncraftEnlargedGraveSilence": {
+    "uuid": null,
+    "edid": "spellknack-enlarged-grave-silence"
+  },
+  "ED4PatterncraftEntanglingShield": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.RpkELkaV1RRDf7Pn",
+    "edid": "spellknack-entangling-shield"
+  },
+  "ED4PatterncraftEntryLogNotification": {
+    "uuid": null,
+    "edid": "spellknack-entry-log-notification"
+  },
+  "ED4PatterncraftExamineEntryLog": {
+    "uuid": null,
+    "edid": "spellknack-examine-entry-log"
+  },
+  "ED4PatterncraftExpandedAlarm": {
+    "uuid": null,
+    "edid": "spellknack-expanded-alarm"
+  },
+  "ED4PatterncraftExpandedBrightleaf": {
+    "uuid": null,
+    "edid": "spellknack-expanded-brightleaf"
+  },
+  "ED4PatterncraftExpandedConfusingWeave": {
+    "uuid": null,
+    "edid": "spellknack-expanded-confusing-weave"
+  },
+  "ED4PatterncraftExpandedFriendlyDarkness": {
+    "uuid": null,
+    "edid": "spellknack-expanded-friendly-darkness"
+  },
+  "ED4PatterncraftExpandedInventory": {
+    "uuid": null,
+    "edid": "spellknack-expanded-inventory"
+  },
+  "ED4PatterncraftExpandedJugglersTouch": {
+    "uuid": null,
+    "edid": "spellknack-expanded-jugglers-touch"
+  },
+  "ED4PatterncraftExpandedPerimeterAlarm": {
+    "uuid": null,
+    "edid": "spellknack-expanded-perimeter-alarm"
+  },
+  "ED4PatterncraftExpellingLifeCircle": {
+    "uuid": null,
+    "edid": "spellknack-expelling-life-circle"
+  },
+  "ED4PatterncraftExplosiveGrowth": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.yVF8aHdUTOrf3neY",
+    "edid": "spellknack-explosive-growth"
+  },
+  "ED4PatterncraftExpressway": {
+    "uuid": null,
+    "edid": "spellknack-expressway"
+  },
+  "ED4PatterncraftExtendEncryption": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.IgCM301RpER5U7lk",
+    "edid": "spellknack-extend-encryption"
+  },
+  "ED4PatterncraftExtendedAirFortress": {
+    "uuid": null,
+    "edid": "spellknack-extended-air-fortress"
+  },
+  "ED4PatterncraftExtendedAlarm": {
+    "uuid": null,
+    "edid": "spellknack-extended-alarm"
+  },
+  "ED4PatterncraftExtendedAlterTracks": {
+    "uuid": null,
+    "edid": "spellknack-extended-alter-tracks"
+  },
+  "ED4PatterncraftExtendedAndThenIWokeUp": {
+    "uuid": null,
+    "edid": "spellknack-extended-and-then-i-woke-up"
+  },
+  "ED4PatterncraftExtendedAnimalFriendship": {
+    "uuid": null,
+    "edid": "spellknack-extended-animal-friendship"
+  },
+  "ED4PatterncraftExtendedAnimateSkeleton": {
+    "uuid": null,
+    "edid": "spellknack-extended-animate-skeleton"
+  },
+  "ED4PatterncraftExtendedAnimateSpiritObject": {
+    "uuid": null,
+    "edid": "spellknack-extended-animate-spirit-object"
+  },
+  "ED4PatterncraftExtendedAssuringTouch": {
+    "uuid": null,
+    "edid": "spellknack-extended-assuring-touch"
+  },
+  "ED4PatterncraftExtendedAstralGift": {
+    "uuid": null,
+    "edid": "spellknack-extended-astral-gift"
+  },
+  "ED4PatterncraftExtendedAstralPrison": {
+    "uuid": null,
+    "edid": "spellknack-extended-astral-prison"
+  },
+  "ED4PatterncraftExtendedAstralShadow": {
+    "uuid": null,
+    "edid": "spellknack-extended-astral-shadow"
+  },
+  "ED4PatterncraftExtendedAstralWall": {
+    "uuid": null,
+    "edid": "spellknack-extended-astral-wall"
+  },
+  "ED4PatterncraftExtendedAstralWhisper": {
+    "uuid": null,
+    "edid": "spellknack-extended-astral-whisper"
+  },
+  "ED4PatterncraftExtendedBackgroundColor": {
+    "uuid": null,
+    "edid": "spellknack-extended-background-color"
+  },
+  "ED4PatterncraftExtendedBallofString": {
+    "uuid": null,
+    "edid": "spellknack-extended-ball-of-string"
+  },
+  "ED4PatterncraftExtendedBalloonsofMist": {
+    "uuid": null,
+    "edid": "spellknack-extended-balloons-of-mist"
+  },
+  "ED4PatterncraftExtendedBeastform": {
+    "uuid": null,
+    "edid": "spellknack-extended-beastform"
+  },
+  "ED4PatterncraftExtendedBedazzlingDisplayofLogicalAnalysis": {
+    "uuid": null,
+    "edid": "spellknack-extended-bedazzling-display-of-logical-analysis"
+  },
+  "ED4PatterncraftExtendedBehindEye": {
+    "uuid": null,
+    "edid": "spellknack-extended-behind-eye"
+  },
+  "ED4PatterncraftExtendedBestFace": {
+    "uuid": null,
+    "edid": "spellknack-extended-best-face"
+  },
+  "ED4PatterncraftExtendedBioluminescence": {
+    "uuid": null,
+    "edid": "spellknack-extended-bioluminescence"
+  },
+  "ED4PatterncraftExtendedBleedingEdge": {
+    "uuid": null,
+    "edid": "spellknack-extended-bleeding-edge"
+  },
+  "ED4PatterncraftExtendedBloodServitor": {
+    "uuid": null,
+    "edid": "spellknack-extended-blood-servitor"
+  },
+  "ED4PatterncraftExtendedBoneWalker": {
+    "uuid": null,
+    "edid": "spellknack-extended-bone-walker"
+  },
+  "ED4PatterncraftExtendedBreachtheAstralGates": {
+    "uuid": null,
+    "edid": "spellknack-extended-breach-the-astral-gates"
+  },
+  "ED4PatterncraftExtendedBreakItUp": {
+    "uuid": null,
+    "edid": "spellknack-extended-break-it-up"
+  },
+  "ED4PatterncraftExtendedBrightleaf": {
+    "uuid": null,
+    "edid": "spellknack-extended-brightleaf"
+  },
+  "ED4PatterncraftExtendedCatseyes": {
+    "uuid": null,
+    "edid": "spellknack-extended-catseyes"
+  },
+  "ED4PatterncraftExtendedCetaceanBreathing": {
+    "uuid": null,
+    "edid": "spellknack-extended-cetacean-breathing"
+  },
+  "ED4PatterncraftExtendedChicanery": {
+    "uuid": null,
+    "edid": "spellknack-extended-chicanery"
+  },
+  "ED4PatterncraftExtendedChosenPath": {
+    "uuid": null,
+    "edid": "spellknack-extended-chosen-path"
+  },
+  "ED4PatterncraftExtendedCircleofAstralProtection": {
+    "uuid": null,
+    "edid": "spellknack-extended-circle-of-astral-protection"
+  },
+  "ED4PatterncraftExtendedCityinaBottle": {
+    "uuid": null,
+    "edid": "spellknack-extended-city-in-a-bottle"
+  },
+  "ED4PatterncraftExtendedCloak": {
+    "uuid": null,
+    "edid": "spellknack-extended-cloak"
+  },
+  "ED4PatterncraftExtendedCloudSummon": {
+    "uuid": null,
+    "edid": "spellknack-extended-cloud-summon"
+  },
+  "ED4PatterncraftExtendedColdStorage": {
+    "uuid": null,
+    "edid": "spellknack-extended-cold-storage"
+  },
+  "ED4PatterncraftExtendedCreepingDread": {
+    "uuid": null,
+    "edid": "spellknack-extended-creeping-dread"
+  },
+  "ED4PatterncraftExtendedCropBlight": {
+    "uuid": null,
+    "edid": "spellknack-extended-crop-blight"
+  },
+  "ED4PatterncraftExtendedCrowsAffinity": {
+    "uuid": null,
+    "edid": "spellknack-extended-crows-affinity"
+  },
+  "ED4PatterncraftExtendedDarkSpy": {
+    "uuid": null,
+    "edid": "spellknack-extended-dark-spy"
+  },
+  "ED4PatterncraftExtendedDeathTrance": {
+    "uuid": null,
+    "edid": "spellknack-extended-death-trance"
+  },
+  "ED4PatterncraftExtendedDetectUndead": {
+    "uuid": null,
+    "edid": "spellknack-extended-detect-undead"
+  },
+  "ED4PatterncraftExtendedDisguiseMetal": {
+    "uuid": null,
+    "edid": "spellknack-extended-disguise-metal"
+  },
+  "ED4PatterncraftExtendedEaglesBearing": {
+    "uuid": null,
+    "edid": "spellknack-extended-eagles-bearing"
+  },
+  "ED4PatterncraftExtendedEarthWall": {
+    "uuid": null,
+    "edid": "spellknack-extended-earth-wall"
+  },
+  "ED4PatterncraftExtendedElementalRedoubt": {
+    "uuid": null,
+    "edid": "spellknack-extended-elemental-redoubt"
+  },
+  "ED4PatterncraftExtendedEnterandExit": {
+    "uuid": null,
+    "edid": "spellknack-extended-enter-and-exit"
+  },
+  "ED4PatterncraftExtendedEntryLog": {
+    "uuid": null,
+    "edid": "spellknack-extended-entry-log"
+  },
+  "ED4PatterncraftExtendedEtchandSketch": {
+    "uuid": null,
+    "edid": "spellknack-extended-etch-and-sketch"
+  },
+  "ED4PatterncraftExtendedExperienceDeath": {
+    "uuid": null,
+    "edid": "spellknack-extended-experience-death"
+  },
+  "ED4PatterncraftExtendedEyeofTruth": {
+    "uuid": null,
+    "edid": "spellknack-extended-eye-of-truth"
+  },
+  "ED4PatterncraftExtendedFaceLift": {
+    "uuid": null,
+    "edid": "spellknack-extended-face-lift"
+  },
+  "ED4PatterncraftExtendedFalseEnchantment": {
+    "uuid": null,
+    "edid": "spellknack-extended-false-enchantment"
+  },
+  "ED4PatterncraftExtendedFireWall": {
+    "uuid": null,
+    "edid": "spellknack-extended-fire-wall"
+  },
+  "ED4PatterncraftExtendedForceBarrier": {
+    "uuid": null,
+    "edid": "spellknack-extended-force-barrier"
+  },
+  "ED4PatterncraftExtendedForgeFalseman": {
+    "uuid": null,
+    "edid": "spellknack-extended-forge-falseman"
+  },
+  "ED4PatterncraftExtendedFunWithDoors": {
+    "uuid": null,
+    "edid": "spellknack-extended-fun-with-doors"
+  },
+  "ED4PatterncraftExtendedGraveSilence": {
+    "uuid": null,
+    "edid": "spellknack-extended-grave-silence"
+  },
+  "ED4PatterncraftExtendedHiddenWeapons": {
+    "uuid": null,
+    "edid": "spellknack-extended-hidden-weapons"
+  },
+  "ED4PatterncraftExtendedHungerPangs": {
+    "uuid": null,
+    "edid": "spellknack-extended-hunger-pangs"
+  },
+  "ED4PatterncraftExtendedHungryLiketheWolf": {
+    "uuid": null,
+    "edid": "spellknack-extended-hungry-like-the-wolf"
+  },
+  "ED4PatterncraftExtendedHuntersSense": {
+    "uuid": null,
+    "edid": "spellknack-extended-hunters-sense"
+  },
+  "ED4PatterncraftExtendedIcyProtection": {
+    "uuid": null,
+    "edid": "spellknack-extended-icy-protection"
+  },
+  "ED4PatterncraftExtendedIllusion": {
+    "uuid": null,
+    "edid": "spellknack-extended-illusion"
+  },
+  "ED4PatterncraftExtendedImbueSpirits": {
+    "uuid": null,
+    "edid": "spellknack-extended-imbue-spirits"
+  },
+  "ED4PatterncraftExtendedImmovableObjectInanimate": {
+    "uuid": null,
+    "edid": "spellknack-extended-immovable-object-inanimate"
+  },
+  "ED4PatterncraftExtendedImpenetrableFortress": {
+    "uuid": null,
+    "edid": "spellknack-extended-impenetrable-fortress"
+  },
+  "ED4PatterncraftExtendedInsectRepellent": {
+    "uuid": null,
+    "edid": "spellknack-extended-insect-repellent"
+  },
+  "ED4PatterncraftExtendedInstantMansion": {
+    "uuid": null,
+    "edid": "spellknack-extended-instant-mansion"
+  },
+  "ED4PatterncraftExtendedInvigorate": {
+    "uuid": null,
+    "edid": "spellknack-extended-invigorate"
+  },
+  "ED4PatterncraftExtendedLevitate": {
+    "uuid": null,
+    "edid": "spellknack-extended-levitate"
+  },
+  "ED4PatterncraftExtendedLifeCircleofOne": {
+    "uuid": null,
+    "edid": "spellknack-extended-life-circle-of-one"
+  },
+  "ED4PatterncraftExtendedLifelight": {
+    "uuid": null,
+    "edid": "spellknack-extended-lifelight"
+  },
+  "ED4PatterncraftExtendedLightenLoad": {
+    "uuid": null,
+    "edid": "spellknack-extended-lighten-load"
+  },
+  "ED4PatterncraftExtendedLivingWall": {
+    "uuid": null,
+    "edid": "spellknack-extended-living-wall"
+  },
+  "ED4PatterncraftExtendedLocktheAstralGates": {
+    "uuid": null,
+    "edid": "spellknack-extended-lock-the-astral-gates"
+  },
+  "ED4PatterncraftExtendedMeerkatEstate": {
+    "uuid": null,
+    "edid": "spellknack-extended-meerkat-estate"
+  },
+  "ED4PatterncraftExtendedMemoryBlank": {
+    "uuid": null,
+    "edid": "spellknack-extended-memory-blank"
+  },
+  "ED4PatterncraftExtendedMentalLibrary": {
+    "uuid": null,
+    "edid": "spellknack-extended-mental-library"
+  },
+  "ED4PatterncraftExtendedMoldtheSkin": {
+    "uuid": null,
+    "edid": "spellknack-extended-mold-the-skin"
+  },
+  "ED4PatterncraftExtendedMoonglow": {
+    "uuid": null,
+    "edid": "spellknack-extended-moonglow"
+  },
+  "ED4PatterncraftExtendedMountainGoatLeap": {
+    "uuid": null,
+    "edid": "spellknack-extended-mountain-goat-leap"
+  },
+  "ED4PatterncraftExtendedMysticVessel": {
+    "uuid": null,
+    "edid": "spellknack-extended-mystic-vessel"
+  },
+  "ED4PatterncraftExtendedNetherblade": {
+    "uuid": null,
+    "edid": "spellknack-extended-netherblade"
+  },
+  "ED4PatterncraftExtendedNetherlight": {
+    "uuid": null,
+    "edid": "spellknack-extended-netherlight"
+  },
+  "ED4PatterncraftExtendedOtherPlace": {
+    "uuid": null,
+    "edid": "spellknack-extended-other-place"
+  },
+  "ED4PatterncraftExtendedOtterSwim": {
+    "uuid": null,
+    "edid": "spellknack-extended-otter-swim"
+  },
+  "ED4PatterncraftExtendedPathHome": {
+    "uuid": null,
+    "edid": "spellknack-extended-path-home"
+  },
+  "ED4PatterncraftExtendedPatternSpike": {
+    "uuid": null,
+    "edid": "spellknack-extended-pattern-spike"
+  },
+  "ED4PatterncraftExtendedPeacebond": {
+    "uuid": null,
+    "edid": "spellknack-extended-peacebond"
+  },
+  "ED4PatterncraftExtendedPelicanSoar": {
+    "uuid": null,
+    "edid": "spellknack-extended-pelican-soar"
+  },
+  "ED4PatterncraftExtendedPerimeterAlarm": {
+    "uuid": null,
+    "edid": "spellknack-extended-perimeter-alarm"
+  },
+  "ED4PatterncraftExtendedPetrify": {
+    "uuid": null,
+    "edid": "spellknack-extended-petrify"
+  },
+  "ED4PatterncraftExtendedPilferousPaper": {
+    "uuid": null,
+    "edid": "spellknack-extended-pilferous-paper"
+  },
+  "ED4PatterncraftExtendedPreserve": {
+    "uuid": null,
+    "edid": "spellknack-extended-preserve"
+  },
+  "ED4PatterncraftExtendedPresto!": {
+    "uuid": null,
+    "edid": "spellknack-extended-presto"
+  },
+  "ED4PatterncraftExtendedPreySenses": {
+    "uuid": null,
+    "edid": "spellknack-extended-prey-senses"
+  },
+  "ED4PatterncraftExtendedRatsTrickery": {
+    "uuid": null,
+    "edid": "spellknack-extended-rats-trickery"
+  },
+  "ED4PatterncraftExtendedRepair": {
+    "uuid": null,
+    "edid": "spellknack-extended-repair"
+  },
+  "ED4PatterncraftExtendedRepelAnimal": {
+    "uuid": null,
+    "edid": "spellknack-extended-repel-animal"
+  },
+  "ED4PatterncraftExtendedResistAir": {
+    "uuid": null,
+    "edid": "spellknack-extended-resist-air"
+  },
+  "ED4PatterncraftExtendedResistEarth": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.FxyicSn07XBV9KQ8",
+    "edid": "spellknack-extended-resist-earth"
+  },
+  "ED4PatterncraftExtendedResistFire": {
+    "uuid": null,
+    "edid": "spellknack-extended-resist-fire"
+  },
+  "ED4PatterncraftExtendedResistWater": {
+    "uuid": null,
+    "edid": "spellknack-extended-resist-water"
+  },
+  "ED4PatterncraftExtendedResistWood": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.e9tInGHx9QFhf6Ah",
+    "edid": "spellknack-extended-resist-wood"
+  },
+  "ED4PatterncraftExtendedRopeLadder": {
+    "uuid": null,
+    "edid": "spellknack-extended-rope-ladder"
+  },
+  "ED4PatterncraftExtendedSanctuary": {
+    "uuid": null,
+    "edid": "spellknack-extended-sanctuary"
+  },
+  "ED4PatterncraftExtendedSculptDarkness": {
+    "uuid": null,
+    "edid": "spellknack-extended-sculpt-darkness"
+  },
+  "ED4PatterncraftExtendedScytheWard": {
+    "uuid": null,
+    "edid": "spellknack-extended-scythe-ward"
+  },
+  "ED4PatterncraftExtendedSearch": {
+    "uuid": null,
+    "edid": "spellknack-extended-search"
+  },
+  "ED4PatterncraftExtendedSeetheUnseen": {
+    "uuid": null,
+    "edid": "spellknack-extended-see-the-unseen"
+  },
+  "ED4PatterncraftExtendedShadowMeld": {
+    "uuid": null,
+    "edid": "spellknack-extended-shadow-meld"
+  },
+  "ED4PatterncraftExtendedShadowPalace": {
+    "uuid": null,
+    "edid": "spellknack-extended-shadow-palace"
+  },
+  "ED4PatterncraftExtendedShadowsWhisper": {
+    "uuid": null,
+    "edid": "spellknack-extended-shadows-whisper"
+  },
+  "ED4PatterncraftExtendedShatterPattern": {
+    "uuid": null,
+    "edid": "spellknack-extended-shatter-pattern"
+  },
+  "ED4PatterncraftExtendedShrunkenFoe": {
+    "uuid": null,
+    "edid": "spellknack-extended-shrunken-foe"
+  },
+  "ED4PatterncraftExtendedSilenceObjects": {
+    "uuid": null,
+    "edid": "spellknack-extended-silence-objects"
+  },
+  "ED4PatterncraftExtendedSilentDarkness": {
+    "uuid": null,
+    "edid": "spellknack-extended-silent-darkness"
+  },
+  "ED4PatterncraftExtendedSilverShadow": {
+    "uuid": null,
+    "edid": "spellknack-extended-silver-shadow"
+  },
+  "ED4PatterncraftExtendedSkyLattice": {
+    "uuid": null,
+    "edid": "spellknack-extended-sky-lattice"
+  },
+  "ED4PatterncraftExtendedSmudgedFingers": {
+    "uuid": null,
+    "edid": "spellknack-extended-smudged-fingers"
+  },
+  "ED4PatterncraftExtendedSongbird": {
+    "uuid": null,
+    "edid": "spellknack-extended-songbird"
+  },
+  "ED4PatterncraftExtendedSoothetheSavageBeast": {
+    "uuid": null,
+    "edid": "spellknack-extended-soothe-the-savage-beast"
+  },
+  "ED4PatterncraftExtendedSoothingAtmosphere": {
+    "uuid": null,
+    "edid": "spellknack-extended-soothing-atmosphere"
+  },
+  "ED4PatterncraftExtendedSoulTrap": {
+    "uuid": null,
+    "edid": "spellknack-extended-soul-trap"
+  },
+  "ED4PatterncraftExtendedSunlight": {
+    "uuid": null,
+    "edid": "spellknack-extended-sunlight"
+  },
+  "ED4PatterncraftExtendedTemporaryErase": {
+    "uuid": null,
+    "edid": "spellknack-extended-temporary-erase"
+  },
+  "ED4PatterncraftExtendedThornyRetreat": {
+    "uuid": null,
+    "edid": "spellknack-extended-thorny-retreat"
+  },
+  "ED4PatterncraftExtendedTranslatorSpirit": {
+    "uuid": null,
+    "edid": "spellknack-extended-translator-spirit"
+  },
+  "ED4PatterncraftExtendedTriangulate": {
+    "uuid": null,
+    "edid": "spellknack-extended-triangulate"
+  },
+  "ED4PatterncraftExtendedTwistEmotion": {
+    "uuid": null,
+    "edid": "spellknack-extended-twist-emotion"
+  },
+  "ED4PatterncraftExtendedTwistedTongues": {
+    "uuid": null,
+    "edid": "spellknack-extended-twisted-tongues"
+  },
+  "ED4PatterncraftExtendedViewpoint": {
+    "uuid": null,
+    "edid": "spellknack-extended-viewpoint"
+  },
+  "ED4PatterncraftExtendedVisionsofDeath": {
+    "uuid": null,
+    "edid": "spellknack-extended-visions-of-death"
+  },
+  "ED4PatterncraftExtendedVolumeControl": {
+    "uuid": null,
+    "edid": "spellknack-extended-volume-control"
+  },
+  "ED4PatterncraftExtendedWalkingDead": {
+    "uuid": null,
+    "edid": "spellknack-extended-walking-dead"
+  },
+  "ED4PatterncraftExtendedWallWalker": {
+    "uuid": null,
+    "edid": "spellknack-extended-wall-walker"
+  },
+  "ED4PatterncraftExtendedWallofDarkness": {
+    "uuid": null,
+    "edid": "spellknack-extended-wall-of-darkness"
+  },
+  "ED4PatterncraftExtendedWardofWarning": {
+    "uuid": null,
+    "edid": "spellknack-extended-ward-of-warning"
+  },
+  "ED4PatterncraftExtendedWarningSignal": {
+    "uuid": null,
+    "edid": "spellknack-extended-warning-signal"
+  },
+  "ED4PatterncraftExtendedWaterWall": {
+    "uuid": null,
+    "edid": "spellknack-extended-water-wall"
+  },
+  "ED4PatterncraftExtendedWaterproofing": {
+    "uuid": null,
+    "edid": "spellknack-extended-waterproofing"
+  },
+  "ED4PatterncraftExtendedWeaponBack": {
+    "uuid": null,
+    "edid": "spellknack-extended-weapon-back"
+  },
+  "ED4PatterncraftExtendedWeatherChange": {
+    "uuid": null,
+    "edid": "spellknack-extended-weather-change"
+  },
+  "ED4PatterncraftExtendedWeatherCloak": {
+    "uuid": null,
+    "edid": "spellknack-extended-weather-cloak"
+  },
+  "ED4PatterncraftExtendedWhisperThroughtheNight": {
+    "uuid": null,
+    "edid": "spellknack-extended-whisper-through-the-night"
+  },
+  "ED4PatterncraftExtendedWildHunt": {
+    "uuid": null,
+    "edid": "spellknack-extended-wild-hunt"
+  },
+  "ED4PatterncraftExtendedWisentVitality": {
+    "uuid": null,
+    "edid": "spellknack-extended-wisent-vitality"
+  },
+  "ED4PatterncraftExtendedWithoutaTrace": {
+    "uuid": null,
+    "edid": "spellknack-extended-without-a-trace"
+  },
+  "ED4PatterncraftExtendedWizardsCloak": {
+    "uuid": null,
+    "edid": "spellknack-extended-wizards-cloak"
+  },
+  "ED4PatterncraftExtendedWoodlandHelpers": {
+    "uuid": null,
+    "edid": "spellknack-extended-woodland-helpers"
+  },
+  "ED4PatterncraftExtendedWoundMask": {
+    "uuid": null,
+    "edid": "spellknack-extended-wound-mask"
+  },
+  "ED4PatterncraftFaceYourPartner": {
+    "uuid": null,
+    "edid": "spellknack-face-your-partner"
+  },
+  "ED4PatterncraftFalseTrail": {
+    "uuid": null,
+    "edid": "spellknack-false-trail"
+  },
+  "ED4PatterncraftFastActingFood": {
+    "uuid": null,
+    "edid": "spellknack-fast-acting-food"
+  },
+  "ED4PatterncraftFatalFeast": {
+    "uuid": null,
+    "edid": "spellknack-fatal-feast"
+  },
+  "ED4PatterncraftFatalSight": {
+    "uuid": null,
+    "edid": "spellknack-fatal-sight"
+  },
+  "ED4PatterncraftFearoftheDark": {
+    "uuid": null,
+    "edid": "spellknack-fear-of-the-dark"
+  },
+  "ED4PatterncraftFeaturingHammocks": {
+    "uuid": null,
+    "edid": "spellknack-featuring-hammocks"
+  },
+  "ED4PatterncraftFireRedoubt": {
+    "uuid": null,
+    "edid": "spellknack-fire-redoubt"
+  },
+  "ED4PatterncraftFireworks": {
+    "uuid": null,
+    "edid": "spellknack-fireworks"
+  },
+  "ED4PatterncraftFlexibleUndeadStruggle": {
+    "uuid": null,
+    "edid": "spellknack-flexible-undead-struggle"
+  },
+  "ED4PatterncraftFlusteringFace": {
+    "uuid": null,
+    "edid": "spellknack-flustering-face"
+  },
+  "ED4PatterncraftFocusedSleep": {
+    "uuid": null,
+    "edid": "spellknack-focused-sleep"
+  },
+  "ED4PatterncraftForceBarrierNotification": {
+    "uuid": null,
+    "edid": "spellknack-force-barrier-notification"
+  },
+  "ED4PatterncraftForgeSteelman": {
+    "uuid": null,
+    "edid": "spellknack-forge-steelman"
+  },
+  "ED4PatterncraftForgeStoneman": {
+    "uuid": null,
+    "edid": "spellknack-forge-stoneman"
+  },
+  "ED4PatterncraftForgeWaxman": {
+    "uuid": null,
+    "edid": "spellknack-forge-waxman"
+  },
+  "ED4PatterncraftFortifiedRenewal": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.NvzuAc2EUPLc3zK9",
+    "edid": "spellknack-fortified-renewal"
+  },
+  "ED4PatterncraftFoxelReflex": {
+    "uuid": null,
+    "edid": "spellknack-foxel-reflex"
+  },
+  "ED4PatterncraftFrequentWeatherChange": {
+    "uuid": null,
+    "edid": "spellknack-frequent-weather-change"
+  },
+  "ED4PatterncraftFuelBonfire": {
+    "uuid": null,
+    "edid": "spellknack-fuel-bonfire"
+  },
+  "ED4PatterncraftFullyPackedMule": {
+    "uuid": null,
+    "edid": "spellknack-fully-packed-mule"
+  },
+  "ED4PatterncraftFunWithFloors": {
+    "uuid": null,
+    "edid": "spellknack-fun-with-floors"
+  },
+  "ED4PatterncraftFurySurge": {
+    "uuid": null,
+    "edid": "spellknack-fury-surge"
+  },
+  "ED4PatterncraftGaleForce": {
+    "uuid": null,
+    "edid": "spellknack-gale-force"
+  },
+  "ED4PatterncraftGeasofSilence": {
+    "uuid": null,
+    "edid": "spellknack-geas-of-silence"
+  },
+  "ED4PatterncraftGiantPuppet": {
+    "uuid": null,
+    "edid": "spellknack-giant-puppet"
+  },
+  "ED4PatterncraftGiftofDeath": {
+    "uuid": null,
+    "edid": "spellknack-gift-of-death"
+  },
+  "ED4PatterncraftGinormousSize": {
+    "uuid": null,
+    "edid": "spellknack-ginormous-size"
+  },
+  "ED4PatterncraftGraspingHandofStone": {
+    "uuid": null,
+    "edid": "spellknack-grasping-hand-of-stone"
+  },
+  "ED4PatterncraftGraspingMysticKudzu": {
+    "uuid": null,
+    "edid": "spellknack-grasping-mystic-kudzu"
+  },
+  "ED4PatterncraftGraspingMysticVines": {
+    "uuid": null,
+    "edid": "spellknack-grasping-mystic-vines"
+  },
+  "ED4PatterncraftGraveLantern": {
+    "uuid": null,
+    "edid": "spellknack-grave-lantern"
+  },
+  "ED4PatterncraftGroupPeacebond": {
+    "uuid": null,
+    "edid": "spellknack-group-peacebond"
+  },
+  "ED4PatterncraftGuardMist": {
+    "uuid": null,
+    "edid": "spellknack-guard-mist"
+  },
+  "ED4PatterncraftHairCatastrophe": {
+    "uuid": null,
+    "edid": "spellknack-hair-catastrophe"
+  },
+  "ED4PatterncraftHalcyonsMettle": {
+    "uuid": null,
+    "edid": "spellknack-halcyons-mettle"
+  },
+  "ED4PatterncraftHammocksofClouds": {
+    "uuid": null,
+    "edid": "spellknack-hammocks-of-clouds"
+  },
+  "ED4PatterncraftHealingHibernation": {
+    "uuid": null,
+    "edid": "spellknack-healing-hibernation"
+  },
+  "ED4PatterncraftHeartofSteel": {
+    "uuid": null,
+    "edid": "spellknack-heart-of-steel"
+  },
+  "ED4PatterncraftHeartyMeal": {
+    "uuid": null,
+    "edid": "spellknack-hearty-meal"
+  },
+  "ED4PatterncraftHegysMight": {
+    "uuid": null,
+    "edid": "spellknack-hegys-might"
+  },
+  "ED4PatterncraftHegysSleep": {
+    "uuid": null,
+    "edid": "spellknack-hegys-sleep"
+  },
+  "ED4PatterncraftHinderingSpiritTempest": {
+    "uuid": null,
+    "edid": "spellknack-hindering-spirit-tempest"
+  },
+  "ED4PatterncraftHotSprings": {
+    "uuid": null,
+    "edid": "spellknack-hot-springs"
+  },
+  "ED4PatterncraftHoursofSilence": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.cefRnYJCbR2h62NI",
+    "edid": "spellknack-hours-of-silence"
+  },
+  "ED4PatterncraftHouseAlarm": {
+    "uuid": null,
+    "edid": "spellknack-house-alarm"
+  },
+  "ED4PatterncraftHulkingCompanion": {
+    "uuid": null,
+    "edid": "spellknack-hulking-companion"
+  },
+  "ED4PatterncraftHungryLikeAkela": {
+    "uuid": null,
+    "edid": "spellknack-hungry-like-akela"
+  },
+  "ED4PatterncraftHungryLikeGreyBrother": {
+    "uuid": null,
+    "edid": "spellknack-hungry-like-grey-brother"
+  },
+  "ED4PatterncraftHungryLikeMotherWolf": {
+    "uuid": null,
+    "edid": "spellknack-hungry-like-mother-wolf"
+  },
+  "ED4PatterncraftIceRefuge": {
+    "uuid": null,
+    "edid": "spellknack-ice-refuge"
+  },
+  "ED4PatterncraftIgnatzsBearing": {
+    "uuid": null,
+    "edid": "spellknack-ignatzs-bearing"
+  },
+  "ED4PatterncraftIllusoryAstralMissiles": {
+    "uuid": null,
+    "edid": "spellknack-illusory-astral-missiles"
+  },
+  "ED4PatterncraftImageEntryLog": {
+    "uuid": null,
+    "edid": "spellknack-image-entry-log"
+  },
+  "ED4PatterncraftImbueAlliedSpirits": {
+    "uuid": null,
+    "edid": "spellknack-imbue-allied-spirits"
+  },
+  "ED4PatterncraftImpossibleLock": {
+    "uuid": null,
+    "edid": "spellknack-impossible-lock"
+  },
+  "ED4PatterncraftIncessantMuttering": {
+    "uuid": null,
+    "edid": "spellknack-incessant-muttering"
+  },
+  "ED4PatterncraftInextinguishableFlames": {
+    "uuid": null,
+    "edid": "spellknack-inextinguishable-flames"
+  },
+  "ED4PatterncraftInfusedMattress": {
+    "uuid": null,
+    "edid": "spellknack-infused-mattress"
+  },
+  "ED4PatterncraftInnocentBustle": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.WqgB44Dc616cCUdT",
+    "edid": "spellknack-innocent-bustle"
+  },
+  "ED4PatterncraftInnocuousText": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.zKvCpo2lUUgPQgRH",
+    "edid": "spellknack-innocuous-text"
+  },
+  "ED4PatterncraftInstantClean": {
+    "uuid": null,
+    "edid": "spellknack-instant-clean"
+  },
+  "ED4PatterncraftInvaeRepellent": {
+    "uuid": null,
+    "edid": "spellknack-invae-repellent"
+  },
+  "ED4PatterncraftInvestigate": {
+    "uuid": null,
+    "edid": "spellknack-investigate"
+  },
+  "ED4PatterncraftInvigoratingBrew": {
+    "uuid": null,
+    "edid": "spellknack-invigorating-brew"
+  },
+  "ED4PatterncraftInvokeAfancSnap": {
+    "uuid": null,
+    "edid": "spellknack-invoke-afanc-snap"
+  },
+  "ED4PatterncraftInvokeAkelaMaim": {
+    "uuid": null,
+    "edid": "spellknack-invoke-akela-maim"
+  },
+  "ED4PatterncraftInvokeAzijinsPride": {
+    "uuid": null,
+    "edid": "spellknack-invoke-azijins-pride"
+  },
+  "ED4PatterncraftInvokeBloodBoarCharge": {
+    "uuid": null,
+    "edid": "spellknack-invoke-blood-boar-charge"
+  },
+  "ED4PatterncraftInvokeBloodRavenTear": {
+    "uuid": null,
+    "edid": "spellknack-invoke-blood-raven-tear"
+  },
+  "ED4PatterncraftInvokeChilDive": {
+    "uuid": null,
+    "edid": "spellknack-invoke-chil-dive"
+  },
+  "ED4PatterncraftInvokeCragWolfMaim": {
+    "uuid": null,
+    "edid": "spellknack-invoke-crag-wolf-maim"
+  },
+  "ED4PatterncraftInvokeCrojenPounce": {
+    "uuid": null,
+    "edid": "spellknack-invoke-crojen-pounce"
+  },
+  "ED4PatterncraftInvokeDaggerSharkRend": {
+    "uuid": null,
+    "edid": "spellknack-invoke-dagger-shark-rend"
+  },
+  "ED4PatterncraftInvokeDeathsSeaEspagraFrenzy": {
+    "uuid": null,
+    "edid": "spellknack-invoke-deaths-sea-espagra-frenzy"
+  },
+  "ED4PatterncraftInvokeDerfthePygmyHogCharge": {
+    "uuid": null,
+    "edid": "spellknack-invoke-derf-the-pygmy-hog-charge"
+  },
+  "ED4PatterncraftInvokeFoxelSnap": {
+    "uuid": null,
+    "edid": "spellknack-invoke-foxel-snap"
+  },
+  "ED4PatterncraftInvokeGhostLeopardPounce": {
+    "uuid": null,
+    "edid": "spellknack-invoke-ghost-leopard-pounce"
+  },
+  "ED4PatterncraftInvokeGreyBrotherMaim": {
+    "uuid": null,
+    "edid": "spellknack-invoke-grey-brother-maim"
+  },
+  "ED4PatterncraftInvokeIgnatzDive": {
+    "uuid": null,
+    "edid": "spellknack-invoke-ignatz-dive"
+  },
+  "ED4PatterncraftInvokeInfernoTortoiseSnap": {
+    "uuid": null,
+    "edid": "spellknack-invoke-inferno-tortoise-snap"
+  },
+  "ED4PatterncraftInvokeIvanodCharge": {
+    "uuid": null,
+    "edid": "spellknack-invoke-ivanod-charge"
+  },
+  "ED4PatterncraftInvokeJungleLordPounce": {
+    "uuid": null,
+    "edid": "spellknack-invoke-jungle-lord-pounce"
+  },
+  "ED4PatterncraftInvokeMoccaCharge": {
+    "uuid": null,
+    "edid": "spellknack-invoke-mocca-charge"
+  },
+  "ED4PatterncraftInvokeMotherWolfMaim": {
+    "uuid": null,
+    "edid": "spellknack-invoke-mother-wolf-maim"
+  },
+  "ED4PatterncraftInvokeMountainEspagraFrenzy": {
+    "uuid": null,
+    "edid": "spellknack-invoke-mountain-espagra-frenzy"
+  },
+  "ED4PatterncraftInvokeObsidianUnicornCharge": {
+    "uuid": null,
+    "edid": "spellknack-invoke-obsidian-unicorn-charge"
+  },
+  "ED4PatterncraftInvokeRannDive": {
+    "uuid": null,
+    "edid": "spellknack-invoke-rann-dive"
+  },
+  "ED4PatterncraftInvokeRazorBoarCharge": {
+    "uuid": null,
+    "edid": "spellknack-invoke-razor-boar-charge"
+  },
+  "ED4PatterncraftInvokeSelachiRend": {
+    "uuid": null,
+    "edid": "spellknack-invoke-selachi-rend"
+  },
+  "ED4PatterncraftInvokeSentinelHawkDive": {
+    "uuid": null,
+    "edid": "spellknack-invoke-sentinel-hawk-dive"
+  },
+  "ED4PatterncraftInvokeSilverHawkDive": {
+    "uuid": null,
+    "edid": "spellknack-invoke-silver-hawk-dive"
+  },
+  "ED4PatterncraftInvokeStoneLionsPride": {
+    "uuid": null,
+    "edid": "spellknack-invoke-stone-lions-pride"
+  },
+  "ED4PatterncraftInvokeStormCrowTear": {
+    "uuid": null,
+    "edid": "spellknack-invoke-storm-crow-tear"
+  },
+  "ED4PatterncraftInvokeThornedToadNip": {
+    "uuid": null,
+    "edid": "spellknack-invoke-thorned-toad-nip"
+  },
+  "ED4PatterncraftInvokeThundraBeastRush": {
+    "uuid": null,
+    "edid": "spellknack-invoke-thundra-beast-rush"
+  },
+  "ED4PatterncraftInvokeTisadeerSkirmish": {
+    "uuid": null,
+    "edid": "spellknack-invoke-tisadeer-skirmish"
+  },
+  "ED4PatterncraftInvokeTwilightPantherPounce": {
+    "uuid": null,
+    "edid": "spellknack-invoke-twilight-panther-pounce"
+  },
+  "ED4PatterncraftInvokeWinterWolfMaim": {
+    "uuid": null,
+    "edid": "spellknack-invoke-winter-wolf-maim"
+  },
+  "ED4PatterncraftInvokeWoodLionsPride": {
+    "uuid": null,
+    "edid": "spellknack-invoke-wood-lions-pride"
+  },
+  "ED4PatterncraftIronSights": {
+    "uuid": null,
+    "edid": "spellknack-iron-sights"
+  },
+  "ED4PatterncraftJuggleSpells": {
+    "uuid": null,
+    "edid": "spellknack-juggle-spells"
+  },
+  "ED4PatterncraftJugglersAstralTouch": {
+    "uuid": null,
+    "edid": "spellknack-jugglers-astral-touch"
+  },
+  "ED4PatterncraftKarmaQuash": {
+    "uuid": null,
+    "edid": "spellknack-karma-quash"
+  },
+  "ED4PatterncraftKarmicDeath": {
+    "uuid": null,
+    "edid": "spellknack-karmic-death"
+  },
+  "ED4PatterncraftKiemurellasMettle": {
+    "uuid": null,
+    "edid": "spellknack-kiemurellas-mettle"
+  },
+  "ED4PatterncraftKingdomofDarkness": {
+    "uuid": null,
+    "edid": "spellknack-kingdom-of-darkness"
+  },
+  "ED4PatterncraftKnotGuide": {
+    "uuid": null,
+    "edid": "spellknack-knot-guide"
+  },
+  "ED4PatterncraftKraitFangs": {
+    "uuid": null,
+    "edid": "spellknack-krait-fangs"
+  },
+  "ED4PatterncraftLethalAim": {
+    "uuid": null,
+    "edid": "spellknack-lethal-aim"
+  },
+  "ED4PatterncraftLethalSight": {
+    "uuid": null,
+    "edid": "spellknack-lethal-sight"
+  },
+  "ED4PatterncraftLightningTwoStep": {
+    "uuid": null,
+    "edid": "spellknack-lightning-two-step"
+  },
+  "ED4PatterncraftLimbPuppeteer": {
+    "uuid": null,
+    "edid": "spellknack-limb-puppeteer"
+  },
+  "ED4PatterncraftLingeringWorry": {
+    "uuid": null,
+    "edid": "spellknack-lingering-worry"
+  },
+  "ED4PatterncraftLittleSistersMight": {
+    "uuid": null,
+    "edid": "spellknack-little-sisters-might"
+  },
+  "ED4PatterncraftLittleSistersSleep": {
+    "uuid": null,
+    "edid": "spellknack-little-sisters-sleep"
+  },
+  "ED4PatterncraftLockPattern": {
+    "uuid": null,
+    "edid": "spellknack-lock-pattern"
+  },
+  "ED4PatterncraftLodestonesBadTouch": {
+    "uuid": null,
+    "edid": "spellknack-lodestones-bad-touch"
+  },
+  "ED4PatterncraftLunarShadow": {
+    "uuid": null,
+    "edid": "spellknack-lunar-shadow"
+  },
+  "ED4PatterncraftMagicFingers": {
+    "uuid": null,
+    "edid": "spellknack-magic-fingers"
+  },
+  "ED4PatterncraftMaintainedEntryLog": {
+    "uuid": null,
+    "edid": "spellknack-maintained-entry-log"
+  },
+  "ED4PatterncraftMakeaSplash": {
+    "uuid": null,
+    "edid": "spellknack-make-a-splash"
+  },
+  "ED4PatterncraftMassiveThrowingWeapons": {
+    "uuid": null,
+    "edid": "spellknack-massive-throwing-weapons"
+  },
+  "ED4PatterncraftMawUnchained": {
+    "uuid": null,
+    "edid": "spellknack-maw-unchained"
+  },
+  "ED4PatterncraftMeerkatDomain": {
+    "uuid": null,
+    "edid": "spellknack-meerkat-domain"
+  },
+  "ED4PatterncraftMetalDarts": {
+    "uuid": null,
+    "edid": "spellknack-metal-darts"
+  },
+  "ED4PatterncraftMetalSpikes": {
+    "uuid": null,
+    "edid": "spellknack-metal-spikes"
+  },
+  "ED4PatterncraftMindKnife": {
+    "uuid": null,
+    "edid": "spellknack-mind-knife"
+  },
+  "ED4PatterncraftMindOverMatterDagger": {
+    "uuid": null,
+    "edid": "spellknack-mind-over-matter-dagger"
+  },
+  "ED4PatterncraftMindtheGap": {
+    "uuid": null,
+    "edid": "spellknack-mind-the-gap"
+  },
+  "ED4PatterncraftMissingItem": {
+    "uuid": null,
+    "edid": "spellknack-missing-item"
+  },
+  "ED4PatterncraftMoldDarkness": {
+    "uuid": null,
+    "edid": "spellknack-mold-darkness"
+  },
+  "ED4PatterncraftMonitorEmotions": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.2OUajM4Rvmme5Umh",
+    "edid": "spellknack-monitor-emotions"
+  },
+  "ED4PatterncraftMoodAlteringFog": {
+    "uuid": null,
+    "edid": "spellknack-mood-altering-fog"
+  },
+  "ED4PatterncraftMoreofaJaunt,Really": {
+    "uuid": null,
+    "edid": "spellknack-more-of-a-jaunt-really"
+  },
+  "ED4PatterncraftMountainClimb": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.HJEHgJ4rqGP52w6O",
+    "edid": "spellknack-mountain-climb"
+  },
+  "ED4PatterncraftMultiMindDagger": {
+    "uuid": null,
+    "edid": "spellknack-multi-mind-dagger"
+  },
+  "ED4PatterncraftMultipleAstralBeacons": {
+    "uuid": null,
+    "edid": "spellknack-multiple-astral-beacons"
+  },
+  "ED4PatterncraftMultipleBladeFury": {
+    "uuid": null,
+    "edid": "spellknack-multiple-blade-fury"
+  },
+  "ED4PatterncraftMultipleFlameweapon": {
+    "uuid": null,
+    "edid": "spellknack-multiple-flameweapon"
+  },
+  "ED4PatterncraftMultipleMakeshiftMissiles": {
+    "uuid": null,
+    "edid": "spellknack-multiple-makeshift-missiles"
+  },
+  "ED4PatterncraftMultipleMakeshiftWeapons": {
+    "uuid": null,
+    "edid": "spellknack-multiple-makeshift-weapons"
+  },
+  "ED4PatterncraftMultipleThornFury": {
+    "uuid": null,
+    "edid": "spellknack-multiple-thorn-fury"
+  },
+  "ED4PatterncraftMysasVitality": {
+    "uuid": null,
+    "edid": "spellknack-mysas-vitality"
+  },
+  "ED4PatterncraftMysticKudzu": {
+    "uuid": null,
+    "edid": "spellknack-mystic-kudzu"
+  },
+  "ED4PatterncraftMysticRicochetAttack": {
+    "uuid": null,
+    "edid": "spellknack-mystic-ricochet-attack"
+  },
+  "ED4PatterncraftMysticStunner": {
+    "uuid": null,
+    "edid": "spellknack-mystic-stunner"
+  },
+  "ED4PatterncraftMysticStupor": {
+    "uuid": null,
+    "edid": "spellknack-mystic-stupor"
+  },
+  "ED4PatterncraftMysticUrn": {
+    "uuid": null,
+    "edid": "spellknack-mystic-urn"
+  },
+  "ED4PatterncraftNameBoneCircle": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.fVQKCtuq8FlRdkjs",
+    "edid": "spellknack-name-bone-circle"
+  },
+  "ED4PatterncraftNamedFlyingCarpet": {
+    "uuid": null,
+    "edid": "spellknack-named-flying-carpet"
+  },
+  "ED4PatterncraftNamedGraveMessage": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.TGGchDI0TAwjypUJ",
+    "edid": "spellknack-named-grave-message"
+  },
+  "ED4PatterncraftNamedSoaringGallery": {
+    "uuid": null,
+    "edid": "spellknack-named-soaring-gallery"
+  },
+  "ED4PatterncraftNaturalFormation": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.iiFXhfg4PPnZ7PG8",
+    "edid": "spellknack-natural-formation"
+  },
+  "ED4PatterncraftNaturesVacuum": {
+    "uuid": null,
+    "edid": "spellknack-natures-vacuum"
+  },
+  "ED4PatterncraftNauseatingVoidWave": {
+    "uuid": null,
+    "edid": "spellknack-nauseating-void-wave"
+  },
+  "ED4PatterncraftNetheredge": {
+    "uuid": null,
+    "edid": "spellknack-netheredge"
+  },
+  "ED4PatterncraftNightcrawlersCloak": {
+    "uuid": null,
+    "edid": "spellknack-nightcrawlers-cloak"
+  },
+  "ED4PatterncraftNightsBlade": {
+    "uuid": null,
+    "edid": "spellknack-nights-blade"
+  },
+  "ED4PatterncraftNobodyThere": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.2geFqYgLsPJzY0Xc",
+    "edid": "spellknack-nobody-there"
+  },
+  "ED4PatterncraftNotMyMoney": {
+    "uuid": null,
+    "edid": "spellknack-not-my-money"
+  },
+  "ED4PatterncraftNothingUpMySleeves": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.vkrGvoC1kI2dBlLF",
+    "edid": "spellknack-nothing-up-my-sleeves"
+  },
+  "ED4PatterncraftOffensiveGrounding": {
+    "uuid": null,
+    "edid": "spellknack-offensive-grounding"
+  },
+  "ED4PatterncraftOtherPeoplesMoney": {
+    "uuid": null,
+    "edid": "spellknack-other-peoples-money"
+  },
+  "ED4PatterncraftOtterRomp": {
+    "uuid": null,
+    "edid": "spellknack-otter-romp"
+  },
+  "ED4PatterncraftOverlandTravel": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.KLBLXntmKbXZsno1",
+    "edid": "spellknack-overland-travel"
+  },
+  "ED4PatterncraftPapaBearsMight": {
+    "uuid": null,
+    "edid": "spellknack-papa-bears-might"
+  },
+  "ED4PatterncraftPapaBearsSleep": {
+    "uuid": null,
+    "edid": "spellknack-papa-bears-sleep"
+  },
+  "ED4PatterncraftParalyticFood": {
+    "uuid": null,
+    "edid": "spellknack-paralytic-food"
+  },
+  "ED4PatterncraftParchedandSoaked": {
+    "uuid": null,
+    "edid": "spellknack-parched-and-soaked"
+  },
+  "ED4PatterncraftPartoftheCrowd": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.kzPYNvWMk0MaBtzn",
+    "edid": "spellknack-part-of-the-crowd"
+  },
+  "ED4PatterncraftPatternSkewer": {
+    "uuid": null,
+    "edid": "spellknack-pattern-skewer"
+  },
+  "ED4PatterncraftPenultimateChance": {
+    "uuid": null,
+    "edid": "spellknack-penultimate-chance"
+  },
+  "ED4PatterncraftPerimeterAlarmNotification": {
+    "uuid": null,
+    "edid": "spellknack-perimeter-alarm-notification"
+  },
+  "ED4PatterncraftPersistentUndeadStruggle": {
+    "uuid": null,
+    "edid": "spellknack-persistent-undead-struggle"
+  },
+  "ED4PatterncraftPersonalEscape": {
+    "uuid": null,
+    "edid": "spellknack-personal-escape"
+  },
+  "ED4PatterncraftPhantomDefender": {
+    "uuid": null,
+    "edid": "spellknack-phantom-defender"
+  },
+  "ED4PatterncraftPiercingSurveillance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.29vN95MVcdhlVE20",
+    "edid": "spellknack-piercing-surveillance"
+  },
+  "ED4PatterncraftPoolofDarkness": {
+    "uuid": null,
+    "edid": "spellknack-pool-of-darkness"
+  },
+  "ED4PatterncraftPotentFiltration": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.m2J3UTOymDFa02lk",
+    "edid": "spellknack-potent-filtration"
+  },
+  "ED4PatterncraftPotentHorrorKarma": {
+    "uuid": null,
+    "edid": "spellknack-potent-horror-karma"
+  },
+  "ED4PatterncraftPrecisionRopeLadder": {
+    "uuid": null,
+    "edid": "spellknack-precision-rope-ladder"
+  },
+  "ED4PatterncraftPreparedMoveonThrough": {
+    "uuid": null,
+    "edid": "spellknack-prepared-move-on-through"
+  },
+  "ED4PatterncraftProlongedAstralPrison": {
+    "uuid": null,
+    "edid": "spellknack-prolonged-astral-prison"
+  },
+  "ED4PatterncraftProlongedAstralWall": {
+    "uuid": null,
+    "edid": "spellknack-prolonged-astral-wall"
+  },
+  "ED4PatterncraftProlongedCityinaBottle": {
+    "uuid": null,
+    "edid": "spellknack-prolonged-city-in-a-bottle"
+  },
+  "ED4PatterncraftProlongedFalseEnchantment": {
+    "uuid": null,
+    "edid": "spellknack-prolonged-false-enchantment"
+  },
+  "ED4PatterncraftProlongedForceBarrier": {
+    "uuid": null,
+    "edid": "spellknack-prolonged-force-barrier"
+  },
+  "ED4PatterncraftProlongedImmovableObjectInanimate": {
+    "uuid": null,
+    "edid": "spellknack-prolonged-immovable-object-inanimate"
+  },
+  "ED4PatterncraftProlongedLivingWall": {
+    "uuid": null,
+    "edid": "spellknack-prolonged-living-wall"
+  },
+  "ED4PatterncraftProlongedMoldtheSkin": {
+    "uuid": null,
+    "edid": "spellknack-prolonged-mold-the-skin"
+  },
+  "ED4PatterncraftProlongedMysticVessel": {
+    "uuid": null,
+    "edid": "spellknack-prolonged-mystic-vessel"
+  },
+  "ED4PatterncraftProlongedPilferousPaper": {
+    "uuid": null,
+    "edid": "spellknack-prolonged-pilferous-paper"
+  },
+  "ED4PatterncraftProlongedShadowsWhisper": {
+    "uuid": null,
+    "edid": "spellknack-prolonged-shadows-whisper"
+  },
+  "ED4PatterncraftProlongedTemporaryErase": {
+    "uuid": null,
+    "edid": "spellknack-prolonged-temporary-erase"
+  },
+  "ED4PatterncraftProtectedBlizzardSphere": {
+    "uuid": null,
+    "edid": "spellknack-protected-blizzard-sphere"
+  },
+  "ED4PatterncraftProtectedDrasticTemperatureCold": {
+    "uuid": null,
+    "edid": "spellknack-protected-drastic-temperature-cold"
+  },
+  "ED4PatterncraftProtectedDrasticTemperatureHot": {
+    "uuid": null,
+    "edid": "spellknack-protected-drastic-temperature-hot"
+  },
+  "ED4PatterncraftProtectedDustDevil": {
+    "uuid": null,
+    "edid": "spellknack-protected-dust-devil"
+  },
+  "ED4PatterncraftProtectedIcySurface": {
+    "uuid": null,
+    "edid": "spellknack-protected-icy-surface"
+  },
+  "ED4PatterncraftProtectedLivingWall": {
+    "uuid": null,
+    "edid": "spellknack-protected-living-wall"
+  },
+  "ED4PatterncraftProtectedRootTrap": {
+    "uuid": null,
+    "edid": "spellknack-protected-root-trap"
+  },
+  "ED4PatterncraftProtectedStoneRain": {
+    "uuid": null,
+    "edid": "spellknack-protected-stone-rain"
+  },
+  "ED4PatterncraftProtectedThunderclap": {
+    "uuid": null,
+    "edid": "spellknack-protected-thunderclap"
+  },
+  "ED4PatterncraftProtectedWhirlwind": {
+    "uuid": null,
+    "edid": "spellknack-protected-whirlwind"
+  },
+  "ED4PatterncraftPulverizeWill": {
+    "uuid": null,
+    "edid": "spellknack-pulverize-will"
+  },
+  "ED4PatterncraftPurifyingFood": {
+    "uuid": null,
+    "edid": "spellknack-purifying-food"
+  },
+  "ED4PatterncraftPurifyingSprings": {
+    "uuid": null,
+    "edid": "spellknack-purifying-springs"
+  },
+  "ED4PatterncraftQuickSeal": {
+    "uuid": null,
+    "edid": "spellknack-quick-seal"
+  },
+  "ED4PatterncraftQuicksilverHand": {
+    "uuid": null,
+    "edid": "spellknack-quicksilver-hand"
+  },
+  "ED4PatterncraftQuiverofBlackMissiles": {
+    "uuid": null,
+    "edid": "spellknack-quiver-of-black-missiles"
+  },
+  "ED4PatterncraftQuiverofNight": {
+    "uuid": null,
+    "edid": "spellknack-quiver-of-night"
+  },
+  "ED4PatterncraftRagingHunt": {
+    "uuid": null,
+    "edid": "spellknack-raging-hunt"
+  },
+  "ED4PatterncraftRamasVitality": {
+    "uuid": null,
+    "edid": "spellknack-ramas-vitality"
+  },
+  "ED4PatterncraftRampagingDragon": {
+    "uuid": null,
+    "edid": "spellknack-rampaging-dragon"
+  },
+  "ED4PatterncraftRangedSurveillance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.csOSA12Xlldxzn3w",
+    "edid": "spellknack-ranged-surveillance"
+  },
+  "ED4PatterncraftRannsBearing": {
+    "uuid": null,
+    "edid": "spellknack-ranns-bearing"
+  },
+  "ED4PatterncraftRatsAttitude": {
+    "uuid": null,
+    "edid": "spellknack-rats-attitude"
+  },
+  "ED4PatterncraftRaysofLife": {
+    "uuid": null,
+    "edid": "spellknack-rays-of-life"
+  },
+  "ED4PatterncraftRazorCloud": {
+    "uuid": null,
+    "edid": "spellknack-razor-cloud"
+  },
+  "ED4PatterncraftReachingtheAudience": {
+    "uuid": null,
+    "edid": "spellknack-reaching-the-audience"
+  },
+  "ED4PatterncraftReadytoFacetheDay": {
+    "uuid": null,
+    "edid": "spellknack-ready-to-face-the-day"
+  },
+  "ED4PatterncraftReallyGreatWeapon": {
+    "uuid": null,
+    "edid": "spellknack-really-great-weapon"
+  },
+  "ED4PatterncraftReallyMassiveMissiles": {
+    "uuid": null,
+    "edid": "spellknack-really-massive-missiles"
+  },
+  "ED4PatterncraftReassuringTouch": {
+    "uuid": null,
+    "edid": "spellknack-reassuring-touch"
+  },
+  "ED4PatterncraftRecklessFury": {
+    "uuid": null,
+    "edid": "spellknack-reckless-fury"
+  },
+  "ED4PatterncraftRecklessSurge": {
+    "uuid": null,
+    "edid": "spellknack-reckless-surge"
+  },
+  "ED4PatterncraftReducedBookbytheCover": {
+    "uuid": null,
+    "edid": "spellknack-reduced-book-by-the-cover"
+  },
+  "ED4PatterncraftReinforcedIceMaceandChain": {
+    "uuid": null,
+    "edid": "spellknack-reinforced-ice-mace-and-chain"
+  },
+  "ED4PatterncraftReinforcedRopeLadder": {
+    "uuid": null,
+    "edid": "spellknack-reinforced-rope-ladder"
+  },
+  "ED4PatterncraftRemoveDoubt": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.cza1Jtxz7eH8c2EZ",
+    "edid": "spellknack-remove-doubt"
+  },
+  "ED4PatterncraftRepairingSanctuary": {
+    "uuid": null,
+    "edid": "spellknack-repairing-sanctuary"
+  },
+  "ED4PatterncraftRevealAura": {
+    "uuid": null,
+    "edid": "spellknack-reveal-aura"
+  },
+  "ED4PatterncraftRiotControl": {
+    "uuid": null,
+    "edid": "spellknack-riot-control"
+  },
+  "ED4PatterncraftRockworm": {
+    "uuid": null,
+    "edid": "spellknack-rockworm"
+  },
+  "ED4PatterncraftRuinousDragonsBreath": {
+    "uuid": null,
+    "edid": "spellknack-ruinous-dragons-breath"
+  },
+  "ED4PatterncraftRuinousFireweave": {
+    "uuid": null,
+    "edid": "spellknack-ruinous-fireweave"
+  },
+  "ED4PatterncraftRummagetheHouse": {
+    "uuid": null,
+    "edid": "spellknack-rummage-the-house"
+  },
+  "ED4PatterncraftRunThroughShadow": {
+    "uuid": null,
+    "edid": "spellknack-run-through-shadow"
+  },
+  "ED4PatterncraftRushingMongoose": {
+    "uuid": null,
+    "edid": "spellknack-rushing-mongoose"
+  },
+  "ED4PatterncraftScurryingMongoose": {
+    "uuid": null,
+    "edid": "spellknack-scurrying-mongoose"
+  },
+  "ED4PatterncraftScytheWardNotification": {
+    "uuid": null,
+    "edid": "spellknack-scythe-ward-notification"
+  },
+  "ED4PatterncraftSearingBolt": {
+    "uuid": null,
+    "edid": "spellknack-searing-bolt"
+  },
+  "ED4PatterncraftSecretFloor": {
+    "uuid": null,
+    "edid": "spellknack-secret-floor"
+  },
+  "ED4PatterncraftSeedsofDestruction": {
+    "uuid": null,
+    "edid": "spellknack-seeds-of-destruction"
+  },
+  "ED4PatterncraftSelectiveGlare": {
+    "uuid": null,
+    "edid": "spellknack-selective-glare"
+  },
+  "ED4PatterncraftSelectiveTremors": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.WxR1ATRmm3JNg8h0",
+    "edid": "spellknack-selective-tremors"
+  },
+  "ED4PatterncraftSenseless": {
+    "uuid": null,
+    "edid": "spellknack-senseless"
+  },
+  "ED4PatterncraftShadowBox": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.u5rWl7gSGdFzc3EQ",
+    "edid": "spellknack-shadow-box"
+  },
+  "ED4PatterncraftShadowDweller": {
+    "uuid": null,
+    "edid": "spellknack-shadow-dweller"
+  },
+  "ED4PatterncraftShareBoneCircle": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.x1L3YMQijKGmqN7P",
+    "edid": "spellknack-share-bone-circle"
+  },
+  "ED4PatterncraftShareCompanionsSenses": {
+    "uuid": null,
+    "edid": "spellknack-share-companions-senses"
+  },
+  "ED4PatterncraftSharedDreams": {
+    "uuid": null,
+    "edid": "spellknack-shared-dreams"
+  },
+  "ED4PatterncraftSharedEntryLog": {
+    "uuid": null,
+    "edid": "spellknack-shared-entry-log"
+  },
+  "ED4PatterncraftSharingtheCloak": {
+    "uuid": null,
+    "edid": "spellknack-sharing-the-cloak"
+  },
+  "ED4PatterncraftSharingtheForm": {
+    "uuid": null,
+    "edid": "spellknack-sharing-the-form"
+  },
+  "ED4PatterncraftShatteringSpear": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.VkSBtHTDQZWFsQGJ",
+    "edid": "spellknack-shattering-spear"
+  },
+  "ED4PatterncraftSilentAlarm": {
+    "uuid": null,
+    "edid": "spellknack-silent-alarm"
+  },
+  "ED4PatterncraftSkeorxRoar": {
+    "uuid": null,
+    "edid": "spellknack-skeorx-roar"
+  },
+  "ED4PatterncraftSkeweringSpike": {
+    "uuid": null,
+    "edid": "spellknack-skewering-spike"
+  },
+  "ED4PatterncraftSleepingonaCloud": {
+    "uuid": null,
+    "edid": "spellknack-sleeping-on-a-cloud"
+  },
+  "ED4PatterncraftSlightlySeenClamor": {
+    "uuid": null,
+    "edid": "spellknack-slightly-seen-clamor"
+  },
+  "ED4PatterncraftSlipknotGuide": {
+    "uuid": null,
+    "edid": "spellknack-slipknot-guide"
+  },
+  "ED4PatterncraftSlowClaws": {
+    "uuid": null,
+    "edid": "spellknack-slow-claws"
+  },
+  "ED4PatterncraftSlowTarget": {
+    "uuid": null,
+    "edid": "spellknack-slow-target"
+  },
+  "ED4PatterncraftSlumbersMettle": {
+    "uuid": null,
+    "edid": "spellknack-slumbers-mettle"
+  },
+  "ED4PatterncraftSmashingThought": {
+    "uuid": null,
+    "edid": "spellknack-smashing-thought"
+  },
+  "ED4PatterncraftSoulFood": {
+    "uuid": null,
+    "edid": "spellknack-soul-food"
+  },
+  "ED4PatterncraftSparrowInvasion": {
+    "uuid": null,
+    "edid": "spellknack-sparrow-invasion"
+  },
+  "ED4PatterncraftSparrowMassacre": {
+    "uuid": null,
+    "edid": "spellknack-sparrow-massacre"
+  },
+  "ED4PatterncraftSpellPrecision": {
+    "uuid": null,
+    "edid": "spellknack-spell-precision"
+  },
+  "ED4PatterncraftSpikedOrb": {
+    "uuid": null,
+    "edid": "spellknack-spiked-orb"
+  },
+  "ED4PatterncraftSpiritArrow": {
+    "uuid": null,
+    "edid": "spellknack-spirit-arrow"
+  },
+  "ED4PatterncraftSpiritBallista": {
+    "uuid": null,
+    "edid": "spellknack-spirit-ballista"
+  },
+  "ED4PatterncraftSpiritClench": {
+    "uuid": null,
+    "edid": "spellknack-spirit-clench"
+  },
+  "ED4PatterncraftSpiritCrush": {
+    "uuid": null,
+    "edid": "spellknack-spirit-crush"
+  },
+  "ED4PatterncraftSpiritSteward": {
+    "uuid": null,
+    "edid": "spellknack-spirit-steward"
+  },
+  "ED4PatterncraftSpittingFire": {
+    "uuid": null,
+    "edid": "spellknack-spitting-fire"
+  },
+  "ED4PatterncraftSqueaksTrickery": {
+    "uuid": null,
+    "edid": "spellknack-squeaks-trickery"
+  },
+  "ED4PatterncraftSqueezePhantomAstralSpear": {
+    "uuid": null,
+    "edid": "spellknack-squeeze-phantom-astral-spear"
+  },
+  "ED4PatterncraftSqueezePhantomCrowTear": {
+    "uuid": null,
+    "edid": "spellknack-squeeze-phantom-crow-tear"
+  },
+  "ED4PatterncraftSqueezePhantomEspagraFrenzy": {
+    "uuid": null,
+    "edid": "spellknack-squeeze-phantom-espagra-frenzy"
+  },
+  "ED4PatterncraftSqueezePhantomFireball": {
+    "uuid": null,
+    "edid": "spellknack-squeeze-phantom-fireball"
+  },
+  "ED4PatterncraftSqueezePhantomFlame": {
+    "uuid": null,
+    "edid": "spellknack-squeeze-phantom-flame"
+  },
+  "ED4PatterncraftSqueezePhantomLightning": {
+    "uuid": null,
+    "edid": "spellknack-squeeze-phantom-lightning"
+  },
+  "ED4PatterncraftSqueezePhantomLiquidArrow": {
+    "uuid": null,
+    "edid": "spellknack-squeeze-phantom-liquid-arrow"
+  },
+  "ED4PatterncraftSqueezePhantomStarShower": {
+    "uuid": null,
+    "edid": "spellknack-squeeze-phantom-star-shower"
+  },
+  "ED4PatterncraftSqueezeSwitch": {
+    "uuid": null,
+    "edid": "spellknack-squeeze-switch"
+  },
+  "ED4PatterncraftSqueezeTrueSwitch": {
+    "uuid": null,
+    "edid": "spellknack-squeeze-true-switch"
+  },
+  "ED4PatterncraftSquirmingMongoose": {
+    "uuid": null,
+    "edid": "spellknack-squirming-mongoose"
+  },
+  "ED4PatterncraftStationarySunlight": {
+    "uuid": null,
+    "edid": "spellknack-stationary-sunlight"
+  },
+  "ED4PatterncraftStayinYourCorners": {
+    "uuid": null,
+    "edid": "spellknack-stay-in-your-corners"
+  },
+  "ED4PatterncraftStealthySpy": {
+    "uuid": null,
+    "edid": "spellknack-stealthy-spy"
+  },
+  "ED4PatterncraftSteelCage": {
+    "uuid": null,
+    "edid": "spellknack-steel-cage"
+  },
+  "ED4PatterncraftSteelHand": {
+    "uuid": null,
+    "edid": "spellknack-steel-hand"
+  },
+  "ED4PatterncraftStirringSong": {
+    "uuid": null,
+    "edid": "spellknack-stirring-song"
+  },
+  "ED4PatterncraftStolenMagic": {
+    "uuid": null,
+    "edid": "spellknack-stolen-magic"
+  },
+  "ED4PatterncraftStoneLionRoar": {
+    "uuid": null,
+    "edid": "spellknack-stone-lion-roar"
+  },
+  "ED4PatterncraftStoneLionsPride": {
+    "uuid": null,
+    "edid": "spellknack-stone-lions-pride"
+  },
+  "ED4PatterncraftStoneWall": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.i4I1EPSbYJfAMs4L",
+    "edid": "spellknack-stone-wall"
+  },
+  "ED4PatterncraftStormWolfPack": {
+    "uuid": null,
+    "edid": "spellknack-storm-wolf-pack"
+  },
+  "ED4PatterncraftStormWolfRun": {
+    "uuid": null,
+    "edid": "spellknack-storm-wolf-run"
+  },
+  "ED4PatterncraftStretchedArcaneGuard": {
+    "uuid": null,
+    "edid": "spellknack-stretched-arcane-guard"
+  },
+  "ED4PatterncraftStrikesTwice": {
+    "uuid": null,
+    "edid": "spellknack-strikes-twice"
+  },
+  "ED4PatterncraftStrobingStarShower": {
+    "uuid": null,
+    "edid": "spellknack-strobing-star-shower"
+  },
+  "ED4PatterncraftStunningBolt": {
+    "uuid": null,
+    "edid": "spellknack-stunning-bolt"
+  },
+  "ED4PatterncraftSubdueEntity": {
+    "uuid": null,
+    "edid": "spellknack-subdue-entity"
+  },
+  "ED4PatterncraftSubtleSuggestion": {
+    "uuid": null,
+    "edid": "spellknack-subtle-suggestion"
+  },
+  "ED4PatterncraftSuddenDeceleration": {
+    "uuid": null,
+    "edid": "spellknack-sudden-deceleration"
+  },
+  "ED4PatterncraftSuffer": {
+    "uuid": null,
+    "edid": "spellknack-suffer"
+  },
+  "ED4PatterncraftSummonChainedGhis": {
+    "uuid": null,
+    "edid": "spellknack-summon-chained-ghis"
+  },
+  "ED4PatterncraftSummonCraftyUnter": {
+    "uuid": null,
+    "edid": "spellknack-summon-crafty-unter"
+  },
+  "ED4PatterncraftSummonDessutheRavager": {
+    "uuid": null,
+    "edid": "spellknack-summon-dessu-the-ravager"
+  },
+  "ED4PatterncraftSummonHarcerz": {
+    "uuid": null,
+    "edid": "spellknack-summon-harcerz"
+  },
+  "ED4PatterncraftSummonJakti": {
+    "uuid": null,
+    "edid": "spellknack-summon-jakti"
+  },
+  "ED4PatterncraftSummonTalntheStalker": {
+    "uuid": null,
+    "edid": "spellknack-summon-taln-the-stalker"
+  },
+  "ED4PatterncraftSuppressEntity": {
+    "uuid": null,
+    "edid": "spellknack-suppress-entity"
+  },
+  "ED4PatterncraftSwift,BlackWings": {
+    "uuid": null,
+    "edid": "spellknack-swift-black-wings"
+  },
+  "ED4PatterncraftSwornBond": {
+    "uuid": null,
+    "edid": "spellknack-sworn-bond"
+  },
+  "ED4PatterncraftTemporaryTattoo": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.HudWFAKz9POE29m9",
+    "edid": "spellknack-temporary-tattoo"
+  },
+  "ED4PatterncraftTerrifyingStampede": {
+    "uuid": null,
+    "edid": "spellknack-terrifying-stampede"
+  },
+  "ED4PatterncraftTheJungleLordsRoar": {
+    "uuid": null,
+    "edid": "spellknack-the-jungle-lords-roar"
+  },
+  "ED4PatterncraftTheMessageComesonSwiftWings": {
+    "uuid": null,
+    "edid": "spellknack-the-message-comes-on-swift-wings"
+  },
+  "ED4PatterncraftTheQueensKiss": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.0qRdUc2Ukw1hveIz",
+    "edid": "spellknack-the-queens-kiss"
+  },
+  "ED4PatterncraftTheTruthShallSetYouFree": {
+    "uuid": null,
+    "edid": "spellknack-the-truth-shall-set-you-free"
+  },
+  "ED4PatterncraftTheyGrowUpSoVeryVeryFast": {
+    "uuid": null,
+    "edid": "spellknack-they-grow-up-so-very-very-fast"
+  },
+  "ED4PatterncraftThornyRetreatNotification": {
+    "uuid": null,
+    "edid": "spellknack-thorny-retreat-notification"
+  },
+  "ED4PatterncraftThoughtBoost": {
+    "uuid": null,
+    "edid": "spellknack-thought-boost"
+  },
+  "ED4PatterncraftThoughtfulTravelog": {
+    "uuid": null,
+    "edid": "spellknack-thoughtful-travelog"
+  },
+  "ED4PatterncraftThreatResponse": {
+    "uuid": null,
+    "edid": "spellknack-threat-response"
+  },
+  "ED4PatterncraftThreateningMongoose": {
+    "uuid": null,
+    "edid": "spellknack-threatening-mongoose"
+  },
+  "ED4PatterncraftTrackingWolfRun": {
+    "uuid": null,
+    "edid": "spellknack-tracking-wolf-run"
+  },
+  "ED4PatterncraftTranscribeGraveMessage": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.KVhXCM3ty5qi3pJq",
+    "edid": "spellknack-transcribe-grave-message"
+  },
+  "ED4PatterncraftTranscript": {
+    "uuid": null,
+    "edid": "spellknack-transcript"
+  },
+  "ED4PatterncraftTrappedFloor": {
+    "uuid": null,
+    "edid": "spellknack-trapped-floor"
+  },
+  "ED4PatterncraftTreacherousGround": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.536muJ35jvJTnLgC",
+    "edid": "spellknack-treacherous-ground"
+  },
+  "ED4PatterncraftTrueAstralMissiles": {
+    "uuid": null,
+    "edid": "spellknack-true-astral-missiles"
+  },
+  "ED4PatterncraftTrueConfoundingBolt": {
+    "uuid": null,
+    "edid": "spellknack-true-confounding-bolt"
+  },
+  "ED4PatterncraftTrueSightEntryLog": {
+    "uuid": null,
+    "edid": "spellknack-true-sight-entry-log"
+  },
+  "ED4PatterncraftTrueVertigo": {
+    "uuid": null,
+    "edid": "spellknack-true-vertigo"
+  },
+  "ED4PatterncraftTwicetheToss": {
+    "uuid": null,
+    "edid": "spellknack-twice-the-toss"
+  },
+  "ED4PatterncraftUnassumingFace": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.a1iD7pl7OV5SVFj5",
+    "edid": "spellknack-unassuming-face"
+  },
+  "ED4PatterncraftUncomfortableReception": {
+    "uuid": null,
+    "edid": "spellknack-uncomfortable-reception"
+  },
+  "ED4PatterncraftUncoverBuriedSecrets": {
+    "uuid": null,
+    "edid": "spellknack-uncover-buried-secrets"
+  },
+  "ED4PatterncraftUnseenClamor": {
+    "uuid": null,
+    "edid": "spellknack-unseen-clamor"
+  },
+  "ED4PatterncraftUntrainedInsight": {
+    "uuid": null,
+    "edid": "spellknack-untrained-insight"
+  },
+  "ED4PatterncraftUnveiltheMonsterWithin": {
+    "uuid": null,
+    "edid": "spellknack-unveil-the-monster-within"
+  },
+  "ED4PatterncraftUnwittingVessel": {
+    "uuid": null,
+    "edid": "spellknack-unwitting-vessel"
+  },
+  "ED4PatterncraftUpliftedCognizance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.f8aXvmyBtMpV20eU",
+    "edid": "spellknack-uplifted-cognizance"
+  },
+  "ED4PatterncraftVariedTracks": {
+    "uuid": null,
+    "edid": "spellknack-varied-tracks"
+  },
+  "ED4PatterncraftVeiledScytheWard": {
+    "uuid": null,
+    "edid": "spellknack-veiled-scythe-ward"
+  },
+  "ED4PatterncraftVenomousMissile": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.9glv6A0itIhXqyu0",
+    "edid": "spellknack-venomous-missile"
+  },
+  "ED4PatterncraftVersatileColdStorage": {
+    "uuid": null,
+    "edid": "spellknack-versatile-cold-storage"
+  },
+  "ED4PatterncraftVersatileSpiritPortal": {
+    "uuid": null,
+    "edid": "spellknack-versatile-spirit-portal"
+  },
+  "ED4PatterncraftVexingSpiritTempest": {
+    "uuid": null,
+    "edid": "spellknack-vexing-spirit-tempest"
+  },
+  "ED4PatterncraftVileGaze": {
+    "uuid": null,
+    "edid": "spellknack-vile-gaze"
+  },
+  "ED4PatterncraftVolumeProjection": {
+    "uuid": null,
+    "edid": "spellknack-volume-projection"
+  },
+  "ED4PatterncraftWakeUpAlarm": {
+    "uuid": null,
+    "edid": "spellknack-wake-up-alarm"
+  },
+  "ED4PatterncraftWallofRubble": {
+    "uuid": null,
+    "edid": "spellknack-wall-of-rubble"
+  },
+  "ED4PatterncraftWardofWarningNotification": {
+    "uuid": null,
+    "edid": "spellknack-ward-of-warning-notification"
+  },
+  "ED4PatterncraftWarningMessage": {
+    "uuid": null,
+    "edid": "spellknack-warning-message"
+  },
+  "ED4PatterncraftWarpAstralSpace": {
+    "uuid": null,
+    "edid": "spellknack-warp-astral-space"
+  },
+  "ED4PatterncraftWaterRedoubt": {
+    "uuid": null,
+    "edid": "spellknack-water-redoubt"
+  },
+  "ED4PatterncraftWeavetheRing": {
+    "uuid": null,
+    "edid": "spellknack-weave-the-ring"
+  },
+  "ED4PatterncraftWereAllGoingtoDie": {
+    "uuid": null,
+    "edid": "spellknack-were-all-going-to-die"
+  },
+  "ED4PatterncraftWhipBetweenFriends": {
+    "uuid": null,
+    "edid": "spellknack-whip-between-friends"
+  },
+  "ED4PatterncraftWildDerfthePygmyHog": {
+    "uuid": null,
+    "edid": "spellknack-wild-derf-the-pygmy-hog"
+  },
+  "ED4PatterncraftWildIvanod": {
+    "uuid": null,
+    "edid": "spellknack-wild-ivanod"
+  },
+  "ED4PatterncraftWildMocca": {
+    "uuid": null,
+    "edid": "spellknack-wild-mocca"
+  },
+  "ED4PatterncraftWindFinesse": {
+    "uuid": null,
+    "edid": "spellknack-wind-finesse"
+  },
+  "ED4PatterncraftWinterWolfCall": {
+    "uuid": null,
+    "edid": "spellknack-winter-wolf-call"
+  },
+  "ED4PatterncraftWinterWolfPack": {
+    "uuid": null,
+    "edid": "spellknack-winter-wolf-pack"
+  },
+  "ED4PatterncraftWinterWolfRun": {
+    "uuid": null,
+    "edid": "spellknack-winter-wolf-run"
+  },
+  "ED4PatterncraftWitherLimbs": {
+    "uuid": null,
+    "edid": "spellknack-wither-limbs"
+  },
+  "ED4PatterncraftWolfenFen": {
+    "uuid": null,
+    "edid": "spellknack-wolfen-fen"
+  },
+  "ED4PatterncraftWoodRedoubt": {
+    "uuid": null,
+    "edid": "spellknack-wood-redoubt"
+  },
+  "ED4PatterncraftWyrmWoodSpear": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-spell-knacks-en.Item.lXHCNlSnY0nQeWTa",
+    "edid": "spellknack-wyrm-wood-spear"
+  },
+  "ED4PatterncraftYouGotMe": {
+    "uuid": null,
+    "edid": "spellknack-you-got-me"
+  }
+}

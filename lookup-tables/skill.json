@@ -1,1 +1,690 @@
-{}
+{
+  "ED4AcrobaticDefense": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.PR4c2NrSgG7IAlv0",
+    "edid": "skill-acrobatic-defense"
+  },
+  "ED4Acting": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.apMMfyxGbgqjCmsE",
+    "edid": "acting"
+  },
+  "ED4AdaptivePlans": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.FF4QVVsokrUKyZbP",
+    "edid": "skill-adaptive-plans"
+  },
+  "ED4AggressiveManeuver": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.DKYwO3JjMUIsmlKF",
+    "edid": "skill-aggressive-maneuver"
+  },
+  "ED4AirSailing": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.rksObowsOgeVR2XL",
+    "edid": "skill-air-sailing"
+  },
+  "ED4Alchemy": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.C2VBbJYEihFLQCLp",
+    "edid": "skill-alchemy"
+  },
+  "ED4AnimalBond": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.jD482K5MO8e4PTPi",
+    "edid": "skill-animal-bond"
+  },
+  "ED4AnimalHandling": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.D1wpRNsV3iuFDdam",
+    "edid": "skill-animal-handling"
+  },
+  "ED4AnimalTraining": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.cDUUeQ1D5LqFJjtI",
+    "edid": "skill-animal-training"
+  },
+  "ED4AnticipateBlow": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.oJiEJsdj14qU4xZr",
+    "edid": "skill-anticipate-blow"
+  },
+  "ED4ArcaneMutterings": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.7RT1FupI6Oq29S1W",
+    "edid": "skill-arcane-mutterings"
+  },
+  "ED4Artisan": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.DrcEKlhZ3ghiABFu",
+    "edid": "skill-artisan-skill"
+  },
+  "ED4Artist": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.02HtX9rTQTeY2U6G",
+    "edid": "skill-artist"
+  },
+  "ED4AssessCommunity": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.ouM27HOFb1jFZ9XG",
+    "edid": "skill-assess-community"
+  },
+  "ED4AssessIntentions": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.nHWEwzYhxZHX9KY2",
+    "edid": "skill-assess-intentions"
+  },
+  "ED4AvoidBlow": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.uqDeg9CbAzkFKXbd",
+    "edid": "skill-avoid-blow"
+  },
+  "ED4Awareness": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.9hEOBlOIxWTQ2sYo",
+    "edid": "skill-awareness"
+  },
+  "ED4BattleBellow": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.wFb5wQFkmRyWSm85",
+    "edid": "skill-battle-bellow"
+  },
+  "ED4BattleShout": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.ytUU7VeTZHWQyyg2",
+    "edid": "skill-battle-shout"
+  },
+  "ED4Beat": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.rpuPq05wFVJWUBUS",
+    "edid": "skill-beat"
+  },
+  "ED4Behave": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.Ngtyr8lNCfwExYE6",
+    "edid": "skill-behave"
+  },
+  "ED4BladeJuggle": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.REtCc8MJC5rZy1Pl",
+    "edid": "skill-blade-juggle"
+  },
+  "ED4BlandStride": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-skills-en.Item.XrCHaknJNIX3rqxk",
+    "edid": "skill-bland-stride"
+  },
+  "ED4BlindFighting": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.tTLdu50Gy09vItiR",
+    "edid": "skill-blind-fighting"
+  },
+  "ED4Bribery": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.LiX02cswLIillxoZ",
+    "edid": "skill-bribery"
+  },
+  "ED4CarefulAim": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.rDS4Bo9SGCHEUfHr",
+    "edid": "skill-careful-aim"
+  },
+  "ED4CastNet": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-skills-en.Item.tMlDzztGH2Pz5XqH",
+    "edid": "skill-cast-net"
+  },
+  "ED4Charge": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.R70VhNVb3lgKVwbR",
+    "edid": "skill-charge"
+  },
+  "ED4ChasingtheWind": {
+    "uuid": null,
+    "edid": "skill-chasing-the-wind"
+  },
+  "ED4Climbing": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.2HPJdhCdfQa2PUhe",
+    "edid": "skill-climbing"
+  },
+  "ED4ClimbingTeam": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.hA0hwOwj2dpLHoeO",
+    "edid": "skill-climbing-team"
+  },
+  "ED4CloseIn": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.yH5lsAnzsaxoMC4Q",
+    "edid": "skill-close-in"
+  },
+  "ED4ComprehendEnigma": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.I2QZuMcYuN3Padcr",
+    "edid": "skill-comprehend-enigma"
+  },
+  "ED4ConcealObject": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.ysN4lw0H4HcRkvoV",
+    "edid": "skill-conceal-object"
+  },
+  "ED4ConcealedNavigation": {
+    "uuid": null,
+    "edid": "skill-concealed-navigation"
+  },
+  "ED4Conversation": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.weAtOv0vKz9peELK",
+    "edid": "skill-conversation"
+  },
+  "ED4CraftArmor": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.8hhrOO9rqZTjsd2B",
+    "edid": "skill-craft-armor"
+  },
+  "ED4CraftWeapon": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.QaNhtCxEcDvh4Z3K",
+    "edid": "skill-craft-weapon"
+  },
+  "ED4Craftsman": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.6vjFi4xh2rCLlNK8",
+    "edid": "skill-craftsman"
+  },
+  "ED4CreateOrichalcum": {
+    "uuid": null,
+    "edid": "skill-create-orichalcum"
+  },
+  "ED4CriticalHit": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.s0hZaq0qUmILSFQc",
+    "edid": "skill-critical-hit"
+  },
+  "ED4DangerSense": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.bGfElZIu6VAGwjb9",
+    "edid": "skill-danger-sense"
+  },
+  "ED4Decorum": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.iFDDZWO8X1ze57Vo",
+    "edid": "skill-decorum"
+  },
+  "ED4DeepDiver": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-skills-en.Item.teDMFS3bvJPCM8n7",
+    "edid": "skill-deep-diver"
+  },
+  "ED4DefensivePosture": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.qAs38usrjz2NMrmP",
+    "edid": "skill-defensive-posture"
+  },
+  "ED4DefuseMob": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.n2E3hAev3a8tmTYa",
+    "edid": "skill-defuse-mob"
+  },
+  "ED4DesignEnchantingPattern": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.Go960bIaWVVbvrmN",
+    "edid": "skill-design-enchanting-pattern"
+  },
+  "ED4DetectTrueElementAir": {
+    "uuid": null,
+    "edid": "skill-detect-true-element-air"
+  },
+  "ED4DetectTrueElementEarth": {
+    "uuid": null,
+    "edid": "skill-detect-true-element-earth"
+  },
+  "ED4DetectTrueElementFire": {
+    "uuid": null,
+    "edid": "skill-detect-true-element-fire"
+  },
+  "ED4DetectTrueElementWater": {
+    "uuid": null,
+    "edid": "skill-detect-true-element-water"
+  },
+  "ED4DetectTrueElementWood": {
+    "uuid": null,
+    "edid": "skill-detect-true-element-wood"
+  },
+  "ED4Diplomacy": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.xIFAUyib1pHCJNDM",
+    "edid": "skill-diplomacy"
+  },
+  "ED4DirtyTactics": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.aW2iOkZTBZTFOaSm",
+    "edid": "skill-dirty-tactics"
+  },
+  "ED4Disarm": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.edwrXXdy2D79WyVp",
+    "edid": "skill-disarm"
+  },
+  "ED4DisarmTrap": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.inUwNxBzbqGk8e57",
+    "edid": "skill-disarm-trap"
+  },
+  "ED4DiscernIntentions": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.af3euiOjCaJ8NK66",
+    "edid": "skill-discern-intentions"
+  },
+  "ED4Disguise": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.BTGfqez0J6Z97HmG",
+    "edid": "skill-disguise"
+  },
+  "ED4Distract": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.DeMcF488MFe4dOVu",
+    "edid": "skill-distract"
+  },
+  "ED4DistractingBanter": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.D4RMHaCQRO2qDQ9a",
+    "edid": "skill-distracting-banter"
+  },
+  "ED4DivertAttention": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.CoxxZp6Y3BrobmBE",
+    "edid": "skill-divert-attention"
+  },
+  "ED4Divination": {
+    "uuid": null,
+    "edid": "skill-divination"
+  },
+  "ED4DownStrike": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.GkK2pRXQN5qfdEwK",
+    "edid": "skill-down-strike"
+  },
+  "ED4EmergencyDismount": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.wVzM3e6unvjCl1fq",
+    "edid": "skill-emergency-dismount"
+  },
+  "ED4EmotionSong": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.CVKE1ZUjKOjSdQfu",
+    "edid": "skill-emotion-song"
+  },
+  "ED4EncouragingBellow": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.rUktJXTbxOv0nr0Q",
+    "edid": "skill-encouraging-bellow"
+  },
+  "ED4EngagingBanter": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.CXH35Aw1y0Y6bqiW",
+    "edid": "skill-engaging-banter"
+  },
+  "ED4Entertainer": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.6X2XEU5D4rvLwM25",
+    "edid": "skill-entertainer"
+  },
+  "ED4Etiquette": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.KdyqbrtxKkqhBqIX",
+    "edid": "skill-etiquette"
+  },
+  "ED4Evaluate": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.e56v78ylbUvmtZWt",
+    "edid": "skill-evaluate"
+  },
+  "ED4EvidenceAnalysis": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.8fQUk4Q1clgltP7Z",
+    "edid": "skill-evidence-analysis"
+  },
+  "ED4FastHand": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.FkV0c3WdSFZXnfAb",
+    "edid": "skill-fast-hand"
+  },
+  "ED4FastTalk": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.MrPfZjtQPz3fXU8T",
+    "edid": "skill-fast-talk"
+  },
+  "ED4Feint": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.eXfM1vwWHBFrZeJz",
+    "edid": "skill-feint"
+  },
+  "ED4FirstImpression": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.lxg9QJ6pZalX79GK",
+    "edid": "skill-first-impression"
+  },
+  "ED4Flirting": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.kGmWLZeIeL65XeTi",
+    "edid": "skill-flirting"
+  },
+  "ED4Flourish": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.zLKfcMB82F34d1b6",
+    "edid": "skill-flourish"
+  },
+  "ED4Forgery": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.D0jAeUE7cfKsfIWG",
+    "edid": "skill-forgery"
+  },
+  "ED4GracefulExit": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.H8lYokrrISLggfbg",
+    "edid": "skill-graceful-exit"
+  },
+  "ED4GreatLeap": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.egyJKrr6IRG05K7g",
+    "edid": "great-leap"
+  },
+  "ED4Haggle": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.h1BEaQPZn4uoLrRF",
+    "edid": "skill-haggle"
+  },
+  "ED4HarvestTrueElementAir": {
+    "uuid": null,
+    "edid": "skill-harvest-true-element-air"
+  },
+  "ED4HarvestTrueElementEarth": {
+    "uuid": null,
+    "edid": "skill-harvest-true-element-earth"
+  },
+  "ED4HarvestTrueElementFire": {
+    "uuid": null,
+    "edid": "skill-harvest-true-element-fire"
+  },
+  "ED4HarvestTrueElementWater": {
+    "uuid": null,
+    "edid": "skill-harvest-true-element-water"
+  },
+  "ED4HarvestTrueElementWood": {
+    "uuid": null,
+    "edid": "skill-harvest-true-element-wood"
+  },
+  "ED4HearteningLaugh": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.s1UQerAvdCvghri6",
+    "edid": "skill-heartening-laugh"
+  },
+  "ED4Hypnotize": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.3YbjjpzwdCNHjIZH",
+    "edid": "skill-hypnotize"
+  },
+  "ED4ImpressiveDisplay": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.Juh3iPiXhS0uWCwe",
+    "edid": "skill-impressive-display"
+  },
+  "ED4InciteMob": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.O0mF2notcPhrIavh",
+    "edid": "skill-incite-mob"
+  },
+  "ED4InterceptAttacks": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.7rSXx8gtyp21i09t",
+    "edid": "skill-intercept-attacks"
+  },
+  "ED4IntimidatingBellow": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.JECMq6w5Saxuvldn",
+    "edid": "skill-intimidating-bellow"
+  },
+  "ED4Knowledge": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.EwBuWBxJtegbPi2h",
+    "edid": "skill-knowledge"
+  },
+  "ED4Leadership": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.yJQuWngiGflPD50r",
+    "edid": "skill-leadership"
+  },
+  "ED4LipReading": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.gBZlPBm9ph9yKYAG",
+    "edid": "skill-lip-reading"
+  },
+  "ED4LockPicking": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.NCoOs9qxJnsu2bY5",
+    "edid": "skill-lock-picking"
+  },
+  "ED4Maneuver": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.ZYtsg8bpPMsu6vMa",
+    "edid": "skill-maneuver"
+  },
+  "ED4Mapmaking": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.NtOAsVTCvsTGZSWw",
+    "edid": "skill-mapmaking"
+  },
+  "ED4MeleeWeapons": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.NxMwWHUQpZkmWTVG",
+    "edid": "skill-melee-weapons"
+  },
+  "ED4MimicVoice": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.5jNsCYrOaBaGt9mL",
+    "edid": "skill-mimic-voice"
+  },
+  "ED4Misdirection": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.1sYGz5ce4qPxlcOj",
+    "edid": "skill-misdirection"
+  },
+  "ED4MissileWeapons": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.Upri6oHlXEaUp0Uj",
+    "edid": "skill-missile-weapons"
+  },
+  "ED4MountAttack": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.791nMtBCcXQHnoKu",
+    "edid": "skill-mount-attack"
+  },
+  "ED4Navigation": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.RrY62M24L2rQvIPi",
+    "edid": "skill-navigation"
+  },
+  "ED4Off-HandThrow": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.UHSXnei7t29Lft27",
+    "edid": "skill-off-hand-throw"
+  },
+  "ED4OffensiveManeuver": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.eaIurllVIaeKCqIy",
+    "edid": "skill-offensive-maneuver"
+  },
+  "ED4OneWrongMove": {
+    "uuid": null,
+    "edid": "skill-one-wrong-move"
+  },
+  "ED4Outmaneuvered": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.tyeSNdwuQgdvbfpr",
+    "edid": "skill-outmaneuvered"
+  },
+  "ED4ParrySecondAttack": {
+    "uuid": null,
+    "edid": "skill-parry-second-attack"
+  },
+  "ED4ParrySecondWeapon": {
+    "uuid": null,
+    "edid": "skill-parry-second-weapon"
+  },
+  "ED4PatientManeuver": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.bCI3sHcseiTHNMy9",
+    "edid": "skill-patient-maneuver"
+  },
+  "ED4PeerReview": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-skills-en.Item.NScU97CSTb5UqgtW",
+    "edid": "skill-peer-review"
+  },
+  "ED4Physician": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.xb09xc8B8IToeI6Y",
+    "edid": "skill-physician"
+  },
+  "ED4PickingPockets": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.hgsqIKPVdZOBq5C0",
+    "edid": "skill-picking-pockets"
+  },
+  "ED4Pilot": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.adPffvofsU654NDU",
+    "edid": "skill-pilot-boat"
+  },
+  "ED4PoisonedInfluence": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.AWcKSn25kEfk7EQR",
+    "edid": "skill-poisoned-influence"
+  },
+  "ED4Press": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.AgbyqPaYlQNxMdRI",
+    "edid": "skill-press"
+  },
+  "ED4ReadFlight": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.HfWGKC3cxhDv81rY",
+    "edid": "skill-read-flight"
+  },
+  "ED4ReadRiver": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.XJgUri6RlZO9Bo8u",
+    "edid": "skill-read-river"
+  },
+  "ED4ReadWriteLanguage": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.ztJGb3NTtvX3jNuh",
+    "edid": "language-rw"
+  },
+  "ED4ReadingtheRoom": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.ogTolBn6Dd2cTI5U",
+    "edid": "skill-reading-the-room"
+  },
+  "ED4RescueSwimming": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.I0Un2TV5Lcd4L3py",
+    "edid": "skill-rescue-swimming"
+  },
+  "ED4Research": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.U1F6YXoVDXHrdDIm",
+    "edid": "skill-research"
+  },
+  "ED4ResistPain": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.naqk1zpSiTmB0p4N",
+    "edid": "skill-resist-pain"
+  },
+  "ED4ResistTaunt": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.NhL97ZTANowi3hKJ",
+    "edid": "skill-resist-taunt"
+  },
+  "ED4Riposte": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.rS68lnR5mBbQ0DYV",
+    "edid": "skill-riposte"
+  },
+  "ED4Sailing": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.1wqQLQ8t4Wb2wHtD",
+    "edid": "skill-sailing"
+  },
+  "ED4SeasonalWeather": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.GKDBG97DD0frEqZp",
+    "edid": "skill-seasonal-weather"
+  },
+  "ED4SecondAttack": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.CeJBeTZig7xqcaGo",
+    "edid": "skill-second-attack"
+  },
+  "ED4SecondShot": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.srir72Oc1NSHeFBf",
+    "edid": "skill-second-shot"
+  },
+  "ED4SecondWeapon": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.1bXaHTTinCsk0xcy",
+    "edid": "skill-second-weapon"
+  },
+  "ED4Seduction": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.gEtTmOQj4bQxbBbf",
+    "edid": "skill-seduction"
+  },
+  "ED4Setup": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.YwuvNZ5yxgJsG9op",
+    "edid": "skill-setup"
+  },
+  "ED4ShieldBash": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.ImE7tdX36f8X9i8l",
+    "edid": "skill-shield-bash"
+  },
+  "ED4ShieldCharge": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.MvL1NewUYCefk29M",
+    "edid": "skill-shield-charge"
+  },
+  "ED4ShieldDrive": {
+    "uuid": null,
+    "edid": "skill-shield-drive"
+  },
+  "ED4ShieldWall": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.CKJyQuYFQJTs6x35",
+    "edid": "skill-shield-wall"
+  },
+  "ED4SloughBlame": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.PgXLUXzP0p8hDApP",
+    "edid": "skill-slough-blame"
+  },
+  "ED4SpeakLanguage": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.lTHoSHVe5ggDHdLW",
+    "edid": "language-speak"
+  },
+  "ED4Sprint": {
+    "uuid": null,
+    "edid": "skill-sprint"
+  },
+  "ED4StealthyStride": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.ZLAJImwcBGwqVfRr",
+    "edid": "skill-stealthy-stride"
+  },
+  "ED4StormRush": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.yJqp4WmWWHBQRiUD",
+    "edid": "skill-storm-rush"
+  },
+  "ED4Streetwise": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.x38xGos8ZyE3Rw88",
+    "edid": "skill-streetwise"
+  },
+  "ED4SureMount": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.WKVWU5oMcAmMjQeA",
+    "edid": "skill-sure-mount"
+  },
+  "ED4SurpriseStrike": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.6tXHM423XGsjSvPl",
+    "edid": "skill-surprise-strike"
+  },
+  "ED4Sweep": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.mSylPiAmFYpbsoYK",
+    "edid": "skill-sweep"
+  },
+  "ED4SwiftKick": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.XmtIKI9RfmncC8Bi",
+    "edid": "skill-swift-kick"
+  },
+  "ED4Swimming": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.jFLrSMj03PAXs0cI",
+    "edid": "skill-swimming"
+  },
+  "ED4SwingAttack": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.tXx0gNc7VDk8OgKl",
+    "edid": "skill-swing-attack"
+  },
+  "ED4SwingingMove": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.3pzjps5QrsNqnhvV",
+    "edid": "skill-swinging-move"
+  },
+  "ED4Tactics": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.D9uBRhy3AfFtbxQ3",
+    "edid": "skill-tactics"
+  },
+  "ED4Taunt": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.8C1kf1Dh7mSLQmSw",
+    "edid": "skill-taunt"
+  },
+  "ED4TellingtheTale": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.UwJkAZU1rHnIIFTB",
+    "edid": "skill-telling-the-tale"
+  },
+  "ED4ThrowingWeapons": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.8rLkpzw7axCAaEgK",
+    "edid": "skill-throwing-weapons"
+  },
+  "ED4Tracking": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.yjZXdDGiVEM0g0vH",
+    "edid": "skill-tracking"
+  },
+  "ED4TrickRiding": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.fRbuOjTckj7RmR7T",
+    "edid": "skill-trick-riding"
+  },
+  "ED4TripMeleeWeapons": {
+    "uuid": null,
+    "edid": "skill-trip-melee-weapons"
+  },
+  "ED4TripUnarmedCombat": {
+    "uuid": null,
+    "edid": "skill-trip-unarmed-combat"
+  },
+  "ED4UnarmedCombat": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.fqgXPZ168GtWwRUN",
+    "edid": "skill-unarmed-combat"
+  },
+  "ED4UnsuspectingMark": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.ItROfQavmBduwgmP",
+    "edid": "skill-unsuspecting-mark"
+  },
+  "ED4UrbanSurvival": {
+    "uuid": null,
+    "edid": "skill-urban-survival"
+  },
+  "ED4ViciousWound": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.X7rQ5L6XC67OsWe4",
+    "edid": "skill-vicious-wound"
+  },
+  "ED4WeaponBreaker": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.CxNS9oQDISXIabJH",
+    "edid": "skill-weapon-breaker"
+  },
+  "ED4WeatherPrediction": {
+    "uuid": "Compendium.ed-deeper-secrets.deeper-secrets-skills-en.Item.LfcUYxJE34qeeTRv",
+    "edid": "skill-weather-prediction"
+  },
+  "ED4WheelingAttack": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.gkXDBLNfp0SXreEs",
+    "edid": "skill-wheeling-attack"
+  },
+  "ED4WheelingDefense": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.2lyKjbYWyg0XD6dU",
+    "edid": "skill-wheeling-defense"
+  },
+  "ED4WildernessSurvival": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.IpDXiziqbRhQJikN",
+    "edid": "skill-wilderness-survival"
+  },
+  "ED4WindDance": {
+    "uuid": "Compendium.earthdawn-mystic-paths.mystic-paths-skills-en.Item.JsEkRiEzGriJLmTa",
+    "edid": "skill-wind-dance"
+  },
+  "ED4WittyRepartee": {
+    "uuid": "Compendium.earthdawn-companion.companion-skills-en.Item.AKmhhsL1BRsRcn8L",
+    "edid": "skill-witty-repartee"
+  },
+  "ED4WoundBalance": {
+    "uuid": "Compendium.earthdawn-pg-compendium.playersguide-skills-en.Item.NHEd2NFioQBff1Pg",
+    "edid": "skill-wound-balance"
+  },
+  "NH4PowerLifting": {
+    "uuid": null,
+    "edid": "skill-power-lifting"
+  },
+  "SKBrotrollen": {
+    "uuid": null,
+    "edid": "skill-brotrollen"
+  }
+}
