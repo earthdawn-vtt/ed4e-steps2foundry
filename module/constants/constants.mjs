@@ -47,15 +47,19 @@ export const ED4E_SYSTEM_TYPES = Object.freeze( {
     pc:        "character",
   } ),
   Item: Object.freeze( {
-    armor:      "armor",
-    discipline:  "discipline",
-    equipment:  "equipment",
-    path:       "path",
-    shield:     "shield",
-    skill:      "skill",
-    spell:      "spell",
-    talent:     "talent",
-    weapon:     "weapon",
+    armor:         "armor",
+    discipline:    "discipline",
+    equipment:     "equipment",
+    knackAbility:  "knackAbility",
+    knackKarma:    "knackKarma",
+    knackManeuver: "knackManeuver",
+    path:          "path",
+    shield:        "shield",
+    skill:         "skill",
+    spell:         "spell",
+    spellKnack:    "spellKnack",
+    talent:        "talent",
+    weapon:        "weapon",
   } ),
 } );
 
@@ -246,6 +250,7 @@ export const ITEM_ENTRY_KIND_ORDER = Object.freeze( [
   "questor",
   "questorDevotion",
   "talent",
+  "knack",
   "skill",
   "spell",
   "equipment",
@@ -265,6 +270,19 @@ export const SECOND_STEP_THREAD_TO_EAE_TARGET = Object.freeze( {
   "wndth": "system.characteristics.health.woundThreshold",
   "myarm": "system.characteristics.armor.mystical.value",
   "dur":   "system.durabilityBonus",
+} );
+
+/**
+ * Maps a SecondStep matrix ID (without edition prefix) to the matrix type in ed4e. Matrix IDs without an entry
+ * leave the matrix type to the system default. Keys of `CONFIG.ED4E.matrixTypes` are `standard`, `enhanced`,
+ * `armored` and `shared`.
+ * @satisfies {Readonly<Record<string, string>>}
+ */
+export const MATRIX_TYPE_FROM_SECOND_STEP_MATRIX_ID = Object.freeze( {
+  StandardMatrix: "standard",
+  EnhancedMatrix: "enhanced",
+  ArmoredMatrix:  "armored",
+  SharedMatrix:   "shared",
 } );
 
 /**
@@ -390,6 +408,7 @@ export const DEFAULT_IMAGES = {
     coin:       "icons/commodities/currency/coins-assorted-mix-silver.webp",
     discipline: "icons/tools/hand/hammer-construction-claw.webp",
     equipment:  "icons/containers/bags/sack-canvas-grey.webp",
+    knack:      "icons/magic/symbols/star-yellow-orange.webp",
     path:       "icons/environment/wilderness/terrain-river-road-gray.webp",
     skill:      "icons/skills/trades/smithing-anvil-brown.webp",
     spell:      "icons/magic/symbols/runes-triangle-orange.webp",

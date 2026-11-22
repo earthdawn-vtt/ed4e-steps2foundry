@@ -1,5 +1,6 @@
 import { describe, expect, it, vi } from "vitest";
 import {
+  linkMatrixSpells,
   linkPathDisciplines,
   linkQuestorDevotion,
   linkTalentSources,
@@ -159,6 +160,77 @@ describe( "linkPathDisciplines", () => {
 
   it( "returns no updates if there are no paths", () => {
     expect( linkPathDisciplines( [], [ discipline( "disc1", "ED4Wizard" ) ] ) ).toEqual( [] );
+  } );
+
+} );
+
+describe( "linkMatrixSpells", () => {
+
+  const spell = ( id, secondStepId ) => ( { id, secondStepId } );
+  const matrix = ( id, matrixSpellSecondStepId ) => ( { id, matrixSpellSecondStepId } );
+
+  it( "attunes the spell to the matrix", () => {
+    const updates = linkMatrixSpells(
+      [ matrix( "talent1", "ED4WCatchSpell" ) ],
+      [ spell( "spell1", "ED4WCatchSpell" ) ],
+    );
+
+    expect( updates ).toEqual( [ { itemId: "talent1", updateData: { "system.matrix.spells": [ "spell1" ] } } ] );
+  } );
+
+  it( "attunes the right spell to every matrix", () => {
+    const updates = linkMatrixSpells(
+      [ matrix( "talent1", "ED4WCatchSpell" ), matrix( "item1", "ED4ECloudSummon" ) ],
+      [ spell( "spell1", "ED4WCatchSpell" ), spell( "spell2", "ED4ECloudSummon" ) ],
+    );
+
+    expect( updates ).toEqual( [
+      { itemId: "talent1", updateData: { "system.matrix.spells": [ "spell1" ] } },
+      { itemId: "item1", updateData: { "system.matrix.spells": [ "spell2" ] } },
+    ] );
+  } );
+
+  it( "attunes the same spell to several matrices", () => {
+    const updates = linkMatrixSpells(
+      [ matrix( "talent1", "ED4WCatchSpell" ), matrix( "talent2", "ED4WCatchSpell" ) ],
+      [ spell( "spell1", "ED4WCatchSpell" ) ],
+    );
+
+    expect( updates.map( update => update.itemId ) ).toEqual( [ "talent1", "talent2" ] );
+    expect( updates.every( update => update.updateData[ "system.matrix.spells" ][ 0 ] === "spell1" ) ).toBe( true );
+  } );
+
+  it( "does not create an update for a matrix without a spell", () => {
+    expect( linkMatrixSpells( [ matrix( "talent1", undefined ) ], [ spell( "spell1", "ED4WCatchSpell" ) ] ) )
+      .toEqual( [] );
+  } );
+
+  it( "skips a matrix whose spell is not embedded, and warns about both IDs", () => {
+    const warn = vi.spyOn( console, "warn" ).mockImplementation( () => {} );
+
+    const updates = linkMatrixSpells(
+      [ matrix( "talent1", "ED4Missing" ), matrix( "talent2", "ED4WCatchSpell" ) ],
+      [ spell( "spell1", "ED4WCatchSpell" ) ],
+    );
+
+    expect( updates ).toEqual( [ { itemId: "talent2", updateData: { "system.matrix.spells": [ "spell1" ] } } ] );
+    expect( warn ).toHaveBeenCalledTimes( 1 );
+    expect( warn.mock.calls[ 0 ][ 0 ] ).toContain( "talent1" );
+    expect( warn.mock.calls[ 0 ][ 0 ] ).toContain( "ED4Missing" );
+  } );
+
+  it( "returns no updates if there are no matrices", () => {
+    expect( linkMatrixSpells( [], [ spell( "spell1", "ED4WCatchSpell" ) ] ) ).toEqual( [] );
+  } );
+
+  it( "does not change the data it was given", () => {
+    const matrices = [ matrix( "talent1", "ED4WCatchSpell" ) ];
+    const spells = [ spell( "spell1", "ED4WCatchSpell" ) ];
+    const snapshot = structuredClone( { matrices, spells } );
+
+    linkMatrixSpells( matrices, spells );
+
+    expect( { matrices, spells } ).toEqual( snapshot );
   } );
 
 } );

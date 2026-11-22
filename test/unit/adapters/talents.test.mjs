@@ -115,10 +115,50 @@ describe( "adaptTalents", () => {
 
     expect( talents ).toHaveLength( 0 );
     expect( matrixGrants ).toEqual( [ {
+      matrixId:              "TestTalent",
       equipmentSecondStepId: "ED4FastoonsVeryImpressiveStaff",
       spellSecondStepId:     "ED4ECloudSummon",
       level:                  6,
     } ] );
+  } );
+
+  describe( "matrices", () => {
+
+    it( "carries the Second Step ID of the attuned spell", async () => {
+      mockTalentResolvable( "ED4StandardMatrix" );
+      const { talents } = await adaptTalents( [
+        baseTalent( { id: idSource( "ED4StandardMatrix" ), spell: idSource( "ED4WCatchSpell" ) } ),
+      ] );
+
+      expect( talents[ 0 ].matrixSpellSecondStepId ).toBe( "ED4WCatchSpell" );
+    } );
+
+    it( "has no attuned spell for a talent that has none", async () => {
+      mockTalentResolvable();
+      const { talents } = await adaptTalents( [ baseTalent( { spell: null } ) ] );
+
+      expect( talents[ 0 ].matrixSpellSecondStepId ).toBeUndefined();
+    } );
+
+    it( "tells which matrix a grant is for", async () => {
+      const { matrixGrants } = await adaptTalents( [
+        baseTalent( {
+          id:     idSource( "ED4StandardMatrix" ),
+          type:   "item",
+          source: idSource( "ED4FastoonsStaff" ),
+          spell:  idSource( "ED4ECloudSummon" ),
+          rank:   6,
+        } ),
+      ] );
+
+      expect( matrixGrants ).toEqual( [ {
+        equipmentSecondStepId: "ED4FastoonsStaff",
+        spellSecondStepId:     "ED4ECloudSummon",
+        level:                 6,
+        matrixId:              "StandardMatrix",
+      } ] );
+    } );
+
   } );
 
 } );

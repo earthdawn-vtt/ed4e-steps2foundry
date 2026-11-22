@@ -33,6 +33,12 @@
  * @property {AdaptedPath} adapted - The adapted path data this embedded item was created from.
  */
 
+/**
+ * @typedef EmbeddedMatrix
+ * @property {string} id - The ID of the embedded talent or equipment that is a matrix.
+ * @property {string|undefined} matrixSpellSecondStepId - The Second Step ID of the spell attuned to it.
+ */
+
 import { warn } from "../logging/logging.mjs";
 
 /**
@@ -130,6 +136,37 @@ export function linkPathDisciplines( embeddedPaths, disciplineItems ) {
     const sourceUpdateData = { "system.sourceDisciplineId": disciplineItemId };
 
     updates.push( { itemId: id, updateData: sourceUpdateData } );
+  }
+
+  return updates;
+}
+
+/**
+ * Links every embedded matrix to its attuned embedded spell via `system.matrix.spells`. Matrices without a spell get
+ * no update. A spell that is not embedded produces a warning, and that matrix is skipped.
+ * @param {EmbeddedMatrix[]} embeddedMatrices - The embedded talents and equipment that are matrices.
+ * @param {SourceableEmbeddedItem[]} embeddedSpells - The embedded spells, as `{ id, secondStepId }`.
+ * @returns {ClassAbilityLinkUpdate[]} The update payloads to apply via `updateEmbeddedDocuments`.
+ */
+export function linkMatrixSpells( embeddedMatrices, embeddedSpells ) {
+  const spellIdBySecondStepId = new Map(
+    embeddedSpells.map( spell => [ spell.secondStepId, spell.id ] )
+  );
+
+  const updates = [];
+
+  for ( const { id, matrixSpellSecondStepId } of embeddedMatrices ) {
+    if ( matrixSpellSecondStepId === undefined ) continue;
+
+    const spellId = spellIdBySecondStepId.get( matrixSpellSecondStepId );
+    if ( !spellId ) {
+      warn(
+        `Could not link matrix (embedded id "${ id }") to its spell "${ matrixSpellSecondStepId }": no matching embedded spell found.`
+      );
+      continue;
+    }
+
+    updates.push( { itemId: id, updateData: { "system.matrix.spells": [ spellId ] } } );
   }
 
   return updates;

@@ -7,6 +7,8 @@
 /**
  * @typedef AdaptedEquipment
  * @property {ResolvedItem} resolved - The resolved item, with the item type appropriate data set.
+ * @property {string} [matrixSpellSecondStepId] - The SecondStep ID of the spell attuned to this item, if it is a
+ * matrix. Set by {@link applyMatrixGrants}.
  */
 
 import { resolveItem } from "../resolvers/item-resolver.mjs";
@@ -17,6 +19,17 @@ import {
   NORMALIZED_SECOND_STEP_EQUIPMENT_TYPES,
   SECOND_STEP_COINAGE_IDS
 } from "../constants/constants.mjs";
+
+/**
+ * The item types a thread item can resolve to.
+ * @type {readonly string[]}
+ */
+const THREAD_ITEM_TYPES = Object.freeze( [
+  ED4E_SYSTEM_TYPES.Item.weapon,
+  ED4E_SYSTEM_TYPES.Item.armor,
+  ED4E_SYSTEM_TYPES.Item.shield,
+  ED4E_SYSTEM_TYPES.Item.equipment,
+] );
 
 /**
  * Builds a minimal equipment item data object to use as the last-resort fallback if the equipment cannot be resolved
@@ -115,43 +128,35 @@ function applyForging( resolvedData, itemType, parsedEquipment ) {
 }
 
 /**
- * Resolve every equipment from the parsed export into the different item types, excluding thread items.
+ * Resolve every equipment from the parsed export into the different item types. Thread items resolve against every
+ * type of physical item, as a thread item can be a weapon, armor, shield, or other equipment.
  * @param {ParsedEquipment[]} equipments - The parsed equipment from {@link parseSecondStepExport}.
- * @returns {Promise<{ equipment: AdaptedEquipment[], threadItems: ParsedEquipment[] }>} The resolved equipment items,
- * and any thread items to be handled by the magic adapter later.
+ * @returns {Promise<{ equipment: AdaptedEquipment[] }>} The resolved equipment items.
  */
 export async function adaptEquipment( equipments ) {
-  const realEquipments = [];
-  const threadItems = [];
-  for ( const equipment of equipments ) {
-    if ( equipment.type === NORMALIZED_SECOND_STEP_EQUIPMENT_TYPES.threadItem ) {
-      threadItems.push( equipment );
-      continue;
-    }
-    realEquipments.push( equipment );
-  }
-
-  const adaptedEquipments = await Promise.all( realEquipments.map( async ( equipment ) => {
+  const adaptedEquipments = await Promise.all( equipments.map( async ( equipment ) => {
     if ( isCoin( equipment ) ) return { resolved: buildCoin( equipment ) };
 
+    const isThreadItem = equipment.type === NORMALIZED_SECOND_STEP_EQUIPMENT_TYPES.threadItem;
     const systemType = EQUIPMENT_TYPE_FROM_SECOND_STEP_TYPE[ equipment.type ]
       ?? ED4E_SYSTEM_TYPES.Item.equipment;
+    const itemTypes = isThreadItem ? THREAD_ITEM_TYPES : systemType;
     const resolved = await resolveItem(
       equipment.id,
-      systemType,
+      itemTypes,
       () => synthesizeEquipment( equipment, systemType ),
     );
 
     resolved.data.system.amount = equipment.amount;
     resolved.data.system.itemStatus = getItemStatus(
-      systemType,
+      resolved.itemType,
       equipment.inUse,
       resolved.data.system?.wieldingType,
     );
-    applyForging( resolved.data, systemType, equipment );
+    applyForging( resolved.data, resolved.itemType, equipment );
 
     return { resolved };
   } ), );
 
-  return { equipment: adaptedEquipments, threadItems };
+  return { equipment: adaptedEquipments };
 }

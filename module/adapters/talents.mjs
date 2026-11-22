@@ -13,12 +13,15 @@
  * `system.source.atLevel`. `undefined` if not applicable, like for talents granted by namegivers.
  * @property {boolean} isPathTalent - Whether this talent represents a Path itself (SecondStep type `pathTalent`). If
  * `true`, the orchestrator must later also link this talent to the corresponding path item.
+ * @property {string} [matrixSpellSecondStepId] - The SecondStep ID of the spell attuned to this talent, if it is a
+ * matrix. The orchestrator links the embedded spell after creation.
  */
 
 /**
- * A matrix granted by a thread item/quipment rather than a talent. Consumed with together with thread items
+ * A matrix granted by a thread item/equipment rather than a talent. Consumed together with thread items
  * in a second pass.
  * @typedef MatrixGrant
+ * @property {string} matrixId - The ID of the matrix talent without edition prefix, e.g. `"StandardMatrix"`.
  * @property {string|undefined} equipmentSecondStepId - The SecondStep ID of the equipment item that grants the matrix.
  * @property {string|undefined} spellSecondStepId - The SecondStep ID of the spell attuned to the matrix, if any.
  * @property {number} level - The matrix's level.
@@ -115,12 +118,13 @@ function getTalentCategory( talent ) {
  * and path data once all items are embedded in the actor.
  * @param {ParsedTalent[]} talents - The parsed talents from {@link parseSecondStepExport}.
  * @returns {Promise<{ talents: AdaptedTalent[], matrixGrants: MatrixGrant[] }>} The resolved talent items, and
- * any matrix grants to be handled by the equipment adapter instead.
+ * any matrix grants to be handled by {@link applyMatrixGrants} instead.
  */
 export async function adaptTalents( talents ) {
   const matrixGrants = talents
     .filter( talent => talent.type === "item" )
     .map( talent => ( {
+      matrixId:              talent.id.id,
       equipmentSecondStepId: talent.source?.secondStepId,
       spellSecondStepId:     talent.spell?.secondStepId,
       level:                 talent.rank,
@@ -141,7 +145,8 @@ export async function adaptTalents( talents ) {
     return {
       resolved,
       ...getSourceLinkage( talent ),
-      isPathTalent: talent.type === "pathTalent",
+      isPathTalent:            talent.type === "pathTalent",
+      matrixSpellSecondStepId: talent.spell?.secondStepId,
     };
   } ) );
 

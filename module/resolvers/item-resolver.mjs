@@ -12,7 +12,7 @@
  * @property {object} data - The resolved item's data, as a plain object suitable for `createEmbeddedDocuments`.
  * @property {ItemResolutionMethod} resolution - How the item was resolved.
  * @property {string} secondStepId - The original SecondStep ID this item was resolved for.
- * @property {string} itemType - The expected Foundry item type.
+ * @property {string} itemType - The Foundry item type the resolved item actually has.
  */
 
 import { getLookupTable } from "./lookup-tables.mjs";
@@ -22,41 +22,54 @@ import { warn } from "../logging/logging.mjs";
 /**
  * Resolves a single SecondStep entity reference to Foundry item data, in three tiers:
  * 1. A shipped SecondStep-ID-to-UUID lookup table, resolved with `fromUuid()`.
- * 2. A shipped SecondStep-ID-to-`edid` lookup table, resolved via ed4e`s global edid search.
+ * 2. A shipped SecondStep-ID-to-`edid` lookup table, resolved via the global edid search of ed4e.
  * 3. A minimal item synthesized directly from the parsed SecondStep data, flagged for review.
  *
- * Only a tier whose candidate actually resolves to a document of the expected `itemType` is accepted; a stale
+ * With several accepted types, all UUIDs are tried first (in list order), then all ED-IDs, then synthesis.
+ * Only a tier whose candidate actually resolves to a document of the type of its table is accepted; a stale
  * or mistyped hit silently falls through to the next tier instead of failing outright.
  * @param {ParsedIdSource} idSource - The parsed SecondStep ID to resolve.
- * @param {string} itemType - The expected Foundry item type, e.g. `"talent"`.
+ * @param {string|string[]} itemTypes - The accepted Foundry item types, e.g. `"talent"`. A single string works as
+ * a list with one type.
  * @param {() => object} synthesize - Builds a minimal item data object to use as the last-resort fallback.
  * @returns {Promise<ResolvedItem>} The resolved item data and the method that resolved it.
+ * @throws {TypeError} If `itemTypes` is an empty list.
  */
-export async function resolveItem( idSource, itemType, synthesize ) {
-  const table = await getLookupTable( itemType );
-  const entry = table[ idSource.secondStepId ];
+export async function resolveItem( idSource, itemTypes, synthesize ) {
+  const types = [ itemTypes ].flat();
+  if ( types.length === 0 ) throw new TypeError( "resolveItem needs at least one item type." );
 
-  if ( entry?.uuid ) {
+  const tables = await Promise.all( types.map( type => getLookupTable( type ) ) );
+  const entries = tables.map( table => table[ idSource.secondStepId ] );
+
+  for ( const [ index, type ] of types.entries() ) {
+    const entry = entries[ index ];
+    if ( !entry?.uuid ) continue;
+
     const document = await fromUuid( entry.uuid );
-    if ( document?.type === itemType ) {
-      return toResolvedItem( document.toObject(), "uuid", idSource, itemType );
+    if ( document?.type === type ) {
+      return toResolvedItem( document.toObject(), "uuid", idSource, document.type );
     }
     warn(
-      `UUID lookup for "${ idSource.secondStepId }" (${ itemType }) is stale or mistyped, falling back`,
+      `UUID lookup for "${ idSource.secondStepId }" (${ type }) is stale or mistyped, falling back`,
     );
   }
 
-  if ( entry?.edid ) {
-    const document = await game.ed4e.helpers.document.getSingleGlobalItemByEdid( entry.edid, itemType );
+  for ( const [ index, type ] of types.entries() ) {
+    const entry = entries[ index ];
+    if ( !entry?.edid ) continue;
+
+    const document = await game.ed4e.helpers.document.getSingleGlobalItemByEdid( entry.edid, type );
     if ( document ) {
-      return toResolvedItem( document.toObject(), "edid", idSource, itemType );
+      return toResolvedItem( document.toObject(), "edid", idSource, document.type );
     }
     warn(
-      `ED-ID lookup for "${ idSource.secondStepId }" (${ itemType }) via "${ entry.edid }" found nothing, synthesizing`,
+      `ED-ID lookup for "${ idSource.secondStepId }" (${ type }) via "${ entry.edid }" found nothing, synthesizing`,
     );
   }
 
-  return toResolvedItem( synthesize(), "synthesized", idSource, itemType );
+  const data = synthesize();
+  return toResolvedItem( data, "synthesized", idSource, data.type ?? types[ 0 ] );
 }
 
 /**

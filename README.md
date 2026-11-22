@@ -38,8 +38,9 @@ Without these permissions, the import reports a clear error before anything is c
 
 
 ## Tips & Tricks
-- The module receives items in Foundry VTT from the [official Earthdawn Compendia](https://shop.fasagames.com/index.php?main_page=index&cPath=1_102_167). Since there are no fixed naming conventions for these items (especially when it comes to things like Knowledge/Artisan Skills and the such), the importer might not find all listed items in the file. To check and edit these items, an import log is created as a Journal Entry ("Steps2Foundry Imports"). After importing, control this log to edit and finalize your character creation and add all missing items.
+- The module receives items in Foundry VTT from the compendia of the Player's Guide and the Gamemaster's Guide (see Requirements), which are the [official Earthdawn Compendia](https://shop.fasagames.com/index.php?main_page=index&cPath=1_102_167). Since there are no fixed naming conventions for these items (especially when it comes to things like Knowledge/Artisan Skills and the such), the importer might not find all listed items in the file. To check and edit these items, an import log is created as a Journal Entry ("Steps2Foundry Imports"). After importing, control this log to edit and finalize your character creation and add all missing items.
 - The "Log" field from SecondStep is imported as the character's personal Journal Entry.
+- Knacks are imported from the compendia; a knack that is not found is only created if it is clearly a knack ability (it has an attribute and no embedded spell ID, as improved spell knacks have), all others are listed as not imported in the log. Thread items are imported like any other equipment, and those that grant a matrix become a matrix with the attuned spell linked (as do talents with an attuned spell).
 - If your SecondStep file has character art/an image, it can be automatically loaded. For this to be possible, the image has to come frome a valid absolute URL, that is, a publicly available internet site (the url you get when right-clicking an online image and select an option like "Show Image in New Tab").
 
 

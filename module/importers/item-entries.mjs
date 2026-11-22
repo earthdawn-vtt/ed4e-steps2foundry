@@ -5,6 +5,7 @@
  * @import { AdaptedPath } from "../adapters/paths.mjs";
  * @import { AdaptedQuestorResult } from "../adapters/questor.mjs";
  * @import { AdaptedTalent } from "../adapters/talents.mjs";
+ * @import { AdaptedKnack } from "../adapters/knacks.mjs";
  * @import { AdaptedSkill } from "../adapters/skills.mjs";
  * @import { AdaptedSpell } from "../adapters/spells.mjs";
  * @import { AdaptedEquipment } from "../adapters/equipment.mjs";
@@ -12,20 +13,21 @@
 
 /**
  * Builds the ordered list of all items to embed in the actor. The order is fixed: namegiver, disciplines, paths,
- * questor, questor devotion, talents, skills, spells, equipment.
+ * questor, questor devotion, talents, knacks, skills, spells, equipment.
  * @param {object} input
  * @param {ResolvedItem} input.namegiver - The resolved namegiver item.
  * @param {AdaptedDiscipline[]} input.disciplines - The adapted disciplines.
  * @param {AdaptedPath[]} input.paths - The adapted paths.
  * @param {AdaptedQuestorResult|null} input.questor - The adapted questor, or `null` if there is none.
  * @param {AdaptedTalent[]} input.talents - The adapted talents.
+ * @param {AdaptedKnack[]} input.knacks - The adapted knacks.
  * @param {AdaptedSkill[]} input.skills - The adapted skills.
  * @param {AdaptedSpell[]} input.spells - The adapted spells.
  * @param {AdaptedEquipment[]} input.equipment - The adapted equipment.
  * @returns {ItemEntry[]} The item entries.
  */
 export function buildItemEntries( input ) {
-  const { namegiver, disciplines, paths, questor, talents, skills, spells, equipment } = input;
+  const { namegiver, disciplines, paths, questor, talents, knacks, skills, spells, equipment } = input;
 
   const entries = [ { kind: "namegiver", resolved: namegiver } ];
 
@@ -38,9 +40,10 @@ export function buildItemEntries( input ) {
   }
 
   for ( const adapted of talents ) entries.push( { kind: "talent", resolved: adapted.resolved, adapted } );
+  for ( const { resolved } of knacks ) entries.push( { kind: "knack", resolved } );
   for ( const { resolved } of skills ) entries.push( { kind: "skill", resolved } );
   for ( const { resolved } of spells ) entries.push( { kind: "spell", resolved } );
-  for ( const { resolved } of equipment ) entries.push( { kind: "equipment", resolved } );
+  for ( const adapted of equipment ) entries.push( { kind: "equipment", resolved: adapted.resolved, adapted } );
 
   return entries;
 }

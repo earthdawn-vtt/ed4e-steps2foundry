@@ -742,6 +742,7 @@
  *   | "questor"
  *   | "questorDevotion"
  *   | "talent"
+ *   | "knack"
  *   | "skill"
  *   | "spell"
  *   | "equipment"
@@ -752,13 +753,13 @@
  * @typedef ItemEntry
  * @property {ItemEntryKind} kind - What kind of SecondStep entity this entry was made from.
  * @property {import("./resolvers/item-resolver.mjs").ResolvedItem} resolved - The resolved item.
- * @property {import("./adapters/talents.mjs").AdaptedTalent|import("./adapters/paths.mjs").AdaptedPath} [adapted] -
- * The adapted data the entry was made from. Only set for talents and paths, as linking needs it.
+ * @property {import("./adapters/talents.mjs").AdaptedTalent|import("./adapters/paths.mjs").AdaptedPath|import("./adapters/equipment.mjs").AdaptedEquipment} [adapted] -
+ * The adapted data the entry was made from. Only set for talents, paths and equipment, as linking needs it.
  */
 
 /**
  * Parts of the SecondStep export that are parsed but not imported yet.
- * @typedef {"threadItems"|"matrixGrants"|"knacks"|"magic"|"effects"|"homebrewEffects"|"legendPoints"} DeferredSection
+ * @typedef {"matrixGrants"|"knacks"|"magic"|"effects"|"homebrewEffects"|"legendPoints"} DeferredSection
  */
 
 /**

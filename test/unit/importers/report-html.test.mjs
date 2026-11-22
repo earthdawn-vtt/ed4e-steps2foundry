@@ -75,11 +75,12 @@ describe( "buildReportHtml", () => {
           item( "equipment", "Dagger", "Dagger" ),
           item( "spell", "Crunch Climb", "ED4ECrunchClimb" ),
           item( "skill", "Accounting", "ED4Knowledge" ),
+          item( "knack", "Jinx", "ED4ArcaneMutteringsJinx" ),
           item( "talent", "Fire Blast", "ED4FireBlast" ),
         ],
       } ) );
 
-      const positions = [ "talent", "skill", "spell", "equipment" ]
+      const positions = [ "talent", "knack", "skill", "spell", "equipment" ]
         .map( kind => html.indexOf( `S2F.Report.kind.${ kind }` ) );
       expect( positions.every( position => position >= 0 ) ).toBe( true );
       expect( positions ).toEqual( [ ...positions ].sort( ( a, b ) => a - b ) );

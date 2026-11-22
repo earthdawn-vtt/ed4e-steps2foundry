@@ -1,4 +1,4 @@
-import { describe, expect, it, vi, } from "vitest";
+import { describe, expect, it, } from "vitest";
 import { idSource } from "../../helpers/factories.mjs";
 import { mockLookupTable, mockLookupTables } from "../../mocks/browser.mjs";
 import { mockSettingsGetValue, mockUuidDocument, mockUuidDocuments } from "../../mocks/foundry.mjs";

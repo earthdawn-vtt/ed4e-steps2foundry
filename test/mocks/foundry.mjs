@@ -17,6 +17,17 @@ export function mockUuidDocuments( documents ) {
 }
 
 /**
+ * Stubs `game.ed4e.helpers.document.getSingleGlobalItemByEdid()` to resolve with different documents by item type and
+ * EDID. Anything that is not given is not found.
+ * @param {Record<string, object|undefined>} documents - The documents, keyed by `"<itemType>:<edid>"`.
+ */
+export function mockEdidDocuments( documents ) {
+  globalThis.game.ed4e.helpers.document.getSingleGlobalItemByEdid.mockImplementation(
+    async ( edid, itemType ) => documents[ `${ itemType }:${ edid }` ],
+  );
+}
+
+/**
  * Stubs `game.settings.get()` to return the given value.
  * @param {any} value - The value that `game.settings.get()` should return.
  */

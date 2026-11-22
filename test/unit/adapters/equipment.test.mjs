@@ -1,12 +1,13 @@
-import { describe, expect, it, } from "vitest";
-import { mockLookupTable } from "../../mocks/browser.mjs";
-import { mockUuidDocument } from "../../mocks/foundry.mjs";
+import { describe, expect, it, vi } from "vitest";
+import { mockLookupTable, mockLookupTables } from "../../mocks/browser.mjs";
+import { mockUuidDocument, mockUuidDocuments } from "../../mocks/foundry.mjs";
+import { mockResolvableItems } from "../../mocks/resolver.mjs";
 import { adaptEquipment } from "../../../module/adapters/equipment.mjs";
 import {
   MODULE_ID,
   NORMALIZED_SECOND_STEP_EQUIPMENT_TYPES,
 } from "../../../module/constants/constants.mjs";
-import { idSource } from "../../helpers/factories.mjs";
+import { idSource, itemDocument } from "../../helpers/factories.mjs";
 
 const SECOND_STEP_TYPES = NORMALIZED_SECOND_STEP_EQUIPMENT_TYPES;
 
@@ -213,30 +214,81 @@ describe( "adaptEquipment", () => {
 
   describe( "thread items", () => {
 
-    it( "routes thread items out without resolving them", async () => {
-      const threadItem = baseEquipment( {
-        id:   idSource( "ED4EnhancedMatrixObject" ),
-        type: SECOND_STEP_TYPES.threadItem,
-      } );
-      const { equipment, threadItems } = await adaptEquipment( [ threadItem ] );
+    const threadItem = ( overrides = {} ) => baseEquipment( { type: SECOND_STEP_TYPES.threadItem, ...overrides } );
 
-      expect( equipment ).toEqual( [] );
-      expect( threadItems ).toHaveLength( 1 );
-      expect( threadItems[ 0 ] ).toBe( threadItem );
-      expect( globalThis.fromUuid ).not.toHaveBeenCalled();
-      expect( globalThis.fetch ).not.toHaveBeenCalled();
+    it( "adapts a thread item like any other equipment, with no separate list", async () => {
+      const result = await adaptEquipment( [ threadItem() ] );
+
+      expect( result ).not.toHaveProperty( "threadItems" );
+      expect( result.equipment ).toHaveLength( 1 );
+      expect( result.equipment[ 0 ].resolved.resolution ).toBe( "synthesized" );
+      expect( result.equipment[ 0 ].resolved.itemType ).toBe( "equipment" );
     } );
 
-    it( "keeps the order of the remaining equipment", async () => {
-      const items = [
-        baseEquipment( { id: idSource( "ED4First" ) } ),
-        baseEquipment( { id: idSource( "ED4Second" ), type: SECOND_STEP_TYPES.threadItem } ),
-        baseEquipment( { id: idSource( "ED4Third" ) } ),
-      ];
-      const { equipment, threadItems } = await adaptEquipment( items );
+    it.each( [
+      [ "weapon" ],
+      [ "armor" ],
+      [ "shield" ],
+      [ "equipment" ],
+    ] )( "resolves a thread item that is a %s in the compendium", async ( itemType ) => {
+      mockResolvableItems( [ { secondStepId: "ED4TestItem", itemType, name: "Magic Thing" } ] );
 
-      expect( equipment.map( adapted => adapted.resolved.secondStepId ) ).toEqual( [ "ED4First", "ED4Third" ] );
-      expect( threadItems.map( item => item.id.secondStepId ) ).toEqual( [ "ED4Second" ] );
+      const { equipment } = await adaptEquipment( [ threadItem() ] );
+
+      expect( equipment[ 0 ].resolved.resolution ).toBe( "uuid" );
+      expect( equipment[ 0 ].resolved.itemType ).toBe( itemType );
+      expect( equipment[ 0 ].resolved.data.name ).toBe( "Magic Thing" );
+    } );
+
+    it( "does not accept a document of another type for a thread item", async () => {
+      vi.spyOn( console, "warn" ).mockImplementation( () => {} );
+      mockLookupTables( { equipment: { ED4TestItem: { uuid: "uuid-talent" } } } );
+      mockUuidDocuments( { "uuid-talent": itemDocument( "talent" ) } );
+
+      const { equipment } = await adaptEquipment( [ threadItem() ] );
+
+      expect( equipment[ 0 ].resolved.resolution ).toBe( "synthesized" );
+    } );
+
+    it( "equips a thread item that is a weapon with the wielding type of the weapon", async () => {
+      mockResolvableItems( [
+        { secondStepId: "ED4TestItem", itemType: "weapon", system: { wieldingType: "twoHands" } },
+      ] );
+
+      const { equipment } = await adaptEquipment( [ threadItem( { inUse: true } ) ] );
+
+      expect( equipment[ 0 ].resolved.data.system.itemStatus ).toBe( "twoHands" );
+    } );
+
+    it( "applies weapon forging to a thread item that is a weapon", async () => {
+      mockResolvableItems( [ { secondStepId: "ED4TestItem", itemType: "weapon", system: { forgeBonus: 0 } } ] );
+
+      const { equipment } = await adaptEquipment( [ threadItem( { timesForged: 2 } ) ] );
+
+      expect( equipment[ 0 ].resolved.data.system.forgeBonus ).toBe( 2 );
+    } );
+
+    it( "applies armor forging to a thread item that is armor", async () => {
+      mockResolvableItems( [ {
+        secondStepId: "ED4TestItem",
+        itemType:     "armor",
+        system:       { physical: { armor: 3, forgeBonus: 0 } },
+      } ] );
+
+      const { equipment } = await adaptEquipment( [ threadItem( { timesForgedPhysical: 1 } ) ] );
+
+      expect( equipment[ 0 ].resolved.data.system.physical ).toEqual( { armor: 3, forgeBonus: 1 } );
+    } );
+
+    it( "keeps a thread item at its position among the other equipment", async () => {
+      const { equipment } = await adaptEquipment( [
+        baseEquipment( { id: idSource( "ED4First" ) } ),
+        threadItem( { id: idSource( "ED4Second" ) } ),
+        baseEquipment( { id: idSource( "ED4Third" ) } ),
+      ] );
+
+      expect( equipment.map( adapted => adapted.resolved.secondStepId ) )
+        .toEqual( [ "ED4First", "ED4Second", "ED4Third" ] );
     } );
 
   } );

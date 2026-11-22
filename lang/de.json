@@ -45,11 +45,10 @@
       "deferred":    {
         "effects":         "Effekte: {count}",
         "homebrewEffects": "Homebrew-Effekte: {count}",
-        "knacks":          "Kniffe: {count}",
+        "knacks":          "Kniffe ohne Kompendiumstreffer, nicht importiert: {count}",
         "legendPoints":    "Legendenpunkte: {count}",
         "magic":           "Magie: {count}",
-        "matrixGrants":    "Matrix-Zuweisungen: {count}",
-        "threadItems":     "Fadengegenstände: {count}"
+        "matrixGrants":    "Matrix-Zuweisungen: {count}"
       },
       "heading":     {
         "deferred":    "Nicht importiert",
@@ -59,6 +58,7 @@
       "kind":        {
         "discipline":      "Disziplinen ({count})",
         "equipment":       "Ausrüstung ({count})",
+        "knack":           "Kniffe ({count})",
         "namegiver":       "Namensgeber ({count})",
         "path":            "Pfade ({count})",
         "questor":         "Questoren ({count})",

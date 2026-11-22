@@ -45,11 +45,10 @@
       "deferred":    {
         "effects":         "Effects: {count}",
         "homebrewEffects": "Homebrew effects: {count}",
-        "knacks":          "Knacks: {count}",
+        "knacks":          "Knacks without a compendium match, not imported: {count}",
         "legendPoints":    "Legend Points: {count}",
         "magic":           "Magic: {count}",
-        "matrixGrants":    "Matrix grants: {count}",
-        "threadItems":     "Thread items: {count}"
+        "matrixGrants":    "Matrix grants: {count}"
       },
       "heading":     {
         "deferred":    "Not imported",
@@ -59,6 +58,7 @@
       "kind":        {
         "discipline":      "Disciplines ({count})",
         "equipment":       "Equipment ({count})",
+        "knack":           "Knacks ({count})",
         "namegiver":       "Namegivers ({count})",
         "path":            "Paths ({count})",
         "questor":         "Questors ({count})",

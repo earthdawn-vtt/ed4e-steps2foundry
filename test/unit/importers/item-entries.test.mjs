@@ -8,6 +8,7 @@ const EXPECTED_KINDS = [
   "questor",
   "questorDevotion",
   "talent",
+  "knack",
   "skill",
   "spell",
   "equipment",
@@ -37,6 +38,7 @@ function baseInput( overrides = {} ) {
       atLevel:            1,
       isPathTalent:       false,
     } ],
+    knacks:      [ { resolved: resolved( "AnimalBond", "knackAbility" ) } ],
     skills:      [ { resolved: resolved( "Accounting", "skill" ), uid: "uid-1" } ],
     spells:      [ { resolved: resolved( "CrunchClimb", "spell" ) } ],
     equipment:   [ { resolved: resolved( "Dagger", "weapon" ) } ],
@@ -66,6 +68,7 @@ describe( "buildItemEntries", () => {
       ],
       questor:     null,
       talents:     [],
+      knacks:      [],
       skills:      [],
       spells:      [],
       equipment:   [],
@@ -86,6 +89,7 @@ describe( "buildItemEntries", () => {
     expect( byKind( entries, "questor" )[ 0 ].resolved ).toBe( input.questor.questor.resolved );
     expect( byKind( entries, "questorDevotion" )[ 0 ].resolved ).toBe( input.questor.devotion.resolved );
     expect( byKind( entries, "talent" )[ 0 ].resolved ).toBe( input.talents[ 0 ].resolved );
+    expect( byKind( entries, "knack" )[ 0 ].resolved ).toBe( input.knacks[ 0 ].resolved );
     expect( byKind( entries, "skill" )[ 0 ].resolved ).toBe( input.skills[ 0 ].resolved );
     expect( byKind( entries, "spell" )[ 0 ].resolved ).toBe( input.spells[ 0 ].resolved );
     expect( byKind( entries, "equipment" )[ 0 ].resolved ).toBe( input.equipment[ 0 ].resolved );
@@ -97,12 +101,13 @@ describe( "buildItemEntries", () => {
 
     expect( byKind( entries, "talent" )[ 0 ].adapted ).toBe( input.talents[ 0 ] );
     expect( byKind( entries, "path" )[ 0 ].adapted ).toBe( input.paths[ 0 ] );
+    expect( byKind( entries, "equipment" )[ 0 ].adapted ).toBe( input.equipment[ 0 ] );
   } );
 
   it( "does not attach adapted data to any other kind", () => {
     const entries = buildItemEntries( baseInput() );
 
-    const others = entries.filter( entry => ![ "talent", "path" ].includes( entry.kind ) );
+    const others = entries.filter( entry => ![ "talent", "path", "equipment" ].includes( entry.kind ) );
     expect( others.length ).toBeGreaterThan( 0 );
     for ( const entry of others ) {
       expect( entry ).not.toHaveProperty( "adapted" );
@@ -136,6 +141,7 @@ describe( "buildItemEntries", () => {
       paths:       [],
       questor:     null,
       talents:     [],
+      knacks:      [],
       skills:      [],
       spells:      [],
       equipment:   [],

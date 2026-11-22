@@ -94,8 +94,24 @@ async function rejectionOf( promise ) {
 const sentItemData = () => actor.createEmbeddedDocuments.mock.calls[ 0 ][ 1 ];
 const sentUpdates = () => actor.updateEmbeddedDocuments.mock.calls[ 0 ][ 1 ];
 
+const sentItemDataOfCall = index => actor.createEmbeddedDocuments.mock.calls[ index ][ 1 ];
+
+const allSentItemData = () => actor.createEmbeddedDocuments.mock.calls.flatMap( ( [ , data ] ) => data );
+
 /** The ID that was assigned to the item with the given Second Step ID (which is also its name in these tests). */
-const idOf = secondStepId => sentItemData().find( data => data.name === secondStepId )._id;
+const idOf = secondStepId => allSentItemData()
+  .find( data => data.name === secondStepId )._id;
+
+const entryOf = ( kind, secondStepId, itemType = kind ) => ( { kind, resolved: resolved( secondStepId, itemType ) } );
+
+function equipmentMatrixEntry( secondStepId, matrixSpellSecondStepId ) {
+  const itemResolved = resolved( secondStepId, "equipment" );
+  return {
+    kind:     "equipment",
+    resolved: itemResolved,
+    adapted:  { resolved: itemResolved, matrixSpellSecondStepId },
+  };
+}
 
 const withoutId = data => {
   const copy = { ...data };
@@ -289,6 +305,191 @@ describe( "createCharacter", () => {
           "system.sourceDisciplineId": idOf( "ED4Wizard" ),
         },
       ] ) );
+    } );
+
+  } );
+
+  describe( "creation phases", () => {
+
+    it( "creates all items in one call if there is no spell knack", async () => {
+      await createCharacter( baseCharacter( {
+        entries: [ entryOf( "namegiver", "ED4Windling" ), entryOf( "knack", "ED4Jinx", "knackAbility" ) ],
+      } ) );
+
+      expect( actor.createEmbeddedDocuments ).toHaveBeenCalledTimes( 1 );
+    } );
+
+    it( "creates the spell knacks in a second call, after all other items", async () => {
+      await createCharacter( baseCharacter( {
+        entries: [
+          entryOf( "spell", "ED4EFireball" ),
+          entryOf( "knack", "ED4PatterncraftExtendedFireball", "spellKnack" ),
+          entryOf( "skill", "ED4Accounting" ),
+        ],
+      } ) );
+
+      expect( actor.createEmbeddedDocuments ).toHaveBeenCalledTimes( 2 );
+      expect( sentItemDataOfCall( 0 ).map( data => data.name ) ).toEqual( [ "ED4EFireball", "ED4Accounting" ] );
+      expect( sentItemDataOfCall( 1 ).map( data => data.name ) ).toEqual( [ "ED4PatterncraftExtendedFireball" ] );
+      const [ first, second ] = actor.createEmbeddedDocuments.mock.invocationCallOrder;
+      expect( first ).toBeLessThan( second );
+    } );
+
+    it( "decides by the type of the resolved item, not by the kind of the entry", async () => {
+      await createCharacter( baseCharacter( {
+        entries: [ entryOf( "equipment", "ED4Odd", "spellKnack" ), entryOf( "skill", "ED4Accounting" ) ],
+      } ) );
+
+      expect( sentItemDataOfCall( 1 ).map( data => data.name ) ).toEqual( [ "ED4Odd" ] );
+    } );
+
+    it( "keeps the assigned IDs in both calls", async () => {
+      await createCharacter( baseCharacter( {
+        entries: [ entryOf( "spell", "ED4EFireball" ), entryOf( "knack", "ED4Extended", "spellKnack" ) ],
+      } ) );
+
+      for ( const [ , , options ] of actor.createEmbeddedDocuments.mock.calls ) {
+        expect( options ).toEqual( { keepId: true } );
+      }
+    } );
+
+    it( "gives every item an ID that is unique across both calls", async () => {
+      await createCharacter( baseCharacter( {
+        entries: [
+          entryOf( "spell", "ED4EFireball" ),
+          entryOf( "skill", "ED4Accounting" ),
+          entryOf( "knack", "ED4Extended", "spellKnack" ),
+        ],
+      } ) );
+
+      const ids = allSentItemData().map( item => item._id );
+      expect( ids ).toHaveLength( 3 );
+      expect( new Set( ids ).size ).toBe( 3 );
+    } );
+
+    it( "does not make the second call if the first one fails", async () => {
+      actor.createEmbeddedDocuments.mockRejectedValueOnce( new Error( "invalid item" ) );
+
+      const failure = await rejectionOf( createCharacter( baseCharacter( {
+        entries: [ entryOf( "spell", "ED4EFireball" ), entryOf( "knack", "ED4Extended", "spellKnack" ) ],
+      } ) ) );
+
+      expect( failure ).toBeInstanceOf( SecondStepImportError );
+      expect( actor.createEmbeddedDocuments ).toHaveBeenCalledTimes( 1 );
+      expect( actor.delete ).toHaveBeenCalledTimes( 1 );
+    } );
+
+    it( "deletes the actor and names the spell knack if it is missing from the second result", async () => {
+      actor.createEmbeddedDocuments
+        .mockImplementationOnce( async ( type, data ) => documentsFor( data ) )
+        .mockImplementationOnce( async () => [] );
+
+      const failure = await rejectionOf( createCharacter( baseCharacter( {
+        entries: [ entryOf( "spell", "ED4EFireball" ), entryOf( "knack", "ED4Extended", "spellKnack" ) ],
+      } ) ) );
+
+      expect( failure ).toBeInstanceOf( SecondStepImportError );
+      expect( failure.cause.message ).toContain( "ED4Extended" );
+      expect( failure.cause.message ).not.toContain( "ED4EFireball" );
+      expect( actor.delete ).toHaveBeenCalledTimes( 1 );
+      expect( actor.updateEmbeddedDocuments ).not.toHaveBeenCalled();
+    } );
+
+    it( "does not create the journal if the second call fails", async () => {
+      actor.createEmbeddedDocuments
+        .mockImplementationOnce( async ( type, data ) => documentsFor( data ) )
+        .mockRejectedValueOnce( new Error( "invalid item" ) );
+
+      await rejectionOf( createCharacter( baseCharacter( {
+        journalData: { name: "Test Journal", pages: [] },
+        entries:     [ entryOf( "spell", "ED4EFireball" ), entryOf( "knack", "ED4Extended", "spellKnack" ) ],
+      } ) ) );
+
+      expect( globalThis.JournalEntry.create ).not.toHaveBeenCalled();
+    } );
+
+  } );
+
+  describe( "matrix spells", () => {
+
+    it( "attunes the spell to a matrix talent", async () => {
+      await createCharacter( baseCharacter( {
+        entries: [
+          entryOf( "spell", "ED4WCatchSpell" ),
+          talentEntry( "ED4StandardMatrix", { matrixSpellSecondStepId: "ED4WCatchSpell" } ),
+        ],
+      } ) );
+
+      expect( sentUpdates() ).toEqual( [ {
+        _id:                    idOf( "ED4StandardMatrix" ),
+        "system.matrix.spells": [ idOf( "ED4WCatchSpell" ) ],
+      } ] );
+    } );
+
+    it( "attunes the spell to matrix equipment", async () => {
+      await createCharacter( baseCharacter( {
+        entries: [
+          entryOf( "spell", "ED4ECloudSummon" ),
+          equipmentMatrixEntry( "ED4FastoonsStaff", "ED4ECloudSummon" ),
+        ],
+      } ) );
+
+      expect( sentUpdates() ).toEqual( [ {
+        _id:                    idOf( "ED4FastoonsStaff" ),
+        "system.matrix.spells": [ idOf( "ED4ECloudSummon" ) ],
+      } ] );
+    } );
+
+    it( "attunes the same spell to several matrices", async () => {
+      await createCharacter( baseCharacter( {
+        entries: [
+          entryOf( "spell", "ED4WCatchSpell" ),
+          talentEntry( "ED4StandardMatrix", { matrixSpellSecondStepId: "ED4WCatchSpell" } ),
+          talentEntry( "ED4EnhancedMatrix", { matrixSpellSecondStepId: "ED4WCatchSpell" } ),
+        ],
+      } ) );
+
+      expect( sentUpdates() ).toHaveLength( 2 );
+      expect( sentUpdates().every( update => update[ "system.matrix.spells" ][ 0 ] === idOf( "ED4WCatchSpell" ) ) )
+        .toBe( true );
+    } );
+
+    it( "sends a single update for a talent that is both sourced and attuned", async () => {
+      await createCharacter( baseCharacter( {
+        entries: [
+          entryOf( "discipline", "ED4Wizard" ),
+          entryOf( "spell", "ED4WCatchSpell" ),
+          talentEntry( "ED4StandardMatrix", {
+            sourceSecondStepId:      "ED4Wizard",
+            atLevel:                 2,
+            matrixSpellSecondStepId: "ED4WCatchSpell",
+          } ),
+        ],
+      } ) );
+
+      expect( sentUpdates() ).toEqual( [ {
+        _id:                     idOf( "ED4StandardMatrix" ),
+        "system.source.class":   idOf( "ED4Wizard" ),
+        "system.source.atLevel": 2,
+        "system.matrix.spells":  [ idOf( "ED4WCatchSpell" ) ],
+      } ] );
+    } );
+
+    it( "sends no update for a matrix without a spell", async () => {
+      await createCharacter( baseCharacter( {
+        entries: [ entryOf( "spell", "ED4WCatchSpell" ), talentEntry( "ED4StandardMatrix" ) ],
+      } ) );
+
+      expect( actor.updateEmbeddedDocuments ).not.toHaveBeenCalled();
+    } );
+
+    it( "leaves a matrix alone whose spell the character does not have, and does not fail", async () => {
+      await createCharacter( baseCharacter( {
+        entries: [ talentEntry( "ED4StandardMatrix", { matrixSpellSecondStepId: "ED4Missing" } ) ],
+      } ) );
+
+      expect( actor.updateEmbeddedDocuments ).not.toHaveBeenCalled();
+      expect( actor.delete ).not.toHaveBeenCalled();
     } );
 
   } );
